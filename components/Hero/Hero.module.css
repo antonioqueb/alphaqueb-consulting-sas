@@ -1,0 +1,55 @@
+
+  /* Hero */
+
+.Hero__container {
+  display: flex;
+  padding: 0 3rem;
+
+}
+
+.Hero__container__text, .Hero__container__image {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 65vh;
+  border: 2px solid red;
+  color: #F2F2F2;
+}
+
+.Footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 10vh;
+  background-color: #0D0D0D;
+  color: #F2F2F2;
+  padding: 0 3rem;
+}
+
+.Footer__title, .Footer__features {
+  flex: 1;
+}
+
+.Footer__features {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+
+}
+
+.Footer__features__item{
+  margin-right: 1rem;
+  font-size: 1rem;
+  color: #F2F2F2;
+
+}
+
+
+
+.Footer__features__item__icon {
+  margin-right: 1rem;
+  font-size: 1rem;
+  color: #F2F2F2;
+}

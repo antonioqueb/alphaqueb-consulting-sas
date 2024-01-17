@@ -1,0 +1,27 @@
+.Methodology__container {
+  display: flex;
+  border: 1px solid white;
+  background-color: transparent;
+  padding: 0 3rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Methodology__container_text {
+  color: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.Methodology__container_images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #f2f2f2;
+  min-height: 20vh;
+}

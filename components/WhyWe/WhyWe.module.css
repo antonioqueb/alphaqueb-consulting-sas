@@ -1,0 +1,24 @@
+.WhyWe__container {
+  display: flex;
+  border: 1px solid white;
+  color: #F2F2F2;
+  padding: 0 3rem;
+}
+
+
+.WhyWe__container_text, .WhyWe__container_images{
+  flex: 1;
+  border: 1px solid white;
+}
+
+.WhyWe__container_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.WhyWe__container_images {
+  display: flex;
+  justify-content: center;
+}
