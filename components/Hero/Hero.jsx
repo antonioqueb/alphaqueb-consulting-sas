@@ -13,9 +13,11 @@ export const Hero = () => {
     <div className={styles.Hero__container}>
 
       <div className={styles.Hero__container__text}>
+      
       <div className={styles.Hero__container__text__title}>
-        <h1>Alphaqueb Impulsa la Transformación Digital<span className={styles.Dot}>.</span></h1>
+        <h1>Transformación Digital Corporativa <span className={styles.WaterEffect}>Organizaciónal</span><span className={styles.Dot}>.</span></h1>
       </div>
+
       <div className={styles.Hero__container__text__subtitle}>
         <p>Expertos en software que facilitan tu transformación digital y gestionan el cambio, garantizando soluciones innovadoras y resultados duraderos.</p>
       </div>
@@ -39,26 +41,7 @@ export const Hero = () => {
       </div>
 
     </div>
-    <footer className={styles.Footer}>
-      <section className={styles.Footer__title}>
-        <h4>Desarrollamos productos para</h4>
-      </section>
-      <section className={styles.Footer__features}>
-        <div className={styles.Footer__features__item}>
-          <FcServices className={styles.Footer__features__item__icon}/>
-          <h5>Empresas Innovadoras</h5>
-        </div>
-        <div className={styles.Footer__features__item}>
-          <FcServices className={styles.Footer__features__item__icon}/>
-          <h5>Startups Tecnológicas</h5>
-        </div>
-        <div className={styles.Footer__features__item}>
-          <FcServices className={styles.Footer__features__item__icon}/>
-          <h5>Industrias Especializadas</h5>
-        </div>
-      </section>
-      
-    </footer>
+    
 
     </>
   );

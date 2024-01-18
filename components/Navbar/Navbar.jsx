@@ -11,7 +11,7 @@ const links = [
 ];
 
 const NavbarComponent = () => (
-  <nav className={styles.navbar} style={{border: '#ffffff solid 1px'}}> {/* Borde de referencia*/}
+  <nav className={styles.navbar} > {/* Borde de referencia*/}
     <div className={styles['navbar__logo']}>
       <Link href="/">
         <Image src="/logo.svg" alt="Logo" width={50} height={50} />

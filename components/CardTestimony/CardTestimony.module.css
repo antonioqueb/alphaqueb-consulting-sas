@@ -1,0 +1,52 @@
+/* CardTestimony.module.css */
+.CardTestimony__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 14px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: transform 0.3s ease-in-out;
+  border : 1px solid #26E1FF;
+  width: 390px; /* Ancho fijo */
+  height: 500px; /* Altura fija */
+  
+}
+
+.CardTestimony__container:hover {
+  transform: translateY(-10px);
+}
+
+.CardTestimony__container__card__image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 20px;
+  border: 1px solid #26E1FF;
+
+}
+
+.CardTestimony__container__card__image img {
+  width: 100%;
+  height: auto;
+}
+
+.CardTestimony__container__card__text {
+  color: #333;
+  font-size: 1.2rem;
+  text-align: center;
+  margin-bottom: 20px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3; /* Número de líneas a mostrar antes de cortar */
+  overflow: hidden;
+}
+
+.CardTestimony__container__card__name {
+  color: #0077cc;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+}
