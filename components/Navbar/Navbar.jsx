@@ -4,9 +4,9 @@ import styles from './Navbar.module.css';
 import { GrMoreVertical } from "react-icons/gr";
 
 const links = [
-  { href: "/", label: "¿Cómo se usa?", key: "explorar" },
-  { href: "/tienda", label: "Precios", key: "tienda" },
-  { href: "/colaborar", label: "Nosotros", key: "nosotros" },
+  { href: "/", label: "¿Porqué Nosotros?", key: "explorar" },
+  { href: "/tienda", label: "Servicios", key: "tienda" },
+  { href: "/colaborar", label: "Herramientas", key: "nosotros" },
   { href: "/blog", label: "Blog", key: "blog" },
 ];
 

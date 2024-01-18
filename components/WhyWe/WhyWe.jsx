@@ -14,7 +14,7 @@ export const WhyWe = () => {
         </div>
 
         <div className={styles.WhyWe__container_images}>
-          <Image src="logo.svg" width={200} height={200} />
+          <Image src="logo.svg"  alt="wyhywephoto" width={200} height={200} />
         </div>
   
       
