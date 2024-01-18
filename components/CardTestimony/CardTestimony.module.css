@@ -9,8 +9,8 @@
   padding: 20px;
   transition: transform 0.3s ease-in-out;
   border : 1px solid #26E1FF;
-  width: 390px; /* Ancho fijo */
-  height: 500px; /* Altura fija */
+  width: 14vw; /* Ancho fijo */
+  height: 30vh; /* Altura fija */
   
 }
 

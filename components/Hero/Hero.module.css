@@ -15,7 +15,7 @@ color: #26E1FF;
   flex: 1;
   display: flex;
   justify-content: center;
-  min-height: 50vh;
+  min-height: 87vh;
   color: #F2F2F2;
   flex-direction: column;
 }
@@ -23,14 +23,14 @@ color: #26E1FF;
   font-size: 2.28rem;
   font-weight: bold;
   color: #F2F2F2;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
   line-height: 1.1;
 }
 
 .Hero__container__text__subtitle {
-  font-size: 1.5rem;
+  font-size: 1.38rem;
   color: #F2F2F2;
-  margin-bottom: 2rem;
+  margin-bottom: 6rem;
   font-weight: regular;
 }
 
@@ -71,7 +71,7 @@ color: #26E1FF;
 
 .Hero__container__text__form__input {
   width: 100%;
-  padding: 0.5rem;
+  padding: 1rem;
   border-radius: 0.5rem;
   font-size: 1rem;
   color: #F2F2F2;
@@ -85,7 +85,7 @@ color: #26E1FF;
 
 .Hero__container__text__form__button {
   width: 40%;
-  padding: 0.5rem;
+  padding: 1rem;
   border-radius: 0.5rem;
   font-size: 1rem;
   color: #F2F2F2;
@@ -164,4 +164,58 @@ color: #26E1FF;
   color: #F2F2F2;
   border: #ffe926 1px solid;
 
+}
+
+
+.Hero__container__row__down__animated {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 0.5rem;
+  color: #F2F2F2;
+  box-decoration-break: none;
+  position: absolute; /* Cambiado de 'fixed' a 'absolute' */
+  bottom: 0; /* Alinea el elemento en la parte inferior de la pantalla */
+  left: 0; /* Alinea el elemento a la izquierda de la pantalla (puedes ajustar esto según sea necesario) */
+  width: 100%; /* Asegúrate de que ocupe el ancho completo si es necesario */
+}
+
+
+
+.Hero__container__row__down__animated__icon{
+  font-size: 3rem;
+  color: #F2F2F2;
+  animation: pulse 2s infinite;
+  transition: all 0.5s ease-in-out;
+
+
+  
+}
+
+.scrolled {
+  color: transparent; /* O podrías usar 'opacity: 0;' */
+  transition: all 0.5s ease-in-out;
+}
+
+
+.iconScrolled {
+  display: none;
+  transition: all 0.5s ease-in-out;
+}
+
+
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+    transform: translateY(0.5rem);
+    transition: all 0.5s ease-in-out;
+  }
+  100% {
+    transform: scale(1);
+  }
 }
