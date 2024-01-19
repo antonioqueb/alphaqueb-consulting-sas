@@ -45,6 +45,12 @@ const testimonies = [
 
 export const Testimonials = () => {
   return (
+    <>
+    <div className={styles.Testimonials__container__title}>
+    <h3 className={styles.Testimonials__title}>Testimonios<span className={styles.Dot}>.</span></h3>
+
+    </div>
+
     <div className={styles.Testimonials__container}>
       {testimonies.map((testimony, index) => (
         <CardTestimony
@@ -56,6 +62,7 @@ export const Testimonials = () => {
         />
       ))}
     </div>
+    </>
   );
 }
 

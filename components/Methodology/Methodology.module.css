@@ -6,6 +6,10 @@
   flex-direction: column;
 }
 
+.Dot{
+  color: #26E1FF;
+}
+
 .Methodology__container_text {
   color: #f2f2f2;
   display: flex;
@@ -13,6 +17,7 @@
   justify-content: center;
   align-items: flex-start;
   text-align: start;
+  margin: 10vw 0;
 
 }
 
@@ -57,7 +62,7 @@
 }
 
 .Methodology__container_steps_step_text h3{
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 600;
   margin-bottom: 2rem;
 }
