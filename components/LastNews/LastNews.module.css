@@ -1,18 +1,9 @@
+
+
+
 .LastNews__container {
   display: flex;
   border: 1px solid white;
   background-color: transparent;
-}
-
-.LastNews__column {
-  flex: 1;
-  border: 1px solid white;
-  background-color: transparent;
-  min-height: 30vh;
-  align-items: center;
-  justify-content: center;
-  display: flex;
-
- 
 }
 

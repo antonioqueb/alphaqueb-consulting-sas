@@ -10,15 +10,22 @@ import LastNews from '@/components/LastNews/LastNews'
 import Doubts from '@/components/Doubts/Doubts'
 import Footer from '@/components/Footer/Footer'
 
+/**
+ * Renders the Home component.
+ * @returns {JSX.Element} The rendered Home component.
+ */
 export default function Home() {
   return (
     <main className={styles.main}>
+      {/* 
       <Navbar />
       <Hero />
       <Testimonials />
       <WhyWe />
       <Methodology />
+     
       <Services />
+       */}
       <LastNews />
       <Doubts />
       <Footer />

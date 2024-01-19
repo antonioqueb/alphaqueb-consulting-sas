@@ -1,24 +1,28 @@
 .Services__container {
   display: flex;
-  border: 1px solid white;
   background-color: transparent;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  padding: 4vh 0;
 }
-
+.Dot{
+  color: #26E1FF;
+}
 
 .Services__container__title {
   color: #f2f2f2;
   font-size: 2rem;
   font-weight: 700;
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
 }
 
 
 .Services__container__content {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .Services__container__content__item {
@@ -26,21 +30,53 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 0 1rem;
-  border: solid 1px #f2f2f2;
+  border: solid 1px #26e2ff4e;
   border-radius: 20px;
   width: 22rem;
   height: 30rem;
-  padding: 1.5rem;
+  gap: 1rem;
+  padding: 0 1rem;
 
 }
+
+.Services__container__content__item:hover {
+  border: solid 1px #26E1FF;
+
+}
+
 
 .Services__container__content__item h3 {
   color: #f2f2f2;
-  font-size: 1.5rem;
-  font-weight: 700;
+  font-size: 2.5rem;
   margin-bottom: 1rem;
-  
+  text-align: center;
+
 }
+
+
+/* Estilos existentes */
+/* ... */
+
+/* Estilos para el botón enlace */
+.Services__container__content__item .LinkButton {
+  display: inline-block; /* Para que se puedan aplicar dimensiones y centrado */
+  padding: 15px 30px; /* Ajusta al tamaño deseado */
+  margin-top: 20px; /* Espacio sobre el botón */
+  text-align: center;
+  color: #0D0D0D; /* Color del texto */
+  background-color: #26E1FF; /* Color de fondo del botón */
+  border: none;
+  border-radius: 14px;
+  cursor: pointer;
+  text-decoration: none; /* Eliminar el subrayado del enlace */
+  font-size: 1.2rem; /* Tamaño del texto */
+  font-weight: 400; /* Peso del texto */
+  transition: background-color 0.3s; /* Efecto al pasar el mouse */
+}
+
+.Services__container__content__item .LinkButton:hover {
+  background-color: #26E1FF; /* Color cuando el mouse está encima */
+}
+
 
 
