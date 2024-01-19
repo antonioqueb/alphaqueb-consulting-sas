@@ -1,8 +1,6 @@
 .Methodology__container {
   display: flex;
-  border: 1px solid rgb(253, 115, 115);
   background-color: transparent;
-  padding: 0 3rem;
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
@@ -24,3 +22,48 @@
   margin-bottom: 1rem;
 }
 
+
+.Methodology__container_steps{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 2rem;
+
+}
+
+.Methodology__container_steps_step_left{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+.Methodology__container_steps_step_right{
+  display: flex;               
+  flex-direction: row-reverse;
+  justify-content: space-between;
+
+  
+}
+
+.Methodology__container_steps_step_text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: start;
+  width: 50%;
+}
+
+.Methodology__container_steps_step_text h3{
+  font-size: 4rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.Methodology__container_steps_step_text p{
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
