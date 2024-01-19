@@ -1,23 +1,39 @@
 .WhyWe__container {
   display: flex;
-  border: 1px solid white;
   color: #F2F2F2;
 }
 
 
 .WhyWe__container_text, .WhyWe__container_images{
   flex: 1;
-  border: 1px solid white;
+}
+
+
+.WhyWe__container_images {
+  display: flex;
+  justify-content: center;
 }
 
 .WhyWe__container_text {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  padding: 0 2rem;
 }
 
-.WhyWe__container_images {
-  display: flex;
-  justify-content: center;
+
+.WhyWe__container_text h2 {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-align: start;
+
+
+}
+
+.WhyWe__container_text p {
+  font-size: 1.4rem;
+  text-align: start;
+  margin-bottom: 1rem;
+
 }

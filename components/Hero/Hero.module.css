@@ -56,6 +56,7 @@ color: #26E1FF;
   font-size: 0.9rem;
   color: #F2F2F2;
   font-weight: regular;
+  margin: 0.5rem 0;
 }
 .Hero__container__text__form__container{
   display: flex;

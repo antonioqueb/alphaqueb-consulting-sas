@@ -22,7 +22,6 @@ export default function Home() {
       <LastNews />
       <Doubts />
       <Footer />
-  
     </main>
   )
 }

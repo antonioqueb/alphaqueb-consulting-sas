@@ -1,52 +1,53 @@
-/* CardTestimony.module.css */
-.CardTestimony__container {
+.cardTestimony {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   border-radius: 14px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
   padding: 20px;
-  transition: transform 0.3s ease-in-out;
-  border : 1px solid #26E1FF;
-  width: 14vw; /* Ancho fijo */
-  height: 30vh; /* Altura fija */
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  border: 1px solid #26e2ff55;
+  width: 15vw; /* Flexible width */
+  min-height: 40vh; /* Minimum height */
+}
+
+.cardTestimony:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  border: 1px solid #26e2ff;
+
   
 }
 
-.CardTestimony__container:hover {
-  transform: translateY(-10px);
-}
-
-.CardTestimony__container__card__image {
-  width: 150px;
-  height: 150px;
+.cardTestimony__image {
+  width: 90px; /* Increased size */
+  height: 90px;
   border-radius: 50%;
   overflow: hidden;
   margin-bottom: 20px;
-  border: 1px solid #26E1FF;
-
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added shadow for depth */
 }
 
-.CardTestimony__container__card__image img {
-  width: 100%;
-  height: auto;
+.cardTestimony__image__img {
+  border-radius: 50%; /* Ensures the image remains circular */
 }
 
-.CardTestimony__container__card__text {
-  color: #333;
-  font-size: 1.2rem;
+.cardTestimony__text {
+  color: #ffffff;
+  font-size: 1rem; /* Adjusted font size */
   text-align: center;
   margin-bottom: 20px;
   display: -webkit-box;
   -webkit-box-orient: vertical;
-  -webkit-line-clamp: 3; /* Número de líneas a mostrar antes de cortar */
+  -webkit-line-clamp: 3; /* Number of lines to show before cutting */
   overflow: hidden;
+  padding: 0 10px; /* Added padding for better readability */
 }
 
-.CardTestimony__container__card__name {
+.cardTestimony__name {
   color: #0077cc;
-  font-size: 20px;
+  font-size: 1.1rem; /* Adjusted font size */
   text-align: center;
   font-weight: bold;
 }
