@@ -11,8 +11,6 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
   color: #F2F2F2;
   text-wrap: balance;
 
@@ -31,8 +29,3 @@ body {
 /* styles/global.css */
 
 /* Global styles for custom scrollbars */
-::-webkit-scrollbar {
-  display: none;
-}
-
-

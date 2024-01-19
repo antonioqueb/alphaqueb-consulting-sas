@@ -13,7 +13,7 @@ export const Methodology = () => {
       <div className={styles.Methodology__container_steps}>
          <div className={styles.Methodology__container_steps_step_left}>
          <div className={styles.Methodology__container_steps_step_image}>
-            <Image src="/analisis.svg" width={500} height={500} alt="step1" />
+            <Image src="/analisis.svg" width={700} height={700} alt="step1" />
           </div>
           <div className={styles.Methodology__container_steps_step_text}>
             <h3>Análisis y Diagnóstico</h3>
@@ -24,7 +24,7 @@ export const Methodology = () => {
           </div>
           <div className={styles.Methodology__container_steps_step_right}>
          <div className={styles.Methodology__container_steps_step_image}>
-            <Image src="/estrategia.svg" width={500} height={500} alt="step1" />
+            <Image src="/estrategia.svg" width={700} height={700} alt="step1" />
           </div>
           <div className={styles.Methodology__container_steps_step_text}>
             <h3>Diseño de Estrategia</h3>
@@ -34,7 +34,7 @@ export const Methodology = () => {
           </div>
           <div className={styles.Methodology__container_steps_step_left}>
          <div className={styles.Methodology__container_steps_step_image}>
-            <Image src="/iteration.svg" width={500} height={500} alt="step1" />
+            <Image src="/iteration.svg" width={700} height={700} alt="step1" />
           </div>
           <div className={styles.Methodology__container_steps_step_text}>
             <h3>Implementación y Gestión del Cambio</h3>
@@ -44,7 +44,7 @@ export const Methodology = () => {
           </div>
           <div className={styles.Methodology__container_steps_step_right}>
          <div className={styles.Methodology__container_steps_step_image}>
-            <Image src="/support.svg" width={500} height={500} alt="step1" />
+            <Image src="/support.svg" width={700} height={700} alt="step1" />
           </div>
           <div className={styles.Methodology__container_steps_step_text}>
             <h3>Formación y Soporte</h3>
@@ -55,7 +55,7 @@ export const Methodology = () => {
           </div>
           <div className={styles.Methodology__container_steps_step_left}>
          <div className={styles.Methodology__container_steps_step_image}>
-            <Image src="/inspection.svg" width={500} height={500} alt="step1" />
+            <Image src="/inspection.svg" width={700} height={700} alt="step1" />
           </div>
           <div className={styles.Methodology__container_steps_step_text}>
             <h3>Evaluación Continua y Mejora</h3>
