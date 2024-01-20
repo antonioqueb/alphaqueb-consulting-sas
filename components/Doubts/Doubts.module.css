@@ -1,16 +1,16 @@
 .Doubts__container {
   display: flex;
-  border: 1px solid white;
   background-color: transparent;
-  flex-direction: column;
-  padding: 1rem 0;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5rem 0;
 
 }
 
 .Doubts__title {
   font-size: 4rem;
   color: #F2F2F2;
-  margin-bottom: 1rem;
+  margin-bottom: 5rem;
   font-weight: bold;
 }
 
@@ -43,8 +43,61 @@
   display: flex;
   align-items: flex-start;
   flex-direction: row;
-  width: 93%;
+  width: 72%;
 
 
+
+}
+
+
+
+
+.Doubts__container__text__form__input {
+  padding: 1rem 1rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  color: #F2F2F2;
+  background-color: #000000;
+  box-shadow: 0px 0px 4px 0px #26e2ff inset;
+  margin-bottom: 0.5rem;
+  box-decoration-break: none;
+  width: 100vh;
+
+}
+
+
+
+.Doubts__container__text__form__button {
+  width: 40%;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  color: #F2F2F2;
+  cursor: pointer;
+  margin-left: 1rem;
+  background-color: #26E1FF;
+  color: #0D0D0D;
+  font-weight: 400;
+}
+
+
+
+
+.Doubts__container__text__and__form{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+  
+}
+
+
+.Doubts__container__image {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 
 }

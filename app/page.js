@@ -8,7 +8,6 @@ import Methodology from '@/components/Methodology/Methodology'
 import Services from '@/components/Services/Services'
 import LastNews from '@/components/LastNews/LastNews'
 import Doubts from '@/components/Doubts/Doubts'
-import Footer from '@/components/Footer/Footer'
 
 /**
  * Renders the Home component.
@@ -17,7 +16,7 @@ import Footer from '@/components/Footer/Footer'
 export default function Home() {
   return (
     <main className={styles.main}>
-      {/*  
+      {/*   */}
       <Navbar />
       <Hero />
       <Testimonials />
@@ -25,9 +24,9 @@ export default function Home() {
       <Methodology />
       <Services />
       <LastNews />
-          */}
+         
       <Doubts />
-      <Footer />
+     
     </main>
   )
 }
