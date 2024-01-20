@@ -1,0 +1,27 @@
+.CardPosts__container__news{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.CardPost__container__news__title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 1vh;
+}
+
+.CardPost__container__news__description{
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+
+.CardPost__container__news__image__img{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 1vh;
+    border-radius: 14px;
+}

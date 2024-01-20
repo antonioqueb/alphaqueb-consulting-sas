@@ -2,17 +2,49 @@
   display: flex;
   border: 1px solid white;
   background-color: transparent;
+  flex-direction: column;
+  padding: 1rem 0;
 
 }
 
-.Doubts__column {
-  flex: 1;
-  border: 1px solid white;
-  background-color: transparent;
-  min-height: 30vh;
-  align-items: center;
-  justify-content: center;
+.Doubts__title {
+  font-size: 4rem;
+  color: #F2F2F2;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+
+.Doubts__container__text__form{
   display: flex;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+  flex-direction: column;
+  
+
 
 }
 
+.Doubts__container__text__form__Link{
+  font-size: 0.9rem;
+  color: #F2F2F2;
+  margin-bottom: 1rem;
+  font-weight: regular;
+  text-decoration: none;
+  cursor: pointer;
+}
+.Doubts__container__text__form span{
+  font-size: 0.9rem;
+  color: #F2F2F2;
+  font-weight: regular;
+  margin: 0.5rem 0;
+}
+.Doubts__container__text__form__container{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  width: 93%;
+
+
+
+}

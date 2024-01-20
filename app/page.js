@@ -17,16 +17,15 @@ import Footer from '@/components/Footer/Footer'
 export default function Home() {
   return (
     <main className={styles.main}>
-      {/* 
+      {/*  
       <Navbar />
       <Hero />
       <Testimonials />
       <WhyWe />
       <Methodology />
-     
       <Services />
-       */}
       <LastNews />
+          */}
       <Doubts />
       <Footer />
     </main>

@@ -1,9 +1,39 @@
 
 
 
-.LastNews__container {
-  display: flex;
-  border: 1px solid white;
-  background-color: transparent;
+.Dot{
+  color: #26E1FF
 }
 
+.LastNews__container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 4rem;
+  cursor: pointer;
+
+}
+
+
+.LastNews__container h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 1vh;
+}
+
+.LastNews__container__title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2vh 0;
+}
+
+.LastNews__title{
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10vh;
+}
