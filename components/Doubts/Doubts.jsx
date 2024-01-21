@@ -19,7 +19,7 @@ export const Doubts = () => {
           <input type="text" placeholder="Email Corporativo" className={styles.Doubts__container__text__form__input }/>
           <button  className={styles.Doubts__container__text__form__button }>Contactar</button>
         </form>
-        <span>Al enviar aceptas nuestros <Link className={styles.Doubts__container__text__form__Link } href="/" style={{ textDecoration: 'none'}}>Terminos y condiciones.</Link></span>
+        <span className={styles.Doubts__container__text__form__span}>Al enviar aceptas nuestros <Link className={styles.Doubts__container__text__form__Link } href="/" style={{ textDecoration: 'none'}}>Terminos y condiciones.</Link></span>
         </div>
 
       </div>
