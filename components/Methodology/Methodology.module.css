@@ -75,3 +75,131 @@
   font-weight: 400;
   margin-bottom: 1rem;
 }
+
+
+
+
+@media (max-width: 599px) {
+
+      /* 
+   Contenedor
+   */
+  
+  .Methodology__container_steps_step_left , .Methodology__container_steps_step_right{
+    flex-direction: column;
+    padding: 0;
+
+  }
+  .Methodology__container_steps_step_image__img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .Methodology__container_steps_step_image__img{
+    width: 100%;
+    max-width: 350px;
+    height: 350px;
+    padding: 2vh 0;
+    margin: 0;
+  }
+
+
+  
+    /* 
+    Titulo
+   */
+  
+  .Methodology__container_text h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+
+  .Methodology__container_steps_step_text{
+    
+    align-items: flex-start;
+    justify-content: center;
+    text-align: flex-start;
+    width: 100%;
+    
+
+  }
+
+  .Methodology__container_steps_step_text h3{
+    font-size: 1.9rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+  }
+
+
+
+
+
+}
+
+
+/* Tabletas: desde 601px hasta 900px */
+@media (min-width: 601px) and (max-width: 1737px) {
+
+
+  
+  .Methodology__container_steps_step_left , .Methodology__container_steps_step_right{
+    flex-direction: column;
+    padding: 0;
+    align-items: center;
+
+  }
+  .Methodology__container_steps_step_image__img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .Methodology__container_steps_step_image__img{
+    width: 100%;
+    max-width: 550px;
+    height: 550px;
+    padding: 2vh 0;
+    margin: 0;
+    
+  }
+
+
+  
+    /* 
+    Titulo
+   */
+  
+  .Methodology__container_text h2 {
+    font-size: 4rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+
+  .Methodology__container_steps_step_text{
+    
+    align-items: flex-start;
+    justify-content: center;
+    text-align: flex-start;
+    width: 100%;
+    
+
+  }
+
+  .Methodology__container_steps_step_text h3{
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+  }
+
+
+}
+
+/* Escritorio: más de 900px */
+@media (min-width: 1199px) {
+
+}

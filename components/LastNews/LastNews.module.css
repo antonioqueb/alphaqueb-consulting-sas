@@ -37,3 +37,30 @@
   padding: 0;
   margin-bottom: 10vh;
 }
+
+
+@media (max-width: 599px) {
+  .LastNews__title{
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 5vh;
+  }
+
+  .LastNews__container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  /* Estilos que se aplican cuando la pantalla tiene menos de 600px de ancho */
+}
+
+
+/* Tabletas: desde 601px hasta 900px */
+@media (min-width: 601px) and (max-width: 900px) {
+
+}
+
+/* Escritorio: más de 900px */
+@media (min-width: 901px) {
+
+}

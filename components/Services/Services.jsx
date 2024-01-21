@@ -9,7 +9,7 @@ export const Services = () => {
   return (
     <div className={styles.Services__container}>
       <div className={styles.Services__container__title}>
-        <h1>Nuestros Servicios<span className={styles.Dot}>.</span></h1>
+        <h2>Nuestros Servicios<span className={styles.Dot}>.</span></h2>
         </div>
       <div className={styles.Services__container__content}>
         <div className={styles.Services__container__content__item}>

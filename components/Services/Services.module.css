@@ -19,10 +19,9 @@
 
 
 .Services__container__content {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
 }
 
 .Services__container__content__item {
@@ -80,3 +79,59 @@
 
 
 
+@media (max-width: 599px) {
+
+  .Services__container__title {
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+  }
+
+
+  .Services__container__content {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+  }
+
+  .Services__container__content__item {
+    width: 35vh;
+    height: 35vh;
+    padding: 2vh 0;
+    margin: 1vh 0;
+  }
+  .Services__container__content__item h3 {
+    font-size: 1.5rem;  
+  }
+  /* Estilos que se aplican cuando la pantalla tiene menos de 600px de ancho */
+}
+
+
+/* Tabletas: desde 601px hasta 900px */
+@media (min-width: 601px) and (max-width: 900px) {
+
+  .Services__container__content {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .Services__container__title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
+
+  .Services__container__content__item {
+    width: 22rem;
+    height: 21rem;
+    padding: 2vh 0;
+    margin: 1vh 0;
+  }
+  .Services__container__content__item h3 {
+    font-size: 1.5rem;  
+  }
+  
+  /* Estilos que se aplican cuando la pantalla tiene entre 601px y 900px de ancho */
+
+}
+
+/* Escritorio: más de 900px */
+@media (min-width: 901px) {
+
+}

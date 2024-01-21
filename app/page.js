@@ -20,12 +20,12 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Testimonials />
-    
       <WhyWe />
-      */}
       <Methodology />
       <Services />
+      
       <LastNews />
+       */}
          
       <Doubts />
      
