@@ -16,11 +16,13 @@ import Doubts from '@/components/Doubts/Doubts'
 export default function Home() {
   return (
     <main className={styles.main}>
-      {/*   */}
+      {/*   
       <Navbar />
       <Hero />
       <Testimonials />
+    
       <WhyWe />
+      */}
       <Methodology />
       <Services />
       <LastNews />

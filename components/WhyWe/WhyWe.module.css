@@ -38,3 +38,96 @@
   margin-bottom: 1rem;
 
 }
+
+
+
+@media (max-width: 599px) {
+
+  .WhyWe__container {
+    flex-direction: column;
+    padding: 1vh 0;
+  }
+  
+  .WhyWe__container__image__img {
+    width: 100%;  /* Puedes ajustar esto según tus necesidades */
+    max-width: 350px;
+    height: 350px ;
+    padding: 0;
+    margin: 0;
+
+  }
+
+  .WhyWe__container_text h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-align: start;
+  }
+
+  .WhyWe__container_text{
+    padding: 0;
+    margin: 0;
+
+  }
+
+  /* Estilos que se aplican cuando la pantalla tiene menos de 600px de ancho */
+}
+
+
+/* Tabletas: desde 601px hasta 900px */
+@media (min-width: 601px) and (max-width: 1729px) {
+
+
+
+
+  .WhyWe__container {
+    flex-direction: column;
+    padding: 5vh 0;
+  }
+  
+  .WhyWe__container__image__img {
+    width: 100%;  /* Puedes ajustar esto según tus necesidades */
+    max-width: 5besame mucho 00px;
+    padding: 0;
+    margin: 0;
+    
+  }
+
+  .WhyWe__container_text h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-align: start;
+  }
+
+  .WhyWe__container_text{
+    padding: 0;
+    margin: 0;
+
+  }
+
+  
+.WhyWe__container_text p {
+  font-size: 1.7rem;
+  text-align: start;
+  margin-bottom: 1rem;
+
+}
+
+.WhyWe__container__image__img {
+  width: 600%;  /* Puedes ajustar esto según tus necesidades */
+  max-width: 600px;
+  height: 500px ;
+  padding: 0;
+  margin: 0;
+
+}
+
+
+}
+
+/* Escritorio: más de 900px */
+@media (min-width: 1728px) {
+
+
+}
