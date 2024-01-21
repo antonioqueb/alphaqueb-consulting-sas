@@ -27,8 +27,8 @@ color: #26E1FF;
   line-height: 1.1;
 }
 
-.Hero__container__text__subtitle {
-  font-size: 1.38rem;
+.Hero__container__text__subtitle p {
+  font-size: 1.4rem;
   color: #F2F2F2;
   margin-bottom: 6rem;
   font-weight: regular;
@@ -230,7 +230,7 @@ color: #26E1FF;
 @media (max-width: 599px) {
 
   .Hero__container__text__title {
-    font-size: 1.35rem;
+    font-size: 1.28rem;
     font-weight: bold;
     color: #F2F2F2;
     margin-bottom: 1.5rem;
@@ -238,7 +238,7 @@ color: #26E1FF;
     
   }
 
-  .Hero__container__text__subtitle {
+  .Hero__container__text__subtitle p {
     font-size: 1.2rem;
     color: #F2F2F2;
     margin-bottom: 2rem;

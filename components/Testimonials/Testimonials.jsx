@@ -39,7 +39,7 @@ export const Testimonials = () => {
   return (
     <>
     <div className={styles.Testimonials__container__title}>
-    <h3 className={styles.Testimonials__title}>Testimonios<span className={styles.Dot}>.</span></h3>
+    <h2 className={styles.Testimonials__title}>Testimonios<span className={styles.Dot}>.</span></h2>
 
     </div>
 

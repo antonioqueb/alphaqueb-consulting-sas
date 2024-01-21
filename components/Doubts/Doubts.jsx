@@ -10,7 +10,7 @@ export const Doubts = () => {
     <div className={styles.Doubts__container}>
       <div className={styles.Doubts__container__text__and__form}>
       <div className={styles.Doubts__container__text}>
-        <h3 className={styles.Doubts__title}>¿Tienes Preguntas?</h3>
+        <h2 className={styles.Doubts__title}>¿Tienes Preguntas?</h2>
       </div>
 
 

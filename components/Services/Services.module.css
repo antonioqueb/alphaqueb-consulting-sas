@@ -10,9 +10,9 @@
   color: #26E1FF;
 }
 
-.Services__container__title {
+.Services__container__title h2 {
   color: #f2f2f2;
-  font-size: 2rem;
+  font-size: 4rem;
   font-weight: 700;
   margin-bottom: 4rem;
 }
@@ -46,7 +46,7 @@
 
 .Services__container__content__item h3 {
   color: #f2f2f2;
-  font-size: 2.5rem;
+  font-size: 3rem;
   margin-bottom: 1rem;
   text-align: center;
 
@@ -81,8 +81,8 @@
 
 @media (max-width: 599px) {
 
-  .Services__container__title {
-    font-size: 1.3rem;
+  .Services__container__title h2 {
+    font-size: 3rem;
     margin-bottom: 2rem;
   }
 
@@ -99,7 +99,7 @@
     margin: 1vh 0;
   }
   .Services__container__content__item h3 {
-    font-size: 1.5rem;  
+    font-size: 2rem;  
   }
   /* Estilos que se aplican cuando la pantalla tiene menos de 600px de ancho */
 }
@@ -111,8 +111,8 @@
   .Services__container__content {
     grid-template-columns: repeat(1, 1fr);
   }
-  .Services__container__title {
-    font-size: 2rem;
+  .Services__container__title h2{
+    font-size: 3rem;
     margin-bottom: 2rem;
   }
 
@@ -124,7 +124,7 @@
     margin: 1vh 0;
   }
   .Services__container__content__item h3 {
-    font-size: 1.5rem;  
+    font-size: 3rem;  
   }
   
   /* Estilos que se aplican cuando la pantalla tiene entre 601px y 900px de ancho */

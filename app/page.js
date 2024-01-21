@@ -18,10 +18,8 @@ export default function Home() {
     <main className={styles.main}>
       {/*   */} 
       <Navbar />
-      <Hero />
-       
+      <Hero />  
       <Testimonials />
-       
       <WhyWe />
       <Methodology />
       <Services />

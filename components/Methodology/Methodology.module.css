@@ -10,6 +10,14 @@
   color: #26E1FF;
 }
 
+
+.Methodology__title h2{
+  font-size: 4rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+
 .Methodology__container_text {
   color: #f2f2f2;
   display: flex;
@@ -108,6 +116,13 @@
     /* 
     Titulo
    */
+
+   .Methodology__title h2
+    {
+      font-size: 3rem;
+      font-weight: 600;
+      margin-bottom: 1rem;
+    }
   
   .Methodology__container_text h2 {
     font-size: 2rem;
@@ -128,7 +143,7 @@
   }
 
   .Methodology__container_steps_step_text h3{
-    font-size: 1.9rem;
+    font-size: 2rem;
     font-weight: 600;
     margin-bottom: 2rem;
   }
@@ -191,7 +206,7 @@
   }
 
   .Methodology__container_steps_step_text h3{
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: 500;
     margin-bottom: 2rem;
   }
