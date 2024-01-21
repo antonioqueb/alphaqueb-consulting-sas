@@ -68,7 +68,7 @@
   border-radius: 14px;
   cursor: pointer;
   text-decoration: none; /* Eliminar el subrayado del enlace */
-  font-size: 1.2rem; /* Tamaño del texto */
+  font-size: 1.1rem; /* Tamaño del texto */
   font-weight: 400; /* Peso del texto */
   transition: background-color 0.3s; /* Efecto al pasar el mouse */
 }
