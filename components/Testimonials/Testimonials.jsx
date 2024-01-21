@@ -31,14 +31,6 @@ const testimonies = [
     name: "Carlos Sánchez"
   },
 
-  // Ignacio Reyes
-
-  {
-    imageSrc: "/ignacio-reyes.jpeg",
-    altText: "Imagen de Ignacio Reyes",
-    testimony: "Excelente servicio, muy profesionales y atentos. Los recomiendo ampliamente.",
-    name: "Ignacio Reyes"
-  },
 
   // ... más testimonios
 ];
