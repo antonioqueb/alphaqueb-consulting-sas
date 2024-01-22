@@ -51,7 +51,7 @@ export const Hero = () => {
           <input type="text" placeholder="Email Corporativo" className={styles.Hero__container__text__form__input }/>
           <button  className={styles.Hero__container__text__form__button }>Contactar</button>
         </form>
-        <span>Al enviar aceptas nuestros <Link className={styles.Hero__container__text__form__Link } href="/" style={{ textDecoration: 'none'}}>Terminos y condiciones.</Link></span>
+        <span>Al enviar aceptas nuestros <Link className={styles.Hero__container__text__form__Link } href="/" style={{ textDecoration: 'none'}}>terminos y condiciones.</Link></span>
         </div>
 
 
