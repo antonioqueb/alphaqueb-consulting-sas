@@ -45,9 +45,9 @@
   padding: 0 10px; /* Added padding for better readability */
 }
 
-.cardTestimony__name h3 {
+.cardTestimony__name h4 {
   color: #0077cc;
-  font-size: 3rem; /* Adjusted font size */
+  font-size: 1.3rem; /* Adjusted font size */
   text-align: center;
   font-weight: bold;
 }
@@ -64,9 +64,10 @@
     width: 75vw; /* Flexible width */
     min-height: 25vh; /* Minimum height */
   }
-  .cardTestimony__name h3 {
+  .cardTestimony__name h4 {
     color: #26E1FF;
-    font-size: 2rem;
+    font-size: 1rem; /* Adjusted font size */
+
   
   }
   .cardTestimony__text p {
@@ -111,9 +112,9 @@
     padding: 0 20px; /* Added padding for better readability */  
   }
   
-  .cardTestimony__name h3 {
+  .cardTestimony__name h4 {
     color: #26E1FF;
-    font-size: 3rem;
+    font-size: 1.1rem; /* Adjusted font size */
   
   }
 

@@ -18,7 +18,7 @@ export const CardTestimony = ({ imageSrc, altText, testimony, name }) => {
           <p>{testimony}</p>
         </blockquote>
         <footer className={styles.cardTestimony__name}>
-          <h3>{name}</h3>
+          <h4>{name}</h4>
         </footer>
     </article>
   );
