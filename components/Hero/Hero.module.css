@@ -21,7 +21,7 @@ color: #26E1FF;
 }
 .Hero__container__text__title {
   font-size: 2.5rem;
-  font-weight: bold;
+  font-weight: 600;
   color: #F2F2F2;
   margin-bottom: 1.5rem;
   line-height: 1.1;
@@ -230,8 +230,8 @@ color: #26E1FF;
 @media (max-width: 599px) {
 
   .Hero__container__text__title {
-    font-size: 2rem;
-    font-weight: bold;
+    font-size: 1.35rem;
+    font-weight: 600;
     color: #F2F2F2;
     margin-bottom: 1.5rem;
     line-height: 1.1;

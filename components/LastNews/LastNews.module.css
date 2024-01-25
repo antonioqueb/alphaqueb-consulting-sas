@@ -8,7 +8,7 @@
 .LastNews__container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 4rem;
+  grid-gap: 2rem;
   cursor: pointer;
 
 }
@@ -16,7 +16,7 @@
 
 .LastNews__container h2 {
   font-size: 2rem;
-  font-weight: bold;
+  font-weight: 600;
   margin: 0;
   padding: 0;
   margin-bottom: 1vh;
@@ -32,7 +32,7 @@
 
 .LastNews__title{
   font-size: 4rem;
-  font-weight: bold;
+  font-weight: 600;
   margin: 0;
   padding: 0;
   margin-bottom: 10vh;
@@ -42,7 +42,7 @@
 @media (max-width: 599px) {
   .LastNews__title{
     font-size: 3rem;
-    font-weight: bold;
+    font-weight: 600;
     margin: 0;
     padding: 0;
     margin-bottom: 5vh;

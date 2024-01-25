@@ -12,7 +12,7 @@
   font-size: 4rem;
   color: #F2F2F2;
   margin-bottom: 5rem;
-  font-weight: bold;
+  font-weight: 600;
 }
 
 
@@ -109,10 +109,23 @@
   .Doubts__container {
   
     flex-direction: column-reverse;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   
   
   
+
   }
+
+  .Doubts__container__text__and__form{
+   
+    align-items: center;
+    justify-content: center;
+  }
+
+
+
   .Doubts__container__text__form__text{
     width: 100%;
     max-width: 350px;
@@ -136,7 +149,10 @@
     font-size: 3rem;
     color: #F2F2F2;
     margin-bottom: 3rem;
-    font-weight: bold;
+    font-weight: 600;
+    text-align: center;
+   
+    
   }
 
 
@@ -181,6 +197,11 @@
    text-align: center;
   }
 
+  .Doubts__container__text{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
 
 
 
@@ -202,6 +223,15 @@
   
   
   }
+
+  
+  .Doubts__container__text__and__form{
+   
+    align-items: center;
+    justify-content: center;
+  }
+
+
   .Doubts__container__text__form__text{
     width: 100%;
     max-width: 350px;
@@ -224,7 +254,7 @@
     font-size: 3rem;
     color: #F2F2F2;
     margin-bottom: 3rem;
-    font-weight: bold;
+    font-weight: 600;
   }
 
 

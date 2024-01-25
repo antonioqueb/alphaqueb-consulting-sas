@@ -8,7 +8,7 @@ export const LastNews = () => {
   return (
     <>
     <div className={styles.LastNews__container__title}>
-      <h2 className={styles.LastNews__title}>Últimas Noticias<span className={styles.Dot}>.</span></h2>
+      <h2 className={styles.LastNews__title}>Blog<span className={styles.Dot}>.</span></h2>
     
     </div>
     <div className={styles.LastNews__container}>

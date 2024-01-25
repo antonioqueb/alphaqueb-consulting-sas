@@ -81,9 +81,16 @@
 
 @media (max-width: 599px) {
 
+
+  .Services__container__title{
+    justify-content: center;
+    align-items: center;
+  }
+
   .Services__container__title h2 {
     font-size: 3rem;
     margin-bottom: 2rem;
+    text-align: center;
   }
 
 

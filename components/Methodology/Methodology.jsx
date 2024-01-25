@@ -8,7 +8,7 @@ export const Methodology = () => {
   return (
     <div className={styles.Methodology__container}>
       <div className={styles.Methodology__title}>
-        <h2>Nuestra Metodología<span className={styles.Dot}>.</span></h2>
+        <h2>Metodología<span className={styles.Dot}>.</span></h2>
       </div>
       <div className={styles.Methodology__container_steps}>
          <div className={styles.Methodology__container_steps_step_left}>
