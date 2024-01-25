@@ -12,7 +12,7 @@
 
 .Services__container__title h2 {
   color: #f2f2f2;
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 700;
   margin-bottom: 4rem;
 }
@@ -88,7 +88,7 @@
   }
 
   .Services__container__title h2 {
-    font-size: 3rem;
+    font-size: 2rem;
     margin-bottom: 2rem;
     text-align: center;
   }
@@ -119,7 +119,7 @@
     grid-template-columns: repeat(1, 1fr);
   }
   .Services__container__title h2{
-    font-size: 3rem;
+    font-size: 2rem;
     margin-bottom: 2rem;
   }
 

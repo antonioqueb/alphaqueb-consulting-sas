@@ -14,13 +14,6 @@
 }
 
 
-.LastNews__container h2 {
-  font-size: 2rem;
-  font-weight: 600;
-  margin: 0;
-  padding: 0;
-  margin-bottom: 1vh;
-}
 
 .LastNews__container__title {
   display: flex;
@@ -31,7 +24,7 @@
 }
 
 .LastNews__title{
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 600;
   margin: 0;
   padding: 0;
@@ -41,7 +34,7 @@
 
 @media (max-width: 599px) {
   .LastNews__title{
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 600;
     margin: 0;
     padding: 0;

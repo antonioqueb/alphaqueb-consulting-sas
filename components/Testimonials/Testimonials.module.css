@@ -21,7 +21,7 @@
 }
 
 .Testimonials__title{
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 600;
   margin-bottom: 1rem;
 }
@@ -39,7 +39,7 @@
     justify-items: center;
   }
   .Testimonials__title{
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   /* Estilos que se aplican cuando la pantalla tiene menos de 600px de ancho */
