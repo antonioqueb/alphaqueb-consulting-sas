@@ -171,18 +171,19 @@
 
 
 @media (max-width: 599px) {
-  .navbar {
-    justify-content: space-between; /* Esto mantiene los elementos a los lados */
-  }
+  
+.navbar {
+  left: 2rem;
+  right: 2rem;
+
+}
   
   .navbar__section--start, .navbar__section--end {
     /* Asegúrate de que estos estén definidos y tengan un ancho o flexión adecuados */
     flex: 1;
   }
 
-  .navbar__logo, .navbar__icons {
-    /* Si estas son las clases que quieres mantener visibles, asegúrate de que no tengan 'display: none' */
-  }
+ 
 
   .navbar__navigation, .navbar__section--center {
     display: none; /* Oculta los elementos del centro en modo móvil */

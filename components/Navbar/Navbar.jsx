@@ -15,7 +15,7 @@ const links = [
 
 const NavbarComponent = () => {
   const [scrolled, setScrolled] = useState(false);
-  const [isSidebarOpen, setIsSidebarOpen] = useState(false);  // Estado para la visibilidad del Sidebar
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false); 
 
   const handleScroll = () => {
     const offset = window.scrollY;
@@ -39,7 +39,7 @@ const NavbarComponent = () => {
   }
 
   const toggleSidebar = () => {
-    setIsSidebarOpen(!isSidebarOpen);  // Cambia el estado del Sidebar al hacer clic
+    setIsSidebarOpen(!isSidebarOpen);  
   };
 
   return (

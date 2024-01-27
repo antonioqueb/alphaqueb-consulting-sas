@@ -59,6 +59,12 @@
 
 /* Estilos para dispositivos Tablet */
 @media screen and (min-width: 601px) and (max-width: 1900px) {
+
+    .sidebar{
+        width: 40%;
+        height: 100%;
+     
+    }
     .sidebar_title{
         font-size: 1.8rem; /* h1 en tablet */
     }
@@ -79,7 +85,7 @@
 /* Estilos para dispositivos Móviles */
 @media screen and (max-width: 800px) {
     .sidebar{
-        width: 25%; /* Ancho más amplio para móviles */
+        width: 50%; /* Ancho más amplio para móviles */
     }
 
     .sidebar_title{
