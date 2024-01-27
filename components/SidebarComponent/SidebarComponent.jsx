@@ -1,6 +1,9 @@
 import React from 'react';
 import styles from './SidebarComponent.module.css';
 import Link from 'next/link';
+import { MdHomeFilled } from "react-icons/md";
+import { AiFillApi } from "react-icons/ai";
+
 
 const SidebarComponent = () => {
   return (
@@ -13,9 +16,11 @@ const SidebarComponent = () => {
         {/* Links del Menú */}
         <div className={styles.sidebar_links}>
           <Link href="/" className={styles.sidebar_link} activeClassName={styles.sidebar_link_active}>
+            <MdHomeFilled className={styles.sidebar_icon} />
             Inicio
           </Link>
           <Link href="/about" className={styles.sidebar_link} activeClassName={styles.sidebar_link_active}>
+           
             Nosotros
           </Link>
           <Link href="/contact" className={styles.sidebar_link} activeClassName={styles.sidebar_link_active}>

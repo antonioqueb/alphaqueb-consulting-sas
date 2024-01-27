@@ -162,10 +162,7 @@
 
 }
 
-.navbar__cart:hover, .navbar__user:hover {
-  color:#BF9F78;
-  transition-duration: 0.3s;
-}
+
 
 
 
@@ -175,6 +172,7 @@
 .navbar {
   left: 2rem;
   right: 2rem;
+  margin-bottom: 6rem;
 
 }
   

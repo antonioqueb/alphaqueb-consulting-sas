@@ -22,8 +22,8 @@ export const WhyWe = () => {
         
         <div className={styles.WhyWe__container_text}>
           <h2 className={styles.LastNews__title}>Propuesta<span className={styles.Dot}>.</span></h2>
-          <p>Enfrenta los retos de la era digital con nuestras soluciones innovadoras y personalizadas. Nos comprometemos a facilitar tu transición hacia lo digital, asegurando un proceso eficiente y efectivo.</p>
-          <p>Maneja el cambio con confianza y asegura innovación y resultados duraderos. Con nosotros, cada paso hacia la transformación digital es un avance seguro hacia el éxito.</p>        
+          <p>Tu viaje digital comienza aquí. Con una metodología única, diagnosticamos, planificamos, implementamos, formamos y evaluamos, asegurando que cada fase sea un avance hacia tu visión.</p>
+          <p>La transformación digital no es una promesa, es una realidad palpable con Alphaqueb.</p>        
           </div>
       
     </div>
