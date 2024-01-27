@@ -31,6 +31,8 @@
 
 .cardTestimony__image__img {
   border-radius: 50%; /* Ensures the image remains circular */
+  object-fit: cover;
+  object-position: center;
 }
 
 .cardTestimony__text {
@@ -73,8 +75,8 @@
     align-items: center;
     justify-content: center;
     
-    width: 75vw; /* Flexible width */
-    min-height: 25vh; /* Minimum height */
+    width: 17rem; /* Flexible width */
+    min-height: 10rem; /* Minimum height */
   }
   .cardTestimony__name h4 {
     color: #26E1FF;
@@ -109,8 +111,8 @@
     align-items: center;
     justify-content: center;
     
-    width: 35vw; /* Flexible width */
-    min-height: 25vh; /* Minimum height */
+    width: 16rem; /* Flexible width */
+    min-height: 12rem; /* Minimum height */
   }
 
   .cardTestimony__text p {

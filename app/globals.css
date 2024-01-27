@@ -20,7 +20,7 @@
 
 }
 
-html{
+body{
   padding: 0 8rem;
   max-width: 1200px;
 }
@@ -33,6 +33,22 @@ body {
 
 }
 
+@media (min-width: 601px) and (max-width: 1729px) {
+
+
+  body{
+  padding: 0 8rem;
+
+}
+
+
+}
+
+@media (max-width: 600px) {
+  body{
+    padding: 0 3rem;
+  }
+}
 
 /* styles/global.css */
 

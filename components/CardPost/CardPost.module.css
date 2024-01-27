@@ -9,7 +9,7 @@
     font-weight: 600;
     margin: 0;
     padding: 0;
-    margin-bottom: 1vh;
+    margin-bottom: 1rem;
 }
 
 .CardPost__container__news__description p{
@@ -22,8 +22,10 @@
 .CardPost__container__news__image__img{
     width: 100%;
     height: 100%;
-    margin-bottom: 1vh;
+    margin-bottom: 1rem;
     border-radius: 14px;
+    object-fit: cover;
+    object-position: center;
 }
 
 @media (max-width: 599px) {
@@ -33,7 +35,7 @@
         font-weight: 600;
         margin: 0;
         padding: 0;
-        margin-bottom: 1vh;
+        margin-bottom: 1rem;
     }
 
     .CardPost__container__news__description p{
@@ -54,7 +56,7 @@
         font-weight: 600;
         margin: 0;
         padding: 0;
-        margin-bottom: 1vh;
+        margin-bottom: 1rem;
     }
 
     .CardPost__container__news__description p{

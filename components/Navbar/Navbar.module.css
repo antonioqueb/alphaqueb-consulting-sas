@@ -1,12 +1,40 @@
 /* Estilo general de la navbar */
+
+/* Estilos previos... */
+
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-radius: 14px;
   max-width: 100%;
-  margin: 2vh 0;
+  position: fixed; /* Fijar el Navbar */
+  background: #0d0d0d50; /* Color de fondo con transparencia */
+  backdrop-filter: blur(5px); /* Efecto esmerilado */
+  z-index: 10; /* Asegurarse de que el Navbar esté sobre otros elementos */
+  transition: background-color 0.3s, backdrop-filter 0.3s; /* Transiciones suaves */
+  left: 8rem;
+  right: 8rem;
+  top: 0;
+  padding: 0.3rem 0;
+  
+  
+
 }
+
+
+.navbar__navigation {
+  width: calc(100% - 16rem); /* ajusta el ancho para compensar el padding */
+  /* Resto de tus estilos... */
+}
+
+.navbar.scrolled {
+  background: #0d0d0d50; /* Aumentar transparencia al hacer scroll */
+  backdrop-filter: blur(15px); /* Intensificar efecto esmerilado */
+}
+
+/* Resto de tus estilos... */
+
+  
 
 /* Secciones de la navbar: Elementos del Bloque navbar */
 .navbar__section--start{
@@ -86,7 +114,7 @@
 /* Ítems de navegación: Modificador del Elemento navbar__navigation */
 .navbar__item {
   flex: 1;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   color: #F2F2F2;
   cursor: pointer;
   transition: color 0.3s ease;
@@ -143,15 +171,24 @@
 
 
 @media (max-width: 599px) {
-  .navbar__section--center{
-    display: none;
+  .navbar {
+    justify-content: space-between; /* Esto mantiene los elementos a los lados */
   }
-  .navbar__navigation{
-    display: none;
+  
+  .navbar__section--start, .navbar__section--end {
+    /* Asegúrate de que estos estén definidos y tengan un ancho o flexión adecuados */
+    flex: 1;
   }
 
-  /* Estilos que se aplican cuando la pantalla tiene menos de 600px de ancho */
+  .navbar__logo, .navbar__icons {
+    /* Si estas son las clases que quieres mantener visibles, asegúrate de que no tengan 'display: none' */
+  }
+
+  .navbar__navigation, .navbar__section--center {
+    display: none; /* Oculta los elementos del centro en modo móvil */
+  }
 }
+
 
 
 /* Tabletas: desde 601px hasta 900px */

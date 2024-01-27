@@ -15,7 +15,7 @@ color: #26E1FF;
   flex: 1;
   display: flex;
   justify-content: center;
-  min-height: 87vh;
+  min-height: 100vh;
   color: #F2F2F2;
   flex-direction: column;
 }

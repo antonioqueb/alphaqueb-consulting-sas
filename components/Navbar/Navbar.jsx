@@ -1,7 +1,10 @@
+'use client';
+import React, { useState, useEffect } from 'react';
 import Link from "next/link";
 import Image from "next/image";
 import styles from './Navbar.module.css';
 import { GrMoreVertical } from "react-icons/gr";
+import SidebarComponent from '../SidebarComponent/SidebarComponent';
 
 const links = [
   { href: "/", label: "Nosotros", key: "nosotros" },
@@ -10,29 +13,59 @@ const links = [
   { href: "/blog", label: "Blog", key: "blog" },
 ];
 
-const NavbarComponent = () => (
-  <nav className={styles.navbar} > {/* Borde de referencia*/}
-    <div className={styles['navbar__logo']}>
-      <Link href="/">
-        <Image src="/logo.svg" alt="Logo" width={50} height={50} />
-      </Link>
-    </div>
+const NavbarComponent = () => {
+  const [scrolled, setScrolled] = useState(false);
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);  // Estado para la visibilidad del Sidebar
 
-    <div className={styles['navbar__navigation']}>
-    {links.map(({ href, label, key }) => (
-        <Link href={href} key={key}  style={{ textDecoration: 'none' }}>
-            <span className={styles['navbar__item']}>{label}</span>
-        </Link>
-    ))}
+  const handleScroll = () => {
+    const offset = window.scrollY;
+    if (offset > 80) {
+      setScrolled(true);
+    } else {
+      setScrolled(false);
+    }
+  };
 
-    </div>
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
 
-    <div className={styles['navbar__icons']}>
-      <Link href="/usuario"  style={{ textDecoration: 'none' }}>
-        <GrMoreVertical className={styles['navbar__icon']} />
-      </Link>
-    </div>
-  </nav>
-);
+  let navbarClasses = [styles.navbar];
+  if (scrolled) {
+    navbarClasses.push(styles.scrolled);
+  }
+
+  const toggleSidebar = () => {
+    setIsSidebarOpen(!isSidebarOpen);  // Cambia el estado del Sidebar al hacer clic
+  };
+
+  return (
+    <>
+      <nav className={navbarClasses.join(' ')}>
+        <div className={styles['navbar__logo']}>
+          <Link href="/">
+            <Image src="/logo.svg" alt="Logo" width={50} height={50} />
+          </Link>
+        </div>
+
+        <div className={styles['navbar__navigation']} >
+          {links.map(({ href, label, key }) => (
+            <Link href={href} key={key}  style={{ textDecoration: 'none', display: isSidebarOpen ? 'none' : 'flex' }}>
+              <span className={styles['navbar__item']}>{label}</span>
+            </Link>
+          ))}
+        </div>
+
+        <div className={styles['navbar__icons']} onClick={toggleSidebar}>
+          <GrMoreVertical className={styles['navbar__icon']} />
+        </div>
+      </nav>
+      {isSidebarOpen && <SidebarComponent />} {/* Renderización condicional del Sidebar */}
+    </>
+  );
+};
 
 export default NavbarComponent;
