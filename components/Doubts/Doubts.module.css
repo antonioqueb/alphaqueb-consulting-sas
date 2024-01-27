@@ -103,7 +103,7 @@
 
 }
 
-@media (max-width: 599px) {
+@media (max-width: 1366px) {
 
 
   .Doubts__container {
@@ -146,7 +146,7 @@
   }
 
   .Doubts__title {
-    font-size: 2rem;
+    font-size: 1.75rem;
     color: #F2F2F2;
     margin-bottom: 3rem;
     font-weight: 600;
@@ -187,7 +187,7 @@
 
   .Doubts__container__text__form__Link {
     width: 100%;
-   font-size: 1.1rem;
+   font-size: 0.9rem;
    text-align: center;
   }
 
@@ -210,96 +210,9 @@
 
 
 /* Tabletas: desde 601px hasta 900px */
-@media (min-width: 601px) and (max-width: 900px) {
 
-  .Doubts__container {
-  
-    flex-direction: column-reverse;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-  
-  
-  
-  }
-
-  
-  .Doubts__container__text__and__form{
-   
-    align-items: center;
-    justify-content: center;
-  }
-
-
-  .Doubts__container__text__form__text{
-    width: 100%;
-    max-width: 350px;
-    margin-bottom: 3rem;
-    align-items: center;
-    justify-content: center;
-  }
-  .Doubts__container__text__form{
-    width: 100%;
-    margin-bottom: 3rem;
-    align-items: center;
-    justify-content: center;
-    
-  
-  
-  
-  }
-
-  .Doubts__title {
-    font-size: 2rem;
-    color: #F2F2F2;
-    margin-bottom: 3rem;
-    font-weight: 600;
-  }
-
-
-  .Doubts__container__text__form__container{
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-    width: 100%;
-  
-  
-  
-  }
-
-  .Doubts__container__image{
-    width: 100%;
-    max-width: 350px;
-    margin-bottom: 3rem;
-
-  }
-
-  .Doubts__container__text__form__input{
-    width: 100%;
-  }
-
-  .Doubts__container__text__form__button {
-    width: 100%;
-    margin-left: 0;
-    margin-top: 1rem;
-  }
-
-  .Doubts__container__text__form__Link {
-    width: 100%;
-   font-size: 0.9rem;
-   text-align: center;
-  }
-
-  .Doubts__container__text__form__span {
-    width: 100%;
-   font-size: 0.9rem;
-   text-align: center;
-  }
-
-}
 
 /* Escritorio: más de 900px */
-@media (min-width: 901px) {
+@media (min-width: 1369px) {
 
 }

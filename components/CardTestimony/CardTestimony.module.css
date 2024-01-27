@@ -101,7 +101,7 @@
 
 
 /* Tabletas: desde 601px hasta 900px */
-@media (min-width: 601px) and (max-width: 900px) {
+@media (min-width: 601px) and (max-width: 1368px) {
 
   .cardTestimony {
     display: flex;
@@ -134,6 +134,6 @@
 }
 
 /* Escritorio: más de 900px */
-@media (min-width: 901px) {
+@media (min-width: 1369px) {
 
 }

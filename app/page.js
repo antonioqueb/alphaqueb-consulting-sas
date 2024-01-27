@@ -18,7 +18,7 @@ export default function Home() {
     <main className={styles.main}>
       
       <Navbar />
-        {/* 
+        
       <Hero /> 
  
      
@@ -26,8 +26,8 @@ export default function Home() {
        
       <WhyWe />
         <Methodology />
-     */} 
-      <LastNews />{/*
+     
+      <LastNews />
       <Doubts />
       {/*  */} 
      

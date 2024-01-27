@@ -347,7 +347,7 @@ color: #26E1FF;
 }
 
 /* Escritorio: más de 900px */
-@media (min-width: 901px) {
+@media (min-width: 1369px) {
   .Hero__container__text__title__section__second{
     font-size: 4rem;
    
