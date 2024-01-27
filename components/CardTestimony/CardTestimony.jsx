@@ -1,6 +1,8 @@
 import React from 'react';
 import Image from 'next/image';
 import styles from './CardTestimony.module.css';
+import { TiStarFullOutline } from "react-icons/ti";
+
 
 export const CardTestimony = ({ imageSrc, altText, testimony, name }) => {
   return (
@@ -9,11 +11,18 @@ export const CardTestimony = ({ imageSrc, altText, testimony, name }) => {
           <Image
             src={imageSrc}
             alt={altText}
-            width={90}  // Set width
-            height={90} // Set height
+            width={80}  // Set width
+            height={80} // Set height
             className={styles.cardTestimony__image__img}
           />
         </figure>
+        <div className={styles.cardTestimony__rating}>
+          <TiStarFullOutline className={styles.cardTestimony__rating} />
+          <TiStarFullOutline className={styles.cardTestimony__rating} />
+          <TiStarFullOutline className={styles.cardTestimony__rating} />
+          <TiStarFullOutline className={styles.cardTestimony__rating} />
+          <TiStarFullOutline className={styles.cardTestimony__rating} />
+        </div>
         <blockquote className={styles.cardTestimony__text}>
           <p>{testimony}</p>
         </blockquote>

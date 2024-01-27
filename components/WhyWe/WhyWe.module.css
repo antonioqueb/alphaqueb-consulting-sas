@@ -36,7 +36,7 @@
 }
 
 .WhyWe__container_text p {
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   text-align: start;
   margin-bottom: 1rem;
 
@@ -47,7 +47,7 @@
 @media (max-width: 599px) {
 
   .WhyWe__container {
-    flex-direction: column;
+    flex-direction: column-reverse;
     padding: 1vh 0;
   }
   
@@ -61,10 +61,10 @@
   }
 
   .WhyWe__container_text h2 {
-    font-size: 2rem;
+    font-size: 1.75rem;
     font-weight: 600;
     margin-bottom: 1rem;
-    text-align: start;
+    text-align: center;
   }
 
 
@@ -80,7 +80,7 @@
 
 
   .WhyWe__container {
-    flex-direction: column;
+    flex-direction: column-reverse;
     padding: 5vh 0;
   }
   
@@ -93,10 +93,11 @@
   }
 
   .WhyWe__container_text h2 {
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: 600;
-    margin-bottom: 1rem;
-    text-align: start;
+    margin-bottom: 2rem;
+    text-align: center;
+
   }
 
   .WhyWe__container_text{
@@ -107,7 +108,7 @@
 
   
 .WhyWe__container_text p {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   text-align: start;
   margin-bottom: 1rem;
 

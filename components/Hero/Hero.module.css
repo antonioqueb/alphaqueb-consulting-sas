@@ -28,7 +28,7 @@ color: #26E1FF;
 }
 
 .Hero__container__text__subtitle p {
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   color: #F2F2F2;
   margin-bottom: 6rem;
   font-weight: regular;
@@ -224,13 +224,24 @@ color: #26E1FF;
 
 
 
+.Hero__container__text__title__section__second{
+  font-size: 4.00rem;
+ 
+}
 
 
 
-@media (max-width: 599px) {
+
+@media (max-width: 800px) {
+
+
+  .Hero__container__text__title__section__second{
+    font-size: 1.90rem;
+   
+  }
 
   .Hero__container__text__title {
-    font-size: 1.35rem;
+    font-size: 1.15rem;
     font-weight: 600;
     color: #F2F2F2;
     margin-bottom: 1.5rem;
@@ -239,7 +250,7 @@ color: #26E1FF;
   }
 
   .Hero__container__text__subtitle p {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     color: #F2F2F2;
     margin-bottom: 2rem;
     font-weight: regular;
@@ -273,7 +284,7 @@ color: #26E1FF;
   width: 100%;
   padding: 0.8rem;
   border-radius: 0.5rem;
-  font-size: 0.8rem;
+  font-size: 1.1rem;
   color: #F2F2F2;
   background-color: #000000;
   box-shadow: 0px 0px 4px 0px #26e2ff inset;
@@ -287,7 +298,7 @@ color: #26E1FF;
   width: 40%;
   padding: 0.8rem;
   border-radius: 0.5rem;
-  font-size: 0.8rem;
+  font-size: 1.1rem;
   color: #F2F2F2;
   cursor: pointer;
   margin-left: 0.8rem;
@@ -307,7 +318,7 @@ color: #26E1FF;
 
 
 /* Tabletas: desde 601px hasta 900px */
-@media (min-width: 601px) and (max-width: 900px) {
+@media (min-width: 601px) and (max-width: 1900px) {
   
 .Hero__container__image {
   display: none;
@@ -315,14 +326,38 @@ color: #26E1FF;
 }
 
 .Hero__container__text__title {
-  font-size: 2.25rem;
+  font-size: 1.8rem;
 
   
 }
+
+.Hero__container__text__title__section__second{
+  font-size: 3rem;
+ 
+}
+
+.Hero__container__text__subtitle p {
+  font-size: 1.2rem;
+  color: #F2F2F2;
+  margin-bottom: 6rem;
+  font-weight: regular;
+}
+
 
 }
 
 /* Escritorio: más de 900px */
 @media (min-width: 901px) {
+  .Hero__container__text__title__section__second{
+    font-size: 4rem;
+   
+  }
+
+  .Hero__container__text__title {
+    font-size: 2.25rem;
+  
+    
+  }
+
 
 }

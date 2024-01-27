@@ -40,7 +40,7 @@ export const Hero = () => {
       <div className={styles.Hero__container__text}>
       
       <div className={styles.Hero__container__text__title}>
-        <h1>Transformación Digital Corporativa<span className={styles.Dot}>.</span></h1>
+        <h1>Transformación <span className={styles.Hero__container__text__title__section__second}>Digital Corporativa</span><span className={styles.Dot}>.</span></h1>
       </div>
 
       <div className={styles.Hero__container__text__subtitle}>
@@ -61,7 +61,7 @@ export const Hero = () => {
       </div>
 
       <div className={styles.Hero__container__image}>
-        <Image src="/hero.svg" alt="Hero" width={800} height={800}/>
+        <Image srcset="/hero.svg" alt="Hero" width={800} height={800}/>
 
       </div>
 
