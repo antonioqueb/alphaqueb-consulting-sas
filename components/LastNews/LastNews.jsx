@@ -14,9 +14,9 @@ export const LastNews = () => {
     <div className={styles.LastNews__container}>
       
       <CardPost Titulo="Mejor ERP en 2024" Description="Elige el ERP destacado de 2024 para una gestión y análisis empresarial superior. Maximiza la eficiencia y lidera tu industria con nuestra solución integral." ImagePost="/erp.webp" />
-      <CardPost Titulo="¿Cómo la Automatización Ayudará a Mi Negocio?" Description="Descubre cómo la automatización potencia la eficiencia, reduce costos y acelera el crecimiento. Transforma tu negocio para el futuro hoy." ImagePost="/automatizacion.jpg"/>
+      <CardPost Titulo="¿Transcion Digital?" Description="Descubre cómo la automatización potencia la eficiencia, reduce costos y acelera el crecimiento. Transforma tu negocio para el futuro hoy." ImagePost="/automatizacion.jpg"/>
       <CardPost Titulo="Negocios Rentables en 2024" Description="Identifica las oportunidades de mercado más lucrativas en 2024. Invierte con inteligencia y asegura un crecimiento sostenible y rentable." ImagePost="/rentabilidad.jpg"/>
-      <CardPost Titulo="Sistematizar es el Secreto para Crecer sin Límites" Description="Aprende a sistematizar tu negocio para un crecimiento escalable. Descubre estrategias que rompen barreras y aseguran un éxito continuo." ImagePost="/sistematizar.png"/>
+      <CardPost Titulo="Sistemas ERP A medida" Description="Aprende a sistematizar tu negocio para un crecimiento escalable. Descubre estrategias que rompen barreras y aseguran un éxito continuo." ImagePost="/sistematizar.png"/>
 
 
       
