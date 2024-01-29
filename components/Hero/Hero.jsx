@@ -44,7 +44,7 @@ export const Hero = () => {
       </div>
 
       <div className={styles.Hero__container__text__subtitle}>
-        <p>En el epicentro de la revolución digital, Alphaqueb Consulting S.A.S. emerge como tu aliado estratégico. Somos los arquitectos de tu evolución digital, diseñando soluciones de software que no solo facilitan tu transición hacia lo digital sino que redefinen tu núcleo operativo. Con nosotros, la transformación digital es más que un cambio, es una reinvención asegurando innovación y resultados duraderos.</p>
+        <p>Alphaqueb Consulting S.A.S. está en el corazón de la revolución digital, evolucionando tu negocio más allá de la transición digital hacia una completa reinvención. Innovamos y generamos resultados duraderos.</p>
       </div>
       <div className={styles.Hero__container__text__form}>
         <form action="" className={styles.Hero__container__text__form__container}>

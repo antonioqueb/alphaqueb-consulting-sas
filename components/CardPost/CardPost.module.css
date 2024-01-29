@@ -5,8 +5,8 @@
 }
 
 .CardPost__container__news__title h3{
-    font-size: 2rem;
-    font-weight: 600;
+    font-size: 1.9rem;
+    font-weight: 400;
     margin: 0;
     padding: 0;
     margin-bottom: 1rem;
@@ -27,6 +27,22 @@
     object-fit: cover;
     object-position: center;
 }
+
+
+
+
+
+.CardPost__container__news__title,
+.CardPost__container__news__description {
+  width: 100%; /* Asegurarse de que el contenedor del texto use todo el ancho disponible */
+}
+
+.CardPost__container__news__title h3,
+.CardPost__container__news__description p {
+  white-space: normal; /* Asegurarse de que el texto se ajuste correctamente */
+  overflow-wrap: break-word; /* Permite que las palabras largas se rompan y pasen a la siguiente línea */
+}
+
 
 @media (max-width: 599px) {
   

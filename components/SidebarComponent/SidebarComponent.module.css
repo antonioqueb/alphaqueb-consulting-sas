@@ -1,6 +1,6 @@
 /* Estilos base */
 .sidebar{
-    width: 20%;
+    width: 30%;
     height: 100%;
     background-color: #0d0d0d99;
     position: fixed;
@@ -15,10 +15,15 @@
 }
 .sidebar_title{
     color: white;
-    font-size: 2rem; /* Se ajustará en las media queries */
-    font-weight: 500;
+    font-size: 1.1rem; /* Se ajustará en las media queries */
+    font-weight: 50;
 }
 
+.sidebar_icon{
+    color: white;
+    font-size: 1.7rem; /* Se ajustará en las media queries */
+    cursor: pointer;
+}
 
 .sidebar_icon_ImMenu{
     color: white;
@@ -58,39 +63,36 @@
     border-bottom: 1px solid #333;
 }
 
-/* Estilos para dispositivos Tablet */
-@media screen and (min-width: 601px) and (max-width: 1900px) {
 
-    .sidebar{
-        width: 40%;
-        height: 100%;
-     
-    }
-    .sidebar_title{
-        font-size: 1.8rem; /* h1 en tablet */
-    }
+.Hero__container__header {
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    margin: 1rem 0 2rem 0;
+  }
 
-    .sidebar_subtitle{
-        font-size: 1.15rem; /* h4 en tablet */
-    }
+  .sidebar_title{
+    font-size: 1.5rem; /* h1 en escritorio */
+    position: absolute;
+    left: 20%;
+  }
 
-    .sidebar_link{
-        font-size: 1rem; /* span en tablet */
-    }
-
-    .sidebar_icon_ImMenu{
-        font-size: 1rem; /* span en tablet */
-    }
-}
 
 /* Estilos para dispositivos Móviles */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
     .sidebar{
-        width: 50%; /* Ancho más amplio para móviles */
+        width: 60%; /* Ancho completo para móviles */
+
     }
 
     .sidebar_title{
-        font-size: 1.5rem; /* h1 en móvil */
+        font-size: 1rem; /* h1 en móvil */
+        left: 30%;
+
     }
 
     .sidebar_subtitle{
@@ -104,4 +106,42 @@
     .sidebar_icon_ImMenu{
         font-size: 0.9rem; /* span en móvil */
     }
+
+    
+.sidebar_icon{
+    color: white;
+    font-size: 1.2rem; /* Se ajustará en las media queries */
+    cursor: pointer;
 }
+}
+/* Tabletas: desde 601px hasta 900px */
+@media (min-width: 601px) and (max-width: 900px) {
+    .sidebar{
+        width: 60%; /* Ancho más amplio para móviles */
+
+    }
+
+    .sidebar_title{
+        font-size: 1.2rem; /* h1 en móvil */
+        left: 38%;
+    }
+
+    .sidebar_subtitle{
+        font-size: 1rem; /* h4 en móvil */
+    }
+
+    .sidebar_link{
+        font-size: 0.9rem; /* span en móvil */
+    }
+
+    .sidebar_icon_ImMenu{
+        font-size: 0.9rem; /* span en móvil */
+    }
+    .sidebar_icon{
+        color: white;
+        font-size: 1.7rem; /* Se ajustará en las media queries */
+        cursor: pointer;
+    }
+}
+
+

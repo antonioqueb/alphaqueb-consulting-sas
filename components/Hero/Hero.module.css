@@ -3,6 +3,7 @@
 
 .Hero__container {
   display: flex;
+  
 
 }
 .Dot {
@@ -23,14 +24,14 @@ color: #26E1FF;
   font-size: 2.5rem;
   font-weight: 600;
   color: #F2F2F2;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
   line-height: 1.1;
 }
 
 .Hero__container__text__subtitle p {
   font-size: 1.3rem;
   color: #F2F2F2;
-  margin-bottom: 6rem;
+  margin-bottom: 3rem;
   font-weight: regular;
 }
 
@@ -310,6 +311,12 @@ color: #26E1FF;
 
 .Hero__container__image {
   display: none;
+
+}
+
+.Hero__container {
+  padding-top: 3rem;
+  
 
 }
   

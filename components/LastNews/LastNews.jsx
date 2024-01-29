@@ -13,10 +13,10 @@ export const LastNews = () => {
     </div>
     <div className={styles.LastNews__container}>
       
-      <CardPost Titulo="Mejor ERP en 2024" Description="Elige el ERP destacado de 2024 para una gestión y análisis empresarial superior. Maximiza la eficiencia y lidera tu industria con nuestra solución integral." ImagePost="/erp.webp" />
-      <CardPost Titulo="¿Qué es web 3?" Description="Descubre cómo la automatización potencia la eficiencia, reduce costos y acelera el crecimiento. Transforma tu negocio para el futuro hoy." ImagePost="/automatizacion.jpg"/>
-      <CardPost Titulo="¿Que es una API?" Description="Identifica las oportunidades de mercado más lucrativas en 2024. Invierte con inteligencia y asegura un crecimiento sostenible y rentable." ImagePost="/rentabilidad.jpg"/>
-      <CardPost Titulo="Arquitectuta Exagonal" Description="Aprende a sistematizar tu negocio para un crecimiento escalable. Descubre estrategias que rompen barreras y aseguran un éxito continuo." ImagePost="/sistematizar.png"/>
+      <CardPost Titulo="Dominando la Comprensión Profunda en la Transformación Digital" Description="Descubre cómo un análisis exhaustivo puede ser el catalizador de una estrategia digital personalizada. Exploramos la importancia de entender cada faceta de tu negocio, desde la operación diaria hasta tus metas a largo plazo, y cómo esto establece un camino claro hacia el crecimiento y la innovación." ImagePost="/erp.webp" />
+      <CardPost Titulo="¿Estrategias de Planeación Digital para un Futuro Escalable?" Description="Adéntrate en el arte de la planeación digital y cómo seleccionar las tecnologías y procesos más adecuados puede transformar tu negocio. Aprende sobre la creación de un plan flexible y evolutivo, diseñado para escalar con tu empresa y garantizar un progreso " ImagePost="/automatizacion.jpg"/>
+      <CardPost Titulo="La Clave de una Integración Impecable en Sistemas Digitales" Description="Descubre cómo una integración perfecta puede cambiar el juego en tu transformación digital. Profundizamos en la importancia de fusionar soluciones con tu infraestructura existente, optimizando procesos y potenciando la eficiencia, y cómo asegurar una transición fluida que fortalezca tu negocio." ImagePost="/rentabilidad.jpg"/>
+      <CardPost Titulo="Empoderamiento Digital: Capacitando Equipos para el Futuro" Description="Explora el poder del empoderamiento digital y cómo un equipo bien capacitado puede ser tu mayor activo. Hablamos sobre estrategias para equipar a tus empleados con las herramientas necesarias para maximizar el potencial de las nuevas tecnologías y garantizar el éxito continuo de tu transformación digital." ImagePost="/sistematizar.png"/>
 
 
       
