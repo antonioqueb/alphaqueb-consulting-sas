@@ -13,55 +13,55 @@ export const Methodology = () => {
       <div className={styles.Methodology__container_steps}>
          <div className={styles.Methodology__container_steps_step_left}>
          <div className={styles.Methodology__container_steps_step_image}>
-            <Image className={styles.Methodology__container_steps_step_image__img} src="/analisis.svg" width={700} height={700} alt="step1" />
+            <Image className={styles.Methodology__container_steps_step_image__img} src="/analisis.svg" width={500} height={500} alt="step1" />
           </div>
           <div className={styles.Methodology__container_steps_step_text}>
             <h3>Comprensión Profunda</h3>
-            <p>Damos inicio con un análisis exhaustivo, sumergiéndonos en las profundidades de tu empresa. Nuestra meta es entender cada faceta de tu negocio, desde la operación diaria hasta tus metas a largo plazo. Este entendimiento profundo sienta las bases para una estrategia personalizada.</p>
-            <p>En este primer paso crucial, no dejamos piedra sin mover. Al comprender tus necesidades y retos, podemos diseñar soluciones que no solo responden a tus requisitos actuales, sino que también se alinean con tus aspiraciones futuras. Es aquí donde tu visión comienza a tomar forma.</p>
-
+             <p>Iniciamos con un análisis exhaustivo para comprender tu negocio y trazar una estrategia personalizada. Este enfoque asegura soluciones ajustadas a tus necesidades actuales y futuras, marcando el inicio de una transformación significativa y un crecimiento sostenido.</p>
+             <p>Profundizamos en tus operaciones y desafíos para alinear nuestras soluciones con tus objetivos. Este primer paso es crucial, sentando las bases para que tu visión empresarial comience a tomar forma y evolucionar.</p>
           </div>
           </div>
           <div className={styles.Methodology__container_steps_step_right}>
          <div className={styles.Methodology__container_steps_step_image}>
-            <Image className={styles.Methodology__container_steps_step_image__img} src="/estrategia.svg" width={700} height={700} alt="step1" />
+            <Image className={styles.Methodology__container_steps_step_image__img} src="/estrategia.svg" width={500} height={500} alt="step1" />
           </div>
           <div className={styles.Methodology__container_steps_step_text}>
             <h3>Planeación Digital</h3>
-            <p>Con una comprensión clara de tu negocio, pasamos a la fase de planeación. Aquí, seleccionamos las tecnologías y procesos más adecuados, diseñando una estrategia que no solo resuelve tus necesidades actuales, sino que también es escalable y flexible frente a los cambios futuros.</p>
-            <p>Este plan no es estático; es un ente vivo que evoluciona junto con tu negocio. Estamos comprometidos a asegurar que cada paso en tu ruta hacia la transformación digital sea firme y esté alineado con tus metas de crecimiento y adaptación.</p>
+            <p>Seleccionamos tecnologías y procesos que se adaptan y escalan con tu negocio, estableciendo un plan flexible y evolutivo. Este enfoque garantiza que cada fase de tu transformación esté alineada con tus metas de crecimiento y adaptación.</p>
+            <p>El plan es dinámico, creciendo con tu empresa y asegurando una base sólida para la transformación digital. Nos comprometemos a que tu viaje digital sea firme, coherente y progresivo.</p>
           </div>
           </div>
           <div className={styles.Methodology__container_steps_step_left}>
          <div className={styles.Methodology__container_steps_step_image}>
-            <Image className={styles.Methodology__container_steps_step_image__img} src="/iteration.svg" width={700} height={700} alt="step1" />
+            <Image className={styles.Methodology__container_steps_step_image__img} src="/iteration.svg" width={500} height={500} alt="step1" />
           </div>
           <div className={styles.Methodology__container_steps_step_text}>
             <h3>Integración Impecable</h3>
-            <p>La implementación de nuestras soluciones es donde la visión se convierte en realidad. Nos enfocamos en una integración sin fisuras de las tecnologías, asegurando que cada solución se incruste perfectamente en tu infraestructura existente, optimizando los procesos y potenciando la eficiencia.</p>
-            <p>Entendemos que el cambio es un proceso continuo. Por ello, nuestro enfoque en la gestión del cambio no solo se centra en la implementación inicial, sino que también proporciona el soporte necesario para adaptarse a los desafíos emergentes. Estamos aquí para asegurarnos de que cada transición sea fluida y fortalezca tu negocio.</p>
+            <p>Convertimos tu visión en realidad mediante una integración perfecta de soluciones en tu infraestructura actual, optimizando procesos y eficiencia. Esta fase es clave para una transición sin fisuras y una mejora continua de tu operatividad.</p>
+            <p>Nuestro enfoque abarca más allá de la implementación inicial, proporcionando soporte continuo para superar desafíos futuros. Garantizamos que cada transición fortalezca tu negocio y facilite un cambio gestionado eficazmente.</p>
+            
           </div>
           </div>
           <div className={styles.Methodology__container_steps_step_right}>
          <div className={styles.Methodology__container_steps_step_image}>
-            <Image className={styles.Methodology__container_steps_step_image__img} src="/support.svg" width={700} height={700} alt="step1" />
+            <Image className={styles.Methodology__container_steps_step_image__img} src="/support.svg" width={500} height={500} alt="step1" />
           </div>
           <div className={styles.Methodology__container_steps_step_text}>
             <h3>Empoderamiento Digital</h3>
-            <p>Una vez implementadas las soluciones, la atención se centra en tu equipo. Nuestro programa de capacitación está diseñado para empoderar a tus empleados, asegurando que estén bien equipados para maximizar el potencial de las nuevas herramientas y procesos.</p>
-            <p>Pero nuestro apoyo no termina con la capacitación. Estamos comprometidos a proporcionar un soporte continuo, resolviendo dudas y facilitando una transición fluida. Queremos que cada miembro de tu equipo se sienta confiado y competente, asegurando así el éxito continuo de tu transformación digital.</p>
-
+            <p>Post-implementación, enfocamos en capacitar a tu equipo para maximizar el uso de nuevas herramientas. Nuestro programa asegura que cada empleado se sienta confiado y competente, clave para el éxito continuo de tu transformación digital.</p>
+            <p>Nuestro soporte se extiende más allá de la capacitación, ofreciendo asistencia constante para una transición suave y efectiva. Estamos comprometidos en fortalecer las capacidades de tu equipo, respaldando cada paso de tu viaje digital.</p>
           </div>
           </div>
           <div className={styles.Methodology__container_steps_step_left}>
          <div className={styles.Methodology__container_steps_step_image}>
-            <Image className={styles.Methodology__container_steps_step_image__img} src="/inspection.svg" width={700} height={700} alt="step1" />
+            <Image className={styles.Methodology__container_steps_step_image__img} src="/inspection.svg" width={500} height={500} alt="step1" />
           </div>
           <div className={styles.Methodology__container_steps_step_text}>
             <h3>Evolución Constante</h3>
-            <p>La transformación digital no es un destino, sino un viaje continuo. Por eso, nuestra metodología incluye una evaluación constante del impacto de las soluciones implementadas. Analizamos los resultados y ajustamos las estrategias para optimizar el rendimiento y garantizar que tu inversión siga generando valor.</p>
-            <p>Este enfoque iterativo significa que siempre estamos buscando maneras de mejorar y evolucionar. Nos dedicamos a asegurar que tu empresa no solo se mantenga al día con las tendencias digitales, sino que las lidere, elevándote a nuevos horizontes de éxito y eficiencia.</p>
-          </div>
+            <p>La transformación digital es un proceso continuo. Evaluamos constantemente el impacto de nuestras soluciones, ajustando estrategias para maximizar el rendimiento y el valor de tu inversión. Este enfoque iterativo nos mantiene en la vanguardia, buscando siempre maneras de mejorar y evolucionar.</p>
+            <p>Nos dedicamos a que tu empresa no solo se mantenga al día, sino que lidere en innovación digital. Con nosotros, tu negocio está en un camino constante hacia nuevos horizontes de éxito y eficiencia, marcando la pauta en el sector.</p>
+            
+             </div>
           </div>
       </div>
 
