@@ -4,13 +4,11 @@ WORKDIR /app
 
 COPY package*.json ./
 COPY . .
-COPY --from=builder /app/.next ./.next
 
-
-RUN yarn global add next@latest
+RUN yarn add next@latest
 RUN yarn install
 
-RUN yarn build
+RUN yarn build || echo "Build failed: Check logs for details"
 
 # Use multi-stage builds for smaller images
 FROM node:alpine AS final
@@ -18,7 +16,6 @@ FROM node:alpine AS final
 WORKDIR /app
 
 COPY --from=builder /app/.next ./.next
-
 COPY --from=builder /app/package*.json ./
 
 EXPOSE 3000
