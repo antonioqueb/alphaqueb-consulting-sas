@@ -2,25 +2,30 @@
 
 /* Estilos previos... */
 
+/* Estilo por defecto */
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   max-width: 100%;
-  position: fixed; /* Fijar el Navbar */
-  background: #0d0d0d50; /* Color de fondo con transparencia */
-  backdrop-filter: blur(5px); /* Efecto esmerilado */
-  z-index: 10; /* Asegurarse de que el Navbar esté sobre otros elementos */
-  transition: background-color 0.3s, backdrop-filter 0.3s; /* Transiciones suaves */
+  position: fixed;
+  background: #0d0d0d50;
+  backdrop-filter: blur(5px);
+  z-index: 10;
+  transition: background-color 0.3s, backdrop-filter 0.3s;
   left: 12rem;
   right: 12rem;
   top: 0;
   padding: 0.3rem 0;
-  
-  
-  
-
 }
+
+/* Estilo específico para Chrome */
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  .navbar {
+    backdrop-filter:none; /* Color fijo en caso de que no sea Chrome */
+  }
+}
+
 
 
 .navbar__navigation {
@@ -32,6 +37,15 @@
   background: #0d0d0d50; /* Aumentar transparencia al hacer scroll */
   backdrop-filter: blur(15px); /* Intensificar efecto esmerilado */
 }
+
+/* Estilo específico para Chrome */
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  .navbar.scrolled {
+    background: #0d0d0d50; /* Aumentar transparencia al hacer scroll */
+    backdrop-filter: none; /* Intensificar efecto esmerilado */
+  }
+}
+
 
 /* Resto de tus estilos... */
 
