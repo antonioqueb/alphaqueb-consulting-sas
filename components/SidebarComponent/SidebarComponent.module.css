@@ -17,6 +17,7 @@
 /* Estilo específico para Chrome */
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
     .sidebar {
+        background-color: #0d0d0d;
       backdrop-filter:none; /* Color fijo en caso de que no sea Chrome */
     }
   }
