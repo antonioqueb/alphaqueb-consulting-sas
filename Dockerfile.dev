@@ -11,7 +11,7 @@ COPY . .
 RUN npm install
 
 # Ejecuta el comando de construcción y lista el contenido de .next
-RUN npm run build && ls -al .next
+RUN npm run build
 
 # Cambia el nombre del stage para evitar la circularidad
 FROM node:20.9.0 AS final
