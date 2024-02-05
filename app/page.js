@@ -4,7 +4,6 @@ import Hero from '@/components/Hero/Hero'
 import Testimonials from '@/components/Testimonials/Testimonials'
 import WhyWe from '@/components/WhyWe/WhyWe'
 import Methodology from '@/components/Methodology/Methodology'
-import LastNews from '@/components/LastNews/LastNews'
 import Doubts from '@/components/Doubts/Doubts'
 
 /**
@@ -25,9 +24,9 @@ export default function Home() {
       <WhyWe />
         <Methodology />
      
-      <LastNews />
-      <Doubts />
-      {/*  */} 
+
+     
+      {/*       <LastNews /> */} 
      
     </main>
   )

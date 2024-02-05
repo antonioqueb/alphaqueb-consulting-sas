@@ -168,7 +168,7 @@
 
 
 
-@media (max-width: 599px) {
+@media (max-width: 1024px) {
   
   .navbar {
     left: 2rem; /* ajustar según sea necesario */
