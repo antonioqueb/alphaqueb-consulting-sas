@@ -1,23 +1,17 @@
-FROM node:alpine AS builder
+FROM node:20.9.0 AS builder
 
+# Establece el directorio de trabajo en el contenedor
 WORKDIR /app
 
+
+# Copia los archivos de dependencias de Node.js
 COPY package*.json ./
 COPY . .
 
-RUN yarn add next@latest
-RUN yarn install
+RUN npm install
 
-RUN yarn build || echo "Build failed: Check logs for details"
-
-# Use multi-stage builds for smaller images
-FROM node:alpine AS final
-
-WORKDIR /app
-
-COPY --from=builder /app/.next ./.next
-COPY --from=builder /app/package*.json ./
-
+# Expone el puerto 80
 EXPOSE 3000
 
-CMD ["yarn", "run", "start"]
+# Inicia la aplicación
+CMD ["npm", "run", "dev"]
