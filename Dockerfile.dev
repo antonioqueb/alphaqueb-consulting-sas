@@ -6,11 +6,10 @@ WORKDIR /app
 COPY package*.json ./
 COPY . .
 
-RUN npm uninstall next
-RUN npm install next@latest
+RUN yarn global add next@latest
+RUN yarn install
 
-RUN npm install
-RUN npm run build
+RUN yarn build
 
 # Etapa final
 FROM node:20.9.0 AS final
@@ -22,4 +21,4 @@ COPY --from=builder /app/package*.json ./
 
 EXPOSE 3000
 
-CMD ["npm", "run", "start"]
+CMD ["yarn", "run", "start"]
