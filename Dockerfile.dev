@@ -7,10 +7,11 @@ WORKDIR /app
 # Copia los archivos de dependencias de Node.js
 COPY package*.json ./
 COPY . .
+COPY .next .next
 
 RUN npm install
 
-RUN npm run build
+RUN npm run build && ls -al .next
 
 # Expone el puerto 80
 EXPOSE 3000
