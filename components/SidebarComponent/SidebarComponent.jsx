@@ -46,10 +46,7 @@ const SidebarComponent = () => {
            <MdContactPage className={styles.sidebar_icon} />
             Contacto
           </Link>
-          <Link href="/blog" className={styles.sidebar_link} activeClassName={styles.sidebar_link_active}>
-            <FaBlog className={styles.sidebar_icon} />
-            Blog
-          </Link> 
+
 
 
           {/* Categoría: Servicios */}
@@ -62,34 +59,17 @@ const SidebarComponent = () => {
           <FaCloud className={styles.sidebar_icon} />
           Integración Cloud
         </Link>
-        <Link href="/ui-ux-design" className={styles.sidebar_link} activeClassName={styles.sidebar_link_active}>
-          <SiAffinitydesigner className={styles.sidebar_icon} />
-          Diseño UI/UX
-        </Link>
+        
         <Link href="/digital-strategy" className={styles.sidebar_link} activeClassName={styles.sidebar_link_active}>
           <PiStrategyBold className={styles.sidebar_icon} />
           Estrategia Digital
         </Link>
-        <Link href="/it-support" className={styles.sidebar_link} activeClassName={styles.sidebar_link_active}>
-          <HiSupport className={styles.sidebar_icon} />
-          Soporte TI
-        </Link>
-        <Link href="/process-automation" className={styles.sidebar_link} activeClassName={styles.sidebar_link_active}>
-          <MdSettingsSuggest className={styles.sidebar_icon} />
-          Automatización de Procesos
-        </Link>
+        
         <Link href="/data-analytics" className={styles.sidebar_link} activeClassName={styles.sidebar_link_active}>
           <SiGoogleanalytics className={styles.sidebar_icon} />
           Analítica de Datos
         </Link>
-        <Link href="/blockchain-solutions" className={styles.sidebar_link} activeClassName={styles.sidebar_link_active}>
-          <SiHiveBlockchain className={styles.sidebar_icon} />
-          Soluciones Blockchain
-        </Link>
-        <Link href="/tech-training" className={styles.sidebar_link} activeClassName={styles.sidebar_link_active}>
-          <AiFillBulb className={styles.sidebar_icon} />
-          Capacitación Tech
-        </Link>
+        
 
          
           
