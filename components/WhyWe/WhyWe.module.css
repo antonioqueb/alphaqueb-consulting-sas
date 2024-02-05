@@ -17,6 +17,14 @@
   justify-content: center;
 }
 
+
+.WhyWe__container__image__img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+
+}
+
 .WhyWe__container_text {
   display: flex;
   flex-direction: column;
@@ -52,11 +60,8 @@
   }
   
   .WhyWe__container__image__img {
-    width: 100%;  /* Puedes ajustar esto según tus necesidades */
     max-width: 350px;
-    height: 350px ;
-    padding: 0;
-    margin: 0;
+    margin: 2rem 0;
 
   }
 
@@ -83,14 +88,7 @@
     flex-direction: column-reverse;
     padding: 5vh 0;
   }
-  
-  .WhyWe__container__image__img {
-    width: 80%;  /* Puedes ajustar esto según tus necesidades */
-    max-width: 500px;
-    padding: 0;
-    margin: 0;
-    
-  }
+}
 
   .WhyWe__container_text h2 {
     font-size: 3rem;
@@ -120,18 +118,19 @@
 }
 
 .WhyWe__container__image__img {
-  width: 600%;  /* Puedes ajustar esto según tus necesidades */
+  width: 100%;  /* Puedes ajustar esto según tus necesidades */
   max-width: 600px;
-  height: 500px ;
+  height: auto; ;
   padding: 0;
-  margin: 0;
+  margin: 2rem 0;
   object-fit: cover;
   object-position: center;
+  
 
 }
 
 
-}
+
 
 /* Escritorio: más de 900px */
 @media (min-width: 1728px) {
