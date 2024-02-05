@@ -7,11 +7,21 @@ WORKDIR /app
 COPY package*.json ./
 COPY . .
 
+# Instala las dependencias
 RUN npm install
 
+# Ejecuta el comando de construcción y lista el contenido de .next
 RUN npm run build && ls -al .next
 
+# Cambia el nombre del stage para evitar la circularidad
+FROM node:20.9.0 AS final
+
+# Establece el directorio de trabajo en el contenedor
+WORKDIR /app
+
+# Copia solo los archivos necesarios, incluyendo el .next desde el stage anterior
 COPY --from=builder /app/.next ./.next
+COPY --from=builder /app/package*.json ./
 
 # Expone el puerto 80
 EXPOSE 3000
