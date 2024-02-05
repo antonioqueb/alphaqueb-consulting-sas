@@ -4,6 +4,8 @@ WORKDIR /app
 
 COPY package*.json ./
 COPY . .
+COPY --from=builder /app/.next ./.next
+
 
 RUN yarn global add next@latest
 RUN yarn install
@@ -16,6 +18,7 @@ FROM node:alpine AS final
 WORKDIR /app
 
 COPY --from=builder /app/.next ./.next
+
 COPY --from=builder /app/package*.json ./
 
 EXPOSE 3000
