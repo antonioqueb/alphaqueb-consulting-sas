@@ -1,5 +1,4 @@
-# Etapa de construcción
-FROM node:20.9.0 AS builder
+FROM node:alpine AS builder
 
 WORKDIR /app
 
@@ -11,8 +10,8 @@ RUN yarn install
 
 RUN yarn build
 
-# Etapa final
-FROM node:20.9.0 AS final
+# Use multi-stage builds for smaller images
+FROM node:alpine AS final
 
 WORKDIR /app
 
