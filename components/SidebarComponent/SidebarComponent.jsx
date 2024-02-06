@@ -1,3 +1,4 @@
+'use client';
 import React from 'react';
 import styles from './SidebarComponent.module.css';
 import Link from 'next/link';
@@ -15,6 +16,9 @@ import { MdSettingsSuggest } from "react-icons/md";
 import { SiGoogleanalytics } from "react-icons/si";
 import { SiHiveBlockchain } from "react-icons/si";
 import { AiFillBulb } from "react-icons/ai";
+import React, { useState, useEffect } from 'react';
+
+
 
 
 
@@ -22,27 +26,42 @@ import { AiFillBulb } from "react-icons/ai";
 
 
 const SidebarComponent = () => {
+  const [isSidebarOpen, setIsSidebarOpen] = useState(true);
+
+  
+
+  const closeSidebar = () => {
+    setIsSidebarOpen(false); // Actualiza el estado al cerrar el sidebar
+    
+  };
+
+
+
+
+  useEffect(() => {
+    // Aquí puedes realizar alguna acción cuando cambie el estado del sidebar
+  }, [isSidebarOpen]);
   return (
-    <div className={styles.sidebar}>
+    <div className={`${styles.sidebar} ${!isSidebarOpen && styles['sidebar-closed']}`}>
       <section className={styles.sidebar_section}>
         
         {/* Icono del Menú y Título */}
-        <div className={styles.Hero__container__header}>
-        <Image src="/logo.png" alt="Logotipo de la marca alphaqueb consulting s.a.s." width={40} height={40}/>
-        <p className={styles.sidebar_title}>Alphaqueb</p>
-      </div>
+        <Link href="/" className={styles.sidebar_link_logo} activeClassName={styles.sidebar_link_active_logo} onClick={closeSidebar}>
+          <div className={styles.Hero__container__header}>
+          <Image src="/logo.png" alt="Logotipo de la marca alphaqueb consulting s.a.s." width={60} height={60}/>
+      
+        </div>
+          </Link>
+    
 
         {/* Links del Menú */}
         <div className={styles.sidebar_links}>
-          <Link href="/" className={styles.sidebar_link} activeClassName={styles.sidebar_link_active}>
-            <MdHomeFilled className={styles.sidebar_icon} />
-            Inicio
-          </Link>
-          <Link href="/about" className={styles.sidebar_link} activeClassName={styles.sidebar_link_active}>
+          
+          <Link href="/nosotros" className={styles.sidebar_link} activeClassName={styles.sidebar_link_active} onClick={closeSidebar}>
            <AiFillApi className={styles.sidebar_icon} />
             Nosotros
           </Link>
-          <Link href="/contact" className={styles.sidebar_link} activeClassName={styles.sidebar_link_active}>
+          <Link href="/contacto" className={styles.sidebar_link} activeClassName={styles.sidebar_link_active} onClick={closeSidebar}>
            <MdContactPage className={styles.sidebar_icon} />
             Contacto
           </Link>
@@ -50,25 +69,22 @@ const SidebarComponent = () => {
 
 
           {/* Categoría: Servicios */}
-          <h4 className={styles.sidebar_subtitle}>Servicios</h4>
-        <Link href="/software-development" className={styles.sidebar_link} activeClassName={styles.sidebar_link_active}>
+          
+        <h4 className={styles.sidebar_subtitle}>Servicios</h4>
+        <Link href="/software-development" className={styles.sidebar_link} activeClassName={styles.sidebar_link_active} onClick={closeSidebar}>
           <MdDeveloperMode className={styles.sidebar_icon} />
-          Desarrollo de Software
+          Desarrollo a medida
         </Link>
-        <Link href="/cloud-integration" className={styles.sidebar_link} activeClassName={styles.sidebar_link_active}>
+        <Link href="/cloud-integration" className={styles.sidebar_link} activeClassName={styles.sidebar_link_active} onClick={closeSidebar}>
           <FaCloud className={styles.sidebar_icon} />
-          Integración Cloud
+          Consultoría y análisis
         </Link>
         
-        <Link href="/digital-strategy" className={styles.sidebar_link} activeClassName={styles.sidebar_link_active}>
+        <Link href="/digital-strategy" className={styles.sidebar_link} activeClassName={styles.sidebar_link_active} onClick={closeSidebar}>
           <PiStrategyBold className={styles.sidebar_icon} />
-          Estrategia Digital
+          Mantenimiento y soporte
         </Link>
         
-        <Link href="/data-analytics" className={styles.sidebar_link} activeClassName={styles.sidebar_link_active}>
-          <SiGoogleanalytics className={styles.sidebar_icon} />
-          Analítica de Datos
-        </Link>
         
 
          
