@@ -15,6 +15,11 @@
 
 }
 
+.Hero__container__header__img{
+    width: 40px;
+    height: 40px;
+}
+
 .sidebar-closed {
     width: 0;
     overflow: hidden;

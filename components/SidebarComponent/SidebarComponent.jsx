@@ -48,7 +48,7 @@ const SidebarComponent = () => {
         {/* Icono del Menú y Título */}
         <Link href="/" className={styles.sidebar_link_logo} activeClassName={styles.sidebar_link_active_logo} onClick={closeSidebar}>
           <div className={styles.Hero__container__header}>
-          <Image src="/logo.png" alt="Logotipo de la marca alphaqueb consulting s.a.s." width={60} height={60}/>
+          <Image src="/logo.png" alt="Logotipo de la marca alphaqueb consulting s.a.s." width={40} height={40} className={styles.Hero__container__header__img}/>
       
         </div>
           </Link>
@@ -71,16 +71,16 @@ const SidebarComponent = () => {
           {/* Categoría: Servicios */}
           
         <h4 className={styles.sidebar_subtitle}>Servicios</h4>
-        <Link href="/software-development" className={styles.sidebar_link} activeClassName={styles.sidebar_link_active} onClick={closeSidebar}>
+        <Link href="/desarrollo-a-medida" className={styles.sidebar_link} activeClassName={styles.sidebar_link_active} onClick={closeSidebar}>
           <MdDeveloperMode className={styles.sidebar_icon} />
           Desarrollo a medida
         </Link>
-        <Link href="/cloud-integration" className={styles.sidebar_link} activeClassName={styles.sidebar_link_active} onClick={closeSidebar}>
+        <Link href="/consultoria-y-analisis" className={styles.sidebar_link} activeClassName={styles.sidebar_link_active} onClick={closeSidebar}>
           <FaCloud className={styles.sidebar_icon} />
           Consultoría y análisis
         </Link>
         
-        <Link href="/digital-strategy" className={styles.sidebar_link} activeClassName={styles.sidebar_link_active} onClick={closeSidebar}>
+        <Link href="/mantenimiento-y-soporte" className={styles.sidebar_link} activeClassName={styles.sidebar_link_active} onClick={closeSidebar}>
           <PiStrategyBold className={styles.sidebar_icon} />
           Mantenimiento y soporte
         </Link>
