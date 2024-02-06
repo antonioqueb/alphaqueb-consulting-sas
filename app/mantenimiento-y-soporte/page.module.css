@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: center;
     gap: 5rem;
-    margin: 15rem 0;
+    margin: 7rem 0 0 0;
 
   }
 
@@ -52,7 +52,6 @@
     .container, .container_reverse{
       flex-direction: column;
     }
-
     .container {
   
       margin: 5rem 0;
