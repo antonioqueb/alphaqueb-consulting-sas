@@ -7,10 +7,11 @@ import { GrMoreVertical } from "react-icons/gr";
 import SidebarComponent from '../SidebarComponent/SidebarComponent';
 
 const links = [
-  { href: "/", label: "Nosotros", key: "nosotros" },
-  { href: "/tienda", label: "Servicios", key: "tienda" },
-  { href: "/colaborar", label: "Herramientas", key: "colaborar" },
-  { href: "/blog", label: "Blog", key: "blog" },
+ 
+  { href: "/servicios", label: "Servicios", key: "servicios" },
+  { href: "/contacto", label: "Contacto", key: "contacto" },
+  { href: "/nosotros", label: "Nosotros", key: "nosotros" }
+  
 ];
 
 const NavbarComponent = () => {
@@ -63,7 +64,7 @@ const NavbarComponent = () => {
           <GrMoreVertical className={styles['navbar__icon']} />
         </div>
       </nav>
-      {isSidebarOpen && <SidebarComponent />} {/* Renderización condicional del Sidebar */}
+      {isSidebarOpen && <SidebarComponent />} {/* Renderización condicional del Sidebar  */}
     </>
   );
 };

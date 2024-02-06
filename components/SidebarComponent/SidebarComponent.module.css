@@ -1,6 +1,6 @@
 /* Estilos base */
 .sidebar{
-    width: 30%;
+    width: 20%;
     height: 100%;
     background-color: #0d0d0d99;
     position: fixed;
@@ -11,8 +11,21 @@
     z-index: 200;
     overflow-x: hidden;
     padding: 1rem 1rem;
-    transition: all 0.5s ease-in-out;
+    transition: width 0.5s ease-in-out; /* Transición solo para el ancho */
+
 }
+
+.sidebar-closed {
+    width: 0;
+    overflow: hidden;
+    padding: 1rem 0;
+  }
+
+
+.sidebar_subtitle{
+   padding-top: 1rem;
+}
+
 
 /* Estilo específico para Chrome */
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
@@ -94,7 +107,7 @@
 /* Estilos para dispositivos Móviles */
 @media screen and (max-width: 600px) {
     .sidebar{
-        width: 60%; /* Ancho completo para móviles */
+        width: 56%; /* Ancho completo para móviles */
 
     }
 
