@@ -1,5 +1,5 @@
 'use client';
-import React from 'react';
+
 import styles from './SidebarComponent.module.css';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -17,6 +17,8 @@ import { SiGoogleanalytics } from "react-icons/si";
 import { SiHiveBlockchain } from "react-icons/si";
 import { AiFillBulb } from "react-icons/ai";
 import React, { useState, useEffect } from 'react';
+import { RiSearch2Fill } from "react-icons/ri";
+
 
 
 
@@ -64,6 +66,10 @@ const SidebarComponent = () => {
           <Link href="/contacto" className={styles.sidebar_link} activeClassName={styles.sidebar_link_active} onClick={closeSidebar}>
            <MdContactPage className={styles.sidebar_icon} />
             Contacto
+          </Link>
+          <Link href="/blogs" className={styles.sidebar_link} activeClassName={styles.sidebar_link_active} onClick={closeSidebar}>
+            <RiSearch2Fill className={styles.sidebar_icon} />
+            Blog
           </Link>
 
 
