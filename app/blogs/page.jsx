@@ -1,9 +1,4 @@
 import styles from './page.module.css'
-import Hero from '../components/Hero/Hero'
-import Testimonials from '../components/Testimonials/Testimonials'
-import WhyWe from '../components/WhyWe/WhyWe'
-import Methodology from '../components/Methodology/Methodology'
-import Image from 'next/image'
 import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
@@ -32,13 +27,6 @@ export default function Home() {
   return (
     <main className={styles.main}>
 
-
-
-
-     
-        
-      <Hero /> 
-
       
 
      { blogs.map(blog => (
@@ -55,12 +43,6 @@ export default function Home() {
 
 
  
-     
-      <Testimonials />    
-       
-      <WhyWe />
-        <Methodology />
-     
 
      
       {/*       <LastNews /> */} 
