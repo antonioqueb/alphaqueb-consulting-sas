@@ -10,6 +10,7 @@
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 2rem;
   cursor: pointer;
+  padding:  0 0 4rem 0;
 
 }
 
@@ -17,28 +18,26 @@
 
 .LastNews__container__title {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 2vh 0;
+  padding: 2rem 0;
 }
 
 .LastNews__title{
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 600;
   margin: 0;
   padding: 0;
-  margin-bottom: 10vh;
+  margin-bottom: 2rem;
+ 
 }
 
 
 @media (max-width: 599px) {
   .LastNews__title{
-    font-size: 2rem;
+    font-size: 1.75rem;
     font-weight: 600;
     margin: 0;
     padding: 0;
-    margin-bottom: 5vh;
+    margin-bottom: 5rem;
   }
 
   .LastNews__container {
