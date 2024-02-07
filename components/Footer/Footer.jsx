@@ -18,22 +18,12 @@ export const Footer = () => {
             <h4 className={styles.Footer__container__footer__links__title}>ALPHAQUEB</h4>
             <ul className={styles.Footer__container__footer__links__list}>
               <li className={styles.Footer__container__footer__links__list__item}>
-                <Link href="/about">
-                  <span className={styles.Footer__container__footer__links__list__item__link}>¿Porqué Nosotros?</span>
+                <Link href="/contacto">
+                  <span className={styles.Footer__container__footer__links__list__item__link}>Contacto</span>
                 </Link>
-              </li>
+              </li>     
               <li className={styles.Footer__container__footer__links__list__item}>
-                <Link href="/services">
-                  <span className={styles.Footer__container__footer__links__list__item__link}>Servicios</span>
-                </Link>
-              </li>
-              <li className={styles.Footer__container__footer__links__list__item}>
-                <Link href="/tools">
-                  <span className={styles.Footer__container__footer__links__list__item__link}>Herramientas</span>
-                </Link>
-              </li>
-              <li className={styles.Footer__container__footer__links__list__item}>
-                <Link href="/blog">
+                <Link href="/blogs">
                   <span className={styles.Footer__container__footer__links__list__item__link}>Blog</span>
                 </Link>
               </li>
@@ -44,23 +34,18 @@ export const Footer = () => {
             <h4 className={styles.Footer__container__footer__links__title}>Ayuda</h4>
             <ul className={styles.Footer__container__footer__links__list}>
               <li className={styles.Footer__container__footer__links__list__item}>
-                <Link href="/about">
-                  <span className={styles.Footer__container__footer__links__list__item__link}>¿Porqué Nosotros?</span>
+                <Link href="/contacto">
+                  <span className={styles.Footer__container__footer__links__list__item__link}>Necesito un software urgentemente!</span>
                 </Link>
               </li>
               <li className={styles.Footer__container__footer__links__list__item}>
-                <Link href="/services">
-                  <span className={styles.Footer__container__footer__links__list__item__link}>Servicios</span>
+                <Link href="/contacto">
+                  <span className={styles.Footer__container__footer__links__list__item__link}>Necesito facturar mi compra</span>
                 </Link>
               </li>
               <li className={styles.Footer__container__footer__links__list__item}>
-                <Link href="/tools">
-                  <span className={styles.Footer__container__footer__links__list__item__link}>Herramientas</span>
-                </Link>
-              </li>
-              <li className={styles.Footer__container__footer__links__list__item}>
-                <Link href="/blog">
-                  <span className={styles.Footer__container__footer__links__list__item__link}>Blog</span>
+                <Link href="/contacto">
+                  <span className={styles.Footer__container__footer__links__list__item__link}>¿Los precios incluyen Impuestos?</span>
                 </Link>
               </li>
               
@@ -70,23 +55,13 @@ export const Footer = () => {
             <h4 className={styles.Footer__container__footer__links__title}>Preguntas</h4>
             <ul className={styles.Footer__container__footer__links__list}>
               <li className={styles.Footer__container__footer__links__list__item}>
-                <Link href="/about">
+                <Link href="/nosotros">
                   <span className={styles.Footer__container__footer__links__list__item__link}>¿Porqué Nosotros?</span>
                 </Link>
               </li>
               <li className={styles.Footer__container__footer__links__list__item}>
-                <Link href="/services">
-                  <span className={styles.Footer__container__footer__links__list__item__link}>Servicios</span>
-                </Link>
-              </li>
-              <li className={styles.Footer__container__footer__links__list__item}>
-                <Link href="/tools">
-                  <span className={styles.Footer__container__footer__links__list__item__link}>Herramientas</span>
-                </Link>
-              </li>
-              <li className={styles.Footer__container__footer__links__list__item}>
-                <Link href="/blog">
-                  <span className={styles.Footer__container__footer__links__list__item__link}>Blog</span>
+                <Link href="/blogs">
+                  <span className={styles.Footer__container__footer__links__list__item__link}>¿Dónde puedo aprender más?</span>
                 </Link>
               </li>
               
@@ -95,16 +70,10 @@ export const Footer = () => {
           <div className={styles.Footer__container__row__footer__links}>
             <h4 className={styles.Footer__container__footer__links__title}>Siguenos</h4>
             <div className={styles.Footer__container__footer__links__title__social__link}>
-              <Link href="/facebook">
+              <Link href="/https://www.facebook.com/alphaquebconsulting">
                 <FaFacebook className={styles.Footer__container__footer__links__title__social__link__icon} />
               </Link>
-              <Link href="/twitter">
-                <FaXTwitter className={styles.Footer__container__footer__links__title__social__link__icon} />
-              </Link>
-              <Link href="/instagram">
-                <FaInstagram className={styles.Footer__container__footer__links__title__social__link__icon} />
-              </Link>
-              <Link href="/linkedin">
+              <Link href="/https://www.linkedin.com/company/96666188">
                 <FaLinkedin className={styles.Footer__container__footer__links__title__social__link__icon} />
               </Link>
 
