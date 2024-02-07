@@ -60,9 +60,10 @@ const NavbarComponent = () => {
           ))}
         </div>
 
-        <div className={styles['navbar__icons']} onClick={toggleSidebar}>
+        <div className={styles['navbar__icons']} onClick={toggleSidebar} aria-label="Abrir menú">
           <GrMoreVertical className={styles['navbar__icon']} />
         </div>
+
       </nav>
       {isSidebarOpen && <SidebarComponent />} {/* Renderización condicional del Sidebar  */}
     </>
