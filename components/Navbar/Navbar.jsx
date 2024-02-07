@@ -8,7 +8,6 @@ import SidebarComponent from '../SidebarComponent/SidebarComponent';
 
 const links = [
  
-  { href: "/servicios", label: "Servicios", key: "servicios" },
   { href: "/contacto", label: "Contacto", key: "contacto" },
   { href: "/nosotros", label: "Nosotros", key: "nosotros" },
   { href: "/blogs", label: "Blogs", key: "blogs" },
