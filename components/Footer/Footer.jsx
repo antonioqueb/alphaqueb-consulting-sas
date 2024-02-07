@@ -70,12 +70,13 @@ export const Footer = () => {
           <div className={styles.Footer__container__row__footer__links}>
             <h4 className={styles.Footer__container__footer__links__title}>Siguenos</h4>
             <div className={styles.Footer__container__footer__links__title__social__link}>
-              <Link href="https://www.facebook.com/alphaquebconsulting">
-                <FaFacebook className={styles.Footer__container__footer__links__title__social__link__icon} />
-              </Link>
-              <Link href="https://www.linkedin.com/company/96666188">
-                <FaLinkedin className={styles.Footer__container__footer__links__title__social__link__icon} />
-              </Link>
+            <Link href="https://www.facebook.com/alphaquebconsulting" aria-label="Facebook de AlphaQueb Consulting">
+            <FaFacebook className={styles.Footer__container__footer__links__title__social__link__icon} />
+            </Link>
+            <Link href="https://www.linkedin.com/company/96666188" aria-label="LinkedIn de AlphaQueb Consulting"> 
+              <FaLinkedin className={styles.Footer__container__footer__links__title__social__link__icon} />
+            </Link>
+
 
 
             </div>
