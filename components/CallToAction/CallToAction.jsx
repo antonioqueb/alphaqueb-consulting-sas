@@ -50,10 +50,10 @@ const CallToAction = () => {
       <div className={styles.CallToAction__container}>
         <div className={styles.CallToAction__container__text}>
           <div className={styles.CallToAction__container__text__title}>
-            <h3>
-              Es hora de innovar tu negocio
+            <h2>
+            ¡Agendar Reunión!
               <span className={styles.Dot}>.</span>
-            </h3>
+            </h2>
           </div>
 
           <div className={styles.CallToAction__container__text__subtitle}>

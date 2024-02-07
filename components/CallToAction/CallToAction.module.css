@@ -15,7 +15,7 @@ color: #26E1FF;
 
 .CallToAction__container__text {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   color: #F2F2F2;
   flex-direction: column;
   padding-bottom: 10rem;
@@ -24,7 +24,7 @@ color: #26E1FF;
 
 .CallToAction__container__text {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   color: #F2F2F2;
   flex-direction: column;
   padding-bottom: 10rem;
@@ -36,6 +36,7 @@ color: #26E1FF;
   color: #F2F2F2;
   margin-bottom: 2rem;
   line-height: 1.1;
+  text-align: start;
 }
 
 .CallToAction__container__text__subtitle p {
@@ -43,6 +44,7 @@ color: #26E1FF;
   color: #F2F2F2;
   margin-bottom: 3rem;
   font-weight: regular;
+  text-align: start;
 }
 
 .CallToAction__container__text__form{
@@ -153,15 +155,16 @@ color: #26E1FF;
 
 }
 
-.Footer__features__item h5{
+.Footer__features__item h2{
   margin-bottom: 0.5rem;
-  font-size: 1rem;
+  font-size: 0.5rem;
   color: #F2F2F2;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;;
+  align-items: flex-start;;
   display: flex;
   flex-direction: column;
   border: #ffe926 1px solid;
+  text-align: start;
 }
 
 .Footer__features__item__icon {
@@ -371,4 +374,10 @@ color: #26E1FF;
   }
 
 
+}
+
+
+.main h2 {
+  font-size: 1rem;
+  
 }

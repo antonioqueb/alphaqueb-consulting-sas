@@ -1,6 +1,6 @@
 import style from './page.module.css';
 import Image from 'next/image';
-import CallToAction from '@/components/CallToAction/CallToAction';
+import CallToAction from '../../components/CallToAction/CallToAction';
 
 export default function Page() {
   return (
