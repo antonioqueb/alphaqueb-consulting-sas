@@ -1,11 +1,9 @@
-version: '3.8'
+version: '3.9'
+
 services:
-  client-dev:
-    build:
-      context: .
-      dockerfile: Dockerfile.dev
+  nextapp:
+    container_name: nextapp
+    image: francescoxx/nextapp
+    build: .
     ports:
-      - '2025:3000'
-    volumes:
-      - /app/node_modules
-      - .:/app
+      - "3000:3000"
