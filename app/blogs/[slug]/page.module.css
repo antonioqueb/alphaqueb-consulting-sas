@@ -26,13 +26,13 @@
 
 }
 
-.main img {
+.image-cover {
     display: block;
     margin: auto;
     max-width: 100%;
     width: 1024px;
     height: auto;
-    border-radius: 8px;
+    border-radius: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     margin-bottom: 2rem;
     object-fit: cover;
@@ -46,3 +46,33 @@
     font-size: 2rem;
     
 }
+
+
+@media (max-width: 599px) {
+  
+    /* Estilos que se aplican cuando la pantalla tiene menos de 600px de ancho */
+
+    .main h1 {
+        margin: 15rem 0 2rem 0;
+        font-size: 1.6rem;
+    
+    }
+    
+  }
+  
+  
+  /* Tabletas: desde 601px hasta 900px */
+  @media (min-width: 601px) and (max-width: 1025px) {
+    
+    .main h1 {
+        margin: 15rem 0 2rem 0;
+       
+    
+    }
+  
+  }
+  
+  /* Escritorio: más de 900px */
+  @media (min-width: 1026px) {
+  
+  }
