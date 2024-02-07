@@ -33,6 +33,7 @@ color: #26E1FF;
   color: #F2F2F2;
   margin-bottom: 3rem;
   font-weight: regular;
+  text-wrap: pretty;
 }
 
 .Hero__container__text__form{
