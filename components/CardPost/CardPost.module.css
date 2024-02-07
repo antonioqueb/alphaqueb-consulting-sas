@@ -39,6 +39,7 @@
 
 .CardPost__container__news__title h3,
 .CardPost__container__news__description p {
+    text-wrap: pretty;
   white-space: normal; /* Asegurarse de que el texto se ajuste correctamente */
   overflow-wrap: break-word; /* Permite que las palabras largas se rompan y pasen a la siguiente línea */
 }

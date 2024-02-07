@@ -45,6 +45,7 @@ color: #26E1FF;
   margin-bottom: 3rem;
   font-weight: regular;
   text-align: start;
+  text-wrap: pretty;
 }
 
 .CallToAction__container__text__form{
@@ -264,6 +265,7 @@ color: #26E1FF;
     line-height: 1.4;
      padding: 0;
     margin: 0;
+    text-wrap: pretty;
   }
 
   .CallToAction__container__text, .CallToAction__container__image {
@@ -355,6 +357,7 @@ color: #26E1FF;
   color: #F2F2F2;
   margin-bottom: 6rem;
   font-weight: regular;
+  text-wrap: pretty;
 }
 
 
