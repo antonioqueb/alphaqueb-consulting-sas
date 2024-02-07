@@ -3,7 +3,7 @@ import LastNews from '../../components/LastNews/LastNews'
 
 
 
-export default function Home() {
+export default function BlogPage() {
 
 
 
