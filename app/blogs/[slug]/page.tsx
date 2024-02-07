@@ -4,6 +4,7 @@ import path from 'path';
 import matter from 'gray-matter';
 import { MDXRemote } from 'next-mdx-remote/rsc';
 import CallToAction from '../../../components/CallToAction/CallToAction';
+import Image from 'next/image';
 
 export async function generateStaticParams() {
     const files = fs.readdirSync(path.join('blogs'));
@@ -28,7 +29,7 @@ export default function Page({ params }: any) {
     return (
         <article className={styles.main}>
             <h1>{props.frontMatter.title}</h1>
-            <img src={props.frontMatter.image} alt={props.frontMatter.imageAlt} />
+            <Image src={props.frontMatter.image} alt={props.frontMatter.title} width={1024} height={1024} className={styles['image-cover']}/>
             <MDXRemote source={props.content}></MDXRemote>
             <CallToAction />
             
