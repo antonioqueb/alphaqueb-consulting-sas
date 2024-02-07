@@ -2,7 +2,7 @@ FROM node:18-alpine AS base
 
 # Instalar dependencias solo cuando sea necesario
 FROM base AS deps
-# Verifica si git está instalado y, si no, instálalo
+# Instalar git y otras dependencias necesarias
 RUN apk add --no-cache git
 RUN apk add --no-cache libc6-compat
 WORKDIR /app
@@ -15,6 +15,9 @@ RUN \
   elif [ -f pnpm-lock.yaml ]; then yarn global add pnpm && pnpm i --frozen-lockfile; \
   else echo "Lockfile not found." && exit 1; \
   fi
+
+# Agregar la ubicación de git al PATH
+ENV PATH="${PATH}:/usr/bin/git"
 
 # Rebuild the source code only when needed
 FROM base AS builder
