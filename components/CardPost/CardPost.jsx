@@ -3,6 +3,7 @@
 import React from 'react';
 import styles from './CardPost.module.css';
 import Image from 'next/image';
+import Link from 'next/link';
 
 
 export const CardPost = ({ Titulo, Description, ImagePost}) => {  
