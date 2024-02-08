@@ -14,6 +14,15 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="es">
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HFW2B50CLE"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-HFW2B50CLE');
+    </script>
       <body className={rubik.className}>
         <NavbarComponent />
         {children}
