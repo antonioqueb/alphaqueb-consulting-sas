@@ -13,7 +13,11 @@ export const CardPost = ({ Titulo, Description, ImagePost}) => {
 
   // Función para cortar el texto y añadir '...'
   const truncate = (str, maxLength) => {
-    return str.length > maxLength ? str.substring(0, maxLength) + "..." : str;
+    if (str) {
+      return str.length > maxLength ? str.substring(0, maxLength) + "..." : str;
+    } else {
+      return ""; // O algún valor por defecto si prefieres
+    }
   };
 
   return (
