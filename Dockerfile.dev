@@ -4,7 +4,7 @@ FROM node:20.9.0 AS builder
 WORKDIR /app
 
 
-# Copia los archivos de dependencias de Node.js
+# Copia los archivos de dependencias de Node.js   
 COPY package*.json ./
 COPY . .
 
