@@ -4,14 +4,14 @@ FROM node:20.9.0 AS builder
 WORKDIR /app
 
 
-# Copia los archivos de dependencias de Node.js   
+# Copia los archivos de dependencias de Node.js    
 COPY package*.json ./
 COPY . .
 
 RUN npm install
 
-# Expone el puerto 80
+# Expone el puerto 80 
 EXPOSE 3000
 
-# Inicia la aplicación
+# Inicia la aplicación 
 CMD ["npm", "run", "dev"]
