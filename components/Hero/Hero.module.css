@@ -62,9 +62,12 @@ color: #26E1FF;
 }
 .Hero__container__text__form__container{
   display: flex;
-  align-items: flex-start;
+  align-items: center;
+  justify-content: center;
   flex-direction: row;
-  width: 93%;
+  border: solid 2px #ffff;
+  
+  width: 83%;
 
 
 
