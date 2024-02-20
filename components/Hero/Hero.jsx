@@ -59,54 +59,57 @@ const Hero = () => {
   // Retorna el componente
   return (
     <>
-      <div className={styles.Hero__container}>
-        <div className={styles.Hero__container__text}>
-          <div className={styles.Hero__container__text__title}>
-            <h1>
-              Transformación <span className={styles.Hero__container__text__title__section__second}>Digital Corporativa</span>
-              <span className={styles.Dot}>.</span>
-            </h1>
-          </div>
+          <section className="pt-20 pb-32 bg-transparent mt-20">
+        <div className="px-12 mx-auto max-w-7xl">
+            <div className="w-full mx-auto text-left md:w-11/12 xl:w-9/12 md:text-center">
+                <h1 className="mb-8 text-4xl font-bold leading-none tracking-normal text-white md:text-6xl md:tracking-tight">
+                   Páginas Web Para Negocios
+                   </h1>
+                <p className="px-0 mb-8 text-lg text-white md:text-xl lg:px-2">
+                Creamos sitios web rentables para negocios que buscan aumentar sus ventas, mejorar su imagen y conectar con más clientes en la nueva era digital.
+                </p>
+                <div class="flex justify-center">
+                  <form action="" class="flex flex-col items-center w-[86%] mb-8 md:flex-row md:space-x-4 md:mb-8">
+                    <input
+                      type="text"
+                      placeholder="Email para contactar"
+                      name="email"
+                      id="email"
+                      class="flex-grow w-full h-12 px-4 mb-3 md:mb-0 text-lg justify-center text-gray-700 placeholder-gray-600 border rounded-lg focus:shadow-outline"
+                      value={email}
+                      onChange={handleEmailChange}
+                    />
+                    <button
+                      class="text-lg font-semibold text-white bg-darkprimary px-5 py-2.5 border rounded-lg"
+                      onClick={handleContactButtonClick}
+                    >
+                      Contactar
+                    </button>
+                  </form>
+                </div>
 
-          <div className={styles.Hero__container__text__subtitle}>
-            <p>
-              Alphaqueb Consulting S.A.S. está en el corazón de la revolución digital, evolucionando tu negocio más
-              allá de la transición digital hacia una completa reinvención. Innovamos y generamos resultados duraderos.
-            </p>
-          </div>
-          <div className={styles.Hero__container__text__form}>
-            <form action="" className={styles.Hero__container__text__form__container}>
-              <input
-                type="text"
-                placeholder="Email Corporativo"
-                className={styles.Hero__container__text__form__input}
-                value={email}
-                onChange={handleEmailChange}
-              />
-              <button className={styles.Hero__container__text__form__button} onClick={handleContactButtonClick}>
-                Contactar
-              </button>
-            </form>
-            <span>
-              Al enviar aceptas nuestros{' '}
-              <Link className={styles.Hero__container__text__form__Link} href="/" style={{ textDecoration: 'none' }}>
-                términos y condiciones.
-              </Link>
-            </span>
-          </div>
-        </div>
 
-        <div className={styles.Hero__container__image}>
-          <Image src="/hero.svg" alt="Hero" width={800} height={800} />
+            </div>
+            <div className="w-full mx-auto mt-20 text-center md:w-10/12">
+              
+                <div className="relative z-0 w-full mt-8">
+                    <div className="relative overflow-hidden shadow-2xl">
+                        <div className="flex items-center flex-none px-4 bg-gray-600 rounded-b-none h-11 rounded-xl">
+                            <div className="flex space-x-1.5">
+                                <div className="w-3 h-3 border-2 border-darkprimary rounded-full"></div>
+                                <div className="w-3 h-3 border-2 border-darkprimary rounded-full"></div>
+                                <div className="w-3 h-3 border-2 border-darkprimary rounded-full"></div>
+                            </div>
+                        </div>
+                        <img src="pages.png"/>
+                    </div>
+                </div>
+                
+            </div>
+            
         </div>
-      </div>
-      <div className={`${styles.Hero__container__row__down__animated} ${isScrolled ? styles.scrolled : ''}`}>
-        <MdOutlineKeyboardArrowDown
-          className={`${styles.Hero__container__row__down__animated__icon} ${
-            isScrolled ? styles.iconScrolled : ''
-          }`}
-        />
-      </div>
+      </section>
+      
     </>
   );
 

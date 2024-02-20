@@ -24,7 +24,7 @@ export const CardTestimony = ({ imageSrc, altText, testimony, name }) => {
           <TiStarFullOutline className={styles.cardTestimony__rating} />
         </div>
         <blockquote className={styles.cardTestimony__text}>
-          <p>{testimony}</p>
+          <p >{testimony}</p>
         </blockquote>
         <footer className={styles.cardTestimony__name}>
           <h4>{name}</h4>
