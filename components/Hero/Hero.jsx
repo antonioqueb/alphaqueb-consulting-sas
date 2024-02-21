@@ -62,14 +62,14 @@ const Hero = () => {
           <section className="pt-20 pb-32 bg-transparent mt-20">
         <div className="px-12 mx-auto max-w-7xl">
             <div className="w-full mx-auto text-left md:w-11/12 xl:w-9/12 md:text-center">
-                <h1 className="mb-8 text-4xl font-bold leading-none tracking-normal text-white md:text-6xl md:tracking-tight">
+                <h1 className="mb-8 text-4xl font-semibold leading-none  text-white md:text-8xl md:tracking-tight text-balance	">
                    Páginas Web Para Negocios
                    </h1>
-                <p className="px-0 mb-8 text-lg text-white md:text-xl lg:px-2">
+                <p className="text-pretty	px-0 mb-8 text-lg text-white md:text-xl lg:px-2 ">
                 Creamos sitios web rentables para negocios que buscan aumentar sus ventas, mejorar su imagen y conectar con más clientes en la nueva era digital.
                 </p>
-                <div class="flex justify-center">
-                  <form action="" class="flex flex-col items-center w-[86%] mb-8 md:flex-row md:space-x-4 md:mb-8">
+                <div class="flex justify-center w-full">
+                  <form action="" class="flex flex-col items-center w-[86%] md:flex-row mb-8 md:flex-row md:space-x-4 md:mb-8 ">
                     <input
                       type="text"
                       placeholder="Email para contactar"
@@ -80,7 +80,8 @@ const Hero = () => {
                       onChange={handleEmailChange}
                     />
                     <button
-                      class="text-lg font-semibold text-white bg-darkprimary px-5 py-2.5 border rounded-lg"
+                      class="text-lg font-semibold text-white bg-darkprimary px-5 py-2.5 border rounded-lg hover:bg-darkprimary focus:outline-none focus:shadow-outline"
+                      type="button"
                       onClick={handleContactButtonClick}
                     >
                       Contactar
@@ -94,7 +95,7 @@ const Hero = () => {
               
                 <div className="relative z-0 w-full mt-8">
                     <div className="relative overflow-hidden shadow-2xl">
-                        <div className="flex items-center flex-none px-4 bg-gray-600 rounded-b-none h-11 rounded-xl">
+                        <div className="flex items-center flex-none px-4 bg-grayprimary rounded-b-none h-11 rounded-xl">
                             <div className="flex space-x-1.5">
                                 <div className="w-3 h-3 border-2 border-darkprimary rounded-full"></div>
                                 <div className="w-3 h-3 border-2 border-darkprimary rounded-full"></div>
