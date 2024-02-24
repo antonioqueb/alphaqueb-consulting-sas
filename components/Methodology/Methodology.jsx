@@ -8,12 +8,12 @@ export const Methodology = () => {
   return (
     <div className={styles.Methodology__container}>
       <div className={styles.Methodology__title}>
-        <h2>Nuestra metodología:<span className={styles.Dot}>.</span></h2>
+        <h2>Nuestra Metodología<span className={styles.Dot}>.</span></h2>
       </div>
       <div className={styles.Methodology__container_steps}>
          <div className={styles.Methodology__container_steps_step_left}>
          <div className={styles.Methodology__container_steps_step_image}>
-            <Image className={styles.Methodology__container_steps_step_image__img} src="/analisis.svg" width={500} height={500} alt="step1" />
+            <Image className={styles.Methodology__container_steps_step_image__img} src="/discovery.svg" width={700} height={700} alt="step1" />
           </div>
           <div className={styles.Methodology__container_steps_step_text}>
             <h3>Descubrimiento</h3>
@@ -23,7 +23,7 @@ export const Methodology = () => {
           </div>
           <div className={styles.Methodology__container_steps_step_right}>
          <div className={styles.Methodology__container_steps_step_image}>
-            <Image className={styles.Methodology__container_steps_step_image__img} src="/estrategia.svg" width={500} height={500} alt="step1" />
+            <Image className={styles.Methodology__container_steps_step_image__img} src="/diseño.svg" width={700} height={700} alt="step1" />
           </div>
           <div className={styles.Methodology__container_steps_step_text}>
             <h3>Diseño</h3>
@@ -35,7 +35,7 @@ export const Methodology = () => {
           </div>
           <div className={styles.Methodology__container_steps_step_left}>
          <div className={styles.Methodology__container_steps_step_image}>
-            <Image className={styles.Methodology__container_steps_step_image__img} src="/iteration.svg" width={500} height={500} alt="step1" />
+            <Image className={styles.Methodology__container_steps_step_image__img} src="/develop.svg" width={700} height={700} alt="step1" />
           </div>
           <div className={styles.Methodology__container_steps_step_text}>
             <h3>Desarrollo</h3>
@@ -48,7 +48,7 @@ export const Methodology = () => {
           </div>
           <div className={styles.Methodology__container_steps_step_right}>
          <div className={styles.Methodology__container_steps_step_image}>
-            <Image className={styles.Methodology__container_steps_step_image__img} src="/support.svg" width={500} height={500} alt="step1" />
+            <Image className={styles.Methodology__container_steps_step_image__img} src="/implement.svg" width={700} height={700} alt="step1" />
           </div>
           <div className={styles.Methodology__container_steps_step_text}>
             <h3>Implementación</h3>
@@ -59,7 +59,7 @@ export const Methodology = () => {
           </div>
           <div className={styles.Methodology__container_steps_step_left}>
          <div className={styles.Methodology__container_steps_step_image}>
-            <Image className={styles.Methodology__container_steps_step_image__img} src="/inspection.svg" width={500} height={500} alt="step1" />
+            <Image className={styles.Methodology__container_steps_step_image__img} src="/evo.svg" width={700} height={700} alt="step1" />
           </div>
           <div className={styles.Methodology__container_steps_step_text}>
             <h3>Evolución</h3>
