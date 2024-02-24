@@ -17,12 +17,14 @@ export const WhyWe = () => {
       
 
         <div className={styles.WhyWe__container_images}>
-          <Image className={styles.WhyWe__container__image__img} src="whywe.svg"  alt="wyhywephoto" width={400} height={400} />
+          <Image className={styles.WhyWe__container__image__img} src="whywe.svg"  alt="wyhywephoto" width={700} height={700} />
         </div>
         
         <div className={styles.WhyWe__container_text}>
           <h2 className={styles.LastNews__title}>Propuesta<span className={styles.Dot}>.</span></h2>
-          <p>En Alphaqueb, somos expertos en desarrollar Apps Odoo personalizadas que se ajustan a las necesidades específicas de tu negocio. Te ayudamos a automatizar procesos, mejorar la eficiencia y alcanzar tus metas de forma más rápida y efectiva.</p>
+          <p>En Alphaqueb, no solo creamos Apps Odoo, sino que te acompañamos en todo el proceso, desde la definición de tus necesidades hasta la implementación y evolución de la aplicación.</p>
+          <p>Aumenta tu productividad, reduce costes y mejora la toma de decisiones con Desarrollos de Apps Odoo a medida.</p>
+
           </div>
       
     </div>
