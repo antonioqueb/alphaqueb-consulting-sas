@@ -62,12 +62,13 @@ const Hero = () => {
           <section className="pt-20 pb-32 bg-transparent mt-20">
         <div className="px-12 mx-auto max-w-7xl">
             <div className="w-full mx-auto text-left md:w-11/12 xl:w-9/12 md:text-center">
-                <h1 className="mb-8 text-4xl font-semibold leading-none  text-white md:text-8xl md:tracking-tight text-balance	">
-                   Páginas Web Para Negocios
-                   </h1>
-                <p className="text-pretty	px-0 mb-8 text-lg text-white md:text-xl lg:px-2 ">
-                Creamos sitios web rentables para negocios que buscan aumentar sus ventas, mejorar su imagen y conectar con más clientes en la nueva era digital.
-                </p>
+            <h1 className="mb-8 text-4xl font-semibold leading-none text-white md:text-7xl md:tracking-tight text-balance shadow-md hover:shadow-xl transition-all duration-300">
+               Desarrollo de Apps <span className="text-purple-400">Odoo Personalizadas</span>
+            </h1>
+
+                <p className="text-pretty	px-0 mb-8 text-lg text-white md:text-xl lg:px-8 ">
+                Descubre el poder de la personalización de Odoo en tu negocio.
+                 </p>
                 <div class="flex justify-center w-full">
                   <form action="" class="flex flex-col items-center w-[86%] md:flex-row mb-8 md:flex-row md:space-x-4 md:mb-8 ">
                     <input
