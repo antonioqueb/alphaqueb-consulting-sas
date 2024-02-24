@@ -22,8 +22,7 @@ export const WhyWe = () => {
         
         <div className={styles.WhyWe__container_text}>
           <h2 className={styles.LastNews__title}>Propuesta<span className={styles.Dot}>.</span></h2>
-          <p>Emprende un viaje transformador con nuestra metodología integral en Alphaqueb. Aseguramos que cada fase de tu proyecto, desde el diagnóstico hasta la evaluación, marque un avance significativo hacia la realización de tu visión.</p>
-          <p>Nuestro compromiso es convertir la promesa de la transformación digital en una realidad tangible, guiándote en cada paso del camino hacia el éxito digital.</p>        
+          <p>En Alphaqueb, somos expertos en desarrollar Apps Odoo personalizadas que se ajustan a las necesidades específicas de tu negocio. Te ayudamos a automatizar procesos, mejorar la eficiencia y alcanzar tus metas de forma más rápida y efectiva.</p>
           </div>
       
     </div>

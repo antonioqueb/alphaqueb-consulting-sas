@@ -63,14 +63,14 @@ const Hero = () => {
         <div className="px-12 mx-auto max-w-7xl">
             <div className="w-full mx-auto text-left md:w-11/12 xl:w-9/12 md:text-center">
             <h1 className="mb-8 text-4xl font-semibold leading-none text-white md:text-7xl md:tracking-tight text-balance shadow-md hover:shadow-xl transition-all duration-300">
-               Desarrollo de Apps <span className="text-purple-400">Odoo Personalizadas</span>
+               Desarrollo de Apps <span className="text-blueprimary">Odoo Personalizadas</span>
             </h1>
 
                 <p className="text-pretty	px-0 mb-8 text-lg text-white md:text-xl lg:px-8 ">
-                Descubre el poder de la personalización de Odoo en tu negocio.
+                Lleva tu empresa al siguiente nivel con soluciones digitales a medida, creadas por especialistas en la plataforma líder Odoo.
                  </p>
-                <div class="flex justify-center w-full">
-                  <form action="" class="flex flex-col items-center w-[86%] md:flex-row mb-8 md:flex-row md:space-x-4 md:mb-8 ">
+                <div class="flex-col justify-center w-full">
+                  <form action="" class="flex flex-col items-center w-[86%] md:flex-row mb-4 md:flex-row md:space-x-4 md:mb-4 ">
                     <input
                       type="text"
                       placeholder="Email para contactar"
@@ -88,6 +88,12 @@ const Hero = () => {
                       Contactar
                     </button>
                   </form>
+                  <span className="text-sm text-white flex">
+              Al enviar aceptas nuestros{' '}
+              <Link className="text-blueprimary" href="/" style={{ textDecoration: 'none' }}>
+                términos y condiciones.
+              </Link>
+            </span>
                 </div>
 
 
@@ -111,7 +117,13 @@ const Hero = () => {
             
         </div>
       </section>
-      
+      <div className={`${styles.Hero__container__row__down__animated} ${isScrolled ? styles.scrolled : ''}`}>
+        <MdOutlineKeyboardArrowDown
+          className={`${styles.Hero__container__row__down__animated__icon} ${
+            isScrolled ? styles.iconScrolled : ''
+          }`}
+        />
+      </div>
     </>
   );
 
