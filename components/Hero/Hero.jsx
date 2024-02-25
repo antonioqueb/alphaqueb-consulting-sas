@@ -68,7 +68,7 @@ const Hero = () => {
             </h1>
 
                 <p className="text-pretty	px-0 mb-8 text-lg text-white md:text-xl lg:px-8 ">
-                Lleva tu empresa al siguiente nivel con soluciones digitales a medida, creadas por especialistas en la plataforma líder Odoo.
+                Llevamos tu implementación de Odoo al siguiente nivel con soluciones digitales a medida, creadas por especialistas en Python Odoo
                  </p>
 
 
@@ -96,7 +96,7 @@ const Hero = () => {
                   <span className="text-sm text-white flex ">
                     Al enviar aceptas nuestros{' '}
                     <Link className="text-blueprimary mx-1" href="/" style={{ textDecoration: 'none'  }}>
-                      términos y condiciones.
+                      Términos y condiciones.
                     </Link>
                   </span>
 

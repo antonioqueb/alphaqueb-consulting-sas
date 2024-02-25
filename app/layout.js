@@ -29,7 +29,7 @@ export default function RootLayout({ children }) {
         </Script>
       </head>
 
-      <body className={rubik.className}>
+      <body classNameName={rubik.classNameName}>
         <NavbarComponent />
         {children}
         <Footer />
