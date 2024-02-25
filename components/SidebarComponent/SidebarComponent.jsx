@@ -71,29 +71,6 @@ const SidebarComponent = () => {
             <RiSearch2Fill className={styles.sidebar_icon} />
             Blog
           </Link>
-
-
-
-          {/* Categoría: Servicios */}
-          
-        <h4 className={styles.sidebar_subtitle}>Servicios</h4>
-        <Link href="/desarrollo-a-medida" className={styles.sidebar_link} activeClassName={styles.sidebar_link_active} onClick={closeSidebar}>
-          <MdDeveloperMode className={styles.sidebar_icon} />
-          Desarrollo a medida
-        </Link>
-        <Link href="/consultoria-y-analisis" className={styles.sidebar_link} activeClassName={styles.sidebar_link_active} onClick={closeSidebar}>
-          <FaCloud className={styles.sidebar_icon} />
-          Consultoría y análisis
-        </Link>
-        
-        <Link href="/mantenimiento-y-soporte" className={styles.sidebar_link} activeClassName={styles.sidebar_link_active} onClick={closeSidebar}>
-          <PiStrategyBold className={styles.sidebar_icon} />
-          Mantenimiento y soporte
-        </Link>
-        
-        
-
-         
           
         </div>
       </section>

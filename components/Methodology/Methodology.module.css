@@ -70,12 +70,11 @@
   align-items: flex-start;
   text-align: start;
   width: 50%;
-  padding: 0 2rem;
-
+  
 }
 
 .Methodology__container_steps_step_text h3 {
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 600;
   margin-bottom: 2rem;
 }

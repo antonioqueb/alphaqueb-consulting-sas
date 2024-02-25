@@ -10,23 +10,23 @@ const rl = readline.createInterface({
 const generateJsTemplate = (name, columns, divideMore, divideSide, additionalFeatures) => {
   let divs = '';
   for (let i = 0; i < columns; i++) {
-    const columnClass = `styles.${name}__column`;
+    const columnclassName = `styles.${name}__column`;
     let innerDivs = '';
     if (divideMore) {
       if (divideSide === 'ambos' || divideSide === 'izquierdo') {
-        innerDivs += `<div className={styles.${name}__inner-div-left}>División Izquierda ${i + 1}</div>`;
+        innerDivs += `<div classNameName={styles.${name}__inner-div-left}>División Izquierda ${i + 1}</div>`;
       }
       if (divideSide === 'ambos' || divideSide === 'derecho') {
-        innerDivs += `<div className={styles.${name}__inner-div-right}>División Derecha ${i + 1}</div>`;
+        innerDivs += `<div classNameName={styles.${name}__inner-div-right}>División Derecha ${i + 1}</div>`;
       }
     }
     const innerContent = divideMore ? innerDivs : `Columna ${i + 1}`;
-    divs += `<div className={${columnClass}}>${innerContent}</div>\n  `;
+    divs += `<div classNameName={${columnclassName}}>${innerContent}</div>\n  `;
   }
 
   let additionalJs = '';
   if (additionalFeatures.includes('boton')) {
-    additionalJs += `<button className={styles.${name}__boton}>Haz clic aquí</button>\n  `;
+    additionalJs += `<button classNameName={styles.${name}__boton}>Haz clic aquí</button>\n  `;
   }
 
   return `
@@ -36,7 +36,7 @@ import styles from './${name}.module.css';
 
 export const ${name} = () => {
   return (
-    <div className={styles.${name}__container}>
+    <div classNameName={styles.${name}__container}>
       ${divs}
       ${additionalJs}
     </div>
