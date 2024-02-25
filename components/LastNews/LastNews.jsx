@@ -8,7 +8,7 @@ import matter from 'gray-matter'
 import Link from 'next/link'
 
 export const LastNews = () => {
-  const blogDir  = "blogs";
+  const blogDir  = 'blogs';
 
   const files = fs.readdirSync(path.join(blogDir));
 
