@@ -1,7 +1,7 @@
-import React from 'react'; // Corrected semicolon 
-import Image from 'next/image';
-import styles from './CardTestimony.module.css';
-import { TiStarFullOutline } from "react-icons/ti";
+import React from 'react' // Corrected semicolon 
+import Image from 'next/image'
+import styles from './CardTestimony.module.css'
+import { TiStarFullOutline } from 'react-icons/ti'
 
 export const CardTestimony = ({ imageSrc, altText, testimony, name }) => {
   return (
@@ -29,7 +29,7 @@ export const CardTestimony = ({ imageSrc, altText, testimony, name }) => {
         <h4>{name}</h4>
       </footer>
     </article>
-  );
+  )
 }
 
-export default CardTestimony;
+export default CardTestimony

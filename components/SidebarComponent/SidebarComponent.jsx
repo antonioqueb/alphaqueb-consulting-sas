@@ -1,23 +1,23 @@
-'use client';
+'use client'
 
-import styles from './SidebarComponent.module.css';
-import Link from 'next/link';
-import Image from 'next/image';
-import { MdHomeFilled } from 'react-icons/md';
-import { AiFillApi } from 'react-icons/ai';
-import { MdContactPage } from 'react-icons/md';
-import { FaBlog } from 'react-icons/fa';
-import { MdDeveloperMode } from 'react-icons/md';
-import { FaCloud } from 'react-icons/fa6';
-import { SiAffinitydesigner } from 'react-icons/si';
-import { PiStrategyBold } from 'react-icons/pi';
-import { HiSupport } from 'react-icons/hi';
-import { MdSettingsSuggest } from 'react-icons/md';
-import { SiGoogleanalytics } from 'react-icons/si';
-import { SiHiveBlockchain } from 'react-icons/si';
-import { AiFillBulb } from 'react-icons/ai';
-import React, { useState, useEffect } from 'react';
-import { RiSearch2Fill } from 'react-icons/ri';
+import styles from './SidebarComponent.module.css'
+import Link from 'next/link'
+import Image from 'next/image'
+import { MdHomeFilled } from 'react-icons/md'
+import { AiFillApi } from 'react-icons/ai'
+import { MdContactPage } from 'react-icons/md'
+import { FaBlog } from 'react-icons/fa'
+import { MdDeveloperMode } from 'react-icons/md'
+import { FaCloud } from 'react-icons/fa6'
+import { SiAffinitydesigner } from 'react-icons/si'
+import { PiStrategyBold } from 'react-icons/pi'
+import { HiSupport } from 'react-icons/hi'
+import { MdSettingsSuggest } from 'react-icons/md'
+import { SiGoogleanalytics } from 'react-icons/si'
+import { SiHiveBlockchain } from 'react-icons/si'
+import { AiFillBulb } from 'react-icons/ai'
+import React, { useState, useEffect } from 'react'
+import { RiSearch2Fill } from 'react-icons/ri'
 
 
 
@@ -28,21 +28,21 @@ import { RiSearch2Fill } from 'react-icons/ri';
 
 
 const SidebarComponent = () => {
-  const [isSidebarOpen, setIsSidebarOpen] = useState(true);
+  const [isSidebarOpen, setIsSidebarOpen] = useState(true)
 
   
 
   const closeSidebar = () => {
-    setIsSidebarOpen(false); // Actualiza el estado al cerrar el sidebar
+    setIsSidebarOpen(false) // Actualiza el estado al cerrar el sidebar
     
-  };
+  }
 
 
 
 
   useEffect(() => {
     // Aquí puedes realizar alguna acción cuando cambie el estado del sidebar
-  }, [isSidebarOpen]);
+  }, [isSidebarOpen])
   return (
     <div className={`${styles.sidebar} ${!isSidebarOpen && styles['sidebar-closed']}`}>
       <section className={styles.sidebar_section}>
@@ -75,7 +75,7 @@ const SidebarComponent = () => {
         </div>
       </section>
     </div>
-  );
+  )
 }
 
-export default SidebarComponent;
+export default SidebarComponent

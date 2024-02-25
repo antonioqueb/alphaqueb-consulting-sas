@@ -8,36 +8,21 @@ import LastNews from '../components/LastNews/LastNews'
 
 export const metadata = {
   title: 'Transformación Digital',
-  description: 'Transformación Digital, expertos en tecnología y desarrollo de software',
-};
+  description: 'Transformación Digital, expertos en tecnología y desarrollo de software'
+}
 
-export default function Home() {
-
-
-
+export default function Home () {
   return (
-
     
     <main className={styles.main}>
-
-
-
-
-     
         
       <Hero /> 
-
-
- 
      
       <Testimonials />    
        
       <WhyWe />
         <Methodology />
         <Plans / >
-      
-     
-
      
       <LastNews />
      

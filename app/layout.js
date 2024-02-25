@@ -1,14 +1,12 @@
-import { Rubik } from 'next/font/google';
-import Script from 'next/script';
-import './globals.css';
-import NavbarComponent from '../components/Navbar/Navbar';
-import Footer from '../components/Footer/Footer';
+import { Rubik } from 'next/font/google'
+import Script from 'next/script'
+import './globals.css'
+import NavbarComponent from '../components/Navbar/Navbar'
+import Footer from '../components/Footer/Footer'
 
-const rubik = Rubik({ subsets: ['latin'] });
+const rubik = Rubik({ subsets: ['latin'] })
 
-
-
-export default function RootLayout({ children }) {
+export default function RootLayout ({ children }) {
   return (
     <html lang="es">
       <head>
@@ -21,10 +19,10 @@ export default function RootLayout({ children }) {
         />
         <Script strategy="afterInteractive">
           {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments)};
-            gtag('js', new Date());
-            gtag('config', 'G-HFW2B50CLE');
+            window.dataLayer = window.dataLayer || []
+            function gtag(){dataLayer.push(arguments)}
+            gtag('js', new Date())
+            gtag('config', 'G-HFW2B50CLE')
           `}
         </Script>
       </head>
@@ -35,5 +33,5 @@ export default function RootLayout({ children }) {
         <Footer />
       </body>
     </html>
-  );
+  )
 }

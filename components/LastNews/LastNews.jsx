@@ -1,23 +1,23 @@
 //LastNews
-import React from 'react';
-import styles from './LastNews.module.css';
-import { CardPost } from '../CardPost/CardPost';
+import React from 'react'
+import styles from './LastNews.module.css'
+import { CardPost } from '../CardPost/CardPost'
 import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
 import Link from 'next/link'
 
 export const LastNews = () => {
-  const blogDir  = 'blogs';
+  const blogDir  = 'blogs'
 
-  const files = fs.readdirSync(path.join(blogDir));
+  const files = fs.readdirSync(path.join(blogDir))
 
   const blogs =  files.map(filename =>{
     
     const fileContent = fs.readFileSync(path.join(blogDir, filename), 'utf-8')
 
 
-    const {data: frontMatter} = matter(fileContent);
+    const {data: frontMatter} = matter(fileContent)
     return {
       meta: frontMatter,
       slug: filename.replace('.mdx', '')
@@ -43,7 +43,7 @@ return (
     
   </div>
   </>
-);
+)
 }
 
-export default LastNews;
+export default LastNews

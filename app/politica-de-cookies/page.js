@@ -1,7 +1,7 @@
 import style from './politica-cookies.module.css'
 import Image from 'next/image'
 
-export default function PoliticaCookies() {
+export default function PoliticaCookies () {
   return (
     <>
       <div className={style.container}>
@@ -22,7 +22,7 @@ export default function PoliticaCookies() {
           </p>
 
           <p className={style.text}>
-          Usted podrá configurar su navegador para bloquear estas cookies, o alertarle sobre las mismas; sin embargo, esto dará como resultado que algunas partes del sitio web no funcionen. Estas cookies no almacenan ninguna información de identificación personal.
+          Usted podrá configurar su navegador para bloquear estas cookies, o alertarle sobre las mismas sin embargo, esto dará como resultado que algunas partes del sitio web no funcionen. Estas cookies no almacenan ninguna información de identificación personal.
           </p>
 
           <p className={style.text}>
@@ -60,7 +60,6 @@ export default function PoliticaCookies() {
           El tiempo que una cookie permanecerá en su dispositivo lo determinará la naturaleza de la misma, que puede ser  permanente  o de  sesión .
           </p>
 
-
           <p className={style.text}>
 
           Un navegador web almacenará y validará una cookie permanente hasta su fecha establecida de vencimiento, a menos que usted decida eliminarla antes. Por otro lado, una cookie de sesión caducará cuando usted finalice su sesión web, es decir, cuando cierre su navegador.
@@ -89,7 +88,6 @@ export default function PoliticaCookies() {
 
           </p>  
 
-
           <p className={style.text}>
           Recuerde que la aceptación o el rechazo del uso de cookies se limita al sitio en el que se publica nuestro Aviso de manejo de cookies, por lo que no abarca a otros sitios o páginas que pueden tener hipervínculos a nuestro sitio web.
           </p>
@@ -113,7 +111,7 @@ export default function PoliticaCookies() {
           </p>
 
           <p className={style.text}>
-          Nuestros suscriptores podrán actualizar sus preferencias de comunicación en cualquier momento, poniéndose en contacto con nosotros a través del sitio web Contáctenos; o bien, podrán anular su suscripción siguiendo las instrucciones contenidas en las comunicaciones individuales por correo electrónico que reciban de nuestra parte.
+          Nuestros suscriptores podrán actualizar sus preferencias de comunicación en cualquier momento, poniéndose en contacto con nosotros a través del sitio web Contáctenos o bien, podrán anular su suscripción siguiendo las instrucciones contenidas en las comunicaciones individuales por correo electrónico que reciban de nuestra parte.
           </p>
 
           <p className={style.text}>
@@ -128,23 +126,6 @@ export default function PoliticaCookies() {
           <p className={style.text}>
           Por ello, le recomendamos que revise periódicamente este Aviso de manejo de cookies, para que permanezca informado sobre nuestro uso de las mismas.
           </p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
         </div>
       </div>

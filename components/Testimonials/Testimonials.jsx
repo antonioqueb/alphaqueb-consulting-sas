@@ -1,7 +1,7 @@
 // Testimonials.jsx
-import React from 'react';
-import { CardTestimony } from '../CardTestimony/CardTestimony'; // Asegúrate de que la ruta sea correcta
-import styles from './Testimonials.module.css';
+import React from 'react'
+import { CardTestimony } from '../CardTestimony/CardTestimony' // Asegúrate de que la ruta sea correcta
+import styles from './Testimonials.module.css'
 
 // Datos de los testimonios (puedes mover esto a un archivo JSON y luego importarlo)
 const testimonies = [
@@ -33,7 +33,7 @@ const testimonies = [
 
 
   // ... más testimonios
-];
+]
 
 export const Testimonials = () => {
   return (
@@ -55,7 +55,7 @@ export const Testimonials = () => {
       ))}
     </div>
     </>
-  );
+  )
 }
 
-export default Testimonials;
+export default Testimonials
