@@ -1,13 +1,13 @@
 import style from './politica-privacidad.module.css'
-import Image from "next/image"
+import Image from 'next/image'
 
-export default function PoliticaPrivacidad() {
+export default function PoliticaPrivacidad () {
   return (
     <>
       <div className={style.container}>
         
         <div className={style.container__title}>
-          <Image src="/svg/politicas.svg" width={230} height={230} alt="cover"  
+          <Image src='/svg/politicas.svg' width={230} height={230} alt='cover'  
          />
           <h3 className={style.toptitle}>Políticas</h3>
           <h1 className={style.title}>Política de Privacidad</h1>
@@ -30,7 +30,6 @@ export default function PoliticaPrivacidad() {
 
           </p>
 
-
           <h2>Seguridad de la información</h2>
           <p className={style.text}>
           Seguridad de la informaciónSeguridad de la informaciónTomamos medidas de seguridad razonables para proteger la información recopilada, incluyendo el uso de tecnologías de encriptación y almacenamiento seguro de la información.
@@ -40,12 +39,6 @@ export default function PoliticaPrivacidad() {
           <p className={style.text}>
           Nos reservamos el derecho de actualizar esta política de privacidad en cualquier momento. Los usuarios serán notificados de cualquier cambio en la política de privacidad a través de la plataforma.
           </p>
-
-
-
-
-
-
 
         </div>
       </div>

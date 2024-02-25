@@ -1,23 +1,23 @@
-'use client';
+'use client'
 // Importa useState y useEffect
-import React, { useState, useEffect } from 'react';
-import { MdOutlineKeyboardArrowDown } from 'react-icons/md';
-import Image from 'next/image';
-import Link from 'next/link';
-import styles from './CallToAction.module.css';
+import React, { useState, useEffect } from 'react'
+import { MdOutlineKeyboardArrowDown } from 'react-icons/md'
+import Image from 'next/image'
+import Link from 'next/link'
+import styles from './CallToAction.module.css'
 
 const CallToAction = () => {
-  const [isScrolled, setIsScrolled] = useState(false);
-  const [email, setEmail] = useState('');
+  const [isScrolled, setIsScrolled] = useState(false)
+  const [email, setEmail] = useState('')
 
   // Función asincrónica para manejar el cambio en el input de correo y la solicitud POST a la API
   const handleEmailChange = (event) => {
-    setEmail(event.target.value);
-  };
+    setEmail(event.target.value)
+  }
 
   const handleContactButtonClick = async () => {
     try {
-      console.log('Body de la solicitud:', JSON.stringify({ correo: email }));
+      console.log('Body de la solicitud:', JSON.stringify({ correo: email }))
 
       const response = await fetch('https://api.queb.online/guardar', {
         method: 'POST',
@@ -27,19 +27,19 @@ const CallToAction = () => {
         body: JSON.stringify({
           correo: email,
         }),
-      });
+      })
 
       if (response.ok) {
-        console.log('Solicitud POST exitosa');
+        console.log('Solicitud POST exitosa')
         // Restablecer el estado del correo después de una solicitud exitosa
-        setEmail('');
+        setEmail('')
       } else {
-        console.error('Error en la solicitud POST:', response.status, response.statusText);
+        console.error('Error en la solicitud POST:', response.status, response.statusText)
       }
     } catch (error) {
-      console.error('Error en la solicitud POST:', error.message);
+      console.error('Error en la solicitud POST:', error.message)
     }
-  };
+  }
 
 
 
@@ -62,10 +62,10 @@ const CallToAction = () => {
             </p>
           </div>
           <div className={styles.CallToAction__container__text__form}>
-            <form action="" className={styles.CallToAction__container__text__form__container}>
+            <form action='' className={styles.CallToAction__container__text__form__container}>
               <input
-                type="text"
-                placeholder="Email Corporativo"
+                type='text'
+                placeholder='Email Corporativo'
                 className={styles.CallToAction__container__text__form__input}
                 value={email}
                 onChange={handleEmailChange}
@@ -76,7 +76,7 @@ const CallToAction = () => {
             </form>
             <span>
               Al enviar aceptas nuestros{' '}
-              <Link className={styles.CallToAction__container__text__form__Link} href="/" style={{ textDecoration: 'none' }}>
+              <Link className={styles.CallToAction__container__text__form__Link} href='/' style={{ textDecoration: 'none' }}>
                 términos y condiciones.
               </Link>
             </span>
@@ -84,14 +84,14 @@ const CallToAction = () => {
         </div>
 
         <div className={styles.CallToAction__container__image}>
-          <Image src="/hero.svg" alt="CallToAction" width={800} height={800} />
+          <Image src='/hero.svg' alt='CallToAction' width={800} height={800} />
         </div>
       </div>
 
     </>
-  );
+  )
 
-};
+}
 
 // Exporta el componente por defecto
-export default CallToAction;
+export default CallToAction

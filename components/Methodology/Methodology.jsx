@@ -1,8 +1,8 @@
+// Methodology
 
-  //Methodology
-import React from 'react';
-import styles from './Methodology.module.css';
-import Image from 'next/image';
+import React from 'react'
+import styles from './Methodology.module.css'
+import Image from 'next/image'
 
 export const Methodology = () => {
   return (
@@ -13,7 +13,7 @@ export const Methodology = () => {
       <div className={styles.Methodology__container_steps}>
          <div className={styles.Methodology__container_steps_step_left}>
          <div className={styles.Methodology__container_steps_step_image}>
-            <Image className={styles.Methodology__container_steps_step_image__img} src="/discovery.svg" width={650} height={650} alt="step1" />
+            <Image className={styles.Methodology__container_steps_step_image__img} src='/discovery.svg' width={650} height={650} alt='step1' />
           </div>
           <div className={styles.Methodology__container_steps_step_text}>
             <h3>Entendiendo tus necesidades: La clave del éxito</h3>
@@ -23,14 +23,11 @@ export const Methodology = () => {
              <h4 className='text-2xl my-2'><strong>El resultado:</strong></h4>
              <p className='text-gray-300'><strong>Plan y presupuesto:</strong> Te presentaremos una propuesta detallada con objetivos, funcionalidades, tecnología y cronograma.</p>
              <p className='text-gray-300'><strong>Confianza y experiencia:</strong> Te guiaremos en cada paso del proceso, brindándote la confianza de que tu proyecto está en buenas manos.</p>
-
-
-
           </div>
           </div>
           <div className={styles.Methodology__container_steps_step_right}>
          <div className={styles.Methodology__container_steps_step_image}>
-            <Image className={styles.Methodology__container_steps_step_image__img} src="/diseño.svg" width={700} height={700} alt="step1" />
+            <Image className={styles.Methodology__container_steps_step_image__img} src='/diseño.svg' width={700} height={700} alt='step1' />
           </div>
           <div className={styles.Methodology__container_steps_step_text}>
           <h3>Diseño: Optimizando la Funcionalidad</h3>
@@ -48,7 +45,7 @@ export const Methodology = () => {
           </div>
           <div className={styles.Methodology__container_steps_step_left}>
          <div className={styles.Methodology__container_steps_step_image}>
-            <Image className={styles.Methodology__container_steps_step_image__img} src="/develop.svg" width={700} height={700} alt="step1" />
+            <Image className={styles.Methodology__container_steps_step_image__img} src='/develop.svg' width={700} height={700} alt='step1' />
           </div>
           <div className={styles.Methodology__container_steps_step_text}>
           <h3>Desarrollo: Construyendo una Aplicación Robusta y Escalable</h3>
@@ -60,14 +57,11 @@ export const Methodology = () => {
           <h4 className='text-2xl my-2'><strong>El resultado:</strong></h4>
 
           <p className='text-gray-300'><strong >Aplicación robusta y escalable:</strong > Tu aplicación estará preparada para crecer junto a tu negocio, soportando un alto volumen de usuarios y datos.</p>
-    
-
-            
           </div>
           </div>
           <div className={styles.Methodology__container_steps_step_right}>
          <div className={styles.Methodology__container_steps_step_image}>
-            <Image className={styles.Methodology__container_steps_step_image__img} src="/implement.svg" width={700} height={700} alt="step1" />
+            <Image className={styles.Methodology__container_steps_step_image__img} src='/implement.svg' width={700} height={700} alt='step1' />
           </div>
           <div className={styles.Methodology__container_steps_step_text}>
           <h3>Implementación: Asegurando un Despliegue Exitoso</h3>
@@ -80,13 +74,11 @@ export const Methodology = () => {
 
           <p className='text-gray-300'><strong >Despliegue sin problemas:</strong > Tu aplicación estará lista para usarse en tu entorno de producción, sin interrupciones en tu flujo de trabajo.</p>
           <p className='text-gray-300'><strong >Equipo capacitado:</strong > Tu equipo estará capacitado para usar la aplicación de manera eficiente, maximizando su productividad.</p>
-     
-           
            </div>
           </div>
           <div className={styles.Methodology__container_steps_step_left}>
          <div className={styles.Methodology__container_steps_step_image}>
-            <Image className={styles.Methodology__container_steps_step_image__img} src="/evo.svg" width={700} height={700} alt="step1" />
+            <Image className={styles.Methodology__container_steps_step_image__img} src='/evo.svg' width={700} height={700} alt='step1' />
           </div>
           <div className={styles.Methodology__container_steps_step_text}>
           <h3>Evolución: Crecimiento Continuo de tu Aplicación</h3>
@@ -99,15 +91,13 @@ export const Methodology = () => {
 
           <p className='text-gray-300'><strong >Aplicación siempre actualizada:</strong > Tu aplicación siempre estará al día con las últimas tecnologías y funcionalidades de Odoo.</p>
           <p className='text-gray-300'><strong >Adaptación a tus necesidades:</strong > La aplicación se adaptará a las nuevas necesidades de tu negocio, permitiéndote crecer y evolucionar sin limitaciones.</p>
-     
-            
              </div>
           </div>
       </div>
 
     
     </div>
-  );
+  )
 }
 
-export default Methodology;
+export default Methodology

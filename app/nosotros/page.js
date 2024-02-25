@@ -1,12 +1,7 @@
 import style from './nosotros.module.css'
 import Image from 'next/image'
 
-
-
-export default function AboutPage() {
-
-  
-
+export default function AboutPage () {
   return (
     <>
     <section  className={style.container}>
@@ -42,8 +37,8 @@ export default function AboutPage() {
         <p className={style.container__text__paragraph}>Nos comprometemos a convertir la promesa de la transformación digital en una realidad tangible para nuestros clientes. Guiamos a cada cliente en un viaje transformador, asegurando que cada fase de su proyecto, desde el diagnóstico hasta la evaluación, marque un avance significativo hacia la realización de su visión digital.</p>
         </div>
     </section>
-         <section  className={style.container_reverse}>
-      <div className={style.container__img}>
+         <section className={style.container_reverse}>
+          <div className={style.container__img}>
         <Image src='valores.svg' width={330} height={330} alt='cover'  
          />
       </div>

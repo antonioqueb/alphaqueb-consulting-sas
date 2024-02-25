@@ -1,8 +1,5 @@
-
-
-function Page() {
-
-    return (
+function Page () {
+  return (
      
         <div className='text-3xl font-bold text-center py-10 h-screen flex items-center justify-center'>
         <div>
@@ -15,6 +12,6 @@ function Page() {
         </div>
       </div>
       
-    );
-  }
-  export default Page;
+  )
+}
+export default Page

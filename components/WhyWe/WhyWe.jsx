@@ -1,8 +1,8 @@
 
 //WhyWe
-import React from 'react';
-import styles from './WhyWe.module.css';
-import Image from 'next/image';
+import React from 'react'
+import styles from './WhyWe.module.css'
+import Image from 'next/image'
 
 export const WhyWe = () => {
   return (
@@ -28,7 +28,7 @@ export const WhyWe = () => {
           </div>
       
     </div>
-  );
+  )
 }
 
-export default WhyWe;
+export default WhyWe

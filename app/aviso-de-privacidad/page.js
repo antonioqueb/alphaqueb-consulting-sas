@@ -1,7 +1,7 @@
 import style from './politica-privacidad.module.css'
 import Image from  'next/image'
 
-export default function AvisoPrivacidad() {
+export default function AvisoPrivacidad () {
   return (
     <>
       <div className={style.container}>
@@ -30,7 +30,6 @@ export default function AvisoPrivacidad() {
           <p className={style.text}>
           “ARK PROJECT” con domicilio 06450, Naranjo 355, Atlampa, Cuauhtémoc, Ciudad de México, CDMX. es responsable de recabar sus datos personales, del uso que se da a los mismos y de su protección.
           </p>
-
          
           <p className={style.text}>
           Con base en la Ley Federal de Protección de Datos Personales en Posesión de Particulares, “ARK PROJECT” reconoce que es importante asegurar la debida privacidad y la seguridad de su información de acuerdo con las leyes vigentes, por lo cual estamos comprometidos a resguardar su información personal de acuerdo con las prácticas legales, administrativas y conforme a estándares de seguridad informática propios de la industria.
@@ -55,7 +54,6 @@ export default function AvisoPrivacidad() {
           <p className={style.text}>
           Acceso: Podrá elegir la manera de comunicarse con nosotros a través de los medios mencionados en este documento para saber si “ARK PROJECT”, cuenta con sus datos personales y los detalles de los mismos. Rectificación: Usted podrá solicitarnos que cualquiera de sus datos personales sea corregido, en caso de que tengamos registrado alguno erróneamente o que el mismo haya sido modificado.
            </p>
-
          
           <p className={style.text}>
           Cancelación: Podrá pedir que cancelemos o demos de baja sus datos personales siempre y cuando exista una causa que justifique dicha acción y no tenga obligación pendiente de cubrir por parte o a favor de “ARK PROJECT”.
@@ -90,10 +88,6 @@ export default function AvisoPrivacidad() {
           Por su parte, en caso de que se requiera alguna modificación a lo estipulado en el presente aviso de privacidad será notificado a través de nuestra página Web en la siguiente dirección ARK PROJECT.COM.MX
 
           </p>
-
-
-
-
 
         </div>
       </div>

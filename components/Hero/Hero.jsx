@@ -1,23 +1,23 @@
-'use client';
+'use client'
 // Importa useState y useEffect
-import React, { useState, useEffect } from 'react';
-import { MdOutlineKeyboardArrowDown } from 'react-icons/md';
-import Image from 'next/image';
-import Link from 'next/link';
-import styles from './Hero.module.css';
+import React, { useState, useEffect } from 'react'
+import { MdOutlineKeyboardArrowDown } from 'react-icons/md'
+import Image from 'next/image'
+import Link from 'next/link'
+import styles from './Hero.module.css'
 
 const Hero = () => {
-  const [isScrolled, setIsScrolled] = useState(false);
-  const [email, setEmail] = useState('');
+  const [isScrolled, setIsScrolled] = useState(false)
+  const [email, setEmail] = useState('')
 
   // Función asincrónica para manejar el cambio en el input de correo y la solicitud POST a la API
   const handleEmailChange = (event) => {
-    setEmail(event.target.value);
-  };
+    setEmail(event.target.value)
+  }
 
   const handleContactButtonClick = async () => {
     try {
-      console.log('Body de la solicitud:', JSON.stringify({ correo: email }));
+      console.log('Body de la solicitud:', JSON.stringify({ correo: email }))
 
       const response = await fetch('https://api.queb.online/guardar', {
         method: 'POST',
@@ -27,32 +27,32 @@ const Hero = () => {
         body: JSON.stringify({
           correo: email,
         }),
-      });
+      })
 
       if (response.ok) {
-        console.log('Solicitud POST exitosa');
+        console.log('Solicitud POST exitosa')
         // Restablecer el estado del correo después de una solicitud exitosa
-        setEmail('');
+        setEmail('')
       } else {
-        console.error('Error en la solicitud POST:', response.status, response.statusText);
+        console.error('Error en la solicitud POST:', response.status, response.statusText)
       }
     } catch (error) {
-      console.error('Error en la solicitud POST:', error.message);
+      console.error('Error en la solicitud POST:', error.message)
     }
-  };
+  }
 
   // Efecto para manejar el scroll
   useEffect(() => {
     const handleScroll = () => {
-      setIsScrolled(window.scrollY > 50);
-    };
+      setIsScrolled(window.scrollY > 50)
+    }
 
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener('scroll', handleScroll)
 
     return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
+      window.removeEventListener('scroll', handleScroll)
+    }
+  }, [])
 
 
 
@@ -132,9 +132,9 @@ const Hero = () => {
         />
       </div>
     </>
-  );
+  )
 
-};
+}
 
 // Exporta el componente por defecto
-export default Hero;
+export default Hero

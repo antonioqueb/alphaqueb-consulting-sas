@@ -1,8 +1,8 @@
-import style from './page.module.css';
-import Image from 'next/image';
-import CallToAction from '../../components/CallToAction/CallToAction';
+import style from './page.module.css'
+import Image from 'next/image'
+import CallToAction from '../../components/CallToAction/CallToAction'
 
-export default function Page() {
+export default function Page () {
   return (
     <>
       <section className={style.container}>
@@ -17,5 +17,5 @@ export default function Page() {
       </section>
       <CallToAction />
     </>
-  );
+  )
 }
