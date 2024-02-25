@@ -73,19 +73,19 @@ const Hero = () => {
 
 
 
-                <div class=' flex-col justify-center w-full'>
-                <form action='' class='flex flex-col items-center w-full md:flex-row mb-4 md:space-x-4'>
+                <div className=' flex-col justify-center w-full'>
+                <form action='' className='flex flex-col items-center w-full md:flex-row mb-4 md:space-x-4'>
                   <input
                     type='text'
                     placeholder='Email para contactar'
                     name='email'
                     id='email'
-                    class='w-full md:w-3/4 h-12 px-4 mb-3 md:mb-0 text-lg justify-center text-gray-700 placeholder-gray-600 border rounded-lg focus:shadow-outline'
+                    className='w-full md:w-3/4 h-12 px-4 mb-3 md:mb-0 text-lg justify-center text-gray-700 placeholder-gray-600 border rounded-lg focus:shadow-outline'
                     value={email}
                     onChange={handleEmailChange}
                   />
                   <button
-                    class='w-full md:w-1/4 text-lg font-semibold text-white bg-darkprimary px-5 py-2.5 border rounded-lg hover:bg-darkprimary focus:outline-none focus:shadow-outline'
+                    className='w-full md:w-1/4 text-lg font-semibold text-white bg-darkprimary px-5 py-2.5 border rounded-lg hover:bg-darkprimary focus:outline-none focus:shadow-outline'
                     type='button'
                     onClick={handleContactButtonClick}
                   >
