@@ -18,8 +18,13 @@
         "semi": ["error", "never"], // Deshabilita los semicolons
         "no-trailing-spaces": "off", // Ya lo tienes configurado
         "no-multi-spaces": "off", // Deshabilita multiples espacios
-        "react/react-in-jsx-scope": "off" // Permite usar JSX sin importar React
+        "react/react-in-jsx-scope": "off", // Permite usar JSX sin importar React
         // Otras reglas que quieras deshabilitar
+        "no-case-declarations": "off", // May be necessary in Next.js
+        "no-multiple-empty-lines": ["error", { "max": 1 }], // Allow some flexibility 
+        "react/prop-types": "off",  // If you're using TypeScript
+        "comma-dangle": ["error", "only-multiline"] // More flexible comma usage
+  }
 
-    }
+    
 }
