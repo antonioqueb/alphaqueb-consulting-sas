@@ -21,9 +21,9 @@
         "react/react-in-jsx-scope": "off", // Permite usar JSX sin importar React
         // Otras reglas que quieras deshabilitar
         "no-case-declarations": "off", // May be necessary in Next.js
-        "no-multiple-empty-lines": ["error", { "max": 1 }], // Allow some flexibility 
+        "no-multiple-empty-lines": "off",
         "react/prop-types": "off",  // If you're using TypeScript
-        "comma-dangle": ["error", "only-multiline"] // More flexible comma usage
+        "comma-dangle": ["error", "only-multiline"], // More flexible comma usage
   }
 
     
