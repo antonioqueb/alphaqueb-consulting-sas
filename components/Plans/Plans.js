@@ -84,7 +84,7 @@ const NavbarComponent = () => {
                 </div>
 
             </ul>
-            <button href='#/' className='flex justify-center items-center bg-black rounded-xl py-5 px-4 text-center text-white text-xl' onClick={() => handlePay('4 Horas', 555800, 'https://res.cloudinary.com/dn5cltdre/image/upload/v1708847679/1.svg')}>
+            <button href='#/' className='flex justify-center items-center bg-black rounded-xl py-5 px-4 text-center text-white text-xl' onClick={() => handlePay('Paquete Soluciones Express Odoo 4 Horas', 555800, 'https://res.cloudinary.com/dn5cltdre/image/upload/v1708847679/1.svg')}>
                 Comprar Paquete
                 <GoArrowRight className='text-black' style={{ fill: 'white' }} />
 
@@ -133,7 +133,7 @@ const NavbarComponent = () => {
                 <span><span className='font-medium text-gray-100 text-xl align-top'>$</span><span className='text-3xl font-bold text-gray-100'>39,840 MXN</span></span>
                 </div>
             </ul>
-            <button href='#/' className='flex justify-center items-center bg-white rounded-xl py-6 px-4 text-center text-black text-2xl' onClick={() => handlePay('40 Horas', 4621400, 'https://res.cloudinary.com/dn5cltdre/image/upload/v1708847679/1.svg')}>
+            <button href='#/' className='flex justify-center items-center bg-white rounded-xl py-6 px-4 text-center text-black text-2xl' onClick={() => handlePay('Paquete Proyectos Odoo a Medida 40 Horas', 4621400, 'https://res.cloudinary.com/dn5cltdre/image/upload/v1708847679/1.svg')}>
             Comprar Paquete
             <GoArrowRight className='text-black' style={{ fill: 'black' }} />
 
@@ -183,7 +183,7 @@ const NavbarComponent = () => {
                 </div>
                
             </ul>
-            <button href='#/' className='flex justify-center items-center bg-black rounded-xl py-5 px-4 text-center text-white text-xl' onClick={() => handlePay('200 Horas', 14105600, 'https://res.cloudinary.com/dn5cltdre/image/upload/v1708847679/1.svg')}>
+            <button href='#/' className='flex justify-center items-center bg-black rounded-xl py-5 px-4 text-center text-white text-xl' onClick={() => handlePay('Paquete Evolución Odoo Total 200 Horas', 14105600, 'https://res.cloudinary.com/dn5cltdre/image/upload/v1708847679/1.svg')}>
             Comprar Paquete
             <GoArrowRight className='text-black' style={{ fill: 'white' }} />
             </button>
