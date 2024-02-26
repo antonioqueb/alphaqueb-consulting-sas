@@ -22,7 +22,6 @@ export default function LastNews() {
             meta: frontMatter,
             slug: filename.replace('.mdx', '')
            }
-
   })
 
 return (

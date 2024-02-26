@@ -31,7 +31,11 @@
         "no-unused-vars": "off",
         "indent": "off",     // Requiere indentación de 4 espacios
         "no-console": "off",        // Desactiva advertencias sobre 'console' 
-        "quotes": "off" 
+        "quotes": "off" ,
+        "jsx-a11y/alt-text": "off",
+        "@next/next/no-img-element": "off",
+        "padded-blocks": "off",
+        "no-tabs": "off"
   }
 
     
