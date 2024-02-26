@@ -1,11 +1,10 @@
 
-  //Footer
+// Footer
 import React from 'react'
 import styles from './Footer.module.css'
 import Link from 'next/link'
 import { FaFacebook, FaLinkedin } from 'react-icons/fa'
-import { FaXTwitter } from 'react-icons/fa6'
-import { FaInstagram } from 'react-icons/fa6'
+
 
 
 

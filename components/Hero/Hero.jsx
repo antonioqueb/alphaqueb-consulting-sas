@@ -2,7 +2,6 @@
 // Importa useState y useEffect
 import React, { useState, useEffect } from 'react'
 import { MdOutlineKeyboardArrowDown } from 'react-icons/md'
-import Image from 'next/image'
 import Link from 'next/link'
 import styles from './Hero.module.css'
 
@@ -66,13 +65,9 @@ const Hero = () => {
             <h1 className='mb-8 text-4xl font-semibold leading-none text-white md:text-7xl md:tracking-tight text-balance shadow-md hover:shadow-xl transition-all duration-300'>
                Desarrollo de Apps <span className='text-blueprimary'>Odoo Personalizadas</span>
             </h1>
-
-                <p className='text-pretty	px-0 mb-8 text-lg text-white md:text-xl lg:px-8 '>
-                Llevamos tu implementación de Odoo al siguiente nivel con soluciones digitales a medida, creadas por especialistas en Python Odoo
-                 </p>
-
-
-
+            <p className='text-pretty	px-0 mb-8 text-lg text-white md:text-xl lg:px-8 '>
+              Llevamos tu implementación de Odoo al siguiente nivel con soluciones digitales a medida, creadas por especialistas en Python Odoo
+            </p>
                 <div className=' flex-col justify-center w-full'>
                 <form action='' className='flex flex-col items-center w-full md:flex-row mb-4 md:space-x-4'>
                   <input
