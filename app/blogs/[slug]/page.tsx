@@ -9,12 +9,12 @@ import Image from 'next/image'
 export async function generateStaticParams() {
     const files = fs.readdirSync(path.join('blogs'))
     const paths = files.map(filename => ({
-        slug: filename.replace('.mdx', '')
+      slug: filename.replace('.mdx', '')
     }))
     return paths
-}
+  }
 
-function getPost({ slug }: { slug: string }) {
+function getPost({ slug }) {
     const markdownFile = fs.readFileSync(path.join('blogs', slug + '.mdx'), 'utf-8')
     const { data: frontMatter, content } = matter(markdownFile)
     return {
@@ -24,7 +24,7 @@ function getPost({ slug }: { slug: string }) {
     }
 }
 
-export default function Page({ params }: any) {
+export default function Page({ params }) {
     const props = getPost(params)
     return (
         <article className={styles.main}>

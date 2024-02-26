@@ -1,9 +1,9 @@
 
-  //Services
-import React from 'react';
-import styles from './Services.module.css';
-import Image from 'next/image';
-import Link from 'next/link';
+// Services
+import React from 'react'
+import styles from './Services.module.css'
+import Image from 'next/image'
+import Link from 'next/link'
 
 export const Services = () => {
   return (
@@ -44,7 +44,9 @@ export const Services = () => {
   
       
     </div>
-  );
+  )
 }
 
-export default Services;
+// Services.jsx
+
+export default Services

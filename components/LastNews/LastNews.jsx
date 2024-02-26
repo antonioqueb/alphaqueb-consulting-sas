@@ -1,4 +1,4 @@
-//LastNews
+// LastNews
 import React from 'react'
 import styles from './LastNews.module.css'
 import { CardPost } from '../CardPost/CardPost'
@@ -17,7 +17,7 @@ export const LastNews = () => {
     const fileContent = fs.readFileSync(path.join(blogDir, filename), 'utf-8')
 
 
-    const {data: frontMatter} = matter(fileContent)
+    const { data: frontMatter } = matter(fileContent)
     return {
       meta: frontMatter,
       slug: filename.replace('.mdx', '')
@@ -34,7 +34,7 @@ return (
   </div>
   <div className={styles.LastNews__container}>
   { blogs.map(blog => (
-      <Link href={`/blogs/${blog.slug}`} key={blog.slug} style={{color: 'white',}}>
+      <Link href={`/blogs/${blog.slug}`} key={blog.slug} style={{ color: 'white', textDecoration: 'none' }}>
          <CardPost Titulo={blog.meta.title} Description={blog.meta.description} ImagePost={blog.meta.image}  />
       </Link>
     ))}

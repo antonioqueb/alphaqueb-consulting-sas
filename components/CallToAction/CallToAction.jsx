@@ -1,13 +1,11 @@
 'use client'
 // Importa useState y useEffect
-import React, { useState, useEffect } from 'react'
-import { MdOutlineKeyboardArrowDown } from 'react-icons/md'
+import React, { useState} from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import styles from './CallToAction.module.css'
 
 const CallToAction = () => {
-  const [isScrolled, setIsScrolled] = useState(false)
   const [email, setEmail] = useState('')
 
   // Función asincrónica para manejar el cambio en el input de correo y la solicitud POST a la API
