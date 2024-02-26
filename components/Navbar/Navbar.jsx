@@ -46,22 +46,22 @@ const NavbarComponent = () => {
   return (
     <>
       <nav className={navbarClasses.join(' ')}>
-        <div className={styles['navbar__logo']}>
+        <div className={styles.navbar__logo}>
           <Link href='/'>
             <Image src='/logo.svg' alt='Logo' width={50} height={50} />
           </Link>
         </div>
 
-        <div className={styles['navbar__navigation']} >
+        <div className={styles.navbar__navigation} >
           {links.map(({ href, label, key }) => (
             <Link href={href} key={key}  style={{ textDecoration: 'none', display: isSidebarOpen ? 'none' : 'flex' }}>
-              <span className={styles['navbar__item']}>{label}</span>
+              <span className={styles.navbar__item}>{label}</span>
             </Link>
           ))}
         </div>
 
-        <div className={styles['navbar__icons']} onClick={toggleSidebar} aria-label='Abrir menú'>
-          <GrMoreVertical className={styles['navbar__icon']} />
+        <div className={styles.navbar__icons} onClick={toggleSidebar} aria-label='Abrir menú'>
+          <GrMoreVertical className={styles.navbar__icon} />
         </div>
 
       </nav>

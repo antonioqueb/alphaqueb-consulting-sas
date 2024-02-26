@@ -22,7 +22,8 @@ const SidebarComponent = () => {
   
 
   const closeSidebar = () => {
-    setIsSidebarOpen(false) // Actualiza el estado al cerrar el sidebar
+
+    setIsSidebarOpen(false)
     
   }
 

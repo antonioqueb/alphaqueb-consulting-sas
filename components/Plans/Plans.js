@@ -44,7 +44,7 @@ const NavbarComponent = () => {
             
             <div className='w-full flex-1 mt-8 p-8 order-1 bg-white shadow-xl rounded-3xl sm:w-96 lg:w-full lg:order-1 lg:rounded-r-none'>
             <div className='mb-7 pb-7 flex items-center border-b border-gray-300'>
-                <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708847679/1.svg'  alt='' className='rounded-3xl w-20 h-20' />
+                <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708847679/1.svg'  alt='Planes de precios' className='rounded-3xl w-20 h-20' />
                 <div className='ml-5'>
                 <span className='block text-2xl font-semibold text-gray-500'>4 Horas</span>
                 <span><span className='font-medium text-gray-600 text-xl align-top'>$&thinsp</span><span className='text-3xl font-bold text-gray-600'>1,198 </span></span><span className='text-gray-600 font-medium'>/ hora</span>
@@ -93,7 +93,7 @@ const NavbarComponent = () => {
             
             <div className='w-full flex-1 p-8 order-2 shadow-xl rounded-3xl bg-gray-700 text-gray-400 sm:w-96 lg:w-full lg:order-2 lg:mt-0'>
             <div className='mb-8 pb-8 flex items-center border-b border-gray-600'>
-                <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708847679/2.svg'  alt='' className='rounded-3xl w-20 h-20' />
+                <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708847679/2.svg'  alt='Planes de precios' className='rounded-3xl w-20 h-20' />
                 <div className='ml-5'>
                 <span className='block text-3xl font-semibold text-white '>40 Horas</span>
                 <span><span className='font-medium text-xl align-top'>$&thinsp</span><span className='text-3xl font-bold text-white'>996  </span></span><span className='font-medium'>/ hora</span>
@@ -142,7 +142,7 @@ const NavbarComponent = () => {
             
             <div className='w-full flex-1 mt-8 p-8 order-3 bg-white shadow-xl rounded-3xl sm:w-96 lg:w-full lg:order-3 lg:rounded-l-none'>
             <div className='mb-7 pb-7 flex items-center border-b border-gray-300'>
-                <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708847679/2.svg'  alt='' className='rounded-3xl w-20 h-20' />
+                <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708847679/2.svg'  alt='Planes de precios' className='rounded-3xl w-20 h-20' />
                 <div className='ml-5'>
                 <span className='block text-2xl font-semibold text-gray-500'>200 Horas</span>
                 <span><span className='font-medium text-gray-600 text-xl align-top'>$&thinsp</span><span className='text-3xl font-bold text-gray-600'>608 </span></span><span className='text-gray-600 font-medium'>/ hora</span>

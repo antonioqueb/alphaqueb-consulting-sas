@@ -8,7 +8,7 @@ import { FaFacebook, FaLinkedin } from 'react-icons/fa'
 
 
 
-export const Footer = () => {
+export default function Footer () {
   return (
     <div className={styles.Footer}>
       <div className={styles.Footer__container}>
@@ -88,5 +88,3 @@ export const Footer = () => {
 
   )
 }
-
-export default Footer

@@ -4,7 +4,7 @@ import React from 'react'
 import styles from './Methodology.module.css'
 import Image from 'next/image'
 
-export const Methodology = () => {
+export default function Methodology () {
   return (
     <div className={styles.Methodology__container}>
       <div className={styles.Methodology__title}>
@@ -100,4 +100,4 @@ export const Methodology = () => {
   )
 }
 
-export default Methodology
+
