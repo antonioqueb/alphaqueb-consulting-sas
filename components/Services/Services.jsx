@@ -5,7 +5,7 @@ import styles from './Services.module.css'
 import Image from 'next/image'
 import Link from 'next/link'
 
-export const Services = () => {
+export default function Services() {
   return (
     <div className={styles.Services__container}>
       <div className={styles.Services__container__title}>
@@ -46,7 +46,3 @@ export const Services = () => {
     </div>
   )
 }
-
-// Services.jsx
-
-export default Services

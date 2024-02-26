@@ -53,29 +53,29 @@ const NavbarComponent = () => {
                 <ul className='mb-7 font-medium text-gray-500'>
                 <p className='text-xl font-semibold mb-2 text-black'>Ideal para:</p>
                 <li className='flex text-lg mb-1'>
-                <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839871/check-grey.svg' />
+                <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839871/check-grey.svg' alt='check'/>
                 <span className='text-black'>Correcciones puntuales.</span>
                 </li>
                 <li className='flex text-lg mb-1'>
-                <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839871/check-grey.svg' />
+                <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839871/check-grey.svg' alt='check'/>
                 <span className='text-black'>Personalizaciones básicas.</span>
                 </li>
                 <li className='flex text-lg mb-1'>
-                <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839871/check-grey.svg' />
+                <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839871/check-grey.svg' alt='check'/>
                 <span className='text-black'>Solución de errores.</span>
                 </li>
                 <p className='text-xl font-semibold mb-2 text-black'>Ejemplos:</p>
 
                 <li className='flex text-lg mb-1'>
-                <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839871/check-grey.svg' />
+                <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839871/check-grey.svg' alt='check'/>
                 <span className='text-black'>Corregir errores visuales.</span>
                 </li>
                 <li className='flex text-lg mb-1'>
-                <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839871/check-grey.svg' />
+                <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839871/check-grey.svg' alt='check'/>
                 <span className='text-black'>Añadir nuevos campos.</span>
                 </li>
                 <li className='flex text-lg'>
-                <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839871/check-grey.svg' />
+                <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839871/check-grey.svg' alt='check'/>
                 <span className='text-black'>Personalizar la interfaz.</span>
                 </li>
                 <div className='ml-5'>
@@ -103,29 +103,29 @@ const NavbarComponent = () => {
             <p className='text-xl font-semibold mb-2 text-white'>Ideal para:</p>
 
                 <li className='flex mb-1'>
-                <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839581/arrow-white.svg.svg' />
+                <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839581/arrow-white.svg.svg' alt='check'/>
                 <span className='text-white'>Modificaciones avanzadas.</span>
                 </li>
                 <li className='flex mb-1'>
-                <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839581/arrow-white.svg.svg' />
+                <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839581/arrow-white.svg.svg' alt='check'/>
                 <span className='text-white'>Módulos personalizados.</span>
                 </li>
                 <li className='flex mb-1'>
-                <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839581/arrow-white.svg.svg' />
+                <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839581/arrow-white.svg.svg' alt='check'/>
                 <span className='text-white'>Reportes a medida.</span>
                 </li>
                 <p className='text-xl font-semibold mb-2 text-white'>Ejemplos:</p>
 
                 <li className='flex mb-1'>
-                <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839581/arrow-white.svg.svg' />
+                <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839581/arrow-white.svg.svg' alt='check'/>
                 <span className='text-white'>Implementar nuevas funcionalidades.</span>
                 </li>
                 <li className='flex mb-1'>
-                <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839581/arrow-white.svg.svg' />
+                <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839581/arrow-white.svg.svg' alt='check'/>
                 <span className='text-white'>Desarrollar un módulo específico.</span>
                 </li>
                 <li className='flex mb-1'>
-                <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839581/arrow-white.svg.svg' />
+                <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839581/arrow-white.svg.svg' alt='check'/>
                 <span className='text-white'>Crear reportes para análisis.</span>
                 </li>
                 <div className='ml-5'>
@@ -152,29 +152,29 @@ const NavbarComponent = () => {
             <p className='text-xl font-semibold mb-2 text-black'>Ideal para:</p>
 
                 <li className='flex text-lg mb-1'>
-                <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839871/check-grey.svg' />
+                <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839871/check-grey.svg' alt='check'/>
                 <span className='text-black'>Integraciones avanzadas.</span>
                 </li>
                 <li className='flex text-lg mb-1'>
-                <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839871/check-grey.svg' />
+                <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839871/check-grey.svg' alt='check'/>
                 <span className='text-black'>Conexiones PLC.</span>
                 </li>
                 <li className='flex text-lg mb-1'>
-                <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839871/check-grey.svg' />
+                <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839871/check-grey.svg' alt='check'/>
                 <span className='text-black'>Integraciones API.</span>
                 </li>
                 <p className='text-xl font-semibold mb-2 text-black'>Ejemplos:</p>
 
                 <li className='flex text-lg mb-1'>
-                <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839871/check-grey.svg' />
+                <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839871/check-grey.svg' alt='check'/>
                 <span className='text-black'>Conectar con Salesforce.</span>
                 </li>
                 <li className='flex text-lg mb-1'>
-                <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839871/check-grey.svg' />
+                <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839871/check-grey.svg' alt='check'/>
                 <span className='text-black'>Control de producción.</span>
                 </li>
                 <li className='flex text-lg mb-1'>
-                <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839871/check-grey.svg' />
+                <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839871/check-grey.svg' alt='check'/>
                 <span className='text-black'>Integrar sistemas externos.</span>
                 </li>
                 <div className='ml-5'>
