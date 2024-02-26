@@ -48,7 +48,7 @@ const NavbarComponent = () => {
       <nav className={navbarClasses.join(' ')}>
         <div className={styles.navbar__logo}>
           <Link href='/'>
-            <Image src='/logo.svg' alt='Logo' width={50} height={50} />
+            <Image src='/brand/blue_and_text.png' alt='Logo' width={50} height={50} />
           </Link>
         </div>
 
