@@ -34,7 +34,7 @@ const NavbarComponent = () => {
     }
   }, [])
 
-  let navbarClasses = [styles.navbar]
+  const navbarClasses = [styles.navbar]
   if (scrolled) {
     navbarClasses.push(styles.scrolled)
   }
