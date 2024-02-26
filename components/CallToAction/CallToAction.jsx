@@ -81,7 +81,7 @@ export default function CallToAction() {
           </div>
         </div>
         <div className={styles.CallToAction__container__image}>
-          <Image src='/hero.svg' alt='CallToAction' width={800} height={800} />
+          <Image src='/whywe.svg' alt='CallToAction' width={500} height={500} />
         </div>
       </div>
     </>
