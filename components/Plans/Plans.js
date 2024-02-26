@@ -47,7 +47,7 @@ const NavbarComponent = () => {
                 <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708847679/1.svg'  alt='Planes de precios' className='rounded-3xl w-20 h-20' />
                 <div className='ml-5'>
                 <span className='block text-2xl font-semibold text-gray-500'>4 Horas</span>
-                <span><span className='font-medium text-gray-600 text-xl align-top'>$&thinsp</span><span className='text-3xl font-bold text-gray-600'>1,198 </span></span><span className='text-gray-600 font-medium'>/ hora</span>
+                <span><span className='font-medium text-gray-600 text-xl align-top'>$</span><span className='text-3xl font-bold text-gray-600'>1,198 </span></span><span className='text-gray-600 font-medium'>/ hora</span>
                 </div>
             </div>
                 <ul className='mb-7 font-medium text-gray-500'>
@@ -80,7 +80,7 @@ const NavbarComponent = () => {
                 </li>
                 <div className='ml-5'>
                 <span className='block text-2xl font-semibold text-gray-500 mt-4'>Total</span>
-                <span><span className='font-medium text-gray-600 text-xl align-top'>$&thinsp</span><span className='text-3xl font-bold text-gray-600'>4,792 MXN</span></span>
+                <span><span className='font-medium text-gray-600 text-xl align-top'>$</span><span className='text-3xl font-bold text-gray-600'>4,792 MXN</span></span>
                 </div>
 
             </ul>
@@ -96,7 +96,7 @@ const NavbarComponent = () => {
                 <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708847679/2.svg'  alt='Planes de precios' className='rounded-3xl w-20 h-20' />
                 <div className='ml-5'>
                 <span className='block text-3xl font-semibold text-white '>40 Horas</span>
-                <span><span className='font-medium text-xl align-top'>$&thinsp</span><span className='text-3xl font-bold text-white'>996  </span></span><span className='font-medium'>/ hora</span>
+                <span><span className='font-medium text-xl align-top'>$</span><span className='text-3xl font-bold text-white'>996  </span></span><span className='font-medium'>/ hora</span>
                 </div>
             </div>
             <ul className='mb-10 font-medium text-xl'>
@@ -130,7 +130,7 @@ const NavbarComponent = () => {
                 </li>
                 <div className='ml-5'>
                 <span className='block text-2xl font-semibold text-gray-100  mt-4'>Total</span>
-                <span><span className='font-medium text-gray-100 text-xl align-top'>$&thinsp</span><span className='text-3xl font-bold text-gray-100'>39,840 MXN</span></span>
+                <span><span className='font-medium text-gray-100 text-xl align-top'>$</span><span className='text-3xl font-bold text-gray-100'>39,840 MXN</span></span>
                 </div>
             </ul>
             <button href='#/' className='flex justify-center items-center bg-white rounded-xl py-6 px-4 text-center text-black text-2xl' onClick={() => handlePay('40 Horas', 4621400, 'https://res.cloudinary.com/dn5cltdre/image/upload/v1708847679/1.svg')}>
@@ -145,7 +145,7 @@ const NavbarComponent = () => {
                 <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708847679/2.svg'  alt='Planes de precios' className='rounded-3xl w-20 h-20' />
                 <div className='ml-5'>
                 <span className='block text-2xl font-semibold text-gray-500'>200 Horas</span>
-                <span><span className='font-medium text-gray-600 text-xl align-top'>$&thinsp</span><span className='text-3xl font-bold text-gray-600'>608 </span></span><span className='text-gray-600 font-medium'>/ hora</span>
+                <span><span className='font-medium text-gray-600 text-xl align-top'>$</span><span className='text-3xl font-bold text-gray-600'>608 </span></span><span className='text-gray-600 font-medium'>/ hora</span>
                 </div>
             </div>
             <ul className='mb-7 font-medium text-gray-500'>
@@ -179,7 +179,7 @@ const NavbarComponent = () => {
                 </li>
                 <div className='ml-5'>
                 <span className='block text-2xl font-semibold text-gray-500  mt-4'>Total</span>
-                <span><span className='font-medium text-gray-600 text-xl align-top'>$&thinsp</span><span className='text-3xl font-bold text-gray-600'>121,600 MXN</span></span>
+                <span><span className='font-medium text-gray-600 text-xl align-top'>$</span><span className='text-3xl font-bold text-gray-600'>121,600 MXN</span></span>
                 </div>
                
             </ul>
