@@ -111,7 +111,7 @@ const Hero = () => {
                                 <div className='w-3 h-3 border-2 border-darkprimary rounded-full'></div>
                             </div>
                         </div>
-                        <img src='pages.png'/>
+                        <img src='pages.png' alt='Hero'/>
                     </div>
                 </div>
                 
@@ -128,7 +128,6 @@ const Hero = () => {
       </div>
     </>
   )
-
 }
 
 // Exporta el componente por defecto

@@ -4,7 +4,7 @@ import React from 'react'
 import styles from './WhyWe.module.css'
 import Image from 'next/image'
 
-export const WhyWe = () => {
+export default function WhyWe () {
   return (
     <div className={styles.WhyWe__container}> 
         <div className={styles.WhyWe__container_images}>
@@ -19,4 +19,3 @@ export const WhyWe = () => {
   )
 }
 
-export default WhyWe;

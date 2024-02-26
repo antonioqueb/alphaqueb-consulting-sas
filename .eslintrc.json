@@ -25,7 +25,13 @@
         "no-multiple-empty-lines": "off",
         "react/prop-types": "off",  // If you're using TypeScript
         "comma-dangle": ["error", "only-multiline"], // More flexible comma usage ,
-        "space-before-function-paren": "off"
+        "space-before-function-paren": "off",
+        "import/named" : "error",
+        "import/no-unresolved": "error",
+        "no-unused-vars": "off",
+        "indent": "off",     // Requiere indentación de 4 espacios
+        "no-console": "off",        // Desactiva advertencias sobre 'console' 
+        "quotes": "off" 
   }
 
     

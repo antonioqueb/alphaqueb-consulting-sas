@@ -5,7 +5,7 @@ import styles from './Doubts.module.css'
 import Link from 'next/link'
 import Image from 'next/image'
 
-export const Doubts = () => {
+export default function Doubts() {
   return (
     <div className={styles.Doubts__container}>
       <div className={styles.Doubts__container__text__and__form}>
@@ -26,5 +26,3 @@ export const Doubts = () => {
     </div>
   )
 }
-
-export default Doubts

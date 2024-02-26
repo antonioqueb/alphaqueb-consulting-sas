@@ -1,11 +1,11 @@
 'use client'
 // Importa useState y useEffect
-import React, { useState} from 'react'
+import React, { useState } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import styles from './CallToAction.module.css'
 
-const CallToAction = () => {
+export default function CallToAction() {
   const [email, setEmail] = useState('')
 
   // Función asincrónica para manejar el cambio en el input de correo y la solicitud POST a la API
@@ -80,16 +80,10 @@ const CallToAction = () => {
             </span>
           </div>
         </div>
-
         <div className={styles.CallToAction__container__image}>
           <Image src='/hero.svg' alt='CallToAction' width={800} height={800} />
         </div>
       </div>
-
     </>
-  )
-
+  ) 
 }
-
-// Exporta el componente por defecto
-export default CallToAction
