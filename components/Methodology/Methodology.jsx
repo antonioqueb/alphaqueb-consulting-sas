@@ -16,7 +16,7 @@ export default function Methodology () {
             <Image className={styles.Methodology__container_steps_step_image__img} src='/discovery.svg' width={650} height={650} alt='step1' />
           </div>
           <div className={styles.Methodology__container_steps_step_text}>
-            <h3>Entendiendo tus necesidades: La clave del éxito</h3>
+            <h3>Entendemos tus necesidades: Nuestro Norte</h3>
              <h4 className='text-2xl my-2'><strong>En la etapa de Descubrimiento:</strong></h4>
              <p className='text-gray-300'><strong >Conoceremos tu implementación:</strong > Entenderemos tus necesidades, objetivos y procesos para desarrollar una solución personalizada.</p>
              <p className='text-gray-300'><strong>Definiremos la aplicación:</strong> Trabajaremos contigo para identificar las funcionalidades clave y el plan de desarrollo.</p>
