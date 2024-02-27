@@ -4,7 +4,6 @@ import Testimonials from '../components/Testimonials/Testimonials'
 import WhyWe from '../components/WhyWe/WhyWe'
 import Methodology from '../components/Methodology/Methodology'
 import Plans from '../components/Plans/Plans'
-import LastNews from '../components/LastNews/LastNews'
 
 export const metadata = {
   title: 'Desarrollo de Apps Odoo',
@@ -23,8 +22,7 @@ export default function Home () {
       <WhyWe />
         <Methodology />
         <Plans / >
-     
-      <LastNews />
+
      
     </main>
   )
