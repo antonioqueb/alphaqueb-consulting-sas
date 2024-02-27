@@ -16,16 +16,22 @@ const Hero = () => {
 
   const handleContactButtonClick = async () => {
     try {
-      console.log('Body de la solicitud:', JSON.stringify({ correo: email }))
+      console.log('Body de la solicitud:', JSON.stringify({ email }))
 
-      const response = await fetch('https://api.queb.online/guardar', {
+      const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/lead`, {
         method: 'POST',
         headers: {
+
           'Content-Type': 'application/json',
+          Accept: 'application/json',
+
         },
-        body: JSON.stringify({
-          correo: email,
-        }),
+        // Envia el email como pun json al servidor
+
+        body: JSON.stringify({ email })
+
+
+
       })
 
       if (response.ok) {
