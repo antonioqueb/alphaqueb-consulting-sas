@@ -16,23 +16,21 @@ export default function CallToAction() {
     try {
       console.log('Body de la solicitud:', JSON.stringify({ email }))
 
-      const response = await fetch('https://alphaqueb.odoo.com/api/v1/crm.lead', {
+      const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}`, { 
         method: 'POST',
         headers: {
           Authorization: `Bearer ${process.env.NEXT_PUBLIC_ODOO_ACCESS_TOKEN}`,
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          name: email, 
-          email_from: email, 
-          team_id: 1, 
+          email: email
         }),
       })
       console.log('Respuesta de Odoo:', response) 
       
 
       if (response.ok) {
-        console.log('Solicitud POST exitosa')
+        console.log('Lead registrado con éxito')
         window.location.href = '/thank-you'
       } else if (response.status === 400) {
         console.error('Error 400: Datos incorrectos', await response.json())
