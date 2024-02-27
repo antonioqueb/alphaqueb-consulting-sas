@@ -14,48 +14,21 @@ export default function CallToAction() {
 
   const handleContactButtonClick = async () => {
     try {
-      console.log('Body de la solicitud:', JSON.stringify({ email }))
-
-      const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}`, {
+      const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/lead`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify({
-          email: email,
-        }),
+        body: JSON.stringify({ email }),
       })
-      console.log('Respuesta de Odoo:', response) 
-      
 
-      if (response.ok) {
-        console.log('Lead registrado con éxito')
-        window.location.href = '/thank-you'
-      } else if (response.status === 400) {
-        console.error('Error 400: Datos incorrectos', await response.json())
-        // Mostrar un mensaje de error específico al usuario, p. ej.: "El formato del correo es inválido".
-      } else {
-        console.error('Error de servidor:', response.status, response.statusText)
-        // Mostrar un mensaje genérico al usuario, p. ej.: "Hubo un error, intenta más tarde".
-        
-      }
+      const data = await response.json()
+
+      console.log('Respuesta de la API:', data)
     } catch (error) {
-      if (error.response) {
-        // Errores de la API 
-        if (error.response.status === 400) {
-          const errorData = await error.response.json()
-          console.error('Error 400: Datos incorrectos', errorData)
-        } else if (error.response.status === 401) {
-          console.error('Error 401: No autorizado') 
-        } else {
-          console.error('Error de servidor:', error.response.status, error.response.statusText)
-        }
-      } else {
-        // Errores generales de red
-        console.error('Error en la solicitud POST:', error.message)
-      }
+      console.error(error)
+    }
   }
-
 
   // Retorna el componente
   return (
