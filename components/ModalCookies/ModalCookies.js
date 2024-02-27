@@ -7,42 +7,35 @@ export default function ModalCookies() {
     essential: true,
     tracking: false,
   })
+  const [hasSeenModal, setHasSeenModal] = useState(false) // Nuevo estado
 
-
-
-  // Verificar las cookies existentes al cargar el componente
   useEffect(() => {
     const storedPrefs = localStorage.getItem("cookiePrefs")
+    const storedHasSeenModal = localStorage.getItem("hasSeenModal")
 
     if (storedPrefs) {
       setCookiePrefs(JSON.parse(storedPrefs))
+    } 
+
+    if (storedHasSeenModal) { 
+      setHasSeenModal(true) 
     } else {
-      setShowModal(true)
+      setShowModal(true)   
     }
   }, [])
 
-  // Función para actualizar las preferencias de cookies
-  const handleCookiePrefChange = (type) => {
-    setCookiePrefs((prevState) => ({
-      ...prevState,
-      [type]: !prevState[type],
-    }))
-  }
-
-   // Función para guardar las preferencias de cookies
-   const handleSavePrefs = () => {
-    // Implementar la lógica para guardar las preferencias en cookies o almacenamiento local
-    // Usando `localStorage`
+  // Función para guardar las preferencias de cookies
+  const handleSavePrefs = () => {
     localStorage.setItem("cookiePrefs", JSON.stringify(cookiePrefs))
+    localStorage.setItem("hasSeenModal", true) // Guardar también el estado hasSeenModal
 
-    // Cerrar el modal
     setShowModal(false)
-  } 
+  }
   return (
     <section
-      className={`z-50 absolute max-w-xs p-4 mx-auto bg-darkprimary border border-gray-200 dark:bg-gray-800 left-12 bottom-4 dark:border-gray-700 rounded-2xl  ${
-        showModal ? "block" : "hidden"
-      }`}
+    className={`z-50 absolute max-w-xs p-4 mx-auto bg-darkprimary border border-gray-200 dark:bg-gray-800 left-12 bottom-4 dark:border-gray-700 rounded-2xl ${
+        showModal && !hasSeenModal ? "block" : "hidden" // Lógica actualizada
+    }`}
     >
       <h2 className="font-semibold text-white dark:text-white">
         🍪 ¡Usamos cookies!
