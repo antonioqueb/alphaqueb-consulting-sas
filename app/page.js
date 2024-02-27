@@ -7,8 +7,8 @@ import Plans from '../components/Plans/Plans'
 import LastNews from '../components/LastNews/LastNews'
 
 export const metadata = {
-  title: 'Transformación Digital',
-  description: 'Transformación Digital, expertos en tecnología y desarrollo de software'
+  title: 'Desarrollo de Apps Odoo',
+  description: 'Personalizamos tu implementación odoo para cumplir tus metas'
 }
 
 export default function Home () {

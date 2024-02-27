@@ -12,8 +12,8 @@ export default function RootLayout ({ children }) {
     <body className={rubik.className}>
     
   <div className="container-layout">
-      <div className="glass max-w-[1200px] mx-auto px-[2rem] xl:px-[8rem] lg:px-[8rem] ">
-      <NavbarComponent />
+      <div className="glass max-w-[1200px] mx-auto px-[2rem] xl:px-[8rem]">
+      <NavbarComponent/>
      
      {children}
       
