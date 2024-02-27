@@ -42,7 +42,7 @@ export default function RootLayout ({ children }) {
       <div className="glass max-w-[1200px] mx-auto px-[2rem] xl:px-[8rem]">
       <NavbarComponent/>
       <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M57HBTQP"
-      height="0" width="0" style="display:none;visibility:hidden"></iframe>
+      height="0" width="0" style={{display: 'none', visibility: 'hidden'}}></iframe>
     
      {children}
       
