@@ -44,10 +44,6 @@
 
 }
 
-body{
-  padding: 0 12rem;
-  max-width: 1200px;
-}
 
 html,
 body {
@@ -89,28 +85,206 @@ input, textarea {
 
 
 
-@media (min-width: 601px) and (max-width: 1729px) {
+.glass {
+  backdrop-filter: blur(153px);
+  min-width: 100%;
+  min-height: 100vh;
+  z-index: 60;
+  background-color: transparent;
+  padding: 0 12rem ;
+  max-width: 1200px;
+  overflow: hidden;
+  
+}
 
-
-  body{
-  padding: 0 8rem;
-
+@-moz-document url-prefix() {
+.glass {
+    /* Desactivar backdrop-filter o aplicar un estilo de fondo alternativo */
+    backdrop-filter: none;
+    background-color: #0d0d0d; /* Ejemplo: un color de fondo sólido con transparencia */
+    /* ... otros estilos alternativos si son necesarios ... */
+}
 }
 
 
+/* Estilos específicos para Safari en Mac */
+@media not all and (min-resolution:.001dpcm) { /* Detecta Safari */
+@supports (-webkit-appearance:none) { /* Confirma que es Webkit (Safari) */
+    .glass {
+        /* Desactivar backdrop-filter o aplicar un estilo de fondo alternativo */
+        backdrop-filter: none;
+        background-color: #0d0d0d; /* Color de fondo sólido con transparencia como ejemplo */
+        /* ... otros estilos alternativos si son necesarios ... */
+    }
+}
 }
 
-@media (max-width: 1024px) {
-  body{
-    padding: 0 0.25rem;
-  }
+/* Estilos específicos para iPad */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+.glass {
+    /* Puedes ajustar los estilos según sea necesario para iPads */
+    /* Por ejemplo, puedes mantener o ajustar el backdrop-filter aquí */
+    backdrop-filter: none;
+    background-color: #0d0d0d; /* Color de fondo sólido con transparencia como ejemplo */
+    /* ... otros estilos alternativos si son necesarios ... */
+}
 }
 
-@media (max-width: 600px) {
-  body{
-    padding: 0 1rem;
-  }
+
+.container-layout {
+  min-width: 100%;
+  position: relative;
+  display: flex;
+  min-height: 100vh;
+  overflow: hidden;
+  flex-direction: column;
 }
+.moving-balls {
+
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.ball {
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0.4;
+}
+
+
+.ball.small-day {
+  width: 380px;
+  height: 380px;
+  background-color: #91F2F2; /* Azul celeste claro  */
+  box-shadow: 0 0 15px 10px #26E1FF; /* Azul celeste vibrante  */
+  animation: moveBallSmallDay 68s linear infinite;
+  animation-fill-mode: forwards;
+}
+
+.ball.medium {
+  width: 400px;
+  height: 400px;
+  background-color: #C2F0FF; /* Azul muy claro */
+  box-shadow: 0 0 15px 10px #65CFFF; /* Azul medio */
+  animation: moveBallMedium 85s linear infinite;
+  animation-fill-mode: forwards;
+}
+
+.ball.ultra-tiny {
+  width: 290px;
+  height: 290px;
+  background-color: #26E1FF; /* Azul celeste vibrante */
+  box-shadow: 0 0 15px 10px #2483B0; /* Azul oscuro*/
+  animation: moveBallUltraTiny 78s linear infinite;
+  animation-fill-mode: forwards;
+}
+
+.ball.mini {
+  width: 420px;
+  height: 420px;
+  background-color: #65CFFF; /* Azul medio */
+  box-shadow: 0 0 15px 10px #2483B0; /* Azul oscuro */
+  animation: moveBallMini 52s linear infinite;
+  animation-fill-mode: forwards;
+}
+
+.ball.giant {
+  width: 450px;
+  height: 450px;
+  background-color: #2483B0; /* Azul oscuro */
+  box-shadow: 0 0 15px 10px #26E1FF; /* Azul celeste vibrante */
+  animation: moveBallGiant 65s linear infinite;
+  animation-fill-mode: forwards;
+}
+
+
+
+
+
+
+/* Animaciones */
+@keyframes moveBallLarge {
+0%, 100% { top: -30%; left: -30%; }
+25% { top: 30%; left: 30%; }
+50% { top: 60%; left: 60%; }
+75% { top: 30%; left: 30%; }
+}
+
+@keyframes moveBallSmall {
+0%, 100% { top: 80%; left: 10%; }
+25% { top: 10%; left: 80%; }
+50% { top: -20%; left: 40%; }
+75% { top: 40%; left: -20%; }
+}
+
+@keyframes moveBallSmallDay {
+0%, 100% { top: 80%; left: 20%; }
+25% { top: 20%; left: 80%; }
+50% { top: -20%; left: 40%; }
+75% { top: 40%; left: -10%; }
+}
+
+@keyframes moveBallMedium {
+0%, 100% { top: 40%; left: -40%; }
+25% { top: 80%; left: 80%; }
+50% { top: 40%; left: 40%; }
+75% { top: 20%; left: 10%; }
+}
+
+@keyframes moveBallExtraLarge {
+0%, 100% { top: 10%; left: 40%; }
+25% { top: 67%; left: 10%; }
+50% { top: 80%; left: 20%; }
+75% { top: 40%; left: 80%; }
+}
+
+@keyframes moveBallTiny {
+0%, 100% { top: 15%; left: 65%; }
+25% { top: 51%; left: 31%; }
+50% { top: 12%; left: -14%; }
+75% { top: -16%; left: 63%; }
+}
+
+@keyframes moveBallUltraTiny {
+0%, 100% { top: 10%; left: 80%; }
+25% { top: 60%; left: 10%; }
+50% { top: 90%; left: 90%; }
+75% { top: 40%; left: 40%; }
+}
+
+@keyframes moveBallMassive {
+0%, 100% { top: -20%; left: 30%; }
+25% { top: 30%; left: -20%; }
+50% { top: 70%; left: 70%; }
+75% { top: 20%; left: 20%; }
+}
+
+@keyframes moveBallMini {
+0%, 100% { top: 90%; left: 20%; }
+25% { top: 20%; left: 90%; }
+50% { top: -10%; left: 50%; }
+75% { top: 50%; left: -10%; }
+}
+
+@keyframes moveBallGiant {
+0%, 100% { top: -10%; left: 40%; }
+25% { top: 47%; left: -10%; }
+50% { top: 80%; left: 30%; }
+75% { top: 30%; left: 80%; }
+}
+
+@keyframes moveBallSuperTiny {
+0%, 100% { top: 25%; left: 85%; }
+25% { top: 75%; left: 25%; }
+50% { top: 20%; left: -20%; }
+75% { top: -20%; left: 75%; }
+}
+
+
+
 
 /* styles/global.css */
 
