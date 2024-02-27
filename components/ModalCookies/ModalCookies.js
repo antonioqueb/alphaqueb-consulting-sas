@@ -8,11 +8,15 @@ export default function ModalCookies() {
     tracking: false,
   })
 
-  // Mostrar modal después de 5 segundos
+  // Verificar las cookies existentes al cargar el componente
   useEffect(() => {
-    setTimeout(() => {
+    const storedPrefs = localStorage.getItem("cookiePrefs")
+
+    if (storedPrefs) {
+      setCookiePrefs(JSON.parse(storedPrefs))
+    } else {
       setShowModal(true)
-    }, 5000)
+    }
   }, [])
 
   // Función para actualizar las preferencias de cookies
