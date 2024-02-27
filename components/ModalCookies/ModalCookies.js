@@ -46,7 +46,7 @@ export default function ModalCookies() {
       <p className="mt-4 text-sm text-white dark:text-gray-300">
         Para mejorar tu experiencia en este sitio web, usamos cookies. 
         <a
-          href="#"
+          href="/politica-de-cookies"
           className="font-medium text-white pl-1 underline transition-colors duration-300 dark:hover:text-blue-400 dark:text-white hover:text-blueprimary"
         >
           Política de cookies
