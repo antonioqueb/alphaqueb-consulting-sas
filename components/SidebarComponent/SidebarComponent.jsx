@@ -40,7 +40,6 @@ const SidebarComponent = () => {
         {/* Icono del Menú y Título */}
         <Link href='/' className={styles.sidebar_link_logo} activeClassName={styles.sidebar_link_active_logo} onClick={closeSidebar}>
           <div className={styles.Hero__container__header}>
-          <Image src='/logo.png' alt='Logotipo de la marca alphaqueb consulting s.a.s.' width={40} height={40} className={styles.Hero__container__header__img}/>
       
         </div>
           </Link>
