@@ -14,7 +14,7 @@ export default function CallToAction() {
 
   const handleContactButtonClick = async () => {
     try {
-      console.log('Body de la solicitud:', JSON.stringify({ email }));
+      console.log('Body de la solicitud:', JSON.stringify({ email }))
 
       const response = await fetch('https://alphaqueb.odoo.com/crm.lead', {
         method: 'POST',
@@ -40,9 +40,20 @@ export default function CallToAction() {
         // Mostrar un mensaje genérico al usuario, p. ej.: "Hubo un error, intenta más tarde".
       }
     } catch (error) {
-      console.error('Error en la solicitud POST:', error.message)
-      // Mostrar mensaje de error genérico.
-    }
+      if (error.response) {
+        // Errores de la API 
+        if (error.response.status === 400) {
+          const errorData = await error.response.json();
+          console.error('Error 400: Datos incorrectos', errorData);
+        } else if (error.response.status === 401) {
+          console.error('Error 401: No autorizado') 
+        } else {
+          console.error('Error de servidor:', error.response.status, error.response.statusText);
+        }
+      } else {
+        // Errores generales de red
+        console.error('Error en la solicitud POST:', error.message);
+      }
   }
 
 
