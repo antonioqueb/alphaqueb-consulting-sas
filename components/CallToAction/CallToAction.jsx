@@ -14,7 +14,7 @@ export default function CallToAction() {
 
   const handleContactButtonClick = async () => {
     try {
-      console.log('Body de la solicitud:', JSON.stringify({ email }))
+      console.log('Body de la solicitud:', JSON.stringify({ email }));
 
       const response = await fetch('https://alphaqueb.odoo.com/crm.lead', {
         method: 'POST',
@@ -23,21 +23,25 @@ export default function CallToAction() {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          name: email,
+          name: email, 
+          email_from: email, 
           team_id: 1, 
         }),
       })
 
       if (response.ok) {
-        console.log('Solicitud POST exitosa')
-        // Redirigir al usuario a una página de agradecimiento.
-        window.location.href = '/thank-you'
+        console.log('Solicitud POST exitosa');
+        window.location.href = '/thank-you';
+      } else if (response.status === 400) {
+        console.error('Error 400: Datos incorrectos', await response.json());
+        // Mostrar un mensaje de error específico al usuario, p. ej.: "El formato del correo es inválido".
       } else {
-        console.error('Error en la solicitud POST:', response.status, response.statusText)
-        // Mostrar un mensaje de error al usuario.
+        console.error('Error de servidor:', response.status, response.statusText);
+        // Mostrar un mensaje genérico al usuario, p. ej.: "Hubo un error, intenta más tarde".
       }
     } catch (error) {
-      console.error('Error en la solicitud POST:', error.message)
+      console.error('Error en la solicitud POST:', error.message);
+      // Mostrar mensaje de error genérico.
     }
   }
 
