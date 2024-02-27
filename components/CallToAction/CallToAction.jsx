@@ -44,15 +44,15 @@ export default function CallToAction() {
         // Errores de la API 
         if (error.response.status === 400) {
           const errorData = await error.response.json();
-          console.error('Error 400: Datos incorrectos', errorData);
+          console.error('Error 400: Datos incorrectos', errorData)
         } else if (error.response.status === 401) {
           console.error('Error 401: No autorizado') 
         } else {
-          console.error('Error de servidor:', error.response.status, error.response.statusText);
+          console.error('Error de servidor:', error.response.status, error.response.statusText)
         }
       } else {
         // Errores generales de red
-        console.error('Error en la solicitud POST:', error.message);
+        console.error('Error en la solicitud POST:', error.message)
       }
   }
 
