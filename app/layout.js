@@ -2,6 +2,7 @@ import { Rubik } from 'next/font/google'
 import './globals.css'
 import NavbarComponent from '../components/Navbar/Navbar'
 import Footer from '../components/Footer/Footer'
+import ModalCookies from '../components/ModalCookies/ModalCookies'
 
 const rubik = Rubik({ subsets: ['latin'] })
 
@@ -10,14 +11,17 @@ export default function RootLayout ({ children }) {
     <html lang="es">
   
     <body className={rubik.className}>
+    <ModalCookies/>
     
   <div className="container-layout">
       <div className="glass max-w-[1200px] mx-auto px-[2rem] xl:px-[8rem]">
       <NavbarComponent/>
-     
+    
      {children}
       
      <Footer/>
+    
+
       </div>
       <div className="moving-balls">
           <div className="ball small-day"></div>

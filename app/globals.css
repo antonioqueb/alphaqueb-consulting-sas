@@ -83,7 +83,7 @@ input, textarea {
   backdrop-filter: blur(153px);
   min-width: 100%;
   min-height: 100vh;
-  z-index: 60;
+  z-index: 40;
   background-color: transparent;
   padding: 0 2rem ;
   max-width: 1200px;
