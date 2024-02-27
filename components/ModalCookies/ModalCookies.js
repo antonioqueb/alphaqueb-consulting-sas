@@ -8,6 +8,8 @@ export default function ModalCookies() {
     tracking: false,
   })
 
+
+
   // Verificar las cookies existentes al cargar el componente
   useEffect(() => {
     const storedPrefs = localStorage.getItem("cookiePrefs")
@@ -27,16 +29,15 @@ export default function ModalCookies() {
     }))
   }
 
-  // Función para guardar las preferencias de cookies
-  const handleSavePrefs = () => {
+   // Función para guardar las preferencias de cookies
+   const handleSavePrefs = () => {
     // Implementar la lógica para guardar las preferencias en cookies o almacenamiento local
-    // Ejemplo: usando `localStorage`
+    // Usando `localStorage`
     localStorage.setItem("cookiePrefs", JSON.stringify(cookiePrefs))
 
     // Cerrar el modal
     setShowModal(false)
-  }
-
+  } 
   return (
     <section
       className={`z-50 absolute max-w-xs p-4 mx-auto bg-darkprimary border border-gray-200 dark:bg-gray-800 left-12 bottom-4 dark:border-gray-700 rounded-2xl  ${
