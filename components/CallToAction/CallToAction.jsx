@@ -16,7 +16,7 @@ export default function CallToAction() {
     try {
       console.log('Body de la solicitud:', JSON.stringify({ email }))
 
-      const response = await fetch('https://alphaqueb.odoo.com/crm.lead', {
+      const response = await fetch('https://alphaqueb.odoo.com/api/v1/crm.lead', {
         method: 'POST',
         headers: {
           Authorization: `Bearer ${process.env.NEXT_PUBLIC_ODOO_ACCESS_TOKEN}`,
@@ -29,7 +29,7 @@ export default function CallToAction() {
         }),
       })
       console.log('Respuesta de Odoo:', response) 
-      console.log('Estado de la respuesta:', response.status)
+      
 
       if (response.ok) {
         console.log('Solicitud POST exitosa')
