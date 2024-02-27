@@ -28,6 +28,8 @@ export default function CallToAction() {
           team_id: 1, 
         }),
       })
+      console.log('Respuesta de Odoo:', response) 
+      console.log('Estado de la respuesta:', response.status)
 
       if (response.ok) {
         console.log('Solicitud POST exitosa')
@@ -38,6 +40,7 @@ export default function CallToAction() {
       } else {
         console.error('Error de servidor:', response.status, response.statusText)
         // Mostrar un mensaje genérico al usuario, p. ej.: "Hubo un error, intenta más tarde".
+        
       }
     } catch (error) {
       if (error.response) {
