@@ -57,7 +57,7 @@ export default function ModalCookies() {
      
       <div className="grid grid-cols-2 gap-4 mt-4 shrink-0">
         <button
-          className="text-xs bg-blueprimary font-medium rounded-lg hover:bg-gray-700 text-white px-4 py-2.5 duration-300 transition-colors focus:outline-none"
+          className="text-xs bg-blueprimary font-medium rounded-lg hover:bg-gray-700 text-darkprimary  px-4 py-2.5 duration-300 transition-colors focus:outline-none"
           onClick={() => handleSavePrefs()}
         >
           Aceptar todo
