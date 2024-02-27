@@ -1,45 +1,45 @@
 'use client'
 // Importa useState y useEffect
-import React, { useState } from 'react';
-import Image from 'next/image';
-import Link from 'next/link';
-import styles from './CallToAction.module.css';
+import React, { useState } from 'react'
+import Image from 'next/image'
+import Link from 'next/link'
+import styles from './CallToAction.module.css'
 
 export default function CallToAction() {
-  const [email, setEmail] = useState('');
+  const [email, setEmail] = useState('')
 
   const handleEmailChange = (event) => {
-    setEmail(event.target.value);
-  };
+    setEmail(event.target.value)
+  }
 
   const handleContactButtonClick = async () => {
     try {
-      console.log('Body de la solicitud:', JSON.stringify({ email }));
+      console.log('Body de la solicitud:', JSON.stringify({ email }))
 
       const response = await fetch('https://alphaqueb.odoo.com/crm.lead', {
         method: 'POST',
         headers: {
-          'Authorization': `Bearer ${process.env.NEXT_PUBLIC_ODOO_ACCESS_TOKEN}`,
+          Authorization: `Bearer ${process.env.NEXT_PUBLIC_ODOO_ACCESS_TOKEN}`,
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
           name: email,
           team_id: 1, 
         }),
-      });
+      })
 
       if (response.ok) {
-        console.log('Solicitud POST exitosa');
+        console.log('Solicitud POST exitosa')
         // Redirigir al usuario a una página de agradecimiento.
-        window.location.href = '/thank-you';
+        window.location.href = '/thank-you'
       } else {
-        console.error('Error en la solicitud POST:', response.status, response.statusText);
+        console.error('Error en la solicitud POST:', response.status, response.statusText)
         // Mostrar un mensaje de error al usuario.
       }
     } catch (error) {
-      console.error('Error en la solicitud POST:', error.message);
+      console.error('Error en la solicitud POST:', error.message)
     }
-  };
+  }
 
 
   // Retorna el componente

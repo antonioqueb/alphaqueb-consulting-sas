@@ -35,7 +35,8 @@
         "jsx-a11y/alt-text": "off",
         "@next/next/no-img-element": "off",
         "padded-blocks": "off",
-        "no-tabs": "off"
+        "no-tabs": "off",
+        "quote-props": "off"
   }
 
     
