@@ -43,7 +43,7 @@ export default function CallToAction() {
       if (error.response) {
         // Errores de la API 
         if (error.response.status === 400) {
-          const errorData = await error.response.json();
+          const errorData = await error.response.json()
           console.error('Error 400: Datos incorrectos', errorData)
         } else if (error.response.status === 401) {
           console.error('Error 401: No autorizado') 
