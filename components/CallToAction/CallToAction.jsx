@@ -16,14 +16,13 @@ export default function CallToAction() {
     try {
       console.log('Body de la solicitud:', JSON.stringify({ email }))
 
-      const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}`, { 
+      const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}`, {
         method: 'POST',
         headers: {
-          Authorization: `Bearer ${process.env.NEXT_PUBLIC_ODOO_ACCESS_TOKEN}`,
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          email: email
+          email: email,
         }),
       })
       console.log('Respuesta de Odoo:', response) 
