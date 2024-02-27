@@ -17,14 +17,22 @@ export default function CallToAction() {
       const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/lead`, {
         method: 'POST',
         headers: {
+
           'Content-Type': 'application/json',
+          Accept: 'application/json',
+
         },
-        body: JSON.stringify({ email }),
+        // Envia el email como pun json al servidor
+
+        body: JSON.stringify({ email })
+
+
+
       })
 
       const data = await response.json()
 
-      console.log('Respuesta de la API:', data)
+      console.log(data)
     } catch (error) {
       console.error(error)
     }
