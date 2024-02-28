@@ -7,7 +7,7 @@ function Page () {
               🎉
           </span>
           
-          <h1 className='text-2xl mt-10'>Gracias por su compra, le enviarémos un email con los siguientes pasos.</h1>
+          <h1 className='text-3xl mt-10 font-semibold'>Gracias por su compra, le enviarémos un email con los siguientes pasos.</h1>
         
         </div>
       </div>

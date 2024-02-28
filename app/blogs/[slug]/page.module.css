@@ -2,6 +2,8 @@
     margin: 10rem auto;
     max-width: 1024px;
     text-align: center;
+    overflow: auto;
+    word-break: break-word;
 }
 
 .main h1 {
@@ -11,21 +13,24 @@
 }
 
 
-.main h3, .main h4, .main h5, .main h6 {
+  
+
+.main h2,.main h3, .main h4, .main h5, .main h6 {
     text-align: left; /* Alinea los subtítulos al inicio */
     font-size: 1.9rem;
     margin-bottom: 0.6rem;
     color: #dadada;
+    
 
 }
 
-.main p {
+.main p , .main li , .main ul , .main ol , .main blockquote , .main pre , .main .code , .main .highlight , .main span{
     text-align: left;
     line-height: 1.6;
     margin-bottom: 1.5rem;
     font-size: 1.4rem;
     text-wrap: pretty;
-    color: #c4c4c4;
+    color: #e4e4e4;
 
 
 }
