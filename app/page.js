@@ -16,17 +16,14 @@ export const metadata = {
     template: '%s | Alphaqueb'
   },
   description: 'Personalizamos tu implementación odoo para cumplir tus metas',
-  image: './alphaquebweb.png'
+ 
 }
 
 export default function Home () {
   return (
     
     <main className={styles.main}>
-      <Head>
-        <meta property="og:image" content={metadata.image} />
-      </Head>
-      
+    
       <Hero /> 
       <Testimonials />    
       <WhyWe />
