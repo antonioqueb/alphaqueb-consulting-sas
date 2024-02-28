@@ -4,7 +4,6 @@ import Testimonials from '../components/Testimonials/Testimonials'
 import WhyWe from '../components/WhyWe/WhyWe'
 import Methodology from '../components/Methodology/Methodology'
 import Plans from '../components/Plans/Plans'
-import Head from 'next/head'
 
 // Metadata from 'next/head'
 
@@ -15,7 +14,7 @@ export const metadata = {
     default: 'Apps Odoo Personalizadas',
     template: '%s | Alphaqueb'
   },
-  description: 'Personalizamos tu implementación odoo para cumplir tus metas',
+  description: 'Personalizamos tu implementación odoo para cumplir tus metas'
  
 }
 
