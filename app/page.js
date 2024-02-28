@@ -12,7 +12,7 @@ export const metadata = {
     default: 'Apps Odoo Personalizadas',
     template: '%s | Alphaqueb'
   },
-  description: 'Personalizamos tu implementación odoo para cumplir tus metas creando o peronalizando apps odoo.',
+  description: 'Personalizamos tu implementación odoo para cumplir tus metas',
   image: './alphaquebweb.png'
 }
 
@@ -20,6 +20,12 @@ export default function Home () {
   return (
     
     <main className={styles.main}>
+      <Head>
+        <title>{metadata.title.default}</title>
+        <meta name="description" content={metadata.description} />
+        <meta property="og:title" content={metadata.image} />
+      </Head>
+      
       <Hero /> 
       <Testimonials />    
       <WhyWe />
