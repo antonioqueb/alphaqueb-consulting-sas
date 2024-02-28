@@ -80,7 +80,7 @@
     /* Estilos que se aplican cuando la pantalla tiene menos de 600px de ancho */
 
     .main h1 {
-        margin: 8rem 0 2rem 0;
+        margin: 4rem 0 2rem 0;
         font-size: 1.6rem;
     
     }
@@ -92,7 +92,7 @@
   @media (min-width: 601px) and (max-width: 1025px) {
     
     .main h1 {
-        margin: 15rem 0 2rem 0;
+        margin: 8rem 0 2rem 0;
        
     
     }
