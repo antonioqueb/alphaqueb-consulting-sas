@@ -14,7 +14,7 @@ export const metadata = {
     default: 'Apps Odoo Personalizadas',
     template: '%s | Alphaqueb'
   },
-  description: 'Personalizamos tu implementación odoo para cumplir tus metas',
+  description: 'Personalizamos tu implementación odoo para cumplir tus metas.',
   metadataBase: new URL(process.env.DOMAIN_URL)
  
 }
