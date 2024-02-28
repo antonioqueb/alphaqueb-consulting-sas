@@ -7,12 +7,12 @@ export default function PoliticaCookies () {
       <div className={style.container}>
         
         <div className={style.container__title}>
-        <Image src='/svg/cookies.svg' width={230} height={230} alt='cookies image'  
+        <Image src='/cookies.svg' width={230} height={230} alt='cookies image' className='my-10'  
          />
         </div>
         
         <div className={style.container__text}>
-          <h2 className={style.heading}>¿Qué cookies podremos utilizar y por qué razón?</h2>
+          <h2 className={style.heading}>¿Cuáles cookies usamos?</h2>
           <p className={style.text}>
           Cuando nosotros utilizamos cookies, las clasificamos en cualquiera de las siguientes categorías:
           </p>

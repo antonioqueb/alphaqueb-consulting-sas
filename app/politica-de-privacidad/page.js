@@ -6,8 +6,8 @@ export default function PoliticaPrivacidad () {
     <>
       <div className={style.container}>
         
-        <div className={style.container__title}>
-          <Image src='/svg/politicas.svg' width={230} height={230} alt='cover'  
+        <div className="flex flex-col justify-center items-center">
+          <Image src='/politicas.svg' width={230} height={230} alt='cover' className='cover justify-center my-10' 
          />
           <h3 className={style.toptitle}>Políticas</h3>
           <h1 className={style.title}>Política de Privacidad</h1>

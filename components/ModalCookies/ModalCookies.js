@@ -33,9 +33,9 @@ export default function ModalCookies() {
   }
   return (
     <section
-    className={`z-50 absolute max-w-xs p-4 mx-auto bg-darkprimary border border-gray-200 dark:bg-gray-800 left-12 bottom-4 dark:border-gray-700 rounded-2xl ${
-        showModal && !hasSeenModal ? "block" : "hidden" // Lógica actualizada
-    }`}
+      className={`z-50 absolute max-w-xs p-4 mx-auto bg-darkprimary border border-gray-200 dark:bg-gray-800 left-12 bottom-4 dark:border-gray-700 rounded-2xl  ${
+        showModal ? "block" : "hidden"
+      }`}
     >
       <h2 className="font-semibold text-white dark:text-white">
         🍪 ¡Usamos cookies!

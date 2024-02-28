@@ -91,6 +91,16 @@ input, textarea {
   
 }
 
+@layer base {
+  .modal-fixed {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+
 @-moz-document url-prefix() {
 .glass {
     /* Desactivar backdrop-filter o aplicar un estilo de fondo alternativo */
