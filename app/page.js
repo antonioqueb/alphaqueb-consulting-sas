@@ -6,8 +6,12 @@ import Methodology from '../components/Methodology/Methodology'
 import Plans from '../components/Plans/Plans'
 
 
+
 export const metadata = {
-  title: 'Desarrollo de Apps Odoo',
+  title: {
+    default: 'Desarrollo de Apps Odoo Personalizadas',
+    template: '%s | Alphaqueb'
+  },
   description: 'Personalizamos tu implementación odoo para cumplir tus metas'
 }
 
@@ -17,12 +21,10 @@ export default function Home () {
     <main className={styles.main}>
       
       <Hero /> 
-     
       <Testimonials />    
-       
       <WhyWe />
-        <Methodology />
-        <Plans / >
+      <Methodology />
+      <Plans />
 
      
     </main>
