@@ -8,7 +8,7 @@
 
 .main h1 {
     margin: 5rem 0 2rem 0;
-    font-size: 2.2rem;
+    font-size: 2.9rem;
 
 }
 
@@ -81,7 +81,9 @@
 
     .main h1 {
         margin: 4rem 0 2rem 0;
-        font-size: 1.6rem;
+        font-size: 1.8rem;
+        text-wrap: balance;
+        font-weight: semibold;
     
     }
     
