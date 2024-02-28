@@ -24,7 +24,7 @@ export default function Home () {
     
     <main className={styles.main}>
       <Head>
-        <meta property="og:title" content={metadata.image} />
+        <meta property="og:image" content={metadata.image} />
       </Head>
       
       <Hero /> 
