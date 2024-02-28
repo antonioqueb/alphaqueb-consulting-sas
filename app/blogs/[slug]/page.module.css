@@ -20,7 +20,7 @@
     font-size: 1.9rem;
     margin-bottom: 0.6rem;
     color: #dadada;
-    
+
 
 }
 
@@ -80,7 +80,7 @@
     /* Estilos que se aplican cuando la pantalla tiene menos de 600px de ancho */
 
     .main h1 {
-        margin: 15rem 0 2rem 0;
+        margin: 8rem 0 2rem 0;
         font-size: 1.6rem;
     
     }
