@@ -85,7 +85,6 @@ input, textarea {
   min-height: 100vh;
   z-index: 40;
   background-color: transparent;
-  padding: 0 2rem ;
   max-width: 1200px;
   overflow: hidden;
   
