@@ -1,47 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
 
 <url>
   <loc>https://queb.online/</loc>
-  <lastmod>2024-02-08T15:08:05+00:00</lastmod>
+  <lastmod>2024-02-28T22:21:12+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
+  <loc>https://queb.online/politica-de-cookies</loc>
+  <lastmod>2024-02-28T22:21:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
   <loc>https://queb.online/contacto</loc>
-  <lastmod>2024-02-08T15:08:05+00:00</lastmod>
+  <lastmod>2024-02-28T22:21:12+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://queb.online/nosotros</loc>
-  <lastmod>2024-02-08T15:08:05+00:00</lastmod>
+  <lastmod>2024-02-28T22:21:12+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://queb.online/blogs</loc>
-  <lastmod>2024-02-08T15:08:05+00:00</lastmod>
+  <lastmod>2024-02-28T22:21:12+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
+  <loc>https://queb.online/blogs/7-errores-comunes-que-debes-evitar-al-implementar-odoo-17-y-como-solucionarlos</loc>
+  <lastmod>2024-02-28T22:21:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
   <loc>https://queb.online/blogs/como-alcanzar-una-puntuacion-perfecta-en-google-pagespeed-insights</loc>
-  <lastmod>2024-02-08T15:08:05+00:00</lastmod>
-  <priority>1</priority>
+  <lastmod>2024-02-28T22:21:12+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://queb.online/blogs/descubre-el-costo-total-del-desarrollo-web</loc>
-  <lastmod>2024-02-08T15:08:05+00:00</lastmod>
-  <priority>1</priority>
+  <lastmod>2024-02-28T22:21:12+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://queb.online/blogs/maximizando-la-rentabilidad-a-traves-del-desarrollo-de-software-personalizado</loc>
-  <lastmod>2024-02-08T15:08:05+00:00</lastmod>
-  <priority>1</priority>
+  <lastmod>2024-02-28T22:21:12+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://queb.online/blogs/tiempo-estimado-de-desarrollo-web-cuanto-tardara</loc>
-  <lastmod>2024-02-08T15:08:05+00:00</lastmod>
-  <priority>1</priority>
+  <lastmod>2024-02-28T22:21:12+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://queb.online/blogs/transforma-tu-negocio-con-desarrollo-de-software-a-medida</loc>
-  <lastmod>2024-02-08T15:08:05+00:00</lastmod>
-  <priority>1</priority>
+  <lastmod>2024-02-28T22:21:12+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
+
+
+</urlset>
