@@ -6,17 +6,16 @@ import { MDXRemote } from 'next-mdx-remote/rsc'
 import CallToAction from '../../../components/CallToAction/CallToAction'
 import Image from 'next/image'
 import Plans from '../../../components/Plans/Plans'
-import Head from 'next/head'
 
 
 
 export async function generateStaticParams() {
     const files = fs.readdirSync(path.join('blogs'))
     const paths = files.map(filename => ({
-      slug: filename.replace('.mdx', '')
+        slug: filename.replace('.mdx', '')
     }))
     return paths
-  }
+}
 
 function getPost({ slug }) {
     const markdownFile = fs.readFileSync(path.join('blogs', slug + '.mdx'), 'utf-8')
@@ -28,30 +27,27 @@ function getPost({ slug }) {
     }
 }
 
-      
+
 export default function Page({ params }) {
     const props = getPost(params)
 
     return (
         <>
-
-        {props.frontMatter.title ? (
-          <title>{props.frontMatter.title}</title>
-        ) : (
-          <title>Desarrollo Apps Odoo</title>
-        )}
-       
-        
-        <article className={styles.main}>
-            <h1>{props.frontMatter.title}</h1>
-            <Image src={props.frontMatter.image} alt={props.frontMatter.title} width={1024} height={1024} className={styles['image-cover']}/>
-            <MDXRemote source={props.content}></MDXRemote>
-        </article>
-        <Plans />
-        <CallToAction />
+            {props.frontMatter.title ? (
+                <title>{props.frontMatter.title}</title>
+            ) : (
+                <title>Desarrollo Apps Odoo</title>
+            )}
+            <article className={styles.main}>
+                <h1>{props.frontMatter.title}</h1>
+                <Image src={props.frontMatter.image} alt={props.frontMatter.title} width={1024} height={1024} className={styles['image-cover']} />
+                <MDXRemote source={props.content}></MDXRemote>
+            </article>
+            <Plans />
+            <CallToAction />
         </>
     )
-    
+
 }
 
 
