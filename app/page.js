@@ -12,7 +12,7 @@ export const metadata = {
     default: 'Apps Odoo Personalizadas',
     template: '%s | Alphaqueb'
   },
-  description: 'Personalizamos tu implementación odoo para cumplir tus metas',
+  description: 'Personalizamos tu implementación odoo para cumplir tus metas creando o peronalizando apps odoo.',
   image: './alphaquebweb.png'
 }
 
