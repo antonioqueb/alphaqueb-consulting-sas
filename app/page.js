@@ -9,17 +9,17 @@ import Plans from '../components/Plans/Plans'
 
 export const metadata = {
   title: {
-    default: 'Desarrollo de Apps Odoo Personalizadas',
+    default: 'Apps Odoo Personalizadas',
     template: '%s | Alphaqueb'
   },
-  description: 'Personalizamos tu implementación odoo para cumplir tus metas'
+  description: 'Personalizamos tu implementación odoo para cumplir tus metas',
+  image: './alphaquebweb.png'
 }
 
 export default function Home () {
   return (
     
     <main className={styles.main}>
-      
       <Hero /> 
       <Testimonials />    
       <WhyWe />

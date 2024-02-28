@@ -40,6 +40,7 @@ export default function Page({ params }) {
                 ) : (
                     <title>Desarrollo Apps Odoo</title>
                 )}
+                <meta property="og:title" content={props.frontMatter.title} />
                 <meta name="description" content={props.frontMatter.description} />
                 <meta property="og:image" content={props.frontMatter.image} />
             </head>
