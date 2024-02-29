@@ -7,10 +7,10 @@
 
 .LastNews__container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(810px, 1fr)); /* Ancho mínimo más pequeño */
   grid-gap: 2rem;
   cursor: pointer;
-  padding:  0 0 4rem 0;
+  padding: 0 0 4rem 0;  
 
 }
 
@@ -45,7 +45,7 @@
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
     grid-gap: 2rem;
     cursor: pointer;
-    padding:  0 0 4rem 0;
+    padding:  0 0 6rem 0;
   
   }
   /* Estilos que se aplican cuando la pantalla tiene menos de 600px de ancho */

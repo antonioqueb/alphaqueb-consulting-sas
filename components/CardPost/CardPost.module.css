@@ -46,7 +46,7 @@
 
 
 .CardPost__container__news__image__img {
-    width: 750px;
+    width: 100%;
     height: 500px;
 }
 
@@ -66,19 +66,20 @@
         padding: 0;
     }
 
-    .CardPost__container__news__image__img {
-        width: 310px;
-        height: 310px;
-    }
+   
     
+    .CardPost__container__news__image__img {
+        width: 100%;
+        height: auto;
+    }
     
     /* Estilos que se aplican cuando la pantalla tiene menos de 600px de ancho */
   }
   @media (min-width: 361px) and (max-width: 660px) {
 
     .CardPost__container__news__image__img {
-        width: 340px;
-        height: 250px;
+        width: 100%;
+        height: auto;
     }
     
     .CardPost__container__news__title h3{
