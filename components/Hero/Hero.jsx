@@ -87,6 +87,7 @@ const Hero = () => {
                     value={email}
                     onChange={handleEmailChange}
                   />
+                  <Toaster />
                   <button
                     className='w-full md:w-1/4 text-lg font-semibold text-white bg-darkprimary px-5 py-2.5 border rounded-lg hover:bg-darkprimary focus:outline-none focus:shadow-outline'
                     type='button'
