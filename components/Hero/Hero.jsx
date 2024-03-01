@@ -70,12 +70,11 @@ const Hero = () => {
         <div className='px-12 mx-auto max-w-7xl '>
 
             <div className=' w-full mx-auto text-left md:w-11/12 xl:w-9/12 md:text-center'>
-            <h1 className='mb-8 text-4xl font-semibold leading-none text-white md:text-7xl md:tracking-tight text-balance shadow-md hover:shadow-xl transition-all duration-300'>
+            <h1 className='mb-8 text-4xl font-semibold leading-none text-white md:text-7xl md:tracking-tight text-balance hover:shadow-xl transition-all duration-300'>
                Desarrollo de Apps <span className='text-blueprimary'>Odoo Personalizadas</span>
             </h1>
             <p className='text-pretty	px-0 mb-8 text-lg text-white md:text-xl lg:px-8 '>
-              Llevamos tu implementación de Odoo al siguiente nivel con soluciones digitales a medida, creadas por especialistas en Python Odoo
-            </p>
+              Para implementadores de Odoo que buscan potenciar sus servicios, ofrecemos soluciones de personalización y desarrollo de aplicaciones a medida. Amplía tu oferta y brinda soluciones excepcionales a tus clientes con nuestras herramientas y experiencia.            </p>
                 <div className=' flex-col justify-center w-full'>
                 <form action='' className='flex flex-col items-center w-full md:flex-row mb-4 md:space-x-4'>
                   <input
