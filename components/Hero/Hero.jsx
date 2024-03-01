@@ -4,6 +4,7 @@ import React, { useState, useEffect } from 'react'
 import { MdOutlineKeyboardArrowDown } from 'react-icons/md'
 import Link from 'next/link'
 import styles from './Hero.module.css'
+import { Toaster, toast } from 'sonner'
 
 const Hero = () => {
   const [isScrolled, setIsScrolled] = useState(false)
@@ -17,6 +18,7 @@ const Hero = () => {
   const handleContactButtonClick = async () => {
     try {
       console.log('Body de la solicitud:', JSON.stringify({ email }))
+      toast.success('Email recibido con éxito')
 
       const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/lead`, {
         method: 'POST',
