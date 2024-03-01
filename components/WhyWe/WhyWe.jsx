@@ -12,8 +12,8 @@ export default function WhyWe () {
         </div>   
         <div className={styles.WhyWe__container_text}>
           <h2 className={styles.LastNews__title}>Aportamos valor a tus servicios<span className={styles.Dot}>.</span></h2>
-          <p>En Alphaqueb, no solo creamos soluciones personalizadas en Odoo, sino que los acompañamos en todo el proceso, desde la definición de sus necesidades hasta la implementación y evolución de la aplicación.</p>
-          <p>Aumenten su productividad, reduzcan costos y mejoren la toma de decisiones con desarrollos de aplicaciones Odoo a medida.</p>
+          <p>En Alphaqueb, a demás de implementar soluciones personalizadas Odoo, les acompañamos en todo el proceso, desde la definición de sus necesidades hasta la implementación y evolución de la aplicación.</p>
+          <p>Aumenten su productividad, reduzcan costos y mejoren la toma de decisiones con desarrollos de aplicaciones Odoo a medida de tu implementación Odoo.</p>
           </div>     
     </div>
   )
