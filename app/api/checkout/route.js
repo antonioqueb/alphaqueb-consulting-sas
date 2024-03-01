@@ -11,7 +11,7 @@ export async function POST (request) {
     line_items: [
       {
         price_data: {
-          currency: 'mxn',
+          currency: 'usd',
           product_data: {
             name: body.name,
             images: [body.image]
