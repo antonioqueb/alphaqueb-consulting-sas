@@ -50,7 +50,7 @@ export default function Page({ params }) {
                 <meta property="og:image" content={metadata.metadataBase + props.frontMatter.image} />
             </head>
             <article className={styles.main}>
-                <h1>{props.frontMatter.title}</h1>
+                <h1 className='font-bold text-4xl'>{props.frontMatter.title}</h1>
                 <Image src={props.frontMatter.image} alt={props.frontMatter.title} width={1024} height={1024} className={styles['image-cover']} />
                 <MDXRemote source={props.content}></MDXRemote>
             </article>
