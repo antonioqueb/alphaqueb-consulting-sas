@@ -8,6 +8,11 @@ import Image from 'next/image'
 import Plans from '../../../components/Plans/Plans'
 
 
+export const metadata = {
+    
+    metadataBase: new URL(process.env.DOMAIN_URL)
+   
+  }
 
 export async function generateStaticParams() {
     const files = fs.readdirSync(path.join('blogs'))
