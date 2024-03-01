@@ -74,7 +74,7 @@ const Hero = () => {
                Desarrollo de Apps <span className='text-blueprimary'>Odoo Personalizadas</span>
             </h1>
             <p className='text-pretty	px-0 mb-8 text-lg text-white md:text-xl lg:px-8 '>
-              Para implementadores de Odoo que buscan potenciar sus servicios, ofrecemos soluciones de personalización y desarrollo de aplicaciones a medida. Amplía tu oferta y brinda soluciones excepcionales a tus clientes con nuestras herramientas y experiencia.            </p>
+              Amplía tu oferta de implementación Odoo y brinda soluciones excepcionales a tus clientes con nuestras herramientas y experiencia.            </p>
                 <div className=' flex-col justify-center w-full'>
                 <form action='' className='flex flex-col items-center w-full md:flex-row mb-4 md:space-x-4'>
                   <input
