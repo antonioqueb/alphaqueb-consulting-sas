@@ -7,10 +7,10 @@ import CallToAction from '../../../components/CallToAction/CallToAction'
 import Image from 'next/image'
 import Plans from '../../../components/Plans/Plans'
 
-
+// Metadata
 export const metadata = {
     
-    metadataBase: new URL(process.env.DOMAIN_URL)
+    metadataBase: new URL(process.env.DOMAIN_URL_POST)
    
   }
 
