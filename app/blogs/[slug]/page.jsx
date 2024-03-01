@@ -42,7 +42,7 @@ export default function Page({ params }) {
                 )}
                 <meta property="og:title" content={props.frontMatter.title} />
                 <meta name="description" content={props.frontMatter.description} />
-                <meta property="og:image" content={props.frontMatter.image} />
+                <meta property="og:image" content={metadata.metadataBase + props.frontMatter.image} />
             </head>
             <article className={styles.main}>
                 <h1>{props.frontMatter.title}</h1>
