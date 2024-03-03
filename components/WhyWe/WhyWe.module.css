@@ -88,7 +88,7 @@
     font-size: 1.75rem;
     font-weight: 600;
     margin-bottom: 2rem;
-    text-align: center;
+    text-align: start;
     
 
   }
@@ -97,7 +97,7 @@
 .WhyWe__container_text {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: start;
   
 }
 
@@ -141,6 +141,7 @@
   .WhyWe__container_text{
     padding: 0;
     margin: 0;
+    
 
    
 
