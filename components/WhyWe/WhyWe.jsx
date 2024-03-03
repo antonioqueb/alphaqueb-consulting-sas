@@ -12,7 +12,7 @@ export default function WhyWe () {
         </div>   
         <div className={styles.WhyWe__container_text}>
           <h2 className={styles.WhyWe__title}>Tu socio de implementación de confianza<span className={styles.Dot}>.</span></h2>
-          <p>En Alphaqueb Consulting SAS somos expertos en el Desarrollo de Odoo y podemos ayudarte a aprovechar al máximo lo potencialmente personalizable que es este ERP.</p>
+          <p>En Alphaqueb Consulting S.A.S. somos expertos en el Desarrollo de Odoo y podemos ayudarte a aprovechar al máximo lo potencialmente personalizable que es este ERP.</p>
           <p>Te ofrecemos una amplia gama de servicios, desde la personalizaciones simples de modulos existentes hasta el desarrollo de nuevos módulos a medida.</p>
           <p>Contacta con nosotros hoy mismo y te ayudaremos a encontrar la solución perfecta para tus necesidades.</p>
           </div>     
