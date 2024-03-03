@@ -71,7 +71,7 @@ const Hero = () => {
 
             <div className=' w-full mx-auto text-left md:w-11/12 xl:w-9/12 md:text-center'>
             <h1 className='mb-8 text-4xl font-semibold leading-none text-white md:text-7xl md:tracking-tight text-balance hover:shadow-xl transition-all duration-300'>
-            Expande tus servicios con<span className='text-blueprimary'> Desarrollos Odoo Exclusivo</span>
+            Expande tu oferta con<span className='text-blueprimary'> Desarrollos Odoo Exclusivo</span>
             </h1>
             <p className='text-pretty	px-0 mb-8 text-lg text-white md:text-xl lg:px-8 '>
             Soluciones Odoo personalizadas que potencian la oferta de valor de tus servicios como implementador de Odoo ERP y CRM .</p>
