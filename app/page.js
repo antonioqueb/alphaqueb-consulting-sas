@@ -12,7 +12,7 @@ import CallToAction from '../components/CallToAction/CallToAction'
 
 export const metadata = {
   title: {
-    default: 'Desarrollo de Apps Odoo Personalizadas | Alphaqueb',
+    default: 'Desarrollo de Apps Odoo Personalizadas',
     template: '%s | Alphaqueb',
   },
   description: 'Amplía tu oferta de implementación Odoo con la personalización de módulos a medida. Desarrollamos soluciones Odoo personalizadas para tu negocio.',
