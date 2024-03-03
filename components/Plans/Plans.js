@@ -47,44 +47,38 @@ const NavbarComponent = () => {
                 <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708847679/1.svg'  alt='Planes de precios' className='rounded-3xl w-20 h-20' />
                 <div className='ml-5'>
                 <span className='block text-2xl font-semibold text-gray-500'>2 Horas</span>
-                <span><span className='font-medium text-gray-600 text-xl align-top'>$</span><span className='text-3xl font-bold text-gray-600'>98 USD</span></span><span className='text-gray-600 font-medium'>/ hora</span>
+                <span><span className='font-medium text-gray-600 text-xl align-top'>$</span><span className='text-3xl font-bold text-gray-600'>59 USD</span></span><span className='text-gray-600 font-medium'>/ hora</span>
                 </div>
             </div>
                 <ul className='mb-7 font-medium text-gray-500'>
                 <p className='text-xl font-semibold mb-2 text-black'>Ideal para:</p>
                 <li className='flex text-sm mb-1'>
                 <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839871/check-grey.svg' alt='check'/>
-                <span className='text-black'>Correcciones puntuales.</span>
+                <span className='text-black'>Correcciones en vistas.</span>
                 </li>
                 <li className='flex text-sm mb-1'>
                 <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839871/check-grey.svg' alt='check'/>
-                <span className='text-black'>Personalizaciones básicas.</span>
+                <span className='text-black'>Correcciones en modelos.</span>
                 </li>
                 <li className='flex text-sm mb-1'>
                 <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839871/check-grey.svg' alt='check'/>
-                <span className='text-black'>Solución de errores.</span>
-                </li>
-                <p className='text-xl font-semibold mb-2 text-black'>Ejemplos:</p>
-
-                <li className='flex text-sm mb-1'>
-                <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839871/check-grey.svg' alt='check'/>
-                <span className='text-black'>Corregir errores visuales.</span>
+                <span className='text-black'>Solución de problemas.</span>
                 </li>
                 <li className='flex text-sm mb-1'>
                 <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839871/check-grey.svg' alt='check'/>
-                <span className='text-black'>Añadir nuevos campos.</span>
+                <span className='text-black'>Solución de secuencias.</span>
                 </li>
-                <li className='flex text-sm'>
+                <li className='flex text-sm mb-1'>
                 <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839871/check-grey.svg' alt='check'/>
-                <span className='text-black'>Personalizar la interfaz.</span>
+                <span className='text-black'>Ajuste de precision decimal.</span>
                 </li>
                 <div className='ml-5'>
                 <span className='block text-2xl font-semibold text-gray-500 mt-4'>Total</span>
-                <span><span className='font-medium text-gray-600 text-xl align-top'>$</span><span className='text-3xl font-bold text-gray-600'>197 USD</span></span>
+                <span><span className='font-medium text-gray-600 text-xl align-top'>$</span><span className='text-3xl font-bold text-gray-600'>118 USD</span></span>
                 </div>
 
             </ul>
-            <button href='#/' className='flex justify-center items-center bg-black rounded-xl py-5 px-4 text-center text-white text-xl' onClick={() => handlePay('Paquete Soluciones Express Odoo 4 Horas', 19700, 'https://res.cloudinary.com/dn5cltdre/image/upload/v1708847679/1.svg')}>
+            <button href='#/' className='flex justify-center items-center bg-black rounded-xl py-5 px-4 text-center text-white text-xl' onClick={() => handlePay('Paquete Soluciones Express Odoo 4 Horas', 11800, 'https://res.cloudinary.com/dn5cltdre/image/upload/v1708847679/1.svg')}>
                 Comprar Paquete
                 <GoArrowRight className='text-black' style={{ fill: 'white' }} />
 
@@ -96,7 +90,7 @@ const NavbarComponent = () => {
                 <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708847679/2.svg'  alt='Planes de precios' className='rounded-3xl w-20 h-20' />
                 <div className='ml-5'>
                 <span className='block text-3xl font-semibold text-white '>40 Horas</span>
-                <span><span className='font-medium text-xl align-top'>$</span><span className='text-3xl font-bold text-white'>93 USD </span></span><span className='font-medium'>/ hora</span>
+                <span><span className='font-medium text-xl align-top'>$</span><span className='text-3xl font-bold text-white'>53 USD </span></span><span className='font-medium'>/ hora</span>
                 </div>
             </div>
             <ul className='mb-10 font-medium text-xl'>
@@ -104,36 +98,40 @@ const NavbarComponent = () => {
 
                 <li className='flex text-sm mb-1'>
                 <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839581/arrow-white.svg.svg' alt='check'/>
-                <span className='text-white'>Modificaciones avanzadas.</span>
+                <span className='text-white'>Implementar Modelos.</span>
                 </li>
                 <li className='flex text-sm mb-1'>
                 <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839581/arrow-white.svg.svg' alt='check'/>
-                <span className='text-white'>Módulos personalizados.</span>
+                <span className='text-white'>Personalizar Vistas.</span>
                 </li>
                 <li className='flex text-sm mb-1'>
                 <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839581/arrow-white.svg.svg' alt='check'/>
-                <span className='text-white'>Reportes a medida.</span>
+                <span className='text-white'>Automatizar Procesos.</span>
                 </li>
-                <p className='text-xl font-semibold mb-2 text-white'>Ejemplos:</p>
+                <li className='flex text-sm mb-1'>
+                <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839581/arrow-white.svg.svg' alt='check'/>
+                <span className='text-white'>Personalizar Modulos Existentes.</span>
+                </li>
+                <li className='flex text-sm mb-1'>
+                <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839581/arrow-white.svg.svg' alt='check'/>
+                <span className='text-white'>Crer nuevas vista.</span>
+                </li>
+                <li className='flex text-sm mb-1'>
+                <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839581/arrow-white.svg.svg' alt='check'/>
+                <span className='text-white'>Configurar ERP externo.</span>
+                </li>
+                <li className='flex text-sm mb-1'>
+                <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839581/arrow-white.svg.svg' alt='check'/>
+                <span className='text-white'>Conexión Wordpress/External Apps.</span>
+                </li>
 
-                <li className='flex text-sm mb-1'>
-                <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839581/arrow-white.svg.svg' alt='check'/>
-                <span className='text-white'>Implementar nuevas funcionalidades.</span>
-                </li>
-                <li className='flex text-sm mb-1'>
-                <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839581/arrow-white.svg.svg' alt='check'/>
-                <span className='text-white'>Desarrollar un módulo específico.</span>
-                </li>
-                <li className='flex text-sm mb-1'>
-                <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839581/arrow-white.svg.svg' alt='check'/>
-                <span className='text-white'>Crear reportes para análisis.</span>
-                </li>
+
                 <div className='ml-5'>
                 <span className='block text-2xl font-semibold text-gray-100  mt-4'>Total</span>
-                <span><span className='font-medium text-gray-100 text-xl align-top'>$</span><span className='text-3xl font-bold text-gray-100'>3,743 USD</span></span>
+                <span><span className='font-medium text-gray-100 text-xl align-top'>$</span><span className='text-3xl font-bold text-gray-100'>2,120 USD</span></span>
                 </div>
             </ul>
-            <button href='#/' className='flex justify-center items-center bg-white rounded-xl py-6 px-4 text-center text-black text-2xl' onClick={() => handlePay('Paquete Proyectos Odoo a Medida 40 Horas', 374300, 'https://res.cloudinary.com/dn5cltdre/image/upload/v1708847679/1.svg')}>
+            <button href='#/' className='flex justify-center items-center bg-white rounded-xl py-6 px-4 text-center text-black text-2xl' onClick={() => handlePay('Paquete Proyectos Odoo a Medida 40 Horas', 212000, 'https://res.cloudinary.com/dn5cltdre/image/upload/v1708847679/1.svg')}>
             Comprar Paquete
             <GoArrowRight className='text-black' style={{ fill: 'black' }} />
 
@@ -145,7 +143,7 @@ const NavbarComponent = () => {
                 <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708847679/2.svg'  alt='Planes de precios' className='rounded-3xl w-20 h-20' />
                 <div className='ml-5'>
                 <span className='block text-2xl font-semibold text-gray-500'>200 Horas</span>
-                <span><span className='font-medium text-gray-600 text-xl align-top'>$</span><span className='text-3xl font-bold text-gray-600'>83 USD</span></span><span className='text-gray-600 font-medium'>/ hora</span>
+                <span><span className='font-medium text-gray-600 text-xl align-top'>$</span><span className='text-3xl font-bold text-gray-600'>47 USD</span></span><span className='text-gray-600 font-medium'>/ hora</span>
                 </div>
             </div>
             <ul className='mb-7 font-medium text-gray-500'>
@@ -157,33 +155,38 @@ const NavbarComponent = () => {
                 </li>
                 <li className='flex text-sm mb-1'>
                 <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839871/check-grey.svg' alt='check'/>
-                <span className='text-black'>Conexiones PLC.</span>
+                <span className='text-black'>Conexiones a PLC</span>
                 </li>
                 <li className='flex text-sm mb-1'>
                 <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839871/check-grey.svg' alt='check'/>
-                <span className='text-black'>Integraciones API.</span>
+                <span className='text-black'>Sistemas contables externos</span>
                 </li>
-                <p className='text-xl font-semibold mb-2 text-black'>Ejemplos:</p>
+                <li className='flex text-sm mb-1'>
+                <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839871/check-grey.svg' alt='check'/>
+                <span className='text-black'>Conexión formularios Web</span>
+                </li>
+                <li className='flex text-sm mb-1'>
+                <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839871/check-grey.svg' alt='check'/>
+                <span className='text-black'>Extender funcionalidades nativas</span>
+                </li>
+                <li className='flex text-sm mb-1'>
+                <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839871/check-grey.svg' alt='check'/>
+                <span className='text-black'>Funcionalidades a medida</span>
+                </li>
+                
+                
 
-                <li className='flex text-sm mb-1'>
-                <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839871/check-grey.svg' alt='check'/>
-                <span className='text-black'>Conectar con Salesforce.</span>
-                </li>
-                <li className='flex text-sm mb-1'>
-                <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839871/check-grey.svg' alt='check'/>
-                <span className='text-black'>Control de producción.</span>
-                </li>
-                <li className='flex text-sm mb-1'>
-                <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839871/check-grey.svg' alt='check'/>
-                <span className='text-black'>Integrar sistemas externos.</span>
-                </li>
+                
                 <div className='ml-5'>
                 <span className='block text-2xl font-semibold text-gray-500  mt-4'>Total</span>
-                <span><span className='font-medium text-gray-600 text-xl align-top'>$</span><span className='text-3xl font-bold text-gray-600'>16,600 USD</span></span>
+                <span><span className='font-medium text-gray-600 text-xl align-top'>$</span><span className='text-3xl font-bold text-gray-600'>9,400 USD</span></span>
                 </div>
+
+
+
                
             </ul>
-            <button href='#/' className='flex justify-center items-center bg-black rounded-xl py-5 px-4 text-center text-white text-xl' onClick={() => handlePay('Paquete Evolución Odoo Total 200 Horas', 1660000, 'https://res.cloudinary.com/dn5cltdre/image/upload/v1708847679/1.svg')}>
+            <button href='#/' className='flex justify-center items-center bg-black rounded-xl py-5 px-4 text-center text-white text-xl' onClick={() => handlePay('Paquete Evolución Odoo Total 200 Horas', 940000, 'https://res.cloudinary.com/dn5cltdre/image/upload/v1708847679/1.svg')}>
             Comprar Paquete
             <GoArrowRight className='text-black' style={{ fill: 'white' }} />
             </button>
