@@ -70,7 +70,7 @@ const Hero = () => {
         <div className='px-12 mx-auto max-w-7xl '>
 
             <div className=' w-full mx-auto text-left md:w-11/12 xl:w-9/12 md:text-center'>
-            <h1 className='mb-8 text-3xl font-semibold leading-none text-white md:text-7xl md:tracking-tight text-balance hover:shadow-xl transition-all duration-300'>
+            <h1 className='mb-8 text-4xl font-semibold leading-none text-white md:text-6xl md:tracking-tight text-balance hover:shadow-xl transition-all duration-300'>
             Expande tu oferta con<span className='text-blueprimary'> Desarrollos Odoo Exclusivo</span>
             </h1>
             <p className='text-pretty	px-0 mb-8 text-lg text-white md:text-xl lg:px-8 '>
