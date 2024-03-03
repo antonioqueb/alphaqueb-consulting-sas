@@ -71,10 +71,10 @@ const Hero = () => {
 
             <div className=' w-full mx-auto text-left md:w-11/12 xl:w-9/12 md:text-center'>
             <h1 className='mb-8 text-4xl font-semibold leading-none text-white md:text-7xl md:tracking-tight text-balance hover:shadow-xl transition-all duration-300'>
-            Expande tus servicios con<span className='text-blueprimary'> Desarrollos Odoo Únicos</span>
+            Expande tus servicios con<span className='text-blueprimary'> Desarrollos Odoo Exclusivo</span>
             </h1>
             <p className='text-pretty	px-0 mb-8 text-lg text-white md:text-xl lg:px-8 '>
-            Soluciones Odoo personalizadas que potencian tu oferta de valor como implementador de soliiones Odoo.</p>
+            Soluciones Odoo personalizadas que potencian la oferta de valor de tus servicios como implementador de Odoo ERP y CRM .</p>
                 <div className=' flex-col justify-center w-full'>
                 <form action='' className='flex flex-col items-center w-full md:flex-row mb-4 md:space-x-4'>
                   <input
