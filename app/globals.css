@@ -4,18 +4,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 :root {
   --font-mono: Rubik, Menlo, Monaco,'Cascadia Mono', 'Segoe UI Mono',
     'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
@@ -45,6 +33,7 @@ body {
   overflow-x: hidden;
   background-color: #0D0D0D;
   caret-color: transparent;
+  border: solid 1px #ffff;
  
   
 
@@ -87,7 +76,33 @@ input, textarea {
   background-color: transparent;
   max-width: 1200px;
   overflow: hidden;
-  
+  padding: 0 15rem;
+}
+
+
+
+
+@media (max-width: 380px) {
+  .glass {
+    padding: 0 1rem;
+    
+  }
+}
+
+/* Tableta */
+@media (min-width: 381px) and (max-width: 768px) {
+  .glass {
+    padding: 0 2rem;
+    
+  }
+}
+
+/* Portátil */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .glass {
+    padding: 0 6rem;
+    
+  }
 }
 
 @layer base {
@@ -292,3 +307,4 @@ input, textarea {
 /* styles/global.css */
 
 /* Global styles for custom scrollbars */
+

@@ -3,7 +3,7 @@
 
 .Hero__container {
   display: flex;
-  
+  border: solid 1px #ffff;
 
 }
 .Dot {

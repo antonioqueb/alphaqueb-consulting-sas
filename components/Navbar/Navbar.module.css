@@ -13,11 +13,14 @@
   backdrop-filter: blur(5px);
   z-index: 10;
   transition: background-color 0.3s, backdrop-filter 0.3s;
-  left: 12rem;
-  right: 12rem;
+  left: 15rem;
+  right: 15rem;
   top: 0;
   padding: 0.3rem 0;
+  border: solid 1px #ffff;
 }
+
+
 
 /* Estilo específico para Chrome */
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
@@ -185,10 +188,11 @@
 @media (max-width: 1024px) {
   
   .navbar {
-    left: 2rem; /* ajustar según sea necesario */
-    right: 2rem; /* ajustar según sea necesario */
+
     background: #0d0d0d00; /* Color de fondo con transparencia */
     backdrop-filter: none; /* Efecto esmerilado */
+    left: 15rem;
+  right: 15rem;
   }
   
   .navbar__section--start, .navbar__section--end {

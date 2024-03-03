@@ -66,10 +66,10 @@ const Hero = () => {
   // Retorna el componente
   return (
     <>
-          <section className='pt-20 pb-32 bg-transparent mt-[7.5rem] '>
-        <div className='px-12 mx-auto max-w-7xl '>
+          <section className='pt-20 border pb-32 bg-transparent mt-[7.5rem]'>
+        <div className='mx-auto '>
 
-            <div className=' w-full mx-auto text-left md:w-11/12 xl:w-9/12 md:text-center'>
+            <div className='mx-auto text-center  sm:px-6 lg:max-w-4xl lg:px-8'>
             <h1 className='mb-8 text-4xl font-semibold leading-none text-white md:text-6xl md:tracking-tight text-balance hover:shadow-xl transition-all duration-300'>
             Potencia tu oferta con<span className='text-blueprimary'> Desarrollos Odoo Exclusivos</span>
             </h1>

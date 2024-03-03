@@ -39,7 +39,7 @@ export default function RootLayout({ children }) {
         <ModalCookies />
 
         <div className="container-layout">
-          <div className="glass max-w-[1200px] px-2 lg:px-20 xl:px-28 ">
+          <div className="glass">
             <NavbarComponent />
             <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M57HBTQP"
               height="0" width="0" style={{ display: 'none', visibility: 'hidden' }}></iframe>
