@@ -82,13 +82,12 @@
     flex-direction: column-reverse;
     padding: 5vh 0;
   }
-}
 
   .WhyWe__container_text h2 {
     font-size: 1.75rem;
     font-weight: 600;
     margin-bottom: 2rem;
-    text-align: start;
+    text-align: center;
     
 
   }
@@ -112,6 +111,7 @@
 
 }
 
+}
 
 
   /* Estilos que se aplican cuando la pantalla tiene menos de 600px de ancho */
@@ -134,7 +134,7 @@
     font-size: 3rem;
     font-weight: 600;
     margin-bottom: 2rem;
-    text-align: center;
+    text-align: start;
 
   }
 
