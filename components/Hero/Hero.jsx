@@ -71,15 +71,15 @@ const Hero = () => {
 
             <div className=' w-full mx-auto text-left md:w-11/12 xl:w-9/12 md:text-center'>
             <h1 className='mb-8 text-4xl font-semibold leading-none text-white md:text-7xl md:tracking-tight text-balance hover:shadow-xl transition-all duration-300'>
-               Desarrollo de Apps <span className='text-blueprimary'>Odoo Personalizadas</span>
+            Expande tu catálogo con <span className='text-blueprimary'> Desarrollos Odoo Personalizados</span>
             </h1>
             <p className='text-pretty	px-0 mb-8 text-lg text-white md:text-xl lg:px-8 '>
-              Amplía tu oferta de implementación Odoo y brinda soluciones excepcionales a tus clientes con nuestras herramientas y experiencia.            </p>
+            Impulsa tu oferta de valor con Soluciones Odoo personalizadas que potencian tu oferta de valor como implementador de soliiones Odoo.</p>
                 <div className=' flex-col justify-center w-full'>
                 <form action='' className='flex flex-col items-center w-full md:flex-row mb-4 md:space-x-4'>
                   <input
                     type='text'
-                    placeholder='Email para contactar'
+                    placeholder='Email para ser contactado'
                     name='email'
                     id='email'
                     className='w-full md:w-3/4 h-12 px-4 mb-3 md:mb-0 text-lg justify-center text-gray-700 placeholder-gray-600 border rounded-lg focus:shadow-outline'
@@ -92,7 +92,7 @@ const Hero = () => {
                     type='button'
                     onClick={handleContactButtonClick}
                   >
-                    Contactar
+                    Enviar
                   </button>
                 </form>
 
