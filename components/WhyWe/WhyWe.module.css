@@ -77,40 +77,6 @@
     margin: 2rem 0;
 
   }
-
-  .WhyWe__container {
-    flex-direction: column-reverse;
-    padding: 5vh 0;
-  }
-
-  .WhyWe__container_text h2 {
-    font-size: 1.75rem;
-    font-weight: 600;
-    margin-bottom: 2rem;
-    text-align: center;
-    
-
-  }
-
-  
-.WhyWe__container_text {
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  
-}
-
-
-  
-.WhyWe__container_text p {
-  font-size: 1rem;
-  text-align: start;
-  margin-bottom: 1rem;
-  padding: 0 2rem;
-
-
-}
-
 }
 
 
