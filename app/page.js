@@ -50,7 +50,7 @@ export const metadata = {
     'odoo ecommerce',
   ],
   metadataBase: new URL(process.env.DOMAIN_URL),
-};
+}
 
 export default function Home () {
   return (
