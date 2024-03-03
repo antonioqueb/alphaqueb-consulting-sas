@@ -74,7 +74,7 @@ const Hero = () => {
             Expande tu catálogo con <span className='text-blueprimary'> Desarrollos Odoo Personalizados</span>
             </h1>
             <p className='text-pretty	px-0 mb-8 text-lg text-white md:text-xl lg:px-8 '>
-            Impulsa tu oferta de valor con Soluciones Odoo personalizadas que potencian tu oferta de valor como implementador de soliiones Odoo.</p>
+            Soluciones Odoo personalizadas que potencian tu oferta de valor como implementador de soliiones Odoo.</p>
                 <div className=' flex-col justify-center w-full'>
                 <form action='' className='flex flex-col items-center w-full md:flex-row mb-4 md:space-x-4'>
                   <input
