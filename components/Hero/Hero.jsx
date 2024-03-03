@@ -74,7 +74,7 @@ const Hero = () => {
             Expande tu oferta con<span className='text-blueprimary'> Desarrollos Odoo Exclusivo</span>
             </h1>
             <p className='text-pretty	px-0 mb-8 text-lg text-white md:text-xl lg:px-8 '>
-            Soluciones Odoo personalizadas que te convierten en el socio ideal para las empresas que buscan una solución Odoo completa y adaptada a las necesidades de sus procesos internos y externos.</p>
+            Soluciones Odoo personalizadas que te convierten en el socio ideal de las empresas que buscan una Integración Odoo completa y adaptada a las necesidades de sus empresas.</p>
                 <div className=' flex-col justify-center w-full'>
                 <form action='' className='flex flex-col items-center w-full md:flex-row mb-4 md:space-x-4'>
                   <input
