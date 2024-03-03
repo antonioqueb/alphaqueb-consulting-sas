@@ -11,26 +11,57 @@ import Plans from '../components/Plans/Plans'
 
 export const metadata = {
   title: {
-    default: 'Apps Odoo Personalizadas',
-    template: '%s | Alphaqueb'
+    default: 'Desarrollo de Apps Odoo Personalizadas | Alphaqueb',
+    template: '%s | Alphaqueb',
   },
-  description: 'Personalizamos tu implementación Odoo para cumplir tus metas.',
-  metadataBase: new URL(process.env.DOMAIN_URL)
- 
-}
+  description: 'Amplía tu oferta de implementación Odoo con la personalización de módulos a medida. Desarrollamos soluciones Odoo personalizadas para tu negocio.',
+  image: '/images/alphaqueb-logo.png',
+  url: 'https://alphaqueb.com/',
+  type: 'website',
+  keywords: [
+    'odoo',
+    'desarrollo de apps odoo',
+    'personalización de módulos odoo',
+    'implementación odoo',
+    'soluciones odoo',
+    'desarrollo a medida',
+    'software a medida',
+    'aplicaciones web',
+    'aplicaciones móviles',
+    'aplicaciones de escritorio',
+    'digitalización de empresas',
+    'automatización de procesos',
+    'erp odoo',
+    'crm odoo',
+    'ecommerce odoo',
+    'odoo development',
+    'odoo customization',
+    'odoo implementation',
+    'odoo solutions',
+    'tailored development',
+    'custom software',
+    'web applications',
+    'mobile applications',
+    'desktop applications',
+    'business digitization',
+    'process automation',
+    'odoo erp',
+    'odoo crm',
+    'odoo ecommerce',
+  ],
+  metadataBase: new URL(process.env.DOMAIN_URL),
+};
 
 export default function Home () {
   return (
     
     <main className={styles.main}>
-    
-      <Hero /> 
-      <Testimonials />    
+      <Hero />  
       <WhyWe />
-      <Methodology />
       <Plans />
-
-     
+      <Methodology />
+      <Testimonials />   
+      <Plans />
     </main>
   )
 }

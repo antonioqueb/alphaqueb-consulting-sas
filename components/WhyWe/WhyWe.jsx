@@ -11,9 +11,10 @@ export default function WhyWe () {
           <Image className={styles.WhyWe__container__image__img} src='whywe.svg'  alt='wyhywephoto' width={700} height={700} />
         </div>   
         <div className={styles.WhyWe__container_text}>
-          <h2 className={styles.LastNews__title}>Aportamos valor a tus servicios<span className={styles.Dot}>.</span></h2>
-          <p>En Alphaqueb, a demás de implementar soluciones personalizadas Odoo, les acompañamos en todo el proceso, desde la definición de sus necesidades hasta la implementación y evolución de la aplicación.</p>
-          <p>Aumenten su productividad, reduzcan costos y mejoren la toma de decisiones con desarrollos de aplicaciones Odoo a medida de tu implementación Odoo.</p>
+          <h2 className={styles.WhyWe__title}>Desarrollamos Personalizaciones en el ERP Odoo a medida.<span className={styles.Dot}>.</span></h2>
+          <p>En Alphaqueb Consulting SAS somos expertos en el Desarrollo de Odoo y podemos ayudarte a aprovechar al máximo lo potencialmente personalizable que es este ERP.</p>
+          <p>Te ofrecemos una amplia gama de servicios, desde la personalizaciones simples de modulos existentes hasta el desarrollo de nuevos módulos a medida.</p>
+          <p>Contacta con nosotros hoy mismo y te ayudaremos a encontrar la solución perfecta para tus necesidades.</p>
           </div>     
     </div>
   )

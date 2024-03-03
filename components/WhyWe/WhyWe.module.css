@@ -2,6 +2,8 @@
   display: flex;
   color: #F2F2F2;
   padding: 10vh 0;
+  align-items: start;
+  
 }
 
 .Dot{
@@ -11,6 +13,16 @@
   flex: 1;
 }
 
+.WhyWe__title{
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 2rem;
+  text-align: start;
+  text-wrap: balance;
+ 
+}
 
 .WhyWe__container_images {
   display: flex;
