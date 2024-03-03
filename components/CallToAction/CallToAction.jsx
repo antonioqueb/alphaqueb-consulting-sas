@@ -52,20 +52,20 @@ export default function CallToAction() {
 
           <div className={styles.CallToAction__container__text__subtitle}>
             <p>
-            Lidera la revolución digital, llevando tu negocio más allá de la mera transición digital hacia una completa reinvención.
+            Lidera la revolución digital, llevando a tus implementaciones odoo personalizaciónes que realmente aporten valor a tus clientes.
             </p>
           </div>
           <div className={styles.CallToAction__container__text__form}>
             <form action='' className={styles.CallToAction__container__text__form__container}>
               <input
                 type='text'
-                placeholder='Email Corporativo'
+                placeholder='Email para contactar'
                 className={styles.CallToAction__container__text__form__input}
                 value={email}
                 onChange={handleEmailChange}
               />
               <button className={styles.CallToAction__container__text__form__button} onClick={handleContactButtonClick}>
-                Contactar
+                Enviar
               </button>
             </form>
             <span>
@@ -77,7 +77,7 @@ export default function CallToAction() {
           </div>
         </div>
         <div className={styles.CallToAction__container__image}>
-          <Image src='/whywe.svg' alt='CallToAction' width={500} height={500} />
+          <Image src='/whywe.svg' alt='CallToAction' width={600} height={600} />
         </div>
       </div>
     </>

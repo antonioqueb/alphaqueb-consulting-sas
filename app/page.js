@@ -4,6 +4,7 @@ import Testimonials from '../components/Testimonials/Testimonials'
 import WhyWe from '../components/WhyWe/WhyWe'
 import Methodology from '../components/Methodology/Methodology'
 import Plans from '../components/Plans/Plans'
+import CallToAction from '../components/CallToAction/CallToAction'
 
 // Metadata from 'next/head'
 
@@ -60,6 +61,7 @@ export default function Home () {
       <WhyWe />
       <Plans />
       <Methodology />
+      <CallToAction />
       <Testimonials />   
       <Plans />
     </main>
