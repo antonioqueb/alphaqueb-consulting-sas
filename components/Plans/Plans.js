@@ -49,26 +49,22 @@ const NavbarComponent = () => {
                 </div>
             </div>
                 <ul className='mb-7 font-medium text-gray-500'>
-                <p className='text-xl font-semibold mb-2 text-black'>Ideal para:</p>
+                <p className='text-xl font-semibold mb-2 text-black'>Perfecto para tareas rápidas y ajustes precisos:</p>
                 <li className='flex text-sm mb-1'>
                 <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839871/check-grey.svg' alt='check'/>
-                <span className='text-black text-xl'>Correcciones en vistas.</span>
+                <span className='text-black text-xl'>Optimización y correcciones de vistas.</span>
                 </li>
                 <li className='flex text-sm mb-1'>
                 <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839871/check-grey.svg' alt='check'/>
-                <span className='text-black text-xl'>Correcciones en modelos.</span>
+                <span className='text-black text-xl'>Ajustes y mejoras en modelos de datos.</span>
                 </li>
                 <li className='flex text-sm mb-1'>
                 <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839871/check-grey.svg' alt='check'/>
-                <span className='text-black text-xl'>Solución de problemas.</span>
+                <span className='text-black text-xl'>Resolución rápida de problemas y errores.</span>
                 </li>
                 <li className='flex text-sm mb-1'>
                 <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839871/check-grey.svg' alt='check'/>
-                <span className='text-black text-xl'>Solución de secuencias.</span>
-                </li>
-                <li className='flex text-sm mb-1'>
-                <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839871/check-grey.svg' alt='check'/>
-                <span className='text-black text-xl'>Ajuste de precision decimal.</span>
+                <span className='text-black text-xl'>Ajustes en secuencias y precisión decimal.</span>
                 </li>
                 <div className='ml-5'>
                 <span className='block text-2xl font-semibold text-gray-500 mt-4'>Total</span>
@@ -92,35 +88,35 @@ const NavbarComponent = () => {
                 </div>
             </div>
             <ul className='mb-10 font-medium text-xl'>
-            <p className='text-xl font-semibold mb-2 text-white'>Ideal para:</p>
+            <p className='text-xl font-semibold mb-2 text-white'>Diseñado para desarrollos y personalizaciones intermedias:</p>
 
                 <li className='flex text-sm mb-1'>
                 <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839581/arrow-white.svg.svg' alt='check'/>
-                <span className='text-white text-xl'>Implementar Modelos.</span>
+                <span className='text-white text-xl'>Creación y personalización de modelos.</span>
                 </li>
                 <li className='flex text-sm mb-1'>
                 <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839581/arrow-white.svg.svg' alt='check'/>
-                <span className='text-white text-xl'>Personalizar Vistas.</span>
+                <span className='text-white text-xl'>Diseño y personalización avanzada de vistas.</span>
                 </li>
                 <li className='flex text-sm mb-1'>
                 <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839581/arrow-white.svg.svg' alt='check'/>
-                <span className='text-white text-xl'>Automatizar Procesos.</span>
+                <span className='text-white text-xl'>Automatización de procesos clave.</span>
                 </li>
                 <li className='flex text-sm mb-1'>
                 <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839581/arrow-white.svg.svg' alt='check'/>
-                <span className='text-white text-xl'>Personalizar Modulos Existentes.</span>
+                <span className='text-white text-xl'>Modificación y mejora de módulos existentes.</span>
                 </li>
                 <li className='flex text-sm mb-1'>
                 <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839581/arrow-white.svg.svg' alt='check'/>
-                <span className='text-white text-xl'>Crer nuevas vista.</span>
+                <span className='text-white text-xl'>Desarrollo de nuevas interfaces y vistas.</span>
                 </li>
                 <li className='flex text-sm mb-1'>
                 <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839581/arrow-white.svg.svg' alt='check'/>
-                <span className='text-white text-xl'>Configurar ERP externo.</span>
+                <span className='text-white text-xl'>Integración con ERP externos.</span>
                 </li>
                 <li className='flex text-sm mb-1'>
                 <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839581/arrow-white.svg.svg' alt='check'/>
-                <span className='text-white text-xl'>Conexión Wordpress/External Apps.</span>
+                <span className='text-white text-xl'>Conexiones con Wordpress y aplicaciones externas.</span>
                 </li>
 
 
@@ -145,31 +141,31 @@ const NavbarComponent = () => {
                 </div>
             </div>
             <ul className='mb-7 font-medium text-gray-500'>
-            <p className='text-xl font-semibold mb-2 text-black'>Ideal para:</p>
+            <p className='text-xl font-semibold mb-2 text-black'>Ideal para proyectos de integración y desarrollo a gran escala:</p>
 
                 <li className='flex text-sm mb-1'>
                 <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839871/check-grey.svg' alt='check'/>
-                <span className='text-black text-xl'>Integraciones avanzadas.</span>
+                <span className='text-black text-xl'>Implementación de integraciones avanzadas con sistemas externos.</span>
                 </li>
                 <li className='flex text-sm mb-1'>
                 <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839871/check-grey.svg' alt='check'/>
-                <span className='text-black text-xl'>Conexiones a PLC</span>
+                <span className='text-black text-xl'>Conexión directa con PLC y otros dispositivos de control.</span>
                 </li>
                 <li className='flex text-sm mb-1'>
                 <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839871/check-grey.svg' alt='check'/>
-                <span className='text-black text-xl'>Sistemas contables externos</span>
+                <span className='text-black text-xl'>Integración con sistemas contables externos.</span>
                 </li>
                 <li className='flex text-sm mb-1'>
                 <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839871/check-grey.svg' alt='check'/>
-                <span className='text-black text-xl'>Conexión formularios Web</span>
+                <span className='text-black text-xl'>Desarrollo de conexiones para formularios web.</span>
                 </li>
                 <li className='flex text-sm mb-1'>
                 <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839871/check-grey.svg' alt='check'/>
-                <span className='text-black text-xl'>Extender funcionalidades nativas</span>
+                <span className='text-black text-xl'>Extensión de funcionalidades nativas de Odoo.</span>
                 </li>
                 <li className='flex text-sm mb-1'>
                 <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839871/check-grey.svg' alt='check'/>
-                <span className='text-black text-xl'>Funcionalidades a medida</span>
+                <span className='text-black text-xl'>Desarrollo de soluciones personalizadas a medida.</span>
                 </li>
                 
                 
