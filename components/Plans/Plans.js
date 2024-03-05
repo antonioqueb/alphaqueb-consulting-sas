@@ -34,7 +34,7 @@ const NavbarComponent = () => {
     <>
      
         <div className='w-full mx-auto mb-14 text-start lg:text-center'>
-            <h1 className='text-[1.8rem] font-semibold mb-6 lg:text-4xl xl:text-6xl'>Tarifas por Hora<span className="text-[#26E1FF]">.</span></h1>
+            <h1 className='text-[1.8rem] font-semibold mb-6 lg:text-5xl xl:text-6xl'>Tarifas por Hora<span className="text-[#26E1FF]">.</span></h1>
             <p className='text-xl text-gray-100 lg:text-[1.5rem]'>Elige el paquete que mejor se adapte a las necesidades de tu implementación Odoo</p>
         </div>
         
