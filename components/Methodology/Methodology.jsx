@@ -21,7 +21,7 @@ export default function Methodology () {
         </div>  
 
         <div className="justify-center flex-1 flex flex-col ite p-0 md:p-0 lg:px-4">
-        <h2 className="text-[1.7rem] sm:text-4xl font-semibold m-0 mb-8 text-left leading-tight lg:text-5xl">
+        <h2 className="text-[1.7rem] sm:text-4xl font-semibold m-0 mb-8 text-left leading-tight lg:text-4xl">
           Requerimiento de personalización Odoo<span className="text-[#26E1FF]">.</span>
         </h2>
 
@@ -43,7 +43,7 @@ export default function Methodology () {
         </div>  
 
         <div className="justify-center flex-1 flex flex-col ite p-0 md:p-0 lg:px-4">
-        <h2 className="text-[1.7rem] sm:text-4xl font-semibold m-0 mb-8 text-left leading-tight lg:text-5xl">
+        <h2 className="text-[1.7rem] sm:text-4xl font-semibold m-0 mb-8 text-left leading-tight lg:text-4xl">
         Diseño Odoo Funcional<span className="text-[#26E1FF]">.</span>
         </h2>
 
@@ -70,7 +70,7 @@ export default function Methodology () {
         </div>  
 
         <div className="justify-center flex-1 flex flex-col ite p-0 md:p-0 lg:px-4">
-        <h2 className="text-[1.7rem] sm:text-4xl font-semibold m-0 mb-8 text-left leading-tight lg:text-5xl">
+        <h2 className="text-[1.7rem] sm:text-4xl font-semibold m-0 mb-8 text-left leading-tight lg:text-4xl">
         Desarrollo de software Odoo<span className="text-[#26E1FF]">.</span>
         </h2>
 
@@ -102,7 +102,7 @@ export default function Methodology () {
         </div>  
 
         <div className="justify-center flex-1 flex flex-col ite p-0 md:p-0 lg:px-4">
-        <h2 className="text-[1.7rem] sm:text-4xl font-semibold m-0 mb-8 text-left leading-tight lg:text-5xl">
+        <h2 className="text-[1.7rem] sm:text-4xl font-semibold m-0 mb-8 text-left leading-tight lg:text-4xl">
         Implementación tu solución personalizada Odoo<span className="text-[#26E1FF]">.</span>
         </h2>
 
@@ -136,7 +136,7 @@ export default function Methodology () {
         </div>  
 
         <div className="justify-center flex-1 flex flex-col ite p-0 md:p-0 lg:px-4">
-        <h2 className="text-[1.7rem] sm:text-4xl font-semibold m-0 mb-8 text-left leading-tight lg:text-5xl">
+        <h2 className="text-[1.7rem] sm:text-4xl font-semibold m-0 mb-8 text-left leading-tight lg:text-4xl">
         Evoluciónamos nuestra solución personalizada Odoo<span className="text-[#26E1FF]">.</span>
         </h2>
 
