@@ -79,7 +79,7 @@ const Hero = () => {
               Elevamos tu oferta de valor con<span className='text-blueprimary'> Desarrollos Odoo Personalizados</span>
             </h1>
             <p className='text-pretty	px-0 mb-8 text-lg text-white md:text-[1.5rem] lg:px-8 '>
-            Nuestros servicios te convierten en el socio ideal de las empresas que buscan una Integración Odoo personalizada para gestionar sus procesos internos a nivel grupo.</p>
+            Potenciamos a implementadores Odoo con personalización avanzada de módulos, convirtiéndolos en socios ideales para integraciones a medida y gestión eficiente de procesos internos.</p>
                 <div className=' flex-col justify-center w-full'>
                 <form action='' className='flex flex-col items-center w-full md:flex-row mb-4 md:space-x-4'>
                   <input
