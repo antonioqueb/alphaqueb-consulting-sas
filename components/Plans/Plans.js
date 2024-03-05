@@ -134,7 +134,7 @@ const NavbarComponent = () => {
                
 
                 </div>
-                <span className='text-gray-600 text-xl'>Ahorro del 13.33% respecto al paquete de 2 horas</span>
+                <span className='text-gray-200 text-xl'>Ahorro del 13.33% respecto al paquete de 2 horas</span>
             </ul>
             <button href='#/' className='flex justify-center items-center bg-white rounded-xl py-6 px-4 text-center text-black text-2xl' onClick={() => handlePay('Paquete Proyectos Odoo a Medida 40 Horas', 156000, 'https://res.cloudinary.com/dn5cltdre/image/upload/v1708847679/1.svg')}>
             Comprar Paquete
