@@ -1,4 +1,7 @@
 'use client'
+
+
+//app\layout.js
 // Importa useState y useEffect
 import React, { useState, useEffect } from 'react'
 import { MdOutlineKeyboardArrowDown } from 'react-icons/md'
@@ -66,15 +69,17 @@ const Hero = () => {
   // Retorna el componente
   return (
     <>
-          <section className='pt-20 border pb-32 bg-transparent mt-[7.5rem]'>
+        
+          <section className=' pt-1 lg:pt-20 pb-12 bg-transparent mt-[4.5rem]'>
+         
         <div className='mx-auto '>
 
-            <div className='mx-auto text-center  sm:px-6 lg:max-w-4xl lg:px-8'>
-            <h1 className='mb-8 text-4xl font-semibold leading-none text-white md:text-6xl md:tracking-tight text-balance hover:shadow-xl transition-all duration-300'>
-            Potencia tu oferta con<span className='text-blueprimary'> Desarrollos Odoo Exclusivos</span>
+            <div className='mx-auto text-center'>
+            <h1 className='mb-8 text-[1.8rem] sm:text-5xl font-semibold leading-none text-white xl:text-7xl 2xl:text-[5.1rem] md:tracking-tight text-balance hover:shadow-xl transition-all duration-300 custom-text-size'>
+              Elevamos tu oferta de valor con<span className='text-blueprimary'> Desarrollos Odoo Personalizados</span>
             </h1>
-            <p className='text-pretty	px-0 mb-8 text-lg text-white md:text-xl lg:px-8 '>
-            Soluciones Odoo personalizadas que te convierten en el socio ideal de las empresas que buscan una Integración Odoo completa y adaptada a las necesidades de sus procesos.</p>
+            <p className='text-pretty	px-0 mb-8 text-lg text-white md:text-3xl lg:px-8 '>
+            Nuestros servicios te convierten en el socio ideal de las empresas que buscan una Integración Odoo personalizada para gestionar sus procesos internos a nivel grupo.</p>
                 <div className=' flex-col justify-center w-full'>
                 <form action='' className='flex flex-col items-center w-full md:flex-row mb-4 md:space-x-4'>
                   <input
@@ -104,26 +109,26 @@ const Hero = () => {
                   </span>
 
                 </div>
-
+                <div className='w-full mt-20 text-center'>
+              
+              <div className='relative z-0 w-full mt-8'>
+                  <div className='relative overflow-hidden shadow-2xl'>
+                      <div className='flex items-center flex-none px-4 bg-grayprimary rounded-b-none h-11 rounded-xl'>
+                          <div className='flex space-x-1.5'>
+                              <div className='w-3 h-3 border-2 border-darkprimary rounded-full'></div>
+                              <div className='w-3 h-3 border-2 border-darkprimary rounded-full'></div>
+                              <div className='w-3 h-3 border-2 border-darkprimary rounded-full'></div>
+                          </div>
+                      </div>
+                      <img src='pages.png' alt='Hero'/>
+                  </div>
+              </div>
+              
+          </div>
 
             </div>
             
-            <div className='w-full mx-auto mt-20 text-center md:w-10/12'>
-              
-                <div className='relative z-0 w-full mt-8'>
-                    <div className='relative overflow-hidden shadow-2xl'>
-                        <div className='flex items-center flex-none px-4 bg-grayprimary rounded-b-none h-11 rounded-xl'>
-                            <div className='flex space-x-1.5'>
-                                <div className='w-3 h-3 border-2 border-darkprimary rounded-full'></div>
-                                <div className='w-3 h-3 border-2 border-darkprimary rounded-full'></div>
-                                <div className='w-3 h-3 border-2 border-darkprimary rounded-full'></div>
-                            </div>
-                        </div>
-                        <img src='pages.png' alt='Hero'/>
-                    </div>
-                </div>
-                
-            </div>
+
             
         </div>
       </section>

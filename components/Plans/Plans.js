@@ -33,11 +33,9 @@ const NavbarComponent = () => {
   return (
     <>
      
-        <main className='max-w-6xl mx-auto pt-10 pb-36 px-8'>
-        
-        <div className='mx-auto mb-14 text-center'>
-            <h1 className='text-4xl font-semibold mb-6 lg:text-6xl'><span className='text-blueprimary'>Paquetes </span> Flexibles</h1>
-            <p className='text-xl text-gray-100 '>Elige el paquete que mejor se adapte a las necesidades de tu implementación Odoo</p>
+        <div className='w-full mx-auto mb-14 text-start lg:text-center'>
+            <h1 className='text-[1.8rem] font-semibold mb-6 lg:text-6xl'>Tarifas por Hora<span className="text-[#26E1FF]">.</span></h1>
+            <p className='text-xl text-gray-100 lg:text-3xl'>Elige el paquete que mejor se adapte a las necesidades de tu implementación Odoo</p>
         </div>
         
         <div className='flex flex-col justify-between items-center lg:flex-row lg:items-start'>
@@ -54,23 +52,23 @@ const NavbarComponent = () => {
                 <p className='text-xl font-semibold mb-2 text-black'>Ideal para:</p>
                 <li className='flex text-sm mb-1'>
                 <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839871/check-grey.svg' alt='check'/>
-                <span className='text-black'>Correcciones en vistas.</span>
+                <span className='text-black text-xl'>Correcciones en vistas.</span>
                 </li>
                 <li className='flex text-sm mb-1'>
                 <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839871/check-grey.svg' alt='check'/>
-                <span className='text-black'>Correcciones en modelos.</span>
+                <span className='text-black text-xl'>Correcciones en modelos.</span>
                 </li>
                 <li className='flex text-sm mb-1'>
                 <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839871/check-grey.svg' alt='check'/>
-                <span className='text-black'>Solución de problemas.</span>
+                <span className='text-black text-xl'>Solución de problemas.</span>
                 </li>
                 <li className='flex text-sm mb-1'>
                 <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839871/check-grey.svg' alt='check'/>
-                <span className='text-black'>Solución de secuencias.</span>
+                <span className='text-black text-xl'>Solución de secuencias.</span>
                 </li>
                 <li className='flex text-sm mb-1'>
                 <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839871/check-grey.svg' alt='check'/>
-                <span className='text-black'>Ajuste de precision decimal.</span>
+                <span className='text-black text-xl'>Ajuste de precision decimal.</span>
                 </li>
                 <div className='ml-5'>
                 <span className='block text-2xl font-semibold text-gray-500 mt-4'>Total</span>
@@ -98,31 +96,31 @@ const NavbarComponent = () => {
 
                 <li className='flex text-sm mb-1'>
                 <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839581/arrow-white.svg.svg' alt='check'/>
-                <span className='text-white'>Implementar Modelos.</span>
+                <span className='text-white text-xl'>Implementar Modelos.</span>
                 </li>
                 <li className='flex text-sm mb-1'>
                 <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839581/arrow-white.svg.svg' alt='check'/>
-                <span className='text-white'>Personalizar Vistas.</span>
+                <span className='text-white text-xl'>Personalizar Vistas.</span>
                 </li>
                 <li className='flex text-sm mb-1'>
                 <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839581/arrow-white.svg.svg' alt='check'/>
-                <span className='text-white'>Automatizar Procesos.</span>
+                <span className='text-white text-xl'>Automatizar Procesos.</span>
                 </li>
                 <li className='flex text-sm mb-1'>
                 <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839581/arrow-white.svg.svg' alt='check'/>
-                <span className='text-white'>Personalizar Modulos Existentes.</span>
+                <span className='text-white text-xl'>Personalizar Modulos Existentes.</span>
                 </li>
                 <li className='flex text-sm mb-1'>
                 <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839581/arrow-white.svg.svg' alt='check'/>
-                <span className='text-white'>Crer nuevas vista.</span>
+                <span className='text-white text-xl'>Crer nuevas vista.</span>
                 </li>
                 <li className='flex text-sm mb-1'>
                 <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839581/arrow-white.svg.svg' alt='check'/>
-                <span className='text-white'>Configurar ERP externo.</span>
+                <span className='text-white text-xl'>Configurar ERP externo.</span>
                 </li>
                 <li className='flex text-sm mb-1'>
                 <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839581/arrow-white.svg.svg' alt='check'/>
-                <span className='text-white'>Conexión Wordpress/External Apps.</span>
+                <span className='text-white text-xl'>Conexión Wordpress/External Apps.</span>
                 </li>
 
 
@@ -151,27 +149,27 @@ const NavbarComponent = () => {
 
                 <li className='flex text-sm mb-1'>
                 <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839871/check-grey.svg' alt='check'/>
-                <span className='text-black'>Integraciones avanzadas.</span>
+                <span className='text-black text-xl'>Integraciones avanzadas.</span>
                 </li>
                 <li className='flex text-sm mb-1'>
                 <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839871/check-grey.svg' alt='check'/>
-                <span className='text-black'>Conexiones a PLC</span>
+                <span className='text-black text-xl'>Conexiones a PLC</span>
                 </li>
                 <li className='flex text-sm mb-1'>
                 <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839871/check-grey.svg' alt='check'/>
-                <span className='text-black'>Sistemas contables externos</span>
+                <span className='text-black text-xl'>Sistemas contables externos</span>
                 </li>
                 <li className='flex text-sm mb-1'>
                 <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839871/check-grey.svg' alt='check'/>
-                <span className='text-black'>Conexión formularios Web</span>
+                <span className='text-black text-xl'>Conexión formularios Web</span>
                 </li>
                 <li className='flex text-sm mb-1'>
                 <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839871/check-grey.svg' alt='check'/>
-                <span className='text-black'>Extender funcionalidades nativas</span>
+                <span className='text-black text-xl'>Extender funcionalidades nativas</span>
                 </li>
                 <li className='flex text-sm mb-1'>
                 <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839871/check-grey.svg' alt='check'/>
-                <span className='text-black'>Funcionalidades a medida</span>
+                <span className='text-black text-xl'>Funcionalidades a medida</span>
                 </li>
                 
                 
@@ -193,9 +191,9 @@ const NavbarComponent = () => {
             </div>
             
         </div>
-        <p className='text-xl text-gray-100 align-center mt-10 justify-center text-center '>*Los precios mostrados incluyen IVA.</p>
+        <p className='text-xl mb-24 text-gray-100 align-center mt-10 justify-center text-center '>*Los precios mostrados incluyen IVA.</p>
         
-        </main>
+  
 
     </>
   )

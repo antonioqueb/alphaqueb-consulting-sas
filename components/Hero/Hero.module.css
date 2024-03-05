@@ -12,6 +12,12 @@ color: #26E1FF;
 
 }
 
+@media screen and (min-width: 1366px) and (max-height: 768px) {
+  .custom-text-size {
+    font-size: 4rem; /* Ajusta este valor según necesites */
+  }
+}
+
 .Hero__container__text, .Hero__container__image {
   flex: 1;
   display: flex;

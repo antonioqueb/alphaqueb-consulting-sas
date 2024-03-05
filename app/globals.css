@@ -98,11 +98,12 @@ input, textarea {
 }
 
 /* Portátil */
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1888px) {
   .glass {
     padding: 0 6rem;
     
   }
+  
 }
 
 @layer base {
