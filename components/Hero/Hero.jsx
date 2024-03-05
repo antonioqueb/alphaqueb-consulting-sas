@@ -1,7 +1,7 @@
 'use client'
 
 
-//app\layout.js
+// app\layout.js
 // Importa useState y useEffect
 import React, { useState, useEffect } from 'react'
 import { MdOutlineKeyboardArrowDown } from 'react-icons/md'
