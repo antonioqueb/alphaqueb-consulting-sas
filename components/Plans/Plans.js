@@ -35,7 +35,7 @@ const NavbarComponent = () => {
      
         <div className='w-full mx-auto mb-14 text-start lg:text-center'>
             <h1 className='text-[1.8rem] font-semibold mb-6 lg:text-6xl'>Tarifas por Hora<span className="text-[#26E1FF]">.</span></h1>
-            <p className='text-xl text-gray-100 lg:text-[1.1rem]'>Elige el paquete que mejor se adapte a las necesidades de tu implementación Odoo</p>
+            <p className='text-xl text-gray-100 lg:text-[1.5rem]'>Elige el paquete que mejor se adapte a las necesidades de tu implementación Odoo</p>
         </div>
         
         <div className='flex flex-col justify-between items-center lg:flex-row lg:items-start'>
@@ -45,7 +45,7 @@ const NavbarComponent = () => {
                 <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708847679/1.svg'  alt='Planes de precios' className='rounded-3xl w-20 h-20' />
                 <div className='ml-5'>
                 <span className='block text-2xl font-semibold text-gray-500'>2 Horas</span>
-                <span><span className='font-medium text-gray-600 text-xl align-top'>$</span><span className='text-[1.1rem] font-bold text-gray-600'>59 USD</span></span><span className='text-gray-600 font-medium'>/ hora</span>
+                <span><span className='font-medium text-gray-600 text-xl align-top'>$</span><span className='text-[1.5rem] font-bold text-gray-600'>59 USD</span></span><span className='text-gray-600 font-medium'>/ hora</span>
                 </div>
             </div>
                 <ul className='mb-7 font-medium text-gray-500'>
@@ -72,7 +72,7 @@ const NavbarComponent = () => {
                 </li>
                 <div className='ml-5'>
                 <span className='block text-2xl font-semibold text-gray-500 mt-4'>Total</span>
-                <span><span className='font-medium text-gray-600 text-xl align-top'>$</span><span className='text-[1.1rem] font-bold text-gray-600'>118 USD</span></span>
+                <span><span className='font-medium text-gray-600 text-xl align-top'>$</span><span className='text-[1.5rem] font-bold text-gray-600'>118 USD</span></span>
                 </div>
 
             </ul>
@@ -87,8 +87,8 @@ const NavbarComponent = () => {
             <div className='mb-8 pb-8 flex items-center border-b border-gray-600'>
                 <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708847679/2.svg'  alt='Planes de precios' className='rounded-3xl w-20 h-20' />
                 <div className='ml-5'>
-                <span className='block text-[1.1rem] font-semibold text-white '>40 Horas</span>
-                <span><span className='font-medium text-xl align-top'>$</span><span className='text-[1.1rem] font-bold text-white'>53 USD </span></span><span className='font-medium'>/ hora</span>
+                <span className='block text-[1.5rem] font-semibold text-white '>40 Horas</span>
+                <span><span className='font-medium text-xl align-top'>$</span><span className='text-[1.5rem] font-bold text-white'>53 USD </span></span><span className='font-medium'>/ hora</span>
                 </div>
             </div>
             <ul className='mb-10 font-medium text-xl'>
@@ -126,7 +126,7 @@ const NavbarComponent = () => {
 
                 <div className='ml-5'>
                 <span className='block text-2xl font-semibold text-gray-100  mt-4'>Total</span>
-                <span><span className='font-medium text-gray-100 text-xl align-top'>$</span><span className='text-[1.1rem] font-bold text-gray-100'>2,120 USD</span></span>
+                <span><span className='font-medium text-gray-100 text-xl align-top'>$</span><span className='text-[1.5rem] font-bold text-gray-100'>2,120 USD</span></span>
                 </div>
             </ul>
             <button href='#/' className='flex justify-center items-center bg-white rounded-xl py-6 px-4 text-center text-black text-2xl' onClick={() => handlePay('Paquete Proyectos Odoo a Medida 40 Horas', 212000, 'https://res.cloudinary.com/dn5cltdre/image/upload/v1708847679/1.svg')}>
@@ -141,7 +141,7 @@ const NavbarComponent = () => {
                 <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708847679/2.svg'  alt='Planes de precios' className='rounded-3xl w-20 h-20' />
                 <div className='ml-5'>
                 <span className='block text-2xl font-semibold text-gray-500'>200 Horas</span>
-                <span><span className='font-medium text-gray-600 text-xl align-top'>$</span><span className='text-[1.1rem] font-bold text-gray-600'>47 USD</span></span><span className='text-gray-600 font-medium'>/ hora</span>
+                <span><span className='font-medium text-gray-600 text-xl align-top'>$</span><span className='text-[1.5rem] font-bold text-gray-600'>47 USD</span></span><span className='text-gray-600 font-medium'>/ hora</span>
                 </div>
             </div>
             <ul className='mb-7 font-medium text-gray-500'>
@@ -177,7 +177,7 @@ const NavbarComponent = () => {
                 
                 <div className='ml-5'>
                 <span className='block text-2xl font-semibold text-gray-500  mt-4'>Total</span>
-                <span><span className='font-medium text-gray-600 text-xl align-top'>$</span><span className='text-[1.1rem] font-bold text-gray-600'>9,400 USD</span></span>
+                <span><span className='font-medium text-gray-600 text-xl align-top'>$</span><span className='text-[1.5rem] font-bold text-gray-600'>9,400 USD</span></span>
                 </div>
 
 
