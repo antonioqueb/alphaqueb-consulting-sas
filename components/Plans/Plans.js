@@ -35,7 +35,7 @@ const NavbarComponent = () => {
      
         <div className='w-full mx-auto mb-14 text-start lg:text-center'>
             <h1 className='text-[1.8rem] font-semibold mb-6 lg:text-5xl xl:text-6xl'>Tarifas por Hora<span className="text-[#26E1FF]">.</span></h1>
-            <p className='text-xl text-gray-100 lg:text-[1.5rem]'>Elige el paquete que mejor se adapte a ti: Desde ajustes rápidos hasta proyectos integrales, tenemos una solución a tu medida. Todos nuestros precios son transparentes e incluyen IVA.</p>
+            <p className='text-xl text-gray-100 lg:text-[1.5rem]'>Desde ajustes rápidos hasta proyectos integrales, tenemos una solución a tu medida. Todos nuestros precios son transparentes e incluyen IVA.</p>
         </div>
         
         <div className='flex flex-col justify-between items-center lg:flex-row lg:items-start'>
@@ -134,7 +134,7 @@ const NavbarComponent = () => {
                
 
                 </div>
-                <span className='text-gray-200 text-xl ml-5'>Ahorro del 13.33% respecto al paquete de 2 horas</span>
+                <span className='text-gray-100 text-xl ml-5'>Ahorro del 13.33%</span>
             </ul>
             <button href='#/' className='flex justify-center items-center bg-white rounded-xl py-6 px-4 text-center text-black text-2xl' onClick={() => handlePay('Paquete Proyectos Odoo a Medida 40 Horas', 156000, 'https://res.cloudinary.com/dn5cltdre/image/upload/v1708847679/1.svg')}>
             Comprar Paquete
@@ -188,7 +188,7 @@ const NavbarComponent = () => {
                 
 
                 </div>
-                <span className='text-gray-600 text-xl ml-5'>Ahorro del 40% respecto al paquete de 2 horas</span>
+                <span className='text-gray-600 text-xl ml-5'>Ahorro del 40%</span>
 
 
 
