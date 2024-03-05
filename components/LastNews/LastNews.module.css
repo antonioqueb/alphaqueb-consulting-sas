@@ -7,7 +7,7 @@
 
 .LastNews__container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(810px, 1fr)); /* Ancho mínimo más pequeño */
+  grid-template-columns: repeat(auto-fit, minmax(690px, 1fr)); /* Ancho mínimo más pequeño */
   grid-gap: 2rem;
   cursor: pointer;
   padding: 0 0 4rem 0;  
