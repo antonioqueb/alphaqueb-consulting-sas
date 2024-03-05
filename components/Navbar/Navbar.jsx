@@ -46,7 +46,7 @@ const NavbarComponent = () => {
           {/* Links que se ocultan en pantallas pequeñas */}
           <div className={`hidden sm:flex items-center space-x-4 ${isSidebarOpen ? 'hidden' : ''}`}>
             {links.map(({ href, label, key }) => (
-              <Link href={href} key={key} className="text-white cursor-pointer transition-colors duration-300 hover:text-[#26E1FF]">
+              <Link href={href} key={key} className="text-white text-xl px-4 cursor-pointer transition-colors duration-300 hover:text-[#26E1FF]">
                 {label}
               </Link>
             ))}
