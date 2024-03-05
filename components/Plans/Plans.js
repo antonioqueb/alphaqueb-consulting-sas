@@ -35,7 +35,7 @@ const NavbarComponent = () => {
      
         <div className='w-full mx-auto mb-14 text-start lg:text-center'>
             <h1 className='text-[1.8rem] font-semibold mb-6 lg:text-5xl xl:text-6xl'>Tarifas por Hora<span className="text-[#26E1FF]">.</span></h1>
-            <p className='text-xl text-gray-100 lg:text-[1.5rem]'>Elige el paquete que mejor se adapte a las necesidades de tu implementación Odoo</p>
+            <p className='text-xl text-gray-100 lg:text-[1.5rem]'>Elige el paquete que mejor se adapte a ti: Desde ajustes rápidos hasta proyectos integrales, tenemos una solución a tu medida. Todos nuestros precios son transparentes e incluyen IVA.</p>
         </div>
         
         <div className='flex flex-col justify-between items-center lg:flex-row lg:items-start'>
@@ -195,7 +195,7 @@ const NavbarComponent = () => {
             </div>
             
         </div>
-        <p className='text-xl mb-24 text-gray-100 align-center mt-10 justify-center text-center '>*Los precios mostrados incluyen IVA.</p>
+        
         
   
 
