@@ -131,6 +131,8 @@ const NavbarComponent = () => {
                 <div className='ml-5'>
                 <span className='block text-2xl font-semibold text-gray-100  mt-4'>Total</span>
                 <span><span className='font-medium text-gray-100 text-xl align-top'>$</span><span className='text-[1.5rem] font-bold text-gray-100'>1,560 USD</span></span>
+                <span className='text-gray-600 text-xl'>Ahorro del 13.33% respecto al paquete de 2 horas</span>
+
                 </div>
             </ul>
             <button href='#/' className='flex justify-center items-center bg-white rounded-xl py-6 px-4 text-center text-black text-2xl' onClick={() => handlePay('Paquete Proyectos Odoo a Medida 40 Horas', 156000, 'https://res.cloudinary.com/dn5cltdre/image/upload/v1708847679/1.svg')}>
@@ -182,6 +184,8 @@ const NavbarComponent = () => {
                 <div className='ml-5'>
                 <span className='block text-2xl font-semibold text-gray-500  mt-4'>Total</span>
                 <span><span className='font-medium text-gray-600 text-xl align-top'>$</span><span className='text-[1.5rem] font-bold text-gray-600'>5,400 USD</span></span>
+                <span className='text-gray-600 text-xl'>Ahorro del 40% respecto al paquete de 2 horas</span>
+
                 </div>
 
 
