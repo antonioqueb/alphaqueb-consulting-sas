@@ -118,6 +118,14 @@ const NavbarComponent = () => {
                 <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839581/arrow-white.svg.svg' alt='check'/>
                 <span className='text-white text-xl'>Conexiones con Wordpress y aplicaciones externas.</span>
                 </li>
+                <li className='flex text-sm mb-1'>
+                <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839581/arrow-white.svg.svg' alt='check'/>
+                <span className='text-white text-xl'>Optimización de rendimiento para aplicaciones Odoo</span>
+                </li>
+                <li className='flex text-sm mb-1'>
+                <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839581/arrow-white.svg.svg' alt='check'/>
+                <span className='text-white text-xl'>Desarrollo de reportes personalizados: </span>
+                </li>
 
 
                 <div className='ml-5'>
