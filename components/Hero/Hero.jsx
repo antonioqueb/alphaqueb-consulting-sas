@@ -75,7 +75,7 @@ const Hero = () => {
         <div className='mx-auto '>
 
             <div className='mx-auto text-center'>
-              <h1 className='mb-8 text-[1.8rem] sm:text-5xl font-semibold leading-none text-white xl:text-[4.8rem] 2xl:text-[5.9rem] md:tracking-tight text-balance hover:shadow-xl transition-all duration-300 custom-text-size'>
+              <h1 className='mb-8 text-[1.8rem] sm:text-5xl font-semibold leading-none text-white xl:text-[4.2rem] 2xl:text-[5.9rem] md:tracking-tight text-balance hover:shadow-xl transition-all duration-300 custom-text-size'>
               Maximiza tu Inversión en Odoo con Soluciones a Medida<span className='text-blueprimary'>.</span>
               </h1>
               <p className='text-pretty	px-0 mb-8 text-lg text-white md:text-[1.5rem] lg:px-8 '>
