@@ -45,7 +45,7 @@ const NavbarComponent = () => {
                 <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708847679/1.svg'  alt='Planes de precios' className='rounded-3xl w-20 h-20' />
                 <div className='ml-5'>
                 <span className='block text-2xl font-semibold text-gray-500'>2 Horas</span>
-                <span><span className='font-medium text-gray-600 text-xl align-top'>$</span><span className='text-[1.5rem] font-bold text-gray-600'>45 USD</span></span><span className='text-gray-600 font-medium'>/ hora</span>
+                <span><span className='font-medium text-gray-600 text-xl align-top'>$</span><span className='text-[1.5rem] font-bold text-gray-600'>117 USD</span></span><span className='text-gray-600 font-medium'>/ hora</span>
                 </div>
             </div>
                 <ul className='mb-7 font-medium text-gray-500'>
@@ -68,11 +68,11 @@ const NavbarComponent = () => {
                 </li>
                 <div className='ml-5'>
                 <span className='block text-2xl font-semibold text-gray-500 mt-4'>Total</span>
-                <span><span className='font-medium text-gray-600 text-xl align-top'>$</span><span className='text-[1.5rem] font-bold text-gray-600'>90 USD</span></span>
+                <span><span className='font-medium text-gray-600 text-xl align-top'>$</span><span className='text-[1.5rem] font-bold text-gray-600'>234 USD</span></span>
                 </div>
 
             </ul>
-            <button href='#/' className='flex justify-center items-center bg-black rounded-xl py-5 px-4 text-center text-white text-xl' onClick={() => handlePay('Paquete Soluciones Express Odoo 4 Horas', 9000, 'https://res.cloudinary.com/dn5cltdre/image/upload/v1708847679/1.svg')}>
+            <button href='#/' className='flex justify-center items-center bg-black rounded-xl py-5 px-4 text-center text-white text-xl' onClick={() => handlePay('Paquete Soluciones Express Odoo 4 Horas', 23400, 'https://res.cloudinary.com/dn5cltdre/image/upload/v1708847679/1.svg')}>
                 Comprar Paquete
                 <GoArrowRight className='text-black' style={{ fill: 'white' }} />
 
@@ -83,8 +83,8 @@ const NavbarComponent = () => {
             <div className='mb-8 pb-8 flex items-center border-b border-gray-600'>
                 <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708847679/2.svg'  alt='Planes de precios' className='rounded-3xl w-20 h-20' />
                 <div className='ml-5'>
-                <span className='block text-[1.5rem] font-semibold text-white '>40 Horas</span>
-                <span><span className='font-medium text-xl align-top'>$</span><span className='text-[1.5rem] font-bold text-white'>39 USD </span></span><span className='font-medium'>/ hora</span>
+                <span className='block text-[1.5rem] font-semibold text-white '>60 Horas</span>
+                <span><span className='font-medium text-xl align-top'>$</span><span className='text-[1.5rem] font-bold text-white'>75 USD </span></span><span className='font-medium'>/ hora</span>
                 </div>
             </div>
             <ul className='mb-10 font-medium text-xl'>
@@ -130,13 +130,13 @@ const NavbarComponent = () => {
 
                 <div className='ml-5'>
                 <span className='block text-2xl font-semibold text-gray-100  mt-4'>Total</span>
-                <span><span className='font-medium text-gray-100 text-xl align-top'>$</span><span className='text-[1.5rem] font-bold text-gray-100'>1,560 USD</span></span>
+                <span><span className='font-medium text-gray-100 text-xl align-top'>$</span><span className='text-[1.5rem] font-bold text-gray-100'>4,500 USD</span></span>
                
 
                 </div>
-                <span className='text-gray-100 text-xl ml-5'>Ahorro del 13.33%</span>
+                <span className='text-gray-100 text-xl ml-5'>Ahorro del 35.90%</span>
             </ul>
-            <button href='#/' className='flex justify-center items-center bg-white rounded-xl py-6 px-4 text-center text-black text-2xl' onClick={() => handlePay('Paquete Proyectos Odoo a Medida 40 Horas', 156000, 'https://res.cloudinary.com/dn5cltdre/image/upload/v1708847679/1.svg')}>
+            <button href='#/' className='flex justify-center items-center bg-white rounded-xl py-6 px-4 text-center text-black text-2xl' onClick={() => handlePay('Paquete Proyectos Odoo a Medida 40 Horas', 450000, 'https://res.cloudinary.com/dn5cltdre/image/upload/v1708847679/1.svg')}>
             Comprar Paquete
             <GoArrowRight className='text-black' style={{ fill: 'black' }} />
 
@@ -147,8 +147,8 @@ const NavbarComponent = () => {
             <div className='mb-7 pb-7 flex items-center border-b border-gray-300'>
                 <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708847679/2.svg'  alt='Planes de precios' className='rounded-3xl w-20 h-20' />
                 <div className='ml-5'>
-                <span className='block text-2xl font-semibold text-gray-500'>200 Horas</span>
-                <span><span className='font-medium text-gray-600 text-xl align-top'>$</span><span className='text-[1.5rem] font-bold text-gray-600'>27 USD</span></span><span className='text-gray-600 font-medium'>/ hora</span>
+                <span className='block text-2xl font-semibold text-gray-500'>400 Horas</span>
+                <span><span className='font-medium text-gray-600 text-xl align-top'>$</span><span className='text-[1.5rem] font-bold text-gray-600'>39 USD</span></span><span className='text-gray-600 font-medium'>/ hora</span>
                 </div>
             </div>
             <ul className='mb-7 font-medium text-gray-500'>
@@ -184,17 +184,17 @@ const NavbarComponent = () => {
                 
                 <div className='ml-5'>
                 <span className='block text-2xl font-semibold text-gray-500  mt-4'>Total</span>
-                <span><span className='font-medium text-gray-600 text-xl align-top'>$</span><span className='text-[1.5rem] font-bold text-gray-600'>5,400 USD</span></span>
+                <span><span className='font-medium text-gray-600 text-xl align-top'>$</span><span className='text-[1.5rem] font-bold text-gray-600'>15,600 USD</span></span>
                 
 
                 </div>
-                <span className='text-gray-600 text-xl ml-5'>Ahorro del 40%</span>
+                <span className='text-gray-600 text-xl ml-5'>Ahorro del 66.67%</span>
 
 
 
                
             </ul>
-            <button href='#/' className='flex justify-center items-center bg-black rounded-xl py-5 px-4 text-center text-white text-xl' onClick={() => handlePay('Paquete Evolución Odoo Total 200 Horas', 540000, 'https://res.cloudinary.com/dn5cltdre/image/upload/v1708847679/1.svg')}>
+            <button href='#/' className='flex justify-center items-center bg-black rounded-xl py-5 px-4 text-center text-white text-xl' onClick={() => handlePay('Paquete Evolución Odoo Total 200 Horas', 1560000, 'https://res.cloudinary.com/dn5cltdre/image/upload/v1708847679/1.svg')}>
             Comprar Paquete
             <GoArrowRight className='text-black' style={{ fill: 'white' }} />
             </button>
