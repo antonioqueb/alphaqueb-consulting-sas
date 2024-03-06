@@ -8,8 +8,8 @@ export default function Methodology () {
   return (
   <>
     <div className="text-center mt-10 mb-10">
-            <h2 className='text-[1.8rem] sm:text-5xl font-semibold m-0 mb-10 mt-10 text-left     leading-tight lg:text-5xl text-center xl:text-6xl'>
-             Metodología<span className="text-blueprimary">.</span>
+            <h2 className='text-[1.8rem] sm:text-5xl font-semibold m-0 mb-10 mt-20 text-left     leading-tight lg:text-4xl text-center xl:text-5xl'>
+             Nuestra Metodología<span className="text-blueprimary">.</span>
            </h2>
     </div>
 
@@ -22,7 +22,7 @@ export default function Methodology () {
 
         <div className="justify-center flex-1 flex flex-col ite p-0 md:p-0 lg:px-4">
         <h2 className="text-[1.7rem] sm:text-4xl font-semibold m-0 mb-8 text-left leading-tight lg:text-4xl">
-          Requerimiento de personalización Odoo<span className="text-[#26E1FF]">.</span>
+          Análisis de Requerimientos<span className="text-[#26E1FF]">.</span>
         </h2>
 
           <h4 className='text-2xl mb-3 sm:text-[1.5rem]'><strong>Etapa de descubrimiento:</strong></h4>
@@ -36,34 +36,9 @@ export default function Methodology () {
 
 
 
+
+
     <div className="flex justify-center items-center flex-col md:flex-col-reverse lg:flex-row-reverse text-[#F2F2F2] py-10 md:py-20 lg:py-10">
-            
-        <div className="flex-1 flex justify-center">
-          <Image className="w-full h-auto object-contain md:max-w-xs lg:max-w-lg mx-auto my-8" src='/diseño.svg'  alt='diseño' width={600} height={600} />
-        </div>  
-
-        <div className="justify-center flex-1 flex flex-col ite p-0 md:p-0 lg:px-4">
-        <h2 className="text-[1.7rem] sm:text-4xl font-semibold m-0 mb-8 text-left leading-tight lg:text-4xl">
-        Diseño Odoo Funcional<span className="text-[#26E1FF]">.</span>
-        </h2>
-
-          <h4 className='text-2xl mb-3 sm:text-[1.5rem]'><strong>Etapa de diseño:</strong></h4>
-
-         <p className='text-gray-300 text-2xl pb-3 sm:text-[1.5rem]'><strong >Funcionalidad sobre diseño:</strong > Nos centramos en crear una interfaz intuitiva que priorice la funcionalidad del módulo.</p>
-         <p className='text-gray-300 text-2xl sm:text-[1.5rem]'><strong>Aprovechamiento del diseño estándar de Odoo:</strong> Mantenemos la familiaridad y usabilidad de la plataforma.</p>
-          </div>     
-    </div>
-
-
-
-
-
-
-
-
-
-
-    <div className="flex justify-center items-center flex-col md:flex-col-reverse lg:flex-row text-[#F2F2F2] py-10 md:py-20 lg:py-10">
             
         <div className="flex-1 flex justify-center">
           <Image className="w-full h-auto object-contain md:max-w-xs lg:max-w-lg mx-auto my-8" src='/develop.svg'  alt='development' width={600} height={600} />
@@ -95,7 +70,7 @@ export default function Methodology () {
 
 
 
-    <div className="flex justify-center items-center flex-col md:flex-col-reverse lg:flex-row-reverse text-[#F2F2F2] py-10 md:py-20 lg:py-10">
+    <div className="flex justify-center items-center flex-col md:flex-col-reverse lg:flex-row text-[#F2F2F2] py-10 md:py-20 lg:py-10">
             
         <div className="flex-1 flex justify-center">
           <Image className="w-full h-auto object-contain md:max-w-xs lg:max-w-lg mx-auto my-8" src='/implement.svg'  alt='Implementación de tu módulo odoo a medida' width={600} height={600} />
@@ -129,7 +104,7 @@ export default function Methodology () {
 
 
 
-    <div className="flex justify-center items-center flex-col md:flex-col-reverse lg:flex-row text-[#F2F2F2] py-10 md:py-20 lg:py-10">
+    <div className="flex justify-center items-center flex-col md:flex-col-reverse lg:flex-row-reverse text-[#F2F2F2] py-10 md:py-20 lg:py-10">
             
         <div className="flex-1 flex justify-center">
           <Image className="w-full h-auto object-contain md:max-w-xs lg:max-w-lg mx-auto my-8" src='/evo.svg'  alt='Evolución de tu módulo odoo a medida' width={600} height={600} />
