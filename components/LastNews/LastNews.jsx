@@ -28,7 +28,7 @@ return (
     <>
     
       <div className={styles.LastNews__container__title}>
-        <h3 className={styles.LastNews__title}>Últimos Artículos</h3>
+        <h1 className={styles.LastNews__title}>Últimos Artículos</h1>
       
       </div>
       <div className={styles.LastNews__container}>

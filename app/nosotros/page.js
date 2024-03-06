@@ -1,6 +1,13 @@
 import style from './nosotros.module.css'
 import Image from 'next/image'
 
+
+
+export const metadata = {
+    
+  title: "Nosotros"
+}
+
 export default function AboutPage () {
   return (
     <>
@@ -9,7 +16,7 @@ export default function AboutPage () {
         <Image src='/brand/white_and_text.png' width={630} height={630} alt='cover' />
       </div>
       <div className={style.container__text}>
-        <h2 className={style.container__text__title}>¿Quiénes somos?</h2>
+        <h2 className={style.container__text__title}>¿Quiénes somos nosotros?</h2>
         <p className={style.container__text__paragraph}>Alphaqueb Consulting S.A.S. es una empresa líder en el campo del desarrollo de apps odoo. Nos especializamos en ayudar a las organizaciones a adaptarse y prosperar en la era digital, ofreciendo soluciones innovadoras y resultados duraderos.</p>
         
       </div>

@@ -1,7 +1,14 @@
 import style from './politica-cookies.module.css'
 import Image from 'next/image'
 
+export const metadata = {
+    
+  title: "Política de Cookies"
+}
+
+
 export default function PoliticaCookies () {
+
   return (
     <>
       <div className={style.container}>
@@ -12,6 +19,8 @@ export default function PoliticaCookies () {
         </div>
         
         <div className={style.container__text}>
+          <h1 className={style.heading} >Política de Cookies</h1>
+          
           <h2 className={style.heading}>¿Cuáles cookies usamos?</h2>
           <p className={style.text}>
           Cuando nosotros utilizamos cookies, las clasificamos en cualquiera de las siguientes categorías:
