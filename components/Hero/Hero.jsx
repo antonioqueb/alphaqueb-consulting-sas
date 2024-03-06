@@ -75,12 +75,13 @@ const Hero = () => {
         <div className='mx-auto '>
 
             <div className='mx-auto text-center'>
-            <h1 className='mb-8 text-[1.8rem] sm:text-5xl font-semibold leading-none text-white xl:text-7xl 2xl:text-[5.1rem] md:tracking-tight text-balance hover:shadow-xl transition-all duration-300 custom-text-size'>
-            Desarrollo Odoo a Medida: Impulso Esencial para Implementadores<span className='text-blueprimary'>.</span>
-            </h1>
-            <p className='text-pretty	px-0 mb-8 text-lg text-white md:text-[1.5rem] lg:px-8 '>
-            Potenciamos a implementadores Odoo con personalización avanzada de módulos, convirtiéndolos en socios ideales para integraciones a medida y gestión eficiente de procesos internos.</p>
-                <div className=' flex-col justify-center w-full'>
+              <h1 className='mb-8 text-[1.8rem] sm:text-5xl font-semibold leading-none text-white xl:text-7xl 2xl:text-[5.1rem] md:tracking-tight text-balance hover:shadow-xl transition-all duration-300 custom-text-size'>
+              Odoo: Desarrollo a Medida para una Gestión Empresarial Eficiente<span className='text-blueprimary'>.</span>
+              </h1>
+              <p className='text-pretty	px-0 mb-8 text-lg text-white md:text-[1.5rem] lg:px-8 '>
+              Eleva tu Implementación Odoo: Personalización Avanzada y Integración Eficiente para Empresas Dinámicas.
+              </p>   
+              <div className=' flex-col justify-center w-full'>
                 <form action='' className='flex flex-col items-center w-full md:flex-row mb-4 md:space-x-4'>
                   <input
                     type='text'

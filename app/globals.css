@@ -75,7 +75,7 @@ input, textarea {
   background-color: transparent;
   max-width: 1200px;
   overflow: hidden;
-  padding: 0 15rem;
+  padding: 0 13rem;
 }
 
 
@@ -99,7 +99,7 @@ input, textarea {
 /* Portátil */
 @media (min-width: 769px) and (max-width: 1888px) {
   .glass {
-    padding: 0 6rem;
+    padding: 0 13rem;
     
   }
   
