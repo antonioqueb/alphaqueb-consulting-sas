@@ -12,10 +12,10 @@ import CallToAction from '../components/CallToAction/CallToAction'
 
 export const metadata = {
   title: {
-    default: 'Desarrollo Odoo a Medida',
-    template: '%s | Alphaqueb',
+    default: 'Módulos a Medida Odoo',
+    template: '%s | alphaqueb',
   },
-  description: 'Amplía tu oferta de implementación Odoo con la personalización de módulos a medida. Desarrollamos soluciones Odoo personalizadas para tu negocio.',
+  description: 'Adaptamos y extendemos Odoo para cumplir con tus requisitos específicos, asegurando que cada función se alinee perfectamente con tus procesos empresariales.',
   url: 'https://alphaqueb.online/',
   type: 'website',
   keywords: [
@@ -26,9 +26,6 @@ export const metadata = {
     'soluciones odoo',
     'desarrollo a medida',
     'software a medida',
-    'aplicaciones web',
-    'aplicaciones móviles',
-    'aplicaciones de escritorio',
     'digitalización de empresas',
     'automatización de procesos',
     'erp odoo',
@@ -38,11 +35,7 @@ export const metadata = {
     'odoo customization',
     'odoo implementation',
     'odoo solutions',
-    'tailored development',
     'custom software',
-    'web applications',
-    'mobile applications',
-    'desktop applications',
     'business digitization',
     'process automation',
     'odoo erp',
@@ -62,7 +55,7 @@ export default function Home () {
       <Methodology />
       <CallToAction />
       <Testimonials />   
-      <Plans />
+      
     </main>
   )
 }
