@@ -57,7 +57,7 @@ export default function CallToAction() {
 
           <div className={styles.CallToAction__container__text__subtitle}>
             <p>
-            Solicita un <strong>Análisis Técnico Gratuito</strong> personalizado para potenciar tu implementación, asegurando que cada función se alinee perfectamente con los procesos específicos de tus negocios.
+            Solicita Gratis tu <strong>Reporte de Buenas Prácticas para Implementación Odoo</strong>, donde revisaremos a detalle tu implementación en busca de malas prácticas o elementos que puedan complicar futuros desarrollos, con el objetivo de optimizar y alinear tu sistema a los procesos específicos de tu negocio.
             </p>
           </div>
           <div className={styles.CallToAction__container__text__form}>
