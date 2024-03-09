@@ -12,31 +12,30 @@ export default function CallToAction() {
     setEmail(event.target.value)
   }
 
-  const handleContactButtonClick = async () => {
+  const handleContactButtonClick = async (event) => {
+    event.preventDefault(); // Evitar que el formulario se envíe de la manera tradicional
+  
     try {
       const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/lead`, {
         method: 'POST',
         headers: {
-
           'Content-Type': 'application/json',
           Accept: 'application/json',
-
         },
-        // Envia el email como pun json al servidor
-
-        body: JSON.stringify({ email })
-
-
-
-      })
-
-      const data = await response.json()
-
-      console.log(data)
+        body: JSON.stringify({ email }),
+      });
+  
+      if (response.ok) {
+        // Aquí es donde se redirige al usuario después de una respuesta exitosa
+        window.location.href = './success-lead';
+      } else {
+        const errorData = await response.json();
+        console.error('Error en la solicitud:', errorData);
+      }
     } catch (error) {
-      console.error(error)
+      console.error(error);
     }
-  }
+  };
 
   // Retorna el componente
   return (
