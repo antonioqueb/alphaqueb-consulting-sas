@@ -15,7 +15,7 @@ const Hero = () => {
 
   const handleEmailChange = (event) => {
     setEmail(event.target.value)
-  };
+  }
 
   const handleContactButtonClick = async () => {
     try {
@@ -35,7 +35,7 @@ const Hero = () => {
             color: 'black',
           },
         })
-        setEmail(''); // Restablecer el estado del correo después de una solicitud exitosa
+        setEmail('') // Restablecer el estado del correo después de una solicitud exitosa
       } else {
         console.error('Error en la solicitud POST:', response.status, response.statusText)
       }
