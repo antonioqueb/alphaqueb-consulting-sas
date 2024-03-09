@@ -48,24 +48,52 @@
     color: #e4e4e4;
   }
   
-  /* Estilos para listas anidadas */
-  .main ul {
-    list-style-type: none;
-    padding-left: 1rem;
-  }
-  
-  .main ul li {
-    margin-bottom: 0.5rem;
-  }
-  
-  .main ul li ul {
-    list-style-type: circle;
-    padding-left: 1rem;
-  }
-  
-  .main ul li ul li {
-    margin-bottom: 0.5rem;
-  }
+  /* Remueve los marcadores predeterminados */
+.main ul {
+  list-style-type: none; /* Elimina los marcadores predeterminados */
+  padding-left: 0;
+}
+
+/* Agrega marcadores personalizados */
+.main ul li {
+  position: relative; /* Posicionamiento relativo para el pseudoelemento */
+  margin-bottom: 0.5rem;
+  padding-left: 1.5rem; /* Espacio para el marcador personalizado */
+}
+
+.main ul li::before {
+  content: ''; /* Necesario para generar el pseudoelemento */
+  position: absolute;
+  left: 0; /* Alinea el pseudoelemento con el inicio del elemento li */
+  top: 0.9em; /* Ajusta la posición vertical del marcador */
+  height: 0.8em; /* Tamaño del marcador */
+  width: 0.8em; /* Tamaño del marcador */
+  background-color: #26E1FF; /* Color del marcador */
+  border-radius: 50%; /* Hace el marcador circular */
+}
+
+/* Estilos para listas anidadas */
+.main ul li ul {
+  padding-left: 0;
+}
+
+.main ul li ul li {
+  position: relative;
+  margin-bottom: 0.5rem;
+  padding-left: 1.5rem;
+}
+
+.main ul li ul li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.9em;
+  height: 0.5em; /* Tamaño más pequeño para marcadores de listas anidadas */
+  width: 0.5em; /* Tamaño más pequeño para marcadores de listas anidadas */
+  background-color: #26E1FF; /* Mismo color para mantener la consistencia */
+  border-radius: 50%; /* Circular */
+}
+
 
   .main h2 {
     font-size: 2rem;
