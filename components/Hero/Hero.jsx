@@ -19,6 +19,15 @@ const Hero = () => {
 
   const handleContactButtonClick = async () => {
     try {
+      console.log('Body de la solicitud:', JSON.stringify({ email }))
+      // Aquí haremos el cambio para el toast específico de éxito
+      toast.success('Email recibido con éxito', {
+        style: {
+          background: 'white', // Fondo blanco
+          color: 'black', // Texto negro
+        },
+      })
+      
       const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/lead`, {
         method: 'POST',
         headers: {
@@ -29,12 +38,7 @@ const Hero = () => {
       })
 
       if (response.ok) {
-        toast.success('Email recibido con éxito', {
-          style: {
-            background: 'white',
-            color: 'black',
-          },
-        })
+        console.log('Solicitud POST exitosa')
         setEmail('') // Restablecer el estado del correo después de una solicitud exitosa
       } else {
         console.error('Error en la solicitud POST:', response.status, response.statusText)
@@ -86,8 +90,8 @@ const Hero = () => {
                   <Toaster
                     toastOptions={{
                       style: {
-                        background: 'white',
-                        color: 'black',
+                        background: 'white', // Fondo blanco
+                        color: 'black', // Texto negro
                       },
                     }}
                   />
