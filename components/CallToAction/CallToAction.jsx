@@ -57,7 +57,7 @@ export default function CallToAction() {
 
           <div className={styles.CallToAction__container__text__subtitle}>
             <p>
-            Solicita un <strong>Análisis Técnico Gratuito</strong> para potenciar tu implementación asegurando que cada función se alinee perfectamente con los procesos de tus negocios.
+            Solicita un <strong>Análisis Técnico Gratuito</strong> personalizado para potenciar tu implementación, asegurando que cada función se alinee perfectamente con los procesos específicos de tus negocios.
             </p>
           </div>
           <div className={styles.CallToAction__container__text__form}>
