@@ -3,74 +3,58 @@
 
 // app\layout.js
 // Importa useState y useEffect
-import React, { useState, useEffect } from 'react'
-import { MdOutlineKeyboardArrowDown } from 'react-icons/md'
-import Link from 'next/link'
-import styles from './Hero.module.css'
-import { Toaster, toast } from 'sonner'
+import React, { useState, useEffect } from 'react';
+import { MdOutlineKeyboardArrowDown } from 'react-icons/md';
+import Link from 'next/link';
+import styles from './Hero.module.css';
+import { Toaster, toast } from 'sonner'; // Asegúrate de que 'sonner' sea el paquete correcto
 
 const Hero = () => {
-  const [isScrolled, setIsScrolled] = useState(false)
-  const [email, setEmail] = useState('')
+  const [isScrolled, setIsScrolled] = useState(false);
+  const [email, setEmail] = useState('');
 
-  // Función asincrónica para manejar el cambio en el input de correo y la solicitud POST a la API
   const handleEmailChange = (event) => {
-    setEmail(event.target.value)
-  }
+    setEmail(event.target.value);
+  };
 
   const handleContactButtonClick = async () => {
     try {
-      console.log('Body de la solicitud:', JSON.stringify({ email }))
-      toast.success('Email recibido con éxito', {
-        unstyled: true,
-        classNames: {
-          toast: 'bg-black text-white',
-          // Aquí puedes especificar clases adicionales para elementos internos si es necesario
-        },
-      })
-      
-
       const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/lead`, {
         method: 'POST',
         headers: {
-
           'Content-Type': 'application/json',
           Accept: 'application/json',
-
         },
-        // Envia el email como pun json al servidor
-
-        body: JSON.stringify({ email })
-
-
-
-      })
+        body: JSON.stringify({ email }),
+      });
 
       if (response.ok) {
-        console.log('Solicitud POST exitosa')
-        // Restablecer el estado del correo después de una solicitud exitosa
-        setEmail('')
+        toast.success('Email recibido con éxito', {
+          style: {
+            background: 'white',
+            color: 'black',
+          },
+        });
+        setEmail(''); // Restablecer el estado del correo después de una solicitud exitosa
       } else {
-        console.error('Error en la solicitud POST:', response.status, response.statusText)
+        console.error('Error en la solicitud POST:', response.status, response.statusText);
       }
     } catch (error) {
-      console.error('Error en la solicitud POST:', error.message)
+      console.error('Error en la solicitud POST:', error.message);
     }
-  }
+  };
 
-  // Efecto para manejar el scroll
   useEffect(() => {
     const handleScroll = () => {
-      setIsScrolled(window.scrollY > 50)
-    }
+      setIsScrolled(window.scrollY > 50);
+    };
 
-    window.addEventListener('scroll', handleScroll)
+    window.addEventListener('scroll', handleScroll);
 
     return () => {
-      window.removeEventListener('scroll', handleScroll)
-    }
-  }, [])
-
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
 
 
   // Retorna el componente
@@ -107,17 +91,16 @@ const Hero = () => {
                   >
                     Enviar
                   </button>
-                </form>
-                <Toaster
+                  <Toaster
                   toastOptions={{
-                    unstyled: true,
-                    classNames: {
-                      base: 'bg-black text-white',
-                      // Aquí puedes agregar más clases para otros elementos internos si es necesario
+                    style: {
+                      background: 'white',
+                      color: 'black',
                     },
                   }}
                 />
-
+                </form>
+                
 
                   <span className='text-sm text-white flex '>
                     Al enviar aceptas nuestros{' '}
