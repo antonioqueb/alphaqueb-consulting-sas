@@ -6,6 +6,7 @@ import { MDXRemote } from 'next-mdx-remote/rsc'
 import CallToAction from '../../../components/CallToAction/CallToAction'
 import Image from 'next/image'
 import Plans from '../../../components/Plans/Plans'
+import WhyWe from '../../../components/WhyWe/WhyWe'
 
 // Metadata
 export const metadata = {
@@ -54,6 +55,7 @@ export default function Page({ params }) {
                 <Image src={props.frontMatter.image} alt={props.frontMatter.title} width={1024} height={1024} className={styles['image-cover']} />
                 <MDXRemote source={props.content}></MDXRemote>
             </article>
+            <WhyWe />
             <Plans />
             <CallToAction />
         </>
