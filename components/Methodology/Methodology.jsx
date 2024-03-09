@@ -22,13 +22,11 @@ export default function Methodology () {
 
         <div className="justify-center flex-1 flex flex-col ite p-0 md:p-0 lg:px-4">
         <h2 className="text-[1.7rem] sm:text-4xl font-semibold m-0 mb-8 text-left leading-tight lg:text-4xl">
-          Análisis de Requerimientos<span className="text-[#26E1FF]">.</span>
+        Descubrimiento<span className="text-[#26E1FF]">.</span>
         </h2>
 
-          <h4 className='text-2xl mb-3 sm:text-[1.5rem]'><strong>Etapa de descubrimiento:</strong></h4>
-
-         <p className='text-gray-300 text-2xl pb-3 sm:text-[1.5rem]'><strong >Conoceremos tu implementación:</strong > Entenderemos tus necesidades, objetivos y procesos para desarrollar una solución personalizada.</p>
-         <p className='text-gray-300 text-2xl sm:text-[1.5rem]'><strong>Definiremos la aplicación:</strong> Trabajaremos contigo para identificar las funcionalidades clave y el plan de desarrollo.</p>
+         <p className='text-gray-300 text-2xl pb-3 sm:text-[1.5rem]'><strong >Análisis de Requerimientos:</strong > Comprendemos tus necesidades, objetivos y procesos para crear una solución a medida.</p>
+         <p className='text-gray-300 text-2xl sm:text-[1.5rem]'><strong>Definición de la Aplicación:</strong> Identificamos las funcionalidades esenciales y establecemos un plan de desarrollo colaborativo.</p>
           </div>     
     </div>
 
@@ -46,13 +44,12 @@ export default function Methodology () {
 
         <div className="justify-center flex-1 flex flex-col ite p-0 md:p-0 lg:px-4">
         <h2 className="text-[1.7rem] sm:text-4xl font-semibold m-0 mb-8 text-left leading-tight lg:text-4xl">
-        Desarrollo de software Odoo<span className="text-[#26E1FF]">.</span>
+        Desarrollo<span className="text-[#26E1FF]">.</span>
         </h2>
 
-          <h4 className='text-2xl mb-3 sm:text-[1.5rem]'><strong>Etapa de desarrollo:</strong></h4>
 
-         <p className='text-gray-300 text-2xl pb-3 sm:text-[1.5rem]'><strong >Tecnologías y frameworks de vanguardia:</strong > Implementamos las últimas tecnologías y frameworks de Odoo para construir una aplicación robusta y escalable.</p>
-         <p className='text-gray-300 text-2xl sm:text-[1.5rem]'><strong>Comunicación constante:</strong> Te mantenemos informado del progreso del desarrollo mediante comunicaciones constantes, asegurando que el proyecto esté alineado con tus expectativas.</p>
+         <p className='text-gray-300 text-2xl pb-3 sm:text-[1.5rem]'><strong >Tecnología de Vanguardia:</strong > Utilizamos tecnologías y frameworks avanzados de Odoo para desarrollar aplicaciones robustas y escalables.</p>
+         <p className='text-gray-300 text-2xl sm:text-[1.5rem]'><strong>Comunicación Continua:</strong> Aseguramos que el proyecto cumpla con tus expectativas a través de actualizaciones regulares.</p>
           </div>     
     </div>
 
@@ -78,13 +75,12 @@ export default function Methodology () {
 
         <div className="justify-center flex-1 flex flex-col ite p-0 md:p-0 lg:px-4">
         <h2 className="text-[1.7rem] sm:text-4xl font-semibold m-0 mb-8 text-left leading-tight lg:text-4xl">
-        Implementación tu solución personalizada Odoo<span className="text-[#26E1FF]">.</span>
+        Implementación<span className="text-[#26E1FF]">.</span>
         </h2>
 
-          <h4 className='text-2xl mb-3 sm:text-[1.5rem]'><strong>Etapa de implementación:</strong></h4>
 
-         <p className='text-gray-300 text-2xl pb-3 sm:text-[1.5rem]'><strong >Asistencia en la implementación:</strong > Te ayudaremos a implementar la aplicación en tu entorno de producción, asegurándonos de que la transición sea fluida y sin interrupciones.</p>
-         <p className='text-gray-300 text-2xl sm:text-[1.5rem]'><strong>Capacitación personalizada:</strong> Ofreceremos capacitación y soporte técnico personalizado a tu equipo para que puedan usar la aplicación de manera eficiente, aprovechando al máximo todas sus funcionalidades.</p>
+         <p className='text-gray-300 text-2xl pb-3 sm:text-[1.5rem]'><strong >Asistencia Técnica:</strong > Facilitamos la integración de la solución en tu entorno de producción, garantizando una transición suave.</p>
+         <p className='text-gray-300 text-2xl sm:text-[1.5rem]'><strong>Capacitación Personalizada:</strong> Proporcionamos formación y soporte técnico para que tu equipo maximice la utilidad de la aplicación.</p>
           </div>     
     </div>
 
@@ -112,13 +108,12 @@ export default function Methodology () {
 
         <div className="justify-center flex-1 flex flex-col ite p-0 md:p-0 lg:px-4">
         <h2 className="text-[1.7rem] sm:text-4xl font-semibold m-0 mb-8 text-left leading-tight lg:text-4xl">
-        Evoluciónamos nuestra solución personalizada Odoo<span className="text-[#26E1FF]">.</span>
+        Evolución<span className="text-[#26E1FF]">.</span>
         </h2>
 
-          <h4 className='text-2xl mb-3 sm:text-[1.5rem]'><strong>Etapa de evolución:</strong></h4>
 
-         <p className='text-gray-300 text-2xl pb-3 sm:text-[1.5rem]'><strong >Mejora continua:</strong > Continuaremos trabajando contigo para mejorar la aplicación y adaptarla a las nuevas necesidades de tu negocio, asegurando que siempre esté alineada con tus objetivos.</p>
-         <p className='text-gray-300 text-2xl sm:text-[1.5rem]'><strong>Mantenimiento y seguridad:</strong> Te ayudaremos a mantener la aplicación actualizada y segura, protegiendo tu información y garantizando su correcto funcionamiento.</p>
+         <p className='text-gray-300 text-2xl pb-3 sm:text-[1.5rem]'><strong >Mejora Continua:</strong > Nos comprometemos a actualizar y optimizar la aplicación según las necesidades cambiantes de tu negocio.</p>
+         <p className='text-gray-300 text-2xl sm:text-[1.5rem]'><strong>Mantenimiento y Seguridad:</strong> Ofrecemos servicios de mantenimiento para asegurar el rendimiento óptimo y la seguridad de la aplicación.</p>
           </div>     
     </div>
 

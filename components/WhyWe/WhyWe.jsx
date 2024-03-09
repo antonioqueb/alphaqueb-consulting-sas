@@ -10,9 +10,9 @@ export default function WhyWe () {
         </div>  
 
         <div className="justify-center flex-1 flex flex-col ite p-0 md:p-0 lg:px-4">
-          <h2 className="text-[1.8rem] font-semibold m-0 mb-8 text-left leading-tight lg:text-4xl xl:text-5xl">Por Qué Elegirnos<span className="text-[#26E1FF]">.</span></h2>
+          <h2 className="text-[1.8rem] font-semibold m-0 mb-8 text-left leading-tight lg:text-4xl xl:text-5xl">¿Sómos para ti?</h2>
           <p className="text-xl text-left mb-4 lg:text-[1.5rem]">
-          En Alphaqueb Consulting S.A.S. Sabemos que Odoo es una herramienta poderosa, pero también entendemos que cada empresa tiene su propia identidad y desafíos únicos. Por eso, ofrecemos:</p>
+          En <span className="text-[#26E1FF]">Alphaqueb Consulting S.A.S.</span> Sabemos que Odoo es una herramienta poderosa, pero también entendemos que cada empresa tiene su propia identidad y desafíos únicos. Por eso, ofrecemos:</p>
           <lu>
             <li className="text-xl text-left mb-4 lg:text-[1.5rem]" ><strong>Soluciones Hechas a la Medida de tu Negocio:</strong> Adaptamos y extendemos Odoo para cumplir con tus requisitos específicos, asegurando que cada función se alinee perfectamente con tus procesos empresariales.</li>
           </lu>

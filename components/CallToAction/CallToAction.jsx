@@ -44,21 +44,20 @@ export default function CallToAction() {
         <div className={styles.CallToAction__container__text}>
           <div className={styles.CallToAction__container__text__title}>
             <h2>
-            Programar Reunión
+              Contactar
               <span className={styles.Dot}>.</span>
             </h2>
           </div>
 
           <div className={styles.CallToAction__container__text__subtitle}>
             <p>
-            Lidera la revolución digital, llevando a tus implementaciones odoo personalizaciónes que realmente aporten valor a tus clientes.
-            </p>
+            Solicita <strong>Gratis 1 hora de auditoría</strong> en integración de módulos Odoo a medida para potenciar tu implementación asegurando que cada función se alinee perfectamente con tus procesos empresariales.            </p>
           </div>
           <div className={styles.CallToAction__container__text__form}>
             <form action='' className={styles.CallToAction__container__text__form__container}>
               <input
                 type='text'
-                placeholder='Email para contactar'
+                placeholder='Email para contactarte'
                 className={styles.CallToAction__container__text__form__input}
                 value={email}
                 onChange={handleEmailChange}

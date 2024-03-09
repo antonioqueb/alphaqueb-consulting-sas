@@ -65,11 +65,11 @@ const Hero = () => {
 
             <div className='mx-auto text-center'>
               <h1 className='mb-8 text-[1.8rem] sm:text-5xl font-semibold leading-none text-white xl:text-[4.2rem] 2xl:text-[5.9rem] md:tracking-tight text-balance hover:shadow-xl transition-all duration-300 custom-text-size'>
-              Maximiza tu Inversión en Odoo con Soluciones a Medida<span className='text-blueprimary'>.</span>
+              Extiende las funcionalidades de Odoo: <span className='text-blueprimary'>Módulos a medida.</span>
               </h1>
-              <p className='text-pretty	px-0 mb-8 text-lg text-white md:text-[1.5rem] lg:px-8 '>
-              Odoo diseñado específicamente para negocios como el tuyo que buscan ir más allá de lo básico.
-              </p>   
+              <h2 className='text-pretty	px-0 mb-8 text-lg text-white md:text-[0.8rem] lg:px-8 '>
+              Solicita <strong>Gratis 1 hora de auditoría</strong> en integración de módulos Odoo a medida para potenciar tu implementación asegurando que cada función se alinee perfectamente con tus procesos empresariales.
+              </h2>   
               <div className=' flex-col justify-center w-full'>
                 <form action='' className='flex flex-col items-center w-full md:flex-row mb-4 md:space-x-4'>
                   <input
