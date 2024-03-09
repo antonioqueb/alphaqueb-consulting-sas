@@ -57,7 +57,7 @@ export default function CallToAction() {
 
           <div className={styles.CallToAction__container__text__subtitle}>
             <p>
-            Solicita Gratis tu <strong>Reporte de Buenas Prácticas para Implementación Odoo</strong>, donde revisaremos a detalle tu implementación en busca de malas prácticas o elementos que puedan complicar futuros desarrollos, con el objetivo de optimizar y alinear tu sistema a los procesos específicos de tu negocio.
+            Solicita Gratis <strong>Reporte de Buenas Prácticas para Odoo</strong>, donde revisaremos a detalle tu implementación con el objetivo de optimizar y alinear tu sistema a los procesos específicos de tu negocio.
             </p>
           </div>
           <div className={styles.CallToAction__container__text__form}>
