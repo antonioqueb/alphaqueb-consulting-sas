@@ -19,7 +19,7 @@ const Hero = () => {
 
   const handleContactButtonClick = async () => {
     try {
-      const body = JSON.stringify({ email, name: 'use client' }) // Añadir el nombre al cuerpo de la solicitud
+      const body = JSON.stringify({ email, name}) // Añadir el nombre al cuerpo de la solicitud
       console.log('Body de la solicitud:', body)
 
       const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/lead`, {
