@@ -67,7 +67,7 @@ const Hero = () => {
               <h1 className='mb-8 text-[1.8rem] sm:text-5xl font-semibold leading-none text-white xl:text-[4.2rem] 2xl:text-[5.9rem] md:tracking-tight text-balance hover:shadow-xl transition-all duration-300 custom-text-size'>
               Extiende las funcionalidades de Odoo: <span className='text-blueprimary'>Módulos a medida.</span>
               </h1>
-              <h2 className='text-pretty	px-0 mb-8 text-lg text-white md:text-[1.5rem] lg:px-8 '>
+              <h2 className='text-pretty	px-0 mb-8 text-lg text-white md:text-[1.6rem] lg:px-8 '>
               Solicita <strong>Gratis 1 hora de auditoría</strong> en integración de módulos Odoo a medida para potenciar tu implementación asegurando que cada función se alinee perfectamente con tus procesos empresariales.
               </h2>   
               <div className=' flex-col justify-center w-full'>
