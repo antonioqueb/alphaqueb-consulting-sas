@@ -44,7 +44,7 @@ export default function CallToAction() {
         <div className={styles.CallToAction__container__text}>
           <div className={styles.CallToAction__container__text__title}>
             <h2>
-              Contactar
+              Contacto
               <span className={styles.Dot}>.</span>
             </h2>
           </div>
