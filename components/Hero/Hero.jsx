@@ -67,9 +67,9 @@ const Hero = () => {
             <h2 className='text-pretty px-0 mb-8 text-lg text-white md:text-[1.6rem] lg:px-4'>
               Solicita <strong>Gratis 1 hora de auditoría</strong> en integración de módulos Odoo a medida para potenciar tu implementación asegurando que cada función se alinee perfectamente con tus procesos empresariales.
             </h2>
-            <div className='flex justify-center items-center w-full'>
-            <form action='' className='flex flex-col items-center w-full md:w-3/4 lg:w-1/2 px-4 py-8'>
-              <input
+            <input<div className='border flex-col justify-center items-center w-[90%]'>
+              <form action='' className='border flex flex-col items-center w-full md:flex-row mb-4 md:space-x-4'>
+                
                   type='text'
                   placeholder='Nombre'
                   name='name'
