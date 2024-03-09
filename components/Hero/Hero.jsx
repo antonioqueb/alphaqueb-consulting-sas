@@ -104,8 +104,7 @@ const Hero = () => {
             </div>
           </div>
         </div>
-      </section>
-       <div className='relative z-0 w-full mt-8'>
+          <div className='relative z-0 w-full mt-8'>
                   <div className='relative overflow-hidden shadow-2xl'>
                       <div className='flex items-center flex-none px-4 bg-grayprimary rounded-b-none h-11 rounded-xl'>
                           <div className='flex space-x-1.5'>
@@ -117,6 +116,8 @@ const Hero = () => {
                       <img src='pages.png' alt='Hero'/>
                   </div>
               </div>
+      </section>
+     
       <div className={`${styles.Hero__container__row__down__animated} ${isScrolled ? styles.scrolled : ''}`}>
         <MdOutlineKeyboardArrowDown className={`${styles.Hero__container__row__down__animated__icon} ${isScrolled ? styles.iconScrolled : ''}`} />
       </div>
