@@ -43,7 +43,7 @@ export default function CallToAction() {
     }
   }
 
-  // Retorna el componente
+  
   return (
     <>
       <div className={styles.CallToAction__container}>
