@@ -14,7 +14,7 @@ export default function WhyWe () {
           <p className="text-xl text-left mb-4 lg:text-[1.5rem]">
           En <span className="text-[#26E1FF]">Alphaqueb Consulting S.A.S.</span> Sabemos que Odoo es una herramienta poderosa, pero también entendemos que cada empresa tiene su propia identidad y desafíos únicos. Por eso, ofrecemos:</p>
           <lu>
-            <li className="text-xl text-left mb-4 lg:text-[1.5rem]" ><strong>Soluciones Hechas a la Medida de tu Negocio:</strong> Adaptamos y extendemos Odoo para cumplir con tus requisitos específicos, asegurando que cada función se alinee perfectamente con tus procesos empresariales.</li>
+            <li className="text-xl text-left mb-4 lg:text-[1.5rem]" ><strong className="text-[#26E1FF]">Soluciones Hechas a la Medida de tu Negocio:</strong> Adaptamos y extendemos Odoo para cumplir con tus requisitos específicos, asegurando que cada función se alinee perfectamente con tus procesos empresariales.</li>
           </lu>
 
           </div>     

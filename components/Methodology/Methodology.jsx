@@ -25,8 +25,8 @@ export default function Methodology () {
         Descubrimiento<span className="text-[#26E1FF]">.</span>
         </h2>
 
-         <p className='text-gray-300 text-2xl pb-3 sm:text-[1.5rem]'><strong >Análisis de Requerimientos:</strong > Comprendemos tus necesidades, objetivos y procesos para crear una solución a medida.</p>
-         <p className='text-gray-300 text-2xl sm:text-[1.5rem]'><strong>Definición de la Aplicación:</strong> Identificamos las funcionalidades esenciales y establecemos un plan de desarrollo colaborativo.</p>
+         <p className='text-gray-300 text-2xl pb-3 sm:text-[1.5rem]'><strong className="text-[#26E1FF]">Análisis de Requerimientos:</strong > Comprendemos tus necesidades, objetivos y procesos para crear una solución a medida.</p>
+         <p className='text-gray-300 text-2xl sm:text-[1.5rem]'><strong className="text-[#26E1FF]">Definición de la Aplicación:</strong> Identificamos las funcionalidades esenciales y establecemos un plan de desarrollo colaborativo.</p>
           </div>     
     </div>
 
@@ -48,8 +48,8 @@ export default function Methodology () {
         </h2>
 
 
-         <p className='text-gray-300 text-2xl pb-3 sm:text-[1.5rem]'><strong >Tecnología de Vanguardia:</strong > Utilizamos tecnologías y frameworks avanzados de Odoo para desarrollar aplicaciones robustas y escalables.</p>
-         <p className='text-gray-300 text-2xl sm:text-[1.5rem]'><strong>Comunicación Continua:</strong> Aseguramos que el proyecto cumpla con tus expectativas a través de actualizaciones regulares.</p>
+         <p className='text-gray-300 text-2xl pb-3 sm:text-[1.5rem]'><strong className="text-[#26E1FF]">Tecnología de Vanguardia:</strong > Utilizamos tecnologías y frameworks avanzados de Odoo para desarrollar aplicaciones robustas y escalables.</p>
+         <p className='text-gray-300 text-2xl sm:text-[1.5rem]'><strong className="text-[#26E1FF]">Comunicación Continua:</strong> Aseguramos que el proyecto cumpla con tus expectativas a través de actualizaciones regulares.</p>
           </div>     
     </div>
 
@@ -79,8 +79,8 @@ export default function Methodology () {
         </h2>
 
 
-         <p className='text-gray-300 text-2xl pb-3 sm:text-[1.5rem]'><strong >Asistencia Técnica:</strong > Facilitamos la integración de la solución en tu entorno de producción, garantizando una transición suave.</p>
-         <p className='text-gray-300 text-2xl sm:text-[1.5rem]'><strong>Capacitación Personalizada:</strong> Proporcionamos formación y soporte técnico para que tu equipo maximice la utilidad de la aplicación.</p>
+         <p className='text-gray-300 text-2xl pb-3 sm:text-[1.5rem]'><strong className="text-[#26E1FF]">Asistencia Técnica:</strong > Facilitamos la integración de la solución en tu entorno de producción, garantizando una transición suave.</p>
+         <p className='text-gray-300 text-2xl sm:text-[1.5rem]'><strong className="text-[#26E1FF]">Capacitación Personalizada:</strong> Proporcionamos formación y soporte técnico para que tu equipo maximice la utilidad de la aplicación.</p>
           </div>     
     </div>
 
@@ -112,8 +112,8 @@ export default function Methodology () {
         </h2>
 
 
-         <p className='text-gray-300 text-2xl pb-3 sm:text-[1.5rem]'><strong >Mejora Continua:</strong > Nos comprometemos a actualizar y optimizar la aplicación según las necesidades cambiantes de tu negocio.</p>
-         <p className='text-gray-300 text-2xl sm:text-[1.5rem]'><strong>Mantenimiento y Seguridad:</strong> Ofrecemos servicios de mantenimiento para asegurar el rendimiento óptimo y la seguridad de la aplicación.</p>
+         <p className='text-gray-300 text-2xl pb-3 sm:text-[1.5rem]'><strong className="text-[#26E1FF]">Mejora Continua:</strong > Nos comprometemos a actualizar y optimizar la aplicación según las necesidades cambiantes de tu negocio.</p>
+         <p className='text-gray-300 text-2xl sm:text-[1.5rem]'><strong className="text-[#26E1FF]">Mantenimiento y Seguridad:</strong> Ofrecemos servicios de mantenimiento para asegurar el rendimiento óptimo y la seguridad de la aplicación.</p>
           </div>     
     </div>
 
