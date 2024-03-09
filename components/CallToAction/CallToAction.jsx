@@ -51,7 +51,7 @@ export default function CallToAction() {
 
           <div className={styles.CallToAction__container__text__subtitle}>
             <p>
-            Solicita <strong>Gratis 1 hora de auditoría</strong> en integración de módulos Odoo a medida para potenciar tu implementación asegurando que cada función se alinee perfectamente con tus procesos empresariales.            </p>
+            Solicita <strong className="text-[#26E1FF]">Gratis 1 hora de auditoría</strong> en integración de módulos Odoo a medida para potenciar tu implementación asegurando que cada función se alinee perfectamente con tus procesos empresariales.            </p>
           </div>
           <div className={styles.CallToAction__container__text__form}>
             <form action='' className={styles.CallToAction__container__text__form__container}>
