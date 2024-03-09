@@ -68,7 +68,7 @@ const Hero = () => {
               Solicita <strong>Gratis 1 hora de auditoría</strong> en integración de módulos Odoo a medida para potenciar tu implementación asegurando que cada función se alinee perfectamente con tus procesos empresariales.
             </h2>
             <div className='flex-col justify-center w-full'>
-              <form action='' className='flex flex-col items-center w-full md:flex-row mb-4 md:space-x-4'>
+              <form action='' className='flex flex-col items-center w-[80%] md:flex-row mb-4 md:space-x-4'>
                 <input
                   type='text'
                   placeholder='Nombre'
