@@ -48,28 +48,30 @@
     color: #e4e4e4;
   }
   
-  /* Remueve los marcadores predeterminados */
+/* Remueve los marcadores predeterminados */
 .main ul {
   list-style-type: none; /* Elimina los marcadores predeterminados */
   padding-left: 0;
+  margin-left: 1em; /* Añade espacio en el margen izquierdo para los marcadores */
 }
 
 /* Agrega marcadores personalizados */
 .main ul li {
   position: relative; /* Posicionamiento relativo para el pseudoelemento */
   margin-bottom: 0.5rem;
-  padding-left: 1.5rem; /* Espacio para el marcador personalizado */
+  padding-left: 2em; /* Espacio para el marcador personalizado y el texto */
 }
 
 .main ul li::before {
   content: ''; /* Necesario para generar el pseudoelemento */
   position: absolute;
   left: 0; /* Alinea el pseudoelemento con el inicio del elemento li */
-  top: 0.9em; /* Ajusta la posición vertical del marcador */
-  height: 0.8em; /* Tamaño del marcador */
-  width: 0.8em; /* Tamaño del marcador */
+  top: calc(0.5em + 0.3em); /* Ajusta la posición vertical del marcador */
+  height: 0.5em; /* Tamaño del marcador ajustado */
+  width: 0.5em; /* Tamaño del marcador ajustado */
   background-color: #26E1FF; /* Color del marcador */
   border-radius: 50%; /* Hace el marcador circular */
+  margin-top: 0.4em; /* Alineación vertical con el texto */
 }
 
 /* Estilos para listas anidadas */
@@ -80,19 +82,21 @@
 .main ul li ul li {
   position: relative;
   margin-bottom: 0.5rem;
-  padding-left: 1.5rem;
+  padding-left: 2em; /* Asegura suficiente espacio para el marcador anidado */
 }
 
 .main ul li ul li::before {
   content: '';
   position: absolute;
   left: 0;
-  top: 0.9em;
-  height: 0.5em; /* Tamaño más pequeño para marcadores de listas anidadas */
-  width: 0.5em; /* Tamaño más pequeño para marcadores de listas anidadas */
+  top: calc(0.5em + 0.3em); /* Ajusta la posición vertical para alinear con el texto */
+  height: 0.35em; /* Tamaño más pequeño para marcadores de listas anidadas */
+  width: 0.35em; /* Tamaño más pequeño para marcadores de listas anidadas */
   background-color: #26E1FF; /* Mismo color para mantener la consistencia */
   border-radius: 50%; /* Circular */
+  margin-top: 0.4em; /* Alineación vertical con el texto */
 }
+
 
 
   .main h2 {
