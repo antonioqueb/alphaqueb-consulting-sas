@@ -13,7 +13,7 @@ export default function CallToAction() {
   }
 
   const handleContactButtonClick = async (event) => {
-    event.preventDefault(); // Evitar que el formulario se envíe de la manera tradicional
+    event.preventDefault() // Evitar que el formulario se envíe de la manera tradicional
   
     try {
       const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/lead`, {
@@ -23,7 +23,7 @@ export default function CallToAction() {
           Accept: 'application/json',
         },
         body: JSON.stringify({ email }),
-      });
+      })
   
       if (response.ok) {
         // Aquí es donde se redirige al usuario después de una respuesta exitosa
