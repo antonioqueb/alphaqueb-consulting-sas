@@ -88,12 +88,6 @@ const Hero = () => {
                     onChange={handleEmailChange}
                   />
                   <Toaster
-                    toastOptions={{
-                      style: {
-                        background: 'white', // Fondo blanco
-                        color: 'black', // Texto negro
-                      },
-                    }}
                   />
                   <button
                     className='w-full md:w-1/4 text-lg font-semibold text-white bg-darkprimary px-5 py-2.5 border rounded-lg hover:bg-darkprimary focus:outline-none focus:shadow-outline'
