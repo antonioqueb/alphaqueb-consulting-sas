@@ -66,6 +66,7 @@ const Hero = () => {
             </h1>
             <h2 className='text-pretty px-0 mb-8 text-lg text-white md:text-[1.6rem] lg:px-4'>
             Solicita Gratis <strong>Reporte Técnico de Implementación</strong>, donde analizamos tu instancia Odoo a detalle con el objetivo de encontrar malas prácticas o elementos que puedan complicar futuros desarrollos a medida.
+            </h2>
             <div className='flex-col justify-center items-center w-full'>
               <form action='' className='flex flex-col items-center w-full md:flex-row mb-4 md:space-x-4'>
                 <input
