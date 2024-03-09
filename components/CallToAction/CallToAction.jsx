@@ -27,15 +27,15 @@ export default function CallToAction() {
   
       if (response.ok) {
         // Aquí es donde se redirige al usuario después de una respuesta exitosa
-        window.location.href = './success-lead';
+        window.location.href = './success-lead'
       } else {
-        const errorData = await response.json();
-        console.error('Error en la solicitud:', errorData);
+        const errorData = await response.json()
+        console.error('Error en la solicitud:', errorData)
       }
     } catch (error) {
-      console.error(error);
+      console.error(error)
     }
-  };
+  }
 
   // Retorna el componente
   return (
