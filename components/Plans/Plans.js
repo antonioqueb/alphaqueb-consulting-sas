@@ -48,23 +48,23 @@ const NavbarComponent = () => {
                 <span><span className='font-medium text-gray-600 text-[1rem] align-top'>$</span><span className='text-[1.5rem] font-bold text-gray-600'>117 USD</span></span><span className='text-gray-600 font-medium'>/ hora</span>
                 </div>
             </div>
-                <ul className='mb-7 font-medium text-gray-500'>
+                <ul className='mb-7 font-medium text-gray-600'>
                 <p className='text-[1rem] font-semibold mb-2 text-black xl:text-[1.2rem]'>Perfecto para tareas rápidas y ajustes precisos:</p>
                 <li className='flex text-sm mb-1'>
                 <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839871/check-grey.svg' alt='check'/>
-                <span className='text-black text-[1rem] font-thin pb-2 sm:text-[1rem] xl:text-[1.1rem] '>Optimización y correcciones de vistas.</span>
+                <span className='text-gray-600 text-[1rem] font-thin pb-2 sm:text-[1rem] xl:text-[1.1rem] '>Optimización y correcciones de vistas.</span>
                 </li>
                 <li className='flex text-sm mb-1'>
                 <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839871/check-grey.svg' alt='check'/>
-                <span className='text-black text-[1rem] font-thin pb-2 sm:text-[1rem] xl:text-[1.1rem] '>Ajustes y mejoras en modelos de datos.</span>
+                <span className='text-gray-600 text-[1rem] font-thin pb-2 sm:text-[1rem] xl:text-[1.1rem] '>Ajustes y mejoras en modelos de datos.</span>
                 </li>
                 <li className='flex text-sm mb-1'>
                 <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839871/check-grey.svg' alt='check'/>
-                <span className='text-black text-[1rem] font-thin pb-2 sm:text-[1rem] xl:text-[1.1rem] '>Resolución rápida de problemas y errores.</span>
+                <span className='text-gray-600 text-[1rem] font-thin pb-2 sm:text-[1rem] xl:text-[1.1rem] '>Resolución rápida de problemas y errores.</span>
                 </li>
                 <li className='flex text-sm mb-1'>
                 <img src='https://res.cloudinary.com/dn5cltdre/image/upload/v1708839871/check-grey.svg' alt='check'/>
-                <span className='text-black text-[1rem] font-thin pb-2 sm:text-[1rem] xl:text-[1.1rem] '>Ajustes en secuencias y precisión decimal.</span>
+                <span className='text-gray-600 text-[1rem] font-thin pb-2 sm:text-[1rem] xl:text-[1.1rem] '>Ajustes en secuencias y precisión decimal.</span>
                 </li>
                 <div className='ml-5'>
                 <span className='block text-2xl font-semibold text-gray-500 mt-4'>Total</span>
@@ -151,7 +151,7 @@ const NavbarComponent = () => {
                 <span><span className='font-medium text-gray-600 text-[1rem] align-top'>$</span><span className='text-[1.5rem] font-bold text-gray-600'>39 USD</span></span><span className='text-gray-600 font-medium'>/ hora</span>
                 </div>
             </div>
-            <ul className='mb-7 font-medium text-gray-500'>
+            <ul className='mb-7 font-medium text-gray-600'>
             <p className='text-[1rem] font-semibold mb-2 text-black xl:text-[1.2rem]'>Ideal para proyectos de integración y desarrollo a gran escala:</p>
 
                 <li className='flex text-sm mb-1'>
