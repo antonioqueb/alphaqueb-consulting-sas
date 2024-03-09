@@ -65,7 +65,7 @@ const Hero = () => {
               Extiende las funcionalidades de Odoo: <span className='text-blueprimary'>Módulos a Medida.</span>
             </h1>
             <h2 className='text-pretty px-0 mb-8 text-lg text-white md:text-[1.6rem] lg:px-4'>
-            Solicita Gratis <strong>Reporte Técnico de Implementación Odoo</strong>, donde analizamos tu instancia a detalle con el objetivo de encontrar malas prácticas o elementos que puedan complicar futuros desarrollos, con el objetivo de optimizar y alinear tu sistema a los procesos específicos de tu negocio.</h2>
+            Solicita Gratis <strong>Reporte Técnico de Implementación</strong>, donde analizamos tu instancia Odoo a detalle con el objetivo de encontrar malas prácticas o elementos que puedan complicar futuros desarrollos a medida.
             <div className='flex-col justify-center items-center w-full'>
               <form action='' className='flex flex-col items-center w-full md:flex-row mb-4 md:space-x-4'>
                 <input
