@@ -7,7 +7,6 @@ import React, { useState, useEffect } from 'react'
 import { MdOutlineKeyboardArrowDown } from 'react-icons/md'
 import Link from 'next/link'
 import styles from './Hero.module.css'
-import { Toaster, toast } from 'sonner' // Asegúrate de que 'sonner' sea el paquete correcto
 
 const Hero = () => {
   const [isScrolled, setIsScrolled] = useState(false)
@@ -20,14 +19,7 @@ const Hero = () => {
   const handleContactButtonClick = async () => {
     try {
       console.log('Body de la solicitud:', JSON.stringify({ email }))
-      // Aquí haremos el cambio para el toast específico de éxito
-      toast.success('Email recibido con éxito', {
-        style: {
-          background: 'white', // Fondo blanco
-          color: 'black', // Texto negro
-        },
-      })
-      
+
       const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/lead`, {
         method: 'POST',
         headers: {
@@ -40,6 +32,8 @@ const Hero = () => {
       if (response.ok) {
         console.log('Solicitud POST exitosa')
         setEmail('') // Restablecer el estado del correo después de una solicitud exitosa
+        // Redirigir al usuario a la página de agradecimiento
+        window.location.href = './success-lead'
       } else {
         console.error('Error en la solicitud POST:', response.status, response.statusText)
       }
@@ -87,8 +81,7 @@ const Hero = () => {
                     value={email}
                     onChange={handleEmailChange}
                   />
-                  <Toaster
-                  />
+                
                   <button
                     className='w-full md:w-1/4 text-lg font-semibold text-white bg-darkprimary px-5 py-2.5 border rounded-lg hover:bg-darkprimary focus:outline-none focus:shadow-outline'
                     type='button'
