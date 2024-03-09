@@ -21,7 +21,14 @@ const Hero = () => {
   const handleContactButtonClick = async () => {
     try {
       console.log('Body de la solicitud:', JSON.stringify({ email }))
-      toast.success('Email recibido con éxito')
+      toast.success('Email recibido con éxito', {
+        unstyled: true,
+        classNames: {
+          toast: 'bg-black text-white',
+          // Aquí puedes especificar clases adicionales para elementos internos si es necesario
+        },
+      })
+      
 
       const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/lead`, {
         method: 'POST',
@@ -92,7 +99,7 @@ const Hero = () => {
                     value={email}
                     onChange={handleEmailChange}
                   />
-                  <Toaster />
+                  
                   <button
                     className='w-full md:w-1/4 text-lg font-semibold text-white bg-darkprimary px-5 py-2.5 border rounded-lg hover:bg-darkprimary focus:outline-none focus:shadow-outline'
                     type='button'
@@ -101,6 +108,16 @@ const Hero = () => {
                     Enviar
                   </button>
                 </form>
+                <Toaster
+                  toastOptions={{
+                    unstyled: true,
+                    classNames: {
+                      base: 'bg-black text-white',
+                      // Aquí puedes agregar más clases para otros elementos internos si es necesario
+                    },
+                  }}
+                />
+
 
                   <span className='text-sm text-white flex '>
                     Al enviar aceptas nuestros{' '}

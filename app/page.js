@@ -16,7 +16,7 @@ export const metadata = {
     template: '%s | Alphaqueb',
   },
   description: 'Amplía tu oferta de implementación Odoo con la personalización de módulos a medida. Desarrollamos soluciones Odoo personalizadas para tu negocio.',
-  url: 'https://queb.online/',
+  url: 'https://alphaqueb.online/',
   type: 'website',
   keywords: [
     'odoo',
