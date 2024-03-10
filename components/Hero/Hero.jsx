@@ -35,7 +35,7 @@ const Hero = () => {
         console.log('Solicitud POST exitosa')
         setEmail('') // Restablecer el estado del correo después de una solicitud exitosa
         setName('') // Restablecer el estado del nombre
-        window.location.href = './success-lead'
+        window.location.href = './email-recibido-con-exito'
       } else {
         console.error('Error en la solicitud POST:', response.status, response.statusText)
       }

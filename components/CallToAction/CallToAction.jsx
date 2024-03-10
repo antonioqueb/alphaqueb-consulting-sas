@@ -33,7 +33,7 @@ export default function CallToAction() {
 
       if (response.ok) {
         // Aquí es donde se redirige al usuario después de una respuesta exitosa
-        window.location.href = './success-lead'
+        window.location.href = './email-recibido-con-exito'
       } else {
         const errorData = await response.json()
         console.error('Error en la solicitud:', errorData)
