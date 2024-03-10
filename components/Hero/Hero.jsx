@@ -61,7 +61,7 @@ const Hero = () => {
       <section className='pt-1 lg:pt-20 pb-12 bg-transparent mt-[4.5rem]'>
         <div className='mx-auto'>
           <div className='mx-auto text-center'>
-            <h1 className='mb-8 text-[1.6rem] sm:text-5xl font-semibold leading-none text-white xl:text-[4.2rem] 2xl:text-[5.9rem] md:tracking-tight text-balance hover:shadow-xl transition-all duration-300 custom-text-size'>
+            <h1 className='mb-8 text-[1.5rem] sm:text-5xl font-semibold leading-none text-white xl:text-[4.2rem] 2xl:text-[5.9rem] md:tracking-tight text-balance hover:shadow-xl transition-all duration-300 custom-text-size'>
               Extiende funcionalidades Odoo: <span className='text-blueprimary'>Módulos a Medida.</span>
             </h1>
             <h2 className='text-balance mb-8 text-xl text-white md:text-[1.6rem] lg:px-4'>
