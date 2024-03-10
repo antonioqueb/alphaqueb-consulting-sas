@@ -1,31 +1,30 @@
-import React from 'react' // Corrected semicolon 
+import React from 'react'
 import Image from 'next/image'
-import styles from './CardTestimony.module.css'
 import { TiStarFullOutline } from 'react-icons/ti'
 
 export const CardTestimony = ({ imageSrc, altText, testimony, name }) => {
   return (
-    <article className={styles.cardTestimony}>
-      <figure className={styles.cardTestimony__image}>
+    <article className="bg-opacity-50 bg-black rounded-lg p-4 backdrop-filter backdrop-blur-lg mx-1">
+      <figure className="flex justify-center">
         <Image
           src={imageSrc}
           alt={altText}
-          width={80} // Set width
-          height={80} // Set height
-          className={styles.cardTestimony__image__img}
+          width={80}
+          height={80}
+          className="rounded-full"
         />
       </figure>
-      <div className={styles.cardTestimony__rating}>
-        <TiStarFullOutline className={styles.cardTestimony__rating} />
-        <TiStarFullOutline className={styles.cardTestimony__rating} />
-        <TiStarFullOutline className={styles.cardTestimony__rating} />
-        <TiStarFullOutline className={styles.cardTestimony__rating} />
-        <TiStarFullOutline className={styles.cardTestimony__rating} />
+      <div className="flex justify-center space-x-1 text-yellow-400">
+        <TiStarFullOutline />
+        <TiStarFullOutline />
+        <TiStarFullOutline />
+        <TiStarFullOutline />
+        <TiStarFullOutline />
       </div>
-      <blockquote className={styles.cardTestimony__text}>
-        <p>{testimony}</p> 
+      <blockquote className="text-white text-opacity-80 mt-4 text-center">
+        <p>{testimony}</p>
       </blockquote>
-      <footer className={styles.cardTestimony__name}>
+      <footer className="mt-4 text-blueprimary text-center">
         <h4>{name}</h4>
       </footer>
     </article>
