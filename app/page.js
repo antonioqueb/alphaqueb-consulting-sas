@@ -52,9 +52,10 @@ export default function Home () {
       <Hero />  
       <WhyWe />
       <Plans />
+      <Testimonials />  
       <Methodology />
       <CallToAction />
-      <Testimonials />   
+       
       
     </main>
   )
