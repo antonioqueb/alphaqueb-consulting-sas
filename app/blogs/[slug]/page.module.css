@@ -66,7 +66,7 @@
   content: ''; /* Necesario para generar el pseudoelemento */
   position: absolute;
   left: 0; /* Alinea el pseudoelemento con el inicio del elemento li */
-  top: calc(0.4em + 0.3em); /* Ajusta la posición vertical del marcador */
+  top: calc(0.3em + 0.3em); /* Ajusta la posición vertical del marcador */
   height: 0.4em; /* Tamaño del marcador ajustado */
   width: 0.4em; /* Tamaño del marcador ajustado */
   background-color: #26E1FF; /* Color del marcador */
@@ -88,7 +88,7 @@
   content: '';
   position: absolute;
   left: 0;
-  top: calc(0.4em + 0.3em); /* Ajusta la posición vertical para alinear con el texto */
+  top: calc(0.3em + 0.3em); /* Ajusta la posición vertical para alinear con el texto */
   height: 0.40em; /* Tamaño más pequeño para marcadores de listas anidadas */
   width: 0.40em; /* Tamaño más pequeño para marcadores de listas anidadas */
   background-color: #26E1FF; /* Mismo color para mantener la consistencia */
@@ -97,9 +97,6 @@
 }
 
 
-.main b {
-  color: #26E1FF; /* Cambia el color del texto */
-}
 
 
   .main h2 {
