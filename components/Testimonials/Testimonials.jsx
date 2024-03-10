@@ -39,7 +39,7 @@ export const Testimonials = () => {
   return (
     <>
     <div className={styles.Testimonials__container__title}>
-    <h2 className='text-[1.8rem] font-semibold mb-6 lg:text-4xl xl:text-5xl'>Testimonios<span className={styles.Dot}>.</span></h2>
+    <h2 className='text-[1.5rem] font-semibold mb-6 lg:text-4xl xl:text-5xl'>Testimonios<span className={styles.Dot}>.</span></h2>
 
     </div>
 

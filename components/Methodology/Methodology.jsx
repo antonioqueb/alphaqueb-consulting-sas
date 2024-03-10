@@ -8,7 +8,7 @@ export default function Methodology () {
   return (
   <>
     <div className="text-center mt-10 mb-10">
-            <h2 className='text-[1.8rem] sm:text-5xl font-semibold m-0 mb-10 mt-20 text-left     leading-tight lg:text-4xl text-center xl:text-5xl'>
+            <h2 className='text-[1.5rem] sm:text-5xl font-semibold m-0 mb-10 mt-20 text-left     leading-tight lg:text-4xl text-center xl:text-5xl'>
              Nuestra Metodología<span className="text-blueprimary">.</span>
            </h2>
     </div>
@@ -22,7 +22,7 @@ export default function Methodology () {
 
         <div className="justify-center flex-1 flex flex-col ite p-0 md:p-0 lg:px-4">
         <h2 className="text-[1.7rem] sm:text-4xl font-semibold m-0 mb-8 text-left leading-tight lg:text-4xl">
-        Descubrimiento<span className="text-[#26E1FF]">.</span>
+        Descubrimiento<span className="text-[#26E1FF] text-[1.5rem]">.</span>
         </h2>
 
          <p className='text-gray-300 text-2xl pb-3 sm:text-[1.5rem]'><strong className="text-[#26E1FF]">Análisis de Requerimientos:</strong > Comprendemos tus necesidades, objetivos y procesos para crear una solución a medida.</p>
@@ -44,7 +44,7 @@ export default function Methodology () {
 
         <div className="justify-center flex-1 flex flex-col ite p-0 md:p-0 lg:px-4">
         <h2 className="text-[1.7rem] sm:text-4xl font-semibold m-0 mb-8 text-left leading-tight lg:text-4xl">
-        Desarrollo<span className="text-[#26E1FF]">.</span>
+        Desarrollo<span className="text-[#26E1FF] text-[1.5rem]">.</span>
         </h2>
 
 
@@ -75,7 +75,7 @@ export default function Methodology () {
 
         <div className="justify-center flex-1 flex flex-col ite p-0 md:p-0 lg:px-4">
         <h2 className="text-[1.7rem] sm:text-4xl font-semibold m-0 mb-8 text-left leading-tight lg:text-4xl">
-        Implementación<span className="text-[#26E1FF]">.</span>
+        Implementación<span className="text-[#26E1FF] text-[1.5rem]">.</span>
         </h2>
 
 
@@ -108,7 +108,7 @@ export default function Methodology () {
 
         <div className="justify-center flex-1 flex flex-col ite p-0 md:p-0 lg:px-4">
         <h2 className="text-[1.7rem] sm:text-4xl font-semibold m-0 mb-8 text-left leading-tight lg:text-4xl">
-        Evolución<span className="text-[#26E1FF]">.</span>
+        Evolución<span className="text-[#26E1FF] text-[1.5rem]">.</span>
         </h2>
 
 
