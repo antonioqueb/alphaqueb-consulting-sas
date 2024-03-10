@@ -96,6 +96,10 @@
  
 }
 
+.main strong,
+.main b {
+  color: #26E1FF; /* Cambia el color del texto */
+}
 
 
   .main h2 {
