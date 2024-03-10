@@ -4,7 +4,7 @@ import { TiStarFullOutline } from 'react-icons/ti'
 
 export const CardTestimony = ({ imageSrc, altText, testimony, name }) => {
   return (
-    <article className="bg-opacity-50 bg-black rounded-lg p-4 backdrop-filter backdrop-blur-lg mx-1">
+    <article className="flex-1 bg-opacity-50 bg-black rounded-lg p-4 backdrop-filter backdrop-blur-lg mx-1">
       <figure className="flex justify-center">
         <Image
           src={imageSrc}
