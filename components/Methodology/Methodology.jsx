@@ -17,7 +17,7 @@ export default function Methodology () {
     <div className="flex justify-center items-center flex-col md:flex-col-reverse lg:flex-row text-[#F2F2F2] py-10 md:py-20 lg:py-10">
             
         <div className="flex-1 flex justify-center">
-          <Image className="w-full h-auto object-contain md:max-w-xs lg:max-w-lg mx-auto my-8" src='/discovery.svg'  alt='discovery' width={600} height={600} />
+          <Image className="w-full h-auto object-contain md:max-w-xs lg:max-w-lg mx-auto my-8" src='/discovery.svg'  alt='discovery' width={750} height={750} />
         </div>  
 
         <div className="justify-center flex-1 flex flex-col ite p-0 md:p-0 lg:px-4">
@@ -39,7 +39,7 @@ export default function Methodology () {
     <div className="flex justify-center items-center flex-col md:flex-col-reverse lg:flex-row-reverse text-[#F2F2F2] py-10 md:py-20 lg:py-10">
             
         <div className="flex-1 flex justify-center">
-          <Image className="w-full h-auto object-contain md:max-w-xs lg:max-w-lg mx-auto my-8" src='/develop.svg'  alt='development' width={600} height={600} />
+          <Image className="w-full h-auto object-contain md:max-w-xs lg:max-w-lg mx-auto my-8" src='/develop.svg'  alt='development' width={750} height={750} />
         </div>  
 
         <div className="justify-center flex-1 flex flex-col ite p-0 md:p-0 lg:px-4">
@@ -70,7 +70,7 @@ export default function Methodology () {
     <div className="flex justify-center items-center flex-col md:flex-col-reverse lg:flex-row text-[#F2F2F2] py-10 md:py-20 lg:py-10">
             
         <div className="flex-1 flex justify-center">
-          <Image className="w-full h-auto object-contain md:max-w-xs lg:max-w-lg mx-auto my-8" src='/implement.svg'  alt='Implementación de tu módulo odoo a medida' width={600} height={600} />
+          <Image className="w-full h-auto object-contain md:max-w-xs lg:max-w-lg mx-auto my-8" src='/implement.svg'  alt='Implementación de tu módulo odoo a medida' width={750} height={750} />
         </div>  
 
         <div className="justify-center flex-1 flex flex-col ite p-0 md:p-0 lg:px-4">
@@ -103,7 +103,7 @@ export default function Methodology () {
     <div className="flex justify-center items-center flex-col md:flex-col-reverse lg:flex-row-reverse text-[#F2F2F2] py-10 md:py-20 lg:py-10">
             
         <div className="flex-1 flex justify-center">
-          <Image className="w-full h-auto object-contain md:max-w-xs lg:max-w-lg mx-auto my-8" src='/evo.svg'  alt='Evolución de tu módulo odoo a medida' width={600} height={600} />
+          <Image className="w-full h-auto object-contain md:max-w-xs lg:max-w-lg mx-auto my-8" src='/evo.svg'  alt='Evolución de tu módulo odoo a medida' width={750} height={750} />
         </div>  
 
         <div className="justify-center flex-1 flex flex-col ite p-0 md:p-0 lg:px-4">
