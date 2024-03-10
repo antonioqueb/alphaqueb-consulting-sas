@@ -62,10 +62,10 @@ const Hero = () => {
         <div className='mx-auto'>
           <div className='mx-auto text-center'>
             <h1 className='mb-8 text-[1.5rem] sm:text-5xl font-semibold leading-none text-white xl:text-[4.2rem] 2xl:text-[5.9rem] md:tracking-tight text-balance hover:shadow-xl transition-all duration-300 custom-text-size'>
-              Extiende las funcionalidades de Odoo: <span className='text-blueprimary'>Módulos a Medida.</span>
+              Extiende funcionalidades Odoo: <span className='text-blueprimary'>Módulos a Medida.</span>
             </h1>
-            <h2 className='text-pretty px-0 mb-8 text-lg text-white md:text-[1.6rem] lg:px-4'>
-            Solicita <strong>Gratis el Reporte Score Implementación Odoo</strong>, acceso limitado.
+            <h2 className='text-balance mb-8 text-xl text-white md:text-[1.6rem] lg:px-4'>
+            Solicita <strong>Gratis el Reporte Score Implementación Odoo</strong>, Limitados a los Primeros 50 Solicitantes.
             </h2>
             <div className='flex-col justify-center items-center w-full'>
               <form action='' className='flex flex-col items-center w-full md:flex-row mb-4 md:space-x-4'>
