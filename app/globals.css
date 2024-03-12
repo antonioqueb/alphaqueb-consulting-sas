@@ -53,7 +53,7 @@ body {
   border: 3px solid #2e2e2e; /* Borde entre la pista y el control deslizante */
 }
 
-/* Estilos para Firefox */
+/* Estilos para Firefox   */
 * {
   scrollbar-width: thin; /* 'auto' o 'thin' */
   scrollbar-color: #26E1FF #2e2e2e; /* color del control deslizante y color de la pista */
