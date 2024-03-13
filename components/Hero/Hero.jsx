@@ -61,11 +61,10 @@ const Hero = () => {
       <section className='pt-1 lg:pt-20 pb-12 bg-transparent mt-[4.5rem]'>
         <div className='mx-auto'>
           <div className='mx-auto text-center'>
-            <h1 className='mb-8 text-[1.6rem] sm:text-5xl font-semibold leading-none text-white xl:text-[4.2rem] 2xl:text-[6.5rem] md:tracking-tight text-balance hover:shadow-xl transition-all duration-300 custom-text-size'>
-              Extiende funcionalidades Odoo: <span className='text-blueprimary'>Módulos a Medida.</span>
+            <h1 className='mb-8 text-[1.5rem] sm:text-[2.4rem] font-semibold leading-none text-white xl:text-[3.5rem] 2xl:text-[4.65rem] md:tracking-tight text-balance hover:shadow-xl transition-all duration-300 custom-text-size'><span className='text-blueprimary text-[1.5rem]  2xl:text-[5rem] sm:text-[2.6rem]'>Innovación y Crecimiento con Odoo: </span>Implementamos la solución integral de CRM y ERP en español para tu negocio.
             </h1>
-            <h2 className='text-balance mb-8 text-xl text-white md:text-[1.6rem] lg:px-4'>
-            Solicita <strong>Gratis el Reporte Score Implementación Odoo</strong>, Limitados a los Primeros 200 Solicitantes.
+            <h2 className='text-balance leading-normal w-full mb-8 text-xl text-white md:text-[1.45rem] 2xl:text-[1.48rem]'>
+            <strong>Evaluación Personalizada Sin Costo:</strong> Descubre cómo Odoo puede revolucionar tu empresa. ¡Reclama tu evaluación hoy!
             </h2>
             <div className='flex-col justify-center items-center w-full'>
               <form action='' className='flex flex-col items-center w-full md:flex-row mb-4 md:space-x-4'>
@@ -74,7 +73,7 @@ const Hero = () => {
                   placeholder='Nombre'
                   name='name'
                   id='name'
-                  className='w-full md:w-3/4 h-12 px-4 mb-3 md:mb-0 text-lg justify-center text-gray-700 placeholder-gray-600 border rounded-lg focus:shadow-outline'
+                  className='w-full bg-darkprimary md:w-3/4 h-12 px-4 mb-3 md:mb-0 text-lg justify-center text-gray-200 placeholder-gray-100 border rounded-lg focus:shadow-outline'
                   value={name}
                   onChange={handleNameChange}
                 />
@@ -83,16 +82,16 @@ const Hero = () => {
                   placeholder='Email'
                   name='email'
                   id='email'
-                  className='w-full md:w-3/4 h-12 px-4 mb-3 md:mb-0 text-lg justify-center text-gray-700 placeholder-gray-600 border rounded-lg focus:shadow-outline'
+                  className='w-full bg-darkprimary md:w-3/4 h-12 px-4 mb-3 md:mb-0 text-lg justify-center text-gray-200 placeholder-gray-100 border rounded-lg focus:shadow-outline'
                   value={email}
                   onChange={handleEmailChange}
                 />
                 <button
-                  className='w-full md:w-1/4 text-lg font-bold text-white bg-darkprimary px-5 py-2.5 border rounded-lg hover:bg-darkprimary focus:outline-none focus:shadow-outline'
+                  className='w-full md:w-1/4 text-lg font-semibold text-blueprimary bg-darkprimary px-5 py-2.5 border border-blueprimary rounded-lg hover:bg-darkprimary focus:outline-none focus:shadow-outline transition-all duration-300 custom-text-size'
                   type='button'
                   onClick={handleContactButtonClick}
                 >
-                  Solicitar
+                  Reclamar
                 </button>
               </form>
               <span className='text-sm text-white flex'>
