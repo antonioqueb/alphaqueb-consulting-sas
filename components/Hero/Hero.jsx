@@ -63,7 +63,7 @@ const Hero = () => {
           <div className='mx-auto text-center'>
             <h1 className='mb-8 text-[1.5rem] sm:text-[2.4rem] font-semibold leading-none text-white xl:text-[3.5rem] 2xl:text-[4.65rem] md:tracking-tight text-balance hover:shadow-xl transition-all duration-300 custom-text-size xl:text-[3.4rem]'><span className='text-blueprimary text-[1.5rem]  2xl:text-[5rem] sm:text-[2.6rem] xl:text-[3.6rem]'>Innovación y Crecimiento con Odoo: </span>Implementamos la solución integral de CRM y ERP en español para tu negocio.
             </h1>
-            <h2 className='text-balance leading-normal w-full mb-8 text-xl text-white md:text-[1.45rem] 2xl:text-[1.48rem]'>
+            <h2 className='text-balance leading-normal w-full mb-8 text-xl text-white md:text-[1.45rem] xl:text-[2.1rem]  2xl:text-[1.48rem]'>
             <strong>Evaluación Personalizada Sin Costo:</strong> Descubre cómo Odoo puede revolucionar tu empresa. ¡Reclama tu evaluación hoy!
             </h2>
             <div className='flex-col justify-center items-center w-full'>
