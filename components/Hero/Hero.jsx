@@ -112,7 +112,7 @@ const Hero = () => {
                               <div className='w-3 h-3 border-2 border-darkprimary rounded-full'></div>
                           </div>
                       </div>
-                      <img src='pages.png' alt='Hero'/>
+                      <img src='pages.webp' alt='Hero'/>
                   </div>
               </div>
       </section>
