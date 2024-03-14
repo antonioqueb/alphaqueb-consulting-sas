@@ -1,10 +1,10 @@
-.CardPosts__container__news{
+.CardPosts__container__news {
     display: flex;
     flex-direction: column;
-    
+
 }
 
-.CardPost__container__news__title h3{
+.CardPost__container__news__title h3 {
     font-size: 1.9rem;
     font-weight: 400;
     margin: 0;
@@ -12,14 +12,14 @@
     margin-bottom: 1rem;
 }
 
-.CardPost__container__news__description p{
+.CardPost__container__news__description p {
     font-size: 1.1rem;
     margin: 0;
     padding: 0;
 }
 
 
-.CardPost__container__news__image__img{
+.CardPost__container__news__image__img {
     width: 100%;
     height: 100%;
     margin-bottom: 1rem;
@@ -34,25 +34,28 @@
 
 .CardPost__container__news__title,
 .CardPost__container__news__description {
-  width: 100%; /* Asegurarse de que el contenedor del texto use todo el ancho disponible */
+    width: 100%;
+    /* Asegurarse de que el contenedor del texto use todo el ancho disponible */
 }
 
 .CardPost__container__news__title h3,
 .CardPost__container__news__description p {
     text-wrap: pretty;
-  white-space: normal; /* Asegurarse de que el texto se ajuste correctamente */
-  overflow-wrap: break-word; /* Permite que las palabras largas se rompan y pasen a la siguiente línea */
+    white-space: normal;
+    /* Asegurarse de que el texto se ajuste correctamente */
+    overflow-wrap: break-word;
+    /* Permite que las palabras largas se rompan y pasen a la siguiente línea */
 }
 
 
 .CardPost__container__news__image__img {
     width: 100%;
-    height: 500px;
+    height: 600px;
 }
 
 @media (max-width: 360px) {
-  
-    .CardPost__container__news__title h3{
+
+    .CardPost__container__news__title h3 {
         font-size: 1.25rem;
         font-weight: 600;
         margin: 0;
@@ -60,56 +63,59 @@
         margin-bottom: 1rem;
     }
 
-    .CardPost__container__news__description p{
+    .CardPost__container__news__description p {
         font-size: 1.1rem;
         margin: 0;
         padding: 0;
     }
 
-   
-    
-    .CardPost__container__news__image__img {
-        width: 100%;
-        height: auto;
-    }
-    
-    /* Estilos que se aplican cuando la pantalla tiene menos de 600px de ancho */
-  }
-  @media (min-width: 361px) and (max-width: 660px) {
+
 
     .CardPost__container__news__image__img {
         width: 100%;
         height: auto;
     }
-    
-    .CardPost__container__news__title h3{
+
+    /* Estilos que se aplican cuando la pantalla tiene menos de 600px de ancho */
+}
+
+@media (min-width: 361px) and (max-width: 660px) {
+
+    .CardPost__container__news__image__img {
+        width: 100%;
+        height: auto;
+    }
+
+    .CardPost__container__news__title h3 {
         font-size: 1.35rem;
         font-weight: 600;
         margin: 0;
         padding: 0;
-        margin-bottom: 1rem;
+        margin-bottom: 0.1rem;
+        color: #26E1FF;
     }
 
-    .CardPost__container__news__description p{
+    .CardPost__container__news__description p {
         font-size: 1.1rem;
         margin: 0;
         padding: 0;
     }
-  
-  }
-  
-  /* Tabletas: desde 601px hasta 900px */
-  @media (min-width: 601px) and (max-width: 1023px) {
 
-    .CardPost__container__news__title h3{
+}
+
+/* Tabletas: desde 601px hasta 900px */
+@media (min-width: 601px) and (max-width: 1023px) {
+
+    .CardPost__container__news__title h3 {
         font-size: 1.5rem;
         font-weight: 600;
         margin: 0;
         padding: 0;
-        margin-bottom: 1rem;
+        margin-bottom: 0.1rem;
+        color: #26E1FF;
     }
 
-    .CardPost__container__news__description p{
+    .CardPost__container__news__description p {
         font-size: 1.2rem;
         margin: 0;
         padding: 0;
@@ -119,34 +125,35 @@
         width: 710px;
         height: 550px;
     }
-    
-  
-  }
-    /* Tabletas: desde 601px hasta 900px */
-    @media (min-width: 1024px) and (max-width: 1500px) {
 
-        .CardPost__container__news__title h3{
-            font-size: 1.5rem;
-            font-weight: 600;
-            margin: 0;
-            padding: 0;
-            margin-bottom: 1rem;
-        }
-    
-        .CardPost__container__news__description p{
-            font-size: 1.2rem;
-            margin: 0;
-            padding: 0;
-        }
-    
-        .CardPost__container__news__image__img {
-            width: 950px;
-            height: 550px;
-        }
-        
-      
-      }
-  /* Escritorio: más de 900px */
-  @media (min-width: 1500px) {
-  
-  }
+
+}
+
+/* Tabletas: desde 601px hasta 900px */
+@media (min-width: 1024px) and (max-width: 1500px) {
+
+    .CardPost__container__news__title h3 {
+        font-size: 1.3rem;
+        font-weight: 600;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 0.1rem;
+        color: #26E1FF;
+    }
+
+    .CardPost__container__news__description p {
+        font-size: 1.2rem;
+        margin: 0;
+        padding: 0;
+    }
+
+    .CardPost__container__news__image__img {
+        width: 650px;
+        height: 350px;
+    }
+
+
+}
+
+/* Escritorio: más de 900px */
+@media (min-width: 1500px) {}
