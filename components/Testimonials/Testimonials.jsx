@@ -32,7 +32,7 @@ const testimonies = [
   },
 
 
-  // ... más testimonios
+  // ... más testimonios para añadir ...
 ]
 
 export const Testimonials = () => {
