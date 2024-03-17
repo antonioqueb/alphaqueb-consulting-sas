@@ -20,7 +20,7 @@ const testimonies = [
   {
     imageSrc: '/jose-antonio.webp',
     altText: 'Imagen de José Antonio',
-    testimony: 'Excelente servicio, muy profesionales y atentos. Los recomiendo ampliamente.',
+    testimony: 'Alta calidad en su atención a clientes, tuve oportunidad de conocer personalmente a Toño muy carismático, profesional, gracias muchachos por su trabajo, los recomiendo ampliamente!!.',
     name: 'José Antonio'
   },
 
