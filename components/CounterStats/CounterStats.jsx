@@ -14,7 +14,7 @@ const CounterStats = () => {
     // Cambia aquí: "flex-col" en móviles y "flex-row" en dispositivos más grandes
     <div className="flex flex-col md:flex-row flex-wrap justify-between items-center w-full">
       <Counter end={87} label="Implementaciones Exitosas" />
-      <Counter end={214} label="Errores Resueltos" />
+      <Counter end={464} label="Errores Resueltos" />
       <Counter end={1662} label="Horas de Expertise" />
       <Counter end={174} label="Soluciones Personalizadas" />
     </div>
