@@ -4,8 +4,10 @@
   text-align: center;
   overflow: auto;
   word-break: break-word;
-  background-color: rgba(255, 255, 255, 0.7); /* Color de fondo con opacidad */
+  background-color: rgba(0, 0, 0, 0.8); /* Color de fondo con opacidad */
   backdrop-filter: blur(98px); /* Efecto de desenfoque */
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   padding: 2rem; /* Espaciado interno para no pegar el texto a los bordes */
 }
 
