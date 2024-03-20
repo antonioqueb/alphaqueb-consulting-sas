@@ -13,16 +13,16 @@ export default function LastNews() {
 
   // Función auxiliar para parsear la fecha
   const parseDate = dateString => {
-    const parts = dateString.match(/(\d+) de (\w+) de (\d+)/);
-    if (!parts) return new Date(0); // Devuelve una fecha inválida si no se puede parsear
+    const parts = dateString.match(/(\d+) de (\w+) de (\d+)/)
+    if (!parts) return new Date(0) // Devuelve una fecha inválida si no se puede parsear
 
-    const months = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
-    const day = parseInt(parts[1], 10);
-    const month = months.indexOf(parts[2]);
-    const year = parseInt(parts[3], 10);
+    const months = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"]
+    const day = parseInt(parts[1], 10)
+    const month = months.indexOf(parts[2])
+    const year = parseInt(parts[3], 10)
 
-    return new Date(year, month, day);
-  };
+    return new Date(year, month, day)
+  }
 
   const blogs = files.map(filename => {
     const fileContent = fs.readFileSync(path.join(blogDir, filename), 'utf-8')

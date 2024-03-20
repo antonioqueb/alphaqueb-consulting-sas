@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 
 const Counter = ({ end, label }) => {
   return (
@@ -6,8 +6,8 @@ const Counter = ({ end, label }) => {
       <div className="text-4xl md:text-5xl lg:text-6xl font-bold">{end}</div>
       <div className="text-md md:text-lg lg:text-xl">{label}</div>
     </div>
-  );
-};
+  )
+}
 
 const CounterStats = () => {
   return (
@@ -17,7 +17,7 @@ const CounterStats = () => {
       <Counter end={1662} label="Horas de Expertise" />
       <Counter end={174} label="Soluciones Personalizadas" />
     </div>
-  );
-};
+  )
+}
 
-export default CounterStats;
+export default CounterStats
