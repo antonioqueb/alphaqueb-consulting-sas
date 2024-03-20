@@ -1,10 +1,14 @@
 .main {
-    margin: 10rem auto;
-    max-width: 1024px;
-    text-align: center;
-    overflow: auto;
-    word-break: break-word;
+  margin: 10rem auto;
+  max-width: 1024px;
+  text-align: center;
+  overflow: auto;
+  word-break: break-word;
+  background-color: rgba(255, 255, 255, 0.7); /* Color de fondo con opacidad */
+  backdrop-filter: blur(98px); /* Efecto de desenfoque */
+  padding: 2rem; /* Espaciado interno para no pegar el texto a los bordes */
 }
+
 
 .main h1 {
     margin: 5rem 0 2rem 0;
