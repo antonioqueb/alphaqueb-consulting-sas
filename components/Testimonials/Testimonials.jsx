@@ -15,21 +15,8 @@ const testimonies = [
     imageSrc: '/gema-p.webp',
     altText: 'Imagen de Gema P.',
     testimony: 'La mejor elección que he hecho fue contratarlos para mí proyectos, son pacientes, profesionales y me han guíado en todo el proyecto. Si tienen la oportunidad de trabajar con ellos no duden en hacerlo.',
-    name: 'Gema P.'
-  },
-  {
-    imageSrc: '/jose-antonio.webp',
-    altText: 'Imagen de José Antonio',
-    testimony: 'Alta calidad en su atención a clientes, tuve oportunidad de conocer personalmente a Toño muy carismático, profesional, gracias muchachos por su trabajo, los recomiendo ampliamente!!.',
-    name: 'José Antonio'
-  },
-
-  {
-    imageSrc: '/carlos.webp',
-    altText: 'Imagen de Carlos Sánchez',
-    testimony: 'Muy atentos con cada parte de mi proyecto, me ayudaron a entender cada paso y me guiaron en todo momento. Los recomiendo ampliamente.',
-    name: 'Carlos Sánchez'
-  },
+    name: 'Gema - ArkToArt'
+  }
 
 
   // ... más testimonios para añadir ...
