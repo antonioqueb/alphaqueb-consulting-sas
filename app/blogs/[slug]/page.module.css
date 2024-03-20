@@ -1,10 +1,11 @@
 .main {
   margin: 10rem auto;
-  max-width: 1024px;
+  max-width: 1224px;
   text-align: center;
+  padding: 0 2rem;
   overflow: auto;
   word-break: break-word;
-  background-color: rgba(0, 0, 0, 0.8); /* Color de fondo con opacidad */
+  background-color: rgba(0, 0, 0, 0.5); /* Color de fondo con opacidad */
   backdrop-filter: blur(98px); /* Efecto de desenfoque */
   border-radius: 20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
