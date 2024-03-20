@@ -8,7 +8,7 @@ export default function Methodology () {
   return (
   <>
     <div className="text-center mt-10 mb-10">
-            <h2 className='text-[1.5rem] sm:text-5xl font-semibold m-0 mb-10 mt-20 text-left     leading-tight lg:text-4xl text-center xl:text-5xl'>
+            <h2 className='text-[1.5rem] sm:text-5xl font-semibold m-0 mb-10 mt-20 leading-tight lg:text-4xl text-center xl:text-5xl'>
              Nuestra Metodología<span className="text-blueprimary">.</span>
            </h2>
     </div>

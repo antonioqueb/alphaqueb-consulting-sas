@@ -5,6 +5,7 @@ import WhyWe from '../components/WhyWe/WhyWe'
 import Methodology from '../components/Methodology/Methodology'
 import Plans from '../components/Plans/Plans'
 import CallToAction from '../components/CallToAction/CallToAction'
+import CounterStats from '../components/CounterStats/CounterStats'
 
 // Metadata from 'next/head'
 
@@ -82,6 +83,7 @@ export default function Home () {
     
     <main className={styles.main}>
       <Hero />  
+      <CounterStats />
       <WhyWe />
       <Plans />
       <Testimonials />  
