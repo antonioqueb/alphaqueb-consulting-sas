@@ -1,3 +1,4 @@
+'use client'
 import Script from 'next/script'
 import { Rubik } from 'next/font/google'
 import './globals.css'
