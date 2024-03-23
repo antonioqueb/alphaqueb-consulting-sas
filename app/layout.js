@@ -1,23 +1,14 @@
-'use client'
 import Script from 'next/script'
 import { Rubik } from 'next/font/google'
 import './globals.css'
 import NavbarComponent from '../components/Navbar/Navbar'
 import Footer from '../components/Footer/Footer'
 import ModalCookies from '../components/ModalCookies/ModalCookies'
-import { useRouter } from 'next/router' // Importa useRouter
 
 
 const rubik = Rubik({ subsets: ['latin'] })
 
 export default function RootLayout({ children }) {
-  const router = useRouter() // Utiliza el hook useRouter
-  // Función para determinar si debe mostrar las moving balls
-  const shouldShowMovingBalls = () => {
-    // Aquí puedes ajustar la condición para coincidir con tus rutas de blog
-    // Esta condición verifica si la ruta actual NO es parte de los posts del blog
-    return !router.pathname.includes('/blogs/')
-  }
   return (
     <html lang="es">
       <Script 
@@ -55,7 +46,6 @@ export default function RootLayout({ children }) {
 
             <Footer />
           </div>
-          {shouldShowMovingBalls() && (
           <div className="moving-balls">
             <div className="ball small-day"></div>
             <div className="ball medium"></div>
@@ -63,7 +53,6 @@ export default function RootLayout({ children }) {
             <div className="ball mini"></div>
             <div className="ball giant"></div>
           </div>
-          )}
         </div>
       </body>
     </html>
