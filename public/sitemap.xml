@@ -1,42 +1,72 @@
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
 <url>
-<loc>https://alphaqueb.online/</loc>
-<lastmod>2024-03-13T18:50:48+00:00</lastmod>
-<priority>1.00</priority>
+  <loc>https://alphaqueb.online/</loc>
+  <lastmod>2024-03-23T05:50:46+00:00</lastmod>
+  <priority>1.00</priority>
 </url>
 <url>
-<loc>https://alphaqueb.online/contacto</loc>
-<lastmod>2024-03-13T18:50:48+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://alphaqueb.online/politica-de-cookies</loc>
+  <lastmod>2024-03-23T05:50:46+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>https://alphaqueb.online/nosotros</loc>
-<lastmod>2024-03-13T18:50:48+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://alphaqueb.online/contacto</loc>
+  <lastmod>2024-03-23T05:50:46+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>https://alphaqueb.online/blogs</loc>
-<lastmod>2024-03-13T18:50:48+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://alphaqueb.online/nosotros</loc>
+  <lastmod>2024-03-23T05:50:46+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>https://alphaqueb.online/blogs/7-errores-comunes-que-debes-evitar-al-implementar-odoo-17-y-como-solucionarlos</loc>
-<lastmod>2024-03-13T18:50:48+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://alphaqueb.online/blogs</loc>
+  <lastmod>2024-03-23T05:50:46+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>https://alphaqueb.online/blogs/acelera-la-implementacion-de-odoo-tecnicas-probadas-para-ahorrar-tiempo</loc>
-<lastmod>2024-03-13T18:50:48+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://alphaqueb.online/blogs/acelera-la-implementacion-de-odoo-tecnicas-probadas-para-ahorrar-tiempo</loc>
+  <lastmod>2024-03-23T05:50:46+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>https://alphaqueb.online/blogs/alerta-implementadores-no-configures-odoo-de-esta-manera-o-te-arrepentiras-profundamente</loc>
-<lastmod>2024-03-13T18:50:48+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://alphaqueb.online/blogs/impulsa-la-adopcion-de-odoo-estrategias-para-una-aceptacion-exitosa-por-parte-de-los-usuarios</loc>
+  <lastmod>2024-03-23T05:50:46+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>https://alphaqueb.online/blogs/impulsa-la-adopcion-de-odoo-estrategias-para-una-aceptacion-exitosa-por-parte-de-los-usuarios</loc>
-<lastmod>2024-03-13T18:50:48+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://alphaqueb.online/blogs/como-odoo-se-adapta-a-la-diversidad-de-industrias-un-erp-para-todos</loc>
+  <lastmod>2024-03-23T05:50:46+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
+<url>
+  <loc>https://alphaqueb.online/blogs/maximizando-la-eficiencia-empresarial-el-papel-clave-de-odoo-en-la-automatizacion-de-procesos</loc>
+  <lastmod>2024-03-23T05:50:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://alphaqueb.online/blogs/por-que-odoo-es-la-solucion-erp-ideal-para-pymes-en-2024</loc>
+  <lastmod>2024-03-23T05:50:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://alphaqueb.online/blogs/alerta-implementadores-no-configures-odoo-de-esta-manera-o-te-arrepentiras-profundamente</loc>
+  <lastmod>2024-03-23T05:50:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://alphaqueb.online/blogs/7-errores-comunes-que-debes-evitar-al-implementar-odoo-17-y-como-solucionarlos</loc>
+  <lastmod>2024-03-23T05:50:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
 </urlset>
