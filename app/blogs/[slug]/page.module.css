@@ -5,10 +5,6 @@
   padding: 0 2rem;
   overflow: auto;
   word-break: break-word;
-  background-color: rgba(0, 0, 0, 0.5); /* Color de fondo con opacidad */
-  backdrop-filter: blur(98px); /* Efecto de desenfoque */
-  border-radius: 20px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   padding: 2rem; /* Espaciado interno para no pegar el texto a los bordes */
 }
 

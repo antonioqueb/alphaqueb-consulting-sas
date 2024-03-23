@@ -11,7 +11,7 @@ import WhyWe from '../../../components/WhyWe/WhyWe'
 // Metadata
 export const metadata = {
     
-    metadataBase: new URL(process.env.DOMAIN_URL_POST)
+    metadataBase: process.env.DOMAIN_URL_POST || 'http://localhost:3000',
    
   }
 
@@ -44,7 +44,7 @@ export default function Page({ params }) {
                 {props.frontMatter.title ? (
                     <title>{props.frontMatter.title}</title>
                 ) : (
-                    <title>Desarrollo Apps Odoo</title>
+                    <title>Servicio de Implementación Odoo ERP</title>
                 )}
                 <meta property="og:title" content={props.frontMatter.title} />
                 <meta name="description" content={props.frontMatter.description} />
