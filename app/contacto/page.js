@@ -11,7 +11,7 @@ export const metadata = {
 export default function ContactPage () {
   return (
         <>
-        <h1 className='text-3xl pt-3 font-bold lg: text-5xl mt-5'>Contacto</h1>
+        <h1 className='text-3xl pt-3 font-bold lg:text-5xl mt-5'>Contacto</h1>
         <section className={styles.contacto}>
             <section className={styles.contacto__info}>
             <CallToActionContactPage />
