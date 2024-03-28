@@ -20,7 +20,7 @@ const testimonies = [
   {
     imageSrc: '/evelyn.webp',
     altText: 'Imagen de Evelyn Santos.',
-    testimony: 'Usabamos odoo desde hace 3 años pero solo para registrar ventas, no sabíamos del potencial del sistema hasta que llegamos con esta empresa. Los recomiendo ampliamente',
+    testimony: 'Usabamos odoo desde hace 3 años pero solo para registrar ventas, no sabíamos del potencial del sistema hasta que llegamos con esta empresa. Los recomiendo ampliamente.',
     name: 'Evelyn Santos'
   }
 
