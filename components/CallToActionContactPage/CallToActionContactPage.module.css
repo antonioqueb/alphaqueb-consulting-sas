@@ -1,0 +1,386 @@
+
+  /* CallToAction */
+
+.CallToAction__container {
+  display: flex;
+  
+  
+
+}
+.Dot {
+ 
+color: #26E1FF;
+
+}
+
+.CallToAction__container__text {
+  display: flex;
+  justify-content: flex-start;
+  color: #F2F2F2;
+  flex-direction: column;
+  padding-bottom: 3rem;
+  
+}
+
+.CallToAction__container__text {
+  display: flex;
+  justify-content: flex-start;
+  color: #F2F2F2;
+  flex-direction: column;
+  padding-bottom: 3rem;
+  
+}
+.CallToAction__container__text__title {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #F2F2F2;
+  margin-bottom: 2rem;
+  line-height: 1.1;
+  text-align: start;
+}
+
+.CallToAction__container__text__subtitle p {
+  font-size: 1.3rem;
+  color: #F2F2F2;
+  margin-bottom: 3rem;
+  font-weight: regular;
+  text-align: start;
+  text-wrap: pretty;
+}
+
+.CallToAction__container__text__form{
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+  flex-direction: column;
+  
+
+
+}
+
+.CallToAction__container__text__form__Link{
+  font-size: 1.1rem;
+  color: #F2F2F2;
+  margin-bottom: 1rem;
+  font-weight: regular;
+  text-decoration: none;
+  cursor: pointer;
+}
+.CallToAction__container__text__form span{
+  font-size: 1.1rem;
+  color: #F2F2F2;
+  font-weight: regular;
+  margin: 0.5rem 0;
+}
+.CallToAction__container__text__form__container{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  width: 93%;
+
+
+
+}
+
+
+
+.CallToAction__container__text__form__input {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  color: #F2F2F2;
+  background-color: #000000;
+  box-shadow: 0px 0px 4px 0px #26e2ff inset;
+  margin-bottom: 0.5rem;
+  box-decoration-break: none;
+}
+
+
+
+.CallToAction__container__text__form__button {
+  width: 40%;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  color: #F2F2F2;
+  cursor: pointer;
+  margin-left: 1rem;
+  background-color: #26E1FF;
+  color: #0D0D0D;
+  font-weight: 400;
+}
+
+
+
+.Footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  min-height: 10vh;
+  background-color: #0D0D0D;
+  color: #F2F2F2;
+  border: #26E1FF 1px solid;
+}
+
+
+
+.Footer__title {
+ display: flex;
+  justify-content: flex-start;
+ 
+}
+
+.Footer__title, .Footer__features {
+  flex: 1;
+  border: #26E1FF 1px solid;
+
+}
+
+.Footer__features {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+
+}
+
+.Footer__features__item{
+  margin-right: 1rem;
+  font-size: 1rem;
+  color: #F2F2F2;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.Footer__features__item h2{
+  margin-bottom: 0.5rem;
+  font-size: 0.5rem;
+  color: #F2F2F2;
+  justify-content: flex-start;;
+  align-items: flex-start;;
+  display: flex;
+  flex-direction: column;
+  border: #ffe926 1px solid;
+  text-align: start;
+}
+
+.Footer__features__item__icon {
+  margin-right: 1rem;
+  font-size: 2rem;
+  color: #F2F2F2;
+  border: #ffe926 1px solid;
+
+}
+
+
+.CallToAction__container__row__down__animated {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 0.5rem;
+  color: #F2F2F2;
+  box-decoration-break: none;
+  position: absolute; /* Cambiado de 'fixed' a 'absolute' */
+  bottom: 0; /* Alinea el elemento en la parte inferior de la pantalla */
+  left: 0; /* Alinea el elemento a la izquierda de la pantalla (puedes ajustar esto según sea necesario) */
+  width: 100%; /* Asegúrate de que ocupe el ancho completo si es necesario */
+}
+
+
+
+.CallToAction__container__row__down__animated__icon{
+  font-size: 3rem;
+  color: #F2F2F2;
+  animation: pulse 2s infinite;
+  transition: all 0.5s ease-in-out;
+
+
+  
+}
+
+.scrolled {
+  color: transparent; /* O podrías usar 'opacity: 0;' */
+  transition: all 0.5s ease-in-out;
+}
+
+
+.iconScrolled {
+  display: none;
+  transition: all 0.5s ease-in-out;
+}
+
+
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+    transform: translateY(0.5rem);
+    transition: all 0.5s ease-in-out;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+
+
+.CallToAction__container__text__title__section__second{
+  font-size: 4.00rem;
+ 
+}
+
+
+
+
+@media (max-width: 800px) {
+
+
+  .CallToAction__container__text__title__section__second{
+    font-size: 1.80rem;
+   
+  }
+
+  .CallToAction__container__text__title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #F2F2F2;
+    margin-bottom: 1.5rem;
+    line-height: 1.1;
+    
+  }
+
+  .CallToAction__container__text__subtitle p {
+    font-size: 1.1rem;
+    color: #F2F2F2;
+    margin-bottom: 2rem;
+    font-weight: regular;
+    line-height: 1.4;
+     padding: 0;
+    margin: 0;
+    text-wrap: pretty;
+  }
+
+  .CallToAction__container__text, .CallToAction__container__image {
+   
+    min-height: none;
+    padding: 0;
+    margin: 0;
+
+    
+  }
+
+  .CallToAction__container__text__form__container{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    width: 99%;
+    padding: 4vh 0 0 0;
+  
+  
+  
+  }
+
+  
+.CallToAction__container__text__form__input {
+  width: 100%;
+  padding: 0.8rem;
+  border-radius: 0.5rem;
+  font-size: 1.1rem;
+  color: #F2F2F2;
+  background-color: #000000;
+  box-shadow: 0px 0px 4px 0px #26e2ff inset;
+  margin-bottom: 0.5rem;
+  box-decoration-break: none;
+}
+
+
+
+.CallToAction__container__text__form__button {
+  width: 40%;
+  padding: 0.8rem;
+  border-radius: 0.5rem;
+  font-size: 1.1rem;
+  color: #F2F2F2;
+  cursor: pointer;
+  margin-left: 0.8rem;
+  background-color: #26E1FF;
+  color: #0D0D0D;
+  font-weight: 400;
+}
+
+
+.CallToAction__container__image {
+  display: none;
+
+}
+
+.CallToAction__container {
+  padding-top: 3rem;
+  
+
+}
+  
+  /* Estilos que se aplican cuando la pantalla tiene menos de 600px de ancho */
+}
+
+
+/* Tabletas: desde 601px hasta 900px */
+@media (min-width: 601px) and (max-width: 1900px) {
+  
+.CallToAction__container__image {
+  display: none;
+
+}
+
+.CallToAction__container__text__title {
+  font-size: 2.5rem;
+  padding: 2rem 0 0 0;
+
+  
+}
+
+.CallToAction__container__text__title__section__second{
+  font-size: 3rem;
+ 
+}
+
+.CallToAction__container__text__subtitle p {
+  font-size: 1.2rem;
+  color: #F2F2F2;
+  margin-bottom: 6rem;
+  font-weight: regular;
+  text-wrap: pretty;
+}
+
+
+}
+
+/* Escritorio: más de 900px */
+@media (min-width: 1369px) {
+  .CallToAction__container__text__title__section__second{
+    font-size: 4rem;
+   
+  }
+
+  .CallToAction__container__text__title {
+    font-size: 2.25rem;
+  
+    
+  }
+
+
+}
+
+
+.main h2 {
+  font-size: 1rem;
+  
+}

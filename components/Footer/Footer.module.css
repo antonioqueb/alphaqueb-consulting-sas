@@ -10,16 +10,20 @@
 
 .Footer__container{
     width: 100%;
+
 }
 
 
 .Footer__container__row{
     display: flex;
     flex-wrap: wrap;
+    
+
 }
 
 .Footer__container__row__footer__links{
     width: 25%;
+
 
 
 }

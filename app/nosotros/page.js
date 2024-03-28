@@ -16,8 +16,8 @@ export default function AboutPage () {
         <Image src='/brand/white_and_text.png' width={630} height={630} alt='cover' />
       </div>
       <div className={style.container__text}>
-        <h2 className={style.container__text__title}>¿Quiénes somos nosotros?</h2>
-        <p className={style.container__text__paragraph}>Alphaqueb Consulting S.A.S. es una empresa líder en el campo del desarrollo de apps odoo. Nos especializamos en ayudar a las organizaciones a adaptarse y prosperar en la era digital, ofreciendo soluciones innovadoras y resultados duraderos.</p>
+        <h2 className={style.container__text__title}>Sobre Nosotros</h2>
+        <p className={style.container__text__paragraph}>En Alphaqueb Consulting S.A.S., nos distinguimos como pioneros en el campo del desarrollo y personalización de aplicaciones Odoo, enfocándonos en propulsar a organizaciones hacia la cúspide de la innovación digital. Nuestra especialización radica en diseñar y ejecutar estrategias de transformación digital que no solo modernizan infraestructuras tecnológicas, sino que también redefinen procesos empresariales para garantizar resultados tangibles y sostenibles.</p>
         
       </div>
     </section>
@@ -27,8 +27,8 @@ export default function AboutPage () {
          />
       </div>
       <div className={style.container__text}>
-        <h2 className={style.container__text__title}>Nuestra Misión</h2>
-        <p className={style.container__text__paragraph}>Estamos comprometidos con la transformación digital corporativa. Nos esforzamos por estar en el corazón de la revolución digital, llevando a nuestros clientes más allá de la simple transición digital hacia una completa reinvención. Innovamos y generamos resultados duraderos para impulsar el crecimiento y el éxito de nuestros clientes.</p>
+        <h2 className={style.container__text__title}>Misión: Catalizadores de Tu Éxito Digital</h2>
+        <p className={style.container__text__paragraph}>Nuestra misión es ser el motor de cambio en tu viaje hacia la digitalización. Nos comprometemos a entregarte no solo una transición tecnológica, sino una reinvención completa de tu modelo de negocio, asegurando que cada solución Odoo se adapte de manera única a tus desafíos y ambiciones. Innovamos incansablemente para que, a través de nuestra colaboración, tu organización no solo se adapte, sino que lidere en la era digital.</p>
       </div>
     </section>
         <section  className={style.container}>
@@ -37,8 +37,8 @@ export default function AboutPage () {
          />
       </div>
       <div className={style.container__text}>
-        <h2 className={style.container__text__title}>Nuestra Visión</h2>
-        <p className={style.container__text__paragraph}>Nos comprometemos a convertir la promesa de la transformación digital en una realidad tangible para nuestros clientes. Guiamos a cada cliente en un viaje transformador, asegurando que cada fase de su proyecto, desde el diagnóstico hasta la evaluación, marque un avance significativo hacia la realización de su visión digital.</p>
+        <h2 className={style.container__text__title}>Visión: Transformando Promesas en Realidades</h2>
+        <p className={style.container__text__paragraph}>Aspiramos a ser tu guía confiable en el complejo viaje de la transformación digital. Nuestro enfoque está en convertir cada promesa de innovación en resultados concretos y medibles, asegurando que cada paso que des con nosotros te acerque más a la realización plena de tu visión digital. Estamos aquí para demostrar que la transformación digital es más que un concepto: es una realidad accesible y escalable para tu negocio.</p>
         </div>
     </section>
          <section className={style.container_reverse}>
@@ -47,14 +47,10 @@ export default function AboutPage () {
          />
       </div>
       <div className={style.container__text}>
-        <h2 className={style.container__text__title}>Nuestros Valores</h2>
-        <p className={style.container__text__paragraph}><strong>Profesionalismo:</strong> Nos esforzamos por mantener los más altos estándares de profesionalismo en todas nuestras interacciones y entregables.</p>
-        <p className={style.container__text__paragraph}><strong>Orientación al cliente:</strong> Colocamos las necesidades y objetivos de nuestros clientes en el centro de todo lo que hacemos, buscando siempre superar sus expectativas.</p>
-        <p className={style.container__text__paragraph}><strong>Innovación:</strong> Abrazamos la innovación y la creatividad en la búsqueda de soluciones digitales efectivas y sostenibles para nuestros clientes.</p>
-        <p className={style.container__text__paragraph}><strong>Compromiso:</strong> Estamos comprometidos con el éxito de nuestros clientes y nos esforzamos por brindarles un servicio excepcional en cada etapa de su viaje digital.</p>
-        <p className={style.container__text__paragraph}><strong>Colaboración:</strong> Trabajamos en estrecha colaboración con nuestros clientes, escuchando activamente sus necesidades y trabajando juntos para alcanzar sus objetivos digitales.</p>
-        <p className={style.container__text__paragraph}><strong>Excelencia:</strong> Buscamos la excelencia en todo lo que hacemos, desde la planificación estratégica hasta la implementación y el soporte continuo.</p>
-
+        <h2 className={style.container__text__title}>Nuestros Valores: La Brújula de Nuestra Actuación</h2>
+        <p className={style.container__text__paragraph}><strong>Profesionalismo:</strong> Nos adherimos a los más altos estándares de calidad y ética en cada proyecto, garantizando soluciones de vanguardia entregadas con integridad.</p>
+        <p className={style.container__text__paragraph}><strong>Orientación al cliente:</strong> Tu visión y necesidades dirigen nuestro enfoque. Nos dedicamos a superar tus expectativas, personalizando nuestras soluciones para alinearse perfectamente con tus objetivos.</p>
+        <p className={style.container__text__paragraph}><strong>Innovación:</strong> La innovación está en el núcleo de todo lo que hacemos. Nos esforzamos por ofrecerte soluciones avanzadas y creativas que aseguren tu liderazgo en un mercado en constante evolución.</p>
         </div>
     </section>
     </>

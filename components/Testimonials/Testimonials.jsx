@@ -15,11 +15,15 @@ const testimonies = [
     imageSrc: '/gema-p.webp',
     altText: 'Imagen de Gema P.',
     testimony: 'La mejor elección que he hecho fue contratarlos para mí proyectos, son pacientes, profesionales y me han guíado en todo el proyecto. Si tienen la oportunidad de trabajar con ellos no duden en hacerlo.',
-    name: 'Gema - ArkToArt'
+    name: 'Gema - Arktoart'
+  },
+  {
+    imageSrc: '/evelyn.webp',
+    altText: 'Imagen de Evelyn Santos.',
+    testimony: 'Usabamos odoo desde hace 3 años pero solo para registrar ventas, no sabíamos del potencial del sistema hasta que llegamos con esta empresa. Los recomiendo ampliamente',
+    name: 'Evelyn Santos'
   }
 
-
-  // ... más testimonios para añadir ...
 ]
 
 export const Testimonials = () => {
