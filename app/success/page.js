@@ -14,7 +14,7 @@ function Page() {
         </p>
       </div>
     </div>
-  );
+  )
 }
 
-export default Page;
+export default Page
